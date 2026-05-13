@@ -1,0 +1,34 @@
+2026/05/12-00:25:09.863 3acf9 Reusing MANIFEST /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_netfilm.world_0.indexeddb.leveldb/MANIFEST-000001
+2026/05/12-00:25:09.863 3acf9 Recovering log #16
+2026/05/12-00:25:09.863 3acf9 Reusing old log /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_netfilm.world_0.indexeddb.leveldb/000016.log 
+2026/05/12-00:25:09.863 3acf9 Delete type=2 #14
+2026/05/12-00:25:09.928 3ad07 Level-0 table #21: started
+2026/05/12-00:25:09.948 3ad07 Level-0 table #21: 2052 bytes OK
+2026/05/12-00:25:09.990 3ad07 Delete type=0 #16
+2026/05/12-00:25:09.990 3acf9 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 285 : 1
+2026/05/12-00:25:09.990 3acf9 Compacting 1@0 + 1@1 files
+2026/05/12-00:25:10.007 3acf9 Generated table #22@0: 18 keys, 1347 bytes
+2026/05/12-00:25:10.007 3acf9 Compacted 1@0 + 1@1 files => 1347 bytes
+2026/05/12-00:25:10.046 3acf9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/12-00:25:10.047 3acf9 Delete type=2 #21
+2026/05/12-00:25:10.048 3acf9 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 285 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/05/12-01:33:00.344 3acfb Level-0 table #24: started
+2026/05/12-01:33:00.364 3acfb Level-0 table #24: 3304 bytes OK
+2026/05/12-01:33:00.393 3acfb Delete type=2 #18
+2026/05/12-01:33:00.393 3acfb Delete type=0 #20
+2026/05/12-01:33:00.393 3acfb Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x008\x005\x004\x005\x008\x007\x003\x003\x005\x007\x001\x002\x00:\x00w\x00e\x00b\x00:\x00d\x00a\x000\x00e\x00a\x006\x000\x005\x008\x000\x001\x00a\x007\x009\x009\x008\x001\x001\x004\x008\x004\x005' @ 304 : 1
+2026/05/12-01:33:00.393 3acfb Compacting 1@0 + 1@1 files
+2026/05/12-01:33:00.412 3acfb Generated table #25@0: 39 keys, 1627 bytes
+2026/05/12-01:33:00.412 3acfb Compacted 1@0 + 1@1 files => 1627 bytes
+2026/05/12-01:33:00.438 3acfb compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/12-01:33:00.438 3acfb Delete type=2 #22
+2026/05/12-01:33:00.438 3acfb Delete type=2 #24
+2026/05/12-01:33:00.439 3acfb Manual compaction at level-0 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x008\x005\x004\x005\x008\x007\x003\x003\x005\x007\x001\x002\x00:\x00w\x00e\x00b\x00:\x00d\x00a\x000\x00e\x00a\x006\x000\x005\x008\x000\x001\x00a\x007\x009\x009\x008\x001\x001\x004\x008\x004\x005' @ 304 : 1 .. (end); will stop at (end)
+2026/05/12-01:33:00.439 3acfb Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x008\x005\x004\x005\x008\x007\x003\x003\x005\x007\x001\x002\x00:\x00w\x00e\x00b\x00:\x00d\x00a\x000\x00e\x00a\x006\x000\x005\x008\x000\x001\x00a\x007\x009\x009\x008\x001\x001\x004\x008\x004\x005' @ 354 : 1
+2026/05/12-01:33:00.439 3acfb Compacting 1@1 + 1@2 files
+2026/05/12-01:33:00.449 3acfb Generated table #26@1: 36 keys, 1588 bytes
+2026/05/12-01:33:00.449 3acfb Compacted 1@1 + 1@2 files => 1588 bytes
+2026/05/12-01:33:00.476 3acfb compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/12-01:33:00.477 3acfb Delete type=2 #11
+2026/05/12-01:33:00.477 3acfb Delete type=2 #25
+2026/05/12-01:33:00.478 3acfb Manual compaction at level-1 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x008\x005\x004\x005\x008\x007\x003\x003\x005\x007\x001\x002\x00:\x00w\x00e\x00b\x00:\x00d\x00a\x000\x00e\x00a\x006\x000\x005\x008\x000\x001\x00a\x007\x009\x009\x008\x001\x001\x004\x008\x004\x005' @ 354 : 1 .. (end); will stop at (end)

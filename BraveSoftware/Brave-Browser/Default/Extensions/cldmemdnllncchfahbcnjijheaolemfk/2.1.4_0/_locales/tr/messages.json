@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Chrome, Opera ve diğer Chromium tabanlı tarayıcılardaki firefox uzantıları taklit edin"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Dosya yükleme"
+   },
+   "homeCtaHelpText": {
+      "message": "Desteklenen formatlar: crx, zip veya xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Seçilen dosya desteklenmiyor."
+   },
+   "homeSubtitle": {
+      "message": "Chrome, Opera ve diğer Chromium tabanlı tarayıcılarda firefox uzantıları taklit edin."
+   },
+   "homeTitle": {
+      "message": "Yükleme Firefox Google'da Eklentiler Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Uygulama kimliği çıkarılamadı."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Uzantı indirilemedi."
+   },
+   "installerErrorCancelButton": {
+      "message": "Kurulumu İptal Et"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Dosyalar çıkarılamadı."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified uzantınızı yüklemeyi tamamladı. Lütfen yeni uzantının başlamasını bekleyin."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Kurulumu bitir"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Tamamlayınız"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified uzantınızı indiriyor ve kurulum için hazırlıyor. İndirme işleminin tamamlanması için lütfen birkaç dakika bekleyin."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Uzantı indiriliyor"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "İndir"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Yine de Yükle"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "İzinlere İzin Ver"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "İptal etmek"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Uzantı yükleniyor"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Kurulum"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified bu eklenti için gerekli tüm API'leri desteklemez. Bu, bazı eklenti işlevlerini bozacaktır."
+   },
+   "installerStepName": {
+      "message": "Adım"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Uzantı başlatılıyor"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "İndiriliyor"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Dosyaları çıkarma"
+   },
+   "pageLoadingMessage": {
+      "message": "Yükleme sayfası"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "seçenekler sayfası yok."
+   },
+   "settingsPermissionsText": {
+      "message": "İzinler"
+   },
+   "settingsUninstallButton": {
+      "message": "Kaldır"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "İptal etmek"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Onaylamak"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Emin misiniz?"
+   }
+}

@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Imitoni zgjerime firefox në shfletuesit e bazuar Chrome, Opera dhe Chromium të tjerë"
+    },
+    "homeTitle": {
+        "message": "Instalo Firefox Shtesa në Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Imitoni zgjerime firefox në shfletuesit e bazuar Chrome, Opera dhe Chromium të tjerë."
+    },
+    "homeCtaButton": {
+        "message": "Ngarko skedarin"
+    },
+    "homeCtaHelpText": {
+        "message": "Formatet e mbështetura: crx, zip ose xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Skedari i zgjedhur nuk mbështetet."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Shkarko"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Instalimi"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Të plotë"
+    },
+    "installerStepName": {
+        "message": "Hapi"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Shkarkimi i shtesës"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified është duke shkarkuar dhe përgatitur shtesën tuaj për instalim. Ju lutemi të prisni disa momente për të përfunduar shkarkimin."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Po shkarkohet"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Nxjerrja e skedarëve"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Zgjerimi po instalohet"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Lejoni Lejet"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified nuk i mbështet të gjitha API-të e kërkuara për këtë shtesë. Kjo do të thyejë disa funksionalitete shtesë."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Instaloni gjithsesi"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Anulo"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Përfundoni instalimin"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified ka mbaruar instalimin e shtesës tuaj. Ju lutemi prisni që zgjatja e re të fillojë."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Fillimi i zgjatjes"
+    },
+    "installerErrorCancelButton": {
+        "message": "Anulo Instalimin"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Shkarkimi i shtesës dështoi."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Dështoi në nxjerrjen e skedarëve."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Nxjerrja e ID e aplikacionit dështoi."
+    },
+    "pageLoadingMessage": {
+        "message": "Faqja po ngarkohet"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "nuk ka një faqe opsionesh."
+    },
+    "settingsPermissionsText": {
+        "message": "Lejet"
+    },
+    "settingsUninstallButton": {
+        "message": "Çinstalo"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "A je i sigurt?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Konfirmo"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Anulo"
+    }
+}

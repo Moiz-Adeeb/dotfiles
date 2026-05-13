@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Emulate firefox txuas ntxiv hauv Chrome, Opera thiab lwm yam Chromium raws browsers"
+    },
+    "homeTitle": {
+        "message": "Nruab Firefox Addons Hauv Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Emulate firefox txuas ntxiv hauv Chrome, Opera thiab lwm yam Chromium raws browsers."
+    },
+    "homeCtaButton": {
+        "message": "Upload ntaub ntawv"
+    },
+    "homeCtaHelpText": {
+        "message": "Cov qauv uas txhawb nqa: crx, zip lossis xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Xaiv cov ntaub ntawv tsis txaus siab."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Rub"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Txhim Kho"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Tiav los"
+    },
+    "installerStepName": {
+        "message": "Kauj ruam"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Rub tawm kom txuas ntxiv"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified yog rub thiab npaj koj qhov txuas ntxiv rau nruab. Thov tos ob peb lub sijhawm rau kev rub tawm kom tiav."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Tso cia"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Muab cov ntaub ntawv"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Txhim kho qhov txuas ntxiv"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Tso Cai"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified tsis txhawb nqa txhua qhov API uas yuav tsum muaj rau cov khoom no. Qhov no yuav tawg qee qhov txuas ntxiv rau kev ua haujlwm."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Nruab Lawm"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Ntawv cia Suam teb"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Tiav installation"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified tiav qhov txhim kho koj qhov txuas ntxiv. Thov tos rau qhov kev hloov tshiab tshiab yuav pib."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Pib ncua"
+    },
+    "installerErrorCancelButton": {
+        "message": "Ntawv tso tseg plahaum"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Ua tsis tau tiav rub tawm."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Ua tsis tau tejyam cov ntawv."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Ua tsis tau tejyam app ID."
+    },
+    "pageLoadingMessage": {
+        "message": "Chaw thau khoom nplooj"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "tsis muaj ib nplooj ntawv xaiv."
+    },
+    "settingsPermissionsText": {
+        "message": "Kev Tso Cai"
+    },
+    "settingsUninstallButton": {
+        "message": "Uninstall"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Koj puas paub tseeb?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Paub meej"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Ntawv cia Suam teb"
+    }
+}

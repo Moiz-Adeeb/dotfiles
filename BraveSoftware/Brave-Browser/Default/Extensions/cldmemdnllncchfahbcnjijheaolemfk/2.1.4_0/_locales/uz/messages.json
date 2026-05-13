@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Chrome, Opera va boshqa Chromium brauzerlarida firefox kengaytmalarini taqlid qiling"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Faylni yuklang"
+   },
+   "homeCtaHelpText": {
+      "message": "Qo'llab-quvvatlanadigan formatlar: crx, zip yoki xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Tanlangan fayl qo'llab-quvvatlanmaydi."
+   },
+   "homeSubtitle": {
+      "message": "Chrome, Opera va boshqa Chromium brauzerlarida firefox kengaytmalarini taqlid qiling."
+   },
+   "homeTitle": {
+      "message": "Firefox qo'shimchalarini Google-ga o'rnating Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Ilova identifikatorini chiqarib bo‘lmadi."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Kengaytma yuklab olinmadi."
+   },
+   "installerErrorCancelButton": {
+      "message": "O'rnatishni bekor qilish"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Fayllar chiqarilmadi."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified kengaytmani o'rnatishni yakunladi. Iltimos, yangi kengaytma boshlanishini kuting."
+   },
+   "installerStepCompleteTitle": {
+      "message": "O'rnatishni tugating"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Bajarildi"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified sizning kengaytmangizni yuklab olish va o'rnatishga tayyorlamoqda. Yuklab olish tugaguniga qadar bir necha daqiqa kutib turing."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Kengaytma yuklab olinmoqda"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Yuklab olish"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Baribir o'rnating"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Ruxsatlarga ruxsat berish"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Bekor qilish"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Kengaytma o'rnatilmoqda"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "O'rnatish"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified ushbu qo'shimcha uchun zarur bo'lgan barcha API-larni qo'llab-quvvatlamaydi. Bu ba'zi qo'shimcha funktsiyalarni buzadi."
+   },
+   "installerStepName": {
+      "message": "Qadam"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Kengaytma boshlanmoqda"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Yuklab olinmoqda"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Fayllarni chiqarish"
+   },
+   "pageLoadingMessage": {
+      "message": "Sahifa yuklanmoqda"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "variantlar sahifasi yo'q."
+   },
+   "settingsPermissionsText": {
+      "message": "Ruxsatlar"
+   },
+   "settingsUninstallButton": {
+      "message": "O'chirish"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Bekor qilish"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Tasdiqlang"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Ishonchingiz komilmi?"
+   }
+}

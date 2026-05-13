@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Emuleu extensions de firefox en Chrome, Opera i altres navegadors basats en Chromium"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Penja el document"
+   },
+   "homeCtaHelpText": {
+      "message": "Formats compatibles: crx, zip o xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "El fitxer seleccionat no és compatible."
+   },
+   "homeSubtitle": {
+      "message": "Emuleu extensions de firefox en Chrome, Opera i altres navegadors basats en Chromium."
+   },
+   "homeTitle": {
+      "message": "Instal·leu els complements Firefox a Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "No s'ha pogut extreure l'identificador de l'aplicació."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "No s'ha pogut baixar l'extensió."
+   },
+   "installerErrorCancelButton": {
+      "message": "Cancel·la la instal·lació"
+   },
+   "installerExtractErrorMessage": {
+      "message": "No s'han pogut extreure fitxers."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified ha acabat d'instal·lar la vostra extensió. Espereu a que comenci la nova extensió."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Finalitza la instal·lació"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Complet"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified està baixant i preparant la vostra extensió per a la instal·lació. Espereu uns instants fins que finalitzi la baixada."
+   },
+   "installerStepDownloadTitle": {
+      "message": "S'està baixant l'extensió"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "descarregar"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Instal·leu-ho de totes maneres"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Permet permisos"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Cancel · lar"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Instal·lació de l'extensió"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Instal·lació"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified no admet totes les API necessàries per a aquest complement. Això trencarà algunes funcionalitats de complement."
+   },
+   "installerStepName": {
+      "message": "Pas"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Inici de l'extensió"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "S'està descarregant"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Extracció de fitxers"
+   },
+   "pageLoadingMessage": {
+      "message": "S'està carregant la pàgina"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "no té una pàgina d'opcions."
+   },
+   "settingsPermissionsText": {
+      "message": "Permisos"
+   },
+   "settingsUninstallButton": {
+      "message": "Desinstal·la"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Cancel · lar"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Confirmeu"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Estàs segur?"
+   }
+}

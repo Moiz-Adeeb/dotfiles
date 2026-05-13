@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Պատկերացրեք firefox ընդարձակումները Chrome, Opera և այլ Chromium բրաուզերներում"
+    },
+    "homeTitle": {
+        "message": "Տեղադրեք Firefox հավելումներ Google- ում Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Պատկերացրեք firefox ընդարձակումները Chrome, Opera և այլ Chromium բրաուզերներում:"
+    },
+    "homeCtaButton": {
+        "message": "Ներբեռնել ֆայլ"
+    },
+    "homeCtaHelpText": {
+        "message": "Աջակցվող ձևաչափեր. crx, zip կամ xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Ընտրված ֆայլը չի ​​աջակցվում:"
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Ներբեռնում"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Տեղադրում"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Լրիվ"
+    },
+    "installerStepName": {
+        "message": "Քայլ"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Ընդլայնումը ներբեռնում է"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified -ը ներբեռնում և պատրաստում է ձեր ընդլայնումը տեղադրման համար: Մի քանի պահ սպասեք ներբեռնումն ավարտելու համար:"
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Ներբեռնում"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Ֆայլերի արդյունահանում"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Ընդլայնումը տեղադրվում է"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Թույլատրել թույլտվությունները"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified -ը չի աջակցում այս հավելվածի համար պահանջվող բոլոր API- ները: Սա կկոտրի որոշ հավելումների ֆունկցիոնալություն:"
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Տեղադրեք ամեն դեպքում"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Չեղարկել"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Ավարտեք տեղադրումը"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified - ն ավարտեց ձեր ընդլայնման տեղադրումը: Խնդրում ենք սպասել նոր ընդլայնման մեկնարկին:"
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Մեկնարկային մեկնարկը"
+    },
+    "installerErrorCancelButton": {
+        "message": "Չեղարկել տեղադրումը"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Չհաջողվեց ներբեռնել ընդլայնումը:"
+    },
+    "installerExtractErrorMessage": {
+        "message": "Չհաջողվեց ֆայլեր հանել:"
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Չհաջողվեց արդյունահանել ծրագրի ID- ն:"
+    },
+    "pageLoadingMessage": {
+        "message": "Էջը բեռնում է"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "չունի ընտրանքների էջ:"
+    },
+    "settingsPermissionsText": {
+        "message": "Թույլտվություններ"
+    },
+    "settingsUninstallButton": {
+        "message": "Տեղահանեք"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Համոզված ես?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Հաստատել"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Չեղարկել"
+    }
+}

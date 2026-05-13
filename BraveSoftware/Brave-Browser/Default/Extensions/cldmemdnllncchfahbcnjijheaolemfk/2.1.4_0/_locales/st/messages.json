@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Etsisa lintlafatso tsa firefox ho Chrome, Opera le libatli tse ling tsa Chromium"
+    },
+    "homeTitle": {
+        "message": "Kenya Firefox Addons Ho Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Etsisa lintlafatso tsa firefox ho Chrome, Opera le libatli tse ling tsa Chromium."
+    },
+    "homeCtaButton": {
+        "message": "Kenya file"
+    },
+    "homeCtaHelpText": {
+        "message": "Mefuta e tšehelitsoeng: crx, zip kapa xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Faele e khethiloeng ha e sebetse."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Khoasolla"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Ho kenya"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "E felletse"
+    },
+    "installerStepName": {
+        "message": "Mohato"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Khoasolla katoloso"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified e jarolla le ho hlophisa katoloso ea hau bakeng sa ho e kenya. Ka kopo, ema hanyane hore download e qete."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Khoasolla"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Ho ntša lifaele"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Ho kenya katoloso"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Dumella Ditumello"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified ha e tšehetse li-API tsohle tse hlokahalang bakeng sa addon ena. Sena se tla senya ts'ebetso ea addon."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Kenya joalo"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Hlakola"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Qetella ho kenya"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified e qetile ho kenya katoloso ea hau. Ka kopo emela hore katoloso e ncha e qale."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Ho qala katoloso"
+    },
+    "installerErrorCancelButton": {
+        "message": "Hlakola ho kenya"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "E hlolehile ho jarolla katoloso."
+    },
+    "installerExtractErrorMessage": {
+        "message": "E hlolehile ho hlahisa lifaele."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "E hlolehile ho ntša ID ea sesebelisoa"
+    },
+    "pageLoadingMessage": {
+        "message": "Ho kenya leqephe"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "ha e na leqephe la likhetho."
+    },
+    "settingsPermissionsText": {
+        "message": "Litumello"
+    },
+    "settingsUninstallButton": {
+        "message": "Tlosa"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "U na le bonnete?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Netefatsa"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Hlakola"
+    }
+}

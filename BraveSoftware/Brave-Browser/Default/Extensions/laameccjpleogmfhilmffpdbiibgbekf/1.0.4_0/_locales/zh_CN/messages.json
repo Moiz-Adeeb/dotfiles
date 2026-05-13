@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "暫停您不使用的選項卡以節省內存使用量並使您的計算機運行得更快。 減少設備和電池的負載。"
+   },
+   "name": {
+      "message": "Tab Suspender"
+   },
+   "title": {
+      "message": "Tab Suspender"
+   }
+}

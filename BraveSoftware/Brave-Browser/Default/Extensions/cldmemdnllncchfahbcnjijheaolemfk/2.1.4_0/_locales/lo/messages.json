@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "ລອກແບບ firefox ການຂະຫຍາຍໃນ Chrome, Opera ແລະອື່ນໆ Chromium ຕົວທ່ອງເວັບທີ່ອີງໃສ່"
+    },
+    "homeTitle": {
+        "message": "ຕິດຕັ້ງ Firefox ເຄື່ອງຕື່ມໃນ Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "ລອກແບບ firefox ການຂະຫຍາຍໃນ Chrome, Opera ແລະອື່ນໆ Chromium ຕົວທ່ອງເວັບທີ່ອີງໃສ່."
+    },
+    "homeCtaButton": {
+        "message": "ອັບໂຫລດເອກະສານ"
+    },
+    "homeCtaHelpText": {
+        "message": "ຮູບແບບທີ່ຮອງຮັບ: crx, zip ຫຼື xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "ໄຟລ໌ທີ່ເລືອກບໍ່ຖືກຮອງຮັບ."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "ດາວໂຫລດ"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "ການຕິດຕັ້ງ"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "ສຳ ເລັດ"
+    },
+    "installerStepName": {
+        "message": "ຂັ້ນຕອນ"
+    },
+    "installerStepDownloadTitle": {
+        "message": "ການດາວໂຫລດສ່ວນຂະຫຍາຍ"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified ກຳ ລັງດາວໂຫລດແລະກະກຽມສ່ວນຂະຫຍາຍຂອງທ່ານ ສຳ ລັບຕິດຕັ້ງ. ກະລຸນາລໍຖ້າສອງສາມນາທີເພື່ອໃຫ້ການດາວໂຫລດ ສຳ ເລັດ."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "ການດາວໂຫລດ"
+    },
+    "installerStepProgressExtractText": {
+        "message": "ການສະກັດໄຟລ໌"
+    },
+    "installerStepInstallationTitle": {
+        "message": "ການຕິດຕັ້ງການຂະຫຍາຍ"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "ຂໍອະນຸຍາດ"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified ບໍ່ຮອງຮັບ API ທັງ ໝົດ ທີ່ຕ້ອງການ ສຳ ລັບໂປແກຼມ addon ນີ້. ນີ້ຈະທໍາລາຍການເຮັດວຽກຂອງ addon ບາງຢ່າງ."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "ຕິດຕັ້ງຢ່າງໃດກໍ່ຕາມ"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "ຍົກເລີກ"
+    },
+    "installerStepCompleteTitle": {
+        "message": "ສຳ ເລັດການຕິດຕັ້ງ"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified ສຳ ເລັດການຕິດຕັ້ງສ່ວນຂະຫຍາຍຂອງທ່ານແລ້ວ. ກະລຸນາລໍຖ້າການຂະຫຍາຍ ໃໝ່ ເພື່ອເລີ່ມຕົ້ນ."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "ເລີ່ມຕົ້ນການຂະຫຍາຍ"
+    },
+    "installerErrorCancelButton": {
+        "message": "ຍົກເລີກການຕິດຕັ້ງ"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "ການດາວໂຫລດການຂະຫຍາຍລົ້ມເຫລວ."
+    },
+    "installerExtractErrorMessage": {
+        "message": "ການສະກັດໄຟລ໌ລົ້ມເຫລວ."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "ລົ້ມເຫລວໃນການສະກັດ ID app."
+    },
+    "pageLoadingMessage": {
+        "message": "ກຳ ລັງໂຫລດ ໜ້າ ເວັບ"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "ບໍ່ມີ ໜ້າ ຕົວເລືອກ."
+    },
+    "settingsPermissionsText": {
+        "message": "ການອະນຸຍາດ"
+    },
+    "settingsUninstallButton": {
+        "message": "ຖອນການຕິດຕັ້ງ"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "ເຈົ້າ​ແນ່​ໃຈ​ບໍ່?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "ຢືນຢັນ"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "ຍົກເລີກ"
+    }
+}

@@ -1,0 +1,193 @@
+#!/bin/sh
+
+# --- Variables ---
+terminal="footclient"
+fileManager="$terminal -a float_large -e ~/.cargo/bin/yazi"
+menu="rofi -show drun"
+powermenu="~/.config/rofi/powermenu/powermenu.sh"
+mainMod="Mod4"
+
+# --- Appearance ---
+riverctl border-width 3
+riverctl border-color-focused "0xff33ccff" # Hyprland light blue
+riverctl border-color-unfocused "0xaa595959"
+riverctl set-repeat 50 300
+
+# --- Input ---
+riverctl input "pointer-*" accel-profile flat
+riverctl input "pointer-*" pointer-accel 0.0
+riverctl input "pointer-epic-mouse-v1" pointer-accel -0.5
+
+# --- Keybindings (SUPER = Mod4) ---
+# Basic Apps
+# riverctl map normal Mod4 Return spawn "$terminal"
+# riverctl map normal Mod4 D spawn "$menu"
+# riverctl map normal Mod4 Q close
+# riverctl map normal Mod4 Shift E exit
+#
+# # Multimedia (Volume/Brightness)
+# riverctl map normal None XF86AudioRaiseVolume  spawn "wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"
+# riverctl map normal None XF86AudioLowerVolume  spawn "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
+# riverctl map normal None XF86AudioMute         spawn "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+# riverctl map normal None XF86MonBrightnessUp   spawn "brightnessctl -e4 -n2 set 5%+"
+# riverctl map normal None XF86MonBrightnessDown spawn "brightnessctl -e4 -n2 set 5%-"
+
+# Floating/Fullscreen
+riverctl map normal Mod4 Space toggle-float
+riverctl map normal Mod4 F toggle-fullscreen
+
+# Tags (Workspaces) 1-9
+for i in $(seq 1 9); do
+    tags=$((1 << ($i - 1)))
+    riverctl map normal Mod4 $i set-focused-tags $tags
+    riverctl map normal Mod4 Shift $i set-view-tags $tags
+done
+
+# --- Window Rules (Floating classes) ---
+riverctl float-filter-add "float_large"
+riverctl float-filter-add "float_big"
+riverctl float-filter-add "float_small"
+
+# Note: Precise sizing/centering like Hyprland rules usually requires 
+# a small external script or river-specific rule-handler for River.
+
+# --- Layout (rivertile) ---
+# Replaces 'dwindle'. 10px gaps_out, 2px gaps_in.
+rivertile -view-padding 2 -outer-padding 10 -main-ratio 0.5 &
+riverctl default-layout rivertile
+
+# --- Autostart ---
+
+# Daemons
+# Note: You can keep dunst and hypridle; they work fine on River.
+dunst &
+hypridle &
+foot --server &
+wl-gammarelay-rs &
+wl-paste --watch cliphist store &
+
+# Wallpaper (Using swaybg as it's lighter than hyprpaper)
+swaybg -i /home/moiz/.config/backgrounds/012.jpg -m fill &
+
+# Bar (Restart logic)
+pkill waybar
+waybar &
+
+# Applications
+riverctl map normal $mainMod Return spawn "$terminal"
+riverctl map normal $mainMod X      close
+riverctl map normal $mainMod M      exit
+riverctl map normal $mainMod E      spawn "$terminal -a float_large -e $HOME/.cargo/bin/yazi"
+riverctl map normal $mainMod V      toggle-float
+riverctl map normal $mainMod D      spawn "$menu"
+riverctl map normal $mainMod P      spawn "$powermenu"
+riverctl map normal $mainMod Escape spawn "$terminal -a float_large -e btop"
+
+# Quick Toggles (Network, Audio, Bluetooth)
+riverctl map normal $mainMod+Shift I spawn "$terminal -a float_small -e $HOME/.cargo/bin/impala-nm"
+riverctl map normal $mainMod+Shift W spawn "$terminal -a float_small -e wiremix"
+riverctl map normal $mainMod+Shift M spawn "$terminal -a float_small -e $HOME/.cargo/bin/bluetui"
+
+# Monitor Toggle (Note: Needs wlr-randr inside your script for River)
+riverctl map normal $mainMod F10 spawn "$HOME/.config/river/scripts/toggle_monitor.sh toggle"
+
+# Volume Control (using pactl as per your config)
+riverctl map normal None XF86AudioRaiseVolume spawn "pactl set-sink-volume @DEFAULT_SINK@ +10%"
+riverctl map normal None XF86AudioLowerVolume spawn "pactl set-sink-volume @DEFAULT_SINK@ -10%"
+riverctl map normal None XF86AudioMute        spawn "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+riverctl map normal None XF86AudioMicMute     spawn "pactl set-source-mute @DEFAULT_SOURCE@ toggle"
+
+# Brightness Control + wl-gammarelay
+riverctl map normal None XF86MonBrightnessUp   spawn "brightnessctl set +10% && busctl --user -- call rs.wl-gammarelay / rs.wl.gammarelay UpdateBrightness d 0.1"
+riverctl map normal None XF86MonBrightnessDown spawn "brightnessctl set 10%- && busctl --user -- call rs.wl-gammarelay / rs.wl.gammarelay UpdateBrightness d -0.1"
+
+# Clipboard
+riverctl map normal $mainMod+Shift V spawn "cliphist list | rofi -dmenu | cliphist decode | wl-copy"
+
+# Reload River Config (Re-runs this script)
+riverctl map normal $mainMod+Shift R spawn "$HOME/.config/river/init"
+
+# Layout controls (River equivalent of pseudo/split)
+riverctl map normal $mainMod+Shift P send-layout-cmd rivertile "main-location top"
+riverctl map normal $mainMod+Shift E send-layout-cmd rivertile "main-ratio 0.5"
+
+# Pass-through for mouse resizing (equivalent to bindm)
+riverctl map-pointer normal $mainMod BTN_LEFT move-view
+riverctl map-pointer normal $mainMod BTN_RIGHT resize-view
+
+
+# --- Navigation (HJKL) ---
+riverctl map normal $mainMod H focus-view previous
+riverctl map normal $mainMod L focus-view next
+riverctl map normal $mainMod J focus-view next
+riverctl map normal $mainMod K focus-view previous
+
+# --- Workspaces / Tags (1-10) ---
+# We use a bitmask (1 << index) to define tags
+for i in $(seq 1 9); do
+    tags=$((1 << ($i - 1)))
+    # Switch to tag
+    riverctl map normal $mainMod $i set-focused-tags $tags
+    # Move window to tag (and follow)
+    riverctl map normal $mainMod Shift $i set-view-tags $tags
+done
+
+# Handle '0' as Workspace 10
+tags_10=$((1 << 9))
+riverctl map normal $mainMod 0 set-focused-tags $tags_10
+riverctl map normal $mainMod Shift 0 set-view-tags $tags_10
+
+# --- Cycling Tags (Tab) ---
+# Note: These cycle through all possible 32 tags; usually users map specific ranges.
+riverctl map normal $mainMod Tab focus-previous-tags
+riverctl map normal $mainMod Shift Tab focus-previous-tags
+
+# --- Jump to "Empty" (Simulated) ---
+# In River, just jump to a high tag you rarely use (e.g., Tag 32)
+# This is much lighter than running a script to find the next empty slot.
+riverctl map normal $mainMod T set-focused-tags $((1 << 31))
+riverctl map normal $mainMod Shift T set-view-tags $((1 << 31))
+
+# --- Navigation (HJKL & Arrows) ---
+# Focus next/previous in the stack
+riverctl map normal Mod4 H focus-view previous
+riverctl map normal Mod4 L focus-view next
+riverctl map normal Mod4 J focus-view next
+riverctl map normal Mod4 K focus-view previous
+
+riverctl map normal Mod4 Left  focus-view previous
+riverctl map normal Mod4 Right focus-view next
+riverctl map normal Mod4 Up    focus-view previous
+riverctl map normal Mod4 Down  focus-view next
+
+# Move/Swap windows within the stack
+riverctl map normal Mod4 Shift H swap previous
+riverctl map normal Mod4 Shift L swap next
+riverctl map normal Mod4 Shift J swap next
+riverctl map normal Mod4 Shift K swap previous
+
+# --- Layout & States ---
+riverctl map normal Mod4 F toggle-fullscreen
+riverctl map normal Mod4 Space toggle-float
+
+# Focus Next (Alt+Tab equivalent)
+riverctl map normal Alt Tab focus-view next
+
+# --- Resizing (rivertile commands) ---
+# River handles resizing via layout messages, which is faster than Hyprland's submap system
+riverctl map normal Mod4 Alt H send-layout-cmd rivertile "main-ratio -0.05"
+riverctl map normal Mod4 Alt L send-layout-cmd rivertile "main-ratio +0.05"
+riverctl map normal Mod4 Alt K send-layout-cmd rivertile "main-count +1"
+riverctl map normal Mod4 Alt J send-layout-cmd rivertile "main-count -1"
+
+# --- Scratchpad (Mimicking Hyprland's Special Workspace) ---
+# We use the 32nd tag bit as a "hidden" scratchpad
+scratch_tag=$((1 << 31))
+riverctl map normal Mod4 Shift Minus set-view-tags $scratch_tag
+riverctl map normal Mod4 Minus toggle-focused-tags $scratch_tag
+
+# --- Keyboard Layout & Repeat (Crucial for performance feel) ---
+riverctl set-repeat 50 300
+
+
+

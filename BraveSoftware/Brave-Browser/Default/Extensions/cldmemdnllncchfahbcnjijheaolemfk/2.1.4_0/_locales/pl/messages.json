@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Emuluj rozszerzenia firefox w przeglądarkach Chrome, Opera i innych przeglądarkach opartych na Chromium"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Przesyłanie pliku"
+   },
+   "homeCtaHelpText": {
+      "message": "Obsługiwane formaty: crx, zip lub xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Wybrany plik nie jest obsługiwany."
+   },
+   "homeSubtitle": {
+      "message": "Emuluj rozszerzenia firefox w przeglądarkach Chrome, Opera i innych przeglądarkach opartych na Chromium."
+   },
+   "homeTitle": {
+      "message": "Zainstaluj Firefox dodatki w Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Nie udało się wyodrębnić identyfikatora aplikacji."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Nie udało się pobrać rozszerzenia."
+   },
+   "installerErrorCancelButton": {
+      "message": "Anuluj instalację"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Nie udało się rozpakować plików."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified zakończył instalację rozszerzenia. Poczekaj na rozpoczęcie nowego rozszerzenia."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Zakończ instalację"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Kompletny"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified pobiera i przygotowuje rozszerzenie do instalacji. Poczekaj chwilę, aż pobieranie się zakończy."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Pobieranie rozszerzenia"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Pobieranie"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Zainstaluj mimo to"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Zezwól na uprawnienia"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Anuluj"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Instalowanie rozszerzenia"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Instalacja"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified nie obsługuje wszystkich interfejsów API wymaganych dla tego dodatku. Spowoduje to zerwanie niektórych funkcji dodatków."
+   },
+   "installerStepName": {
+      "message": "Krok"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Rozpoczynam rozszerzenie"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Ściąganie"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Wypakowywanie plików"
+   },
+   "pageLoadingMessage": {
+      "message": "Ładowanie strony"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "nie ma strony opcji."
+   },
+   "settingsPermissionsText": {
+      "message": "Uprawnienia"
+   },
+   "settingsUninstallButton": {
+      "message": "Odinstaluj"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Anuluj"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Potwierdzać"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Jesteś pewny?"
+   }
+}

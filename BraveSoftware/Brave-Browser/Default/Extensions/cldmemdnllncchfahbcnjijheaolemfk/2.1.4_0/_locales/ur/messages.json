@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Chrome ، Opera اور دیگر Chromium پر مبنی براؤزر میں firefox توسیعات کی تقلید کریں۔"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "اپ لوڈ فائل"
+   },
+   "homeCtaHelpText": {
+      "message": "تائید شدہ فارمیٹس: crx ، zip یا xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "منتخب فائل معاون نہیں ہے۔"
+   },
+   "homeSubtitle": {
+      "message": "Chrome ، Opera اور دیگر Chromium پر مبنی براؤزرز میں firefox توسیعات کی تقلید کریں۔"
+   },
+   "homeTitle": {
+      "message": "گوگل میں Firefox ایڈونس انسٹال کریں Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "ایپ کی شناخت نکالنے میں ناکام۔"
+   },
+   "installerDownloadErrorMessage": {
+      "message": "توسیع ڈاؤن لوڈ کرنے میں ناکام۔"
+   },
+   "installerErrorCancelButton": {
+      "message": "تنصیب منسوخ کریں"
+   },
+   "installerExtractErrorMessage": {
+      "message": "فائلیں نکالنے میں ناکام۔"
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified نے آپ کی توسیع انسٹال کرلی ہے۔ براہ کرم نئی توسیع کے شروع ہونے کا انتظار کریں۔"
+   },
+   "installerStepCompleteTitle": {
+      "message": "انسٹالیشن ختم کریں"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "مکمل"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified انسٹالیشن کیلئے آپ کی توسیع کو ڈاؤن لوڈ اور تیار کررہا ہے۔ براہ کرم ڈاؤن لوڈ مکمل ہونے کے لئے کچھ لمحوں کا انتظار کریں۔"
+   },
+   "installerStepDownloadTitle": {
+      "message": "توسیع ڈاؤن لوڈ ہو رہی ہے"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "ڈاؤن لوڈ کریں"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "پھر بھی انسٹال کریں"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "اجازت کی اجازت دیں"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "منسوخ کریں"
+   },
+   "installerStepInstallationTitle": {
+      "message": "ایکسٹینشن انسٹال کرنا"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "تنصیب"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified اس ایڈون کے لئے درکار تمام APIs کی حمایت نہیں کرتا ہے۔ اس سے کچھ امدادی فعالیت توڑ دی جائے گی۔"
+   },
+   "installerStepName": {
+      "message": "قدم"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "توسیع شروع کر رہا ہے"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "ڈاؤن لوڈ ہو رہا ہے"
+   },
+   "installerStepProgressExtractText": {
+      "message": "فائلیں نکالنا"
+   },
+   "pageLoadingMessage": {
+      "message": "صفحہ لوڈ ہو رہا ہے"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "اختیارات کا صفحہ نہیں ہے۔"
+   },
+   "settingsPermissionsText": {
+      "message": "اجازت"
+   },
+   "settingsUninstallButton": {
+      "message": "انسٹال کریں"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "منسوخ کریں"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "تصدیق کریں"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "کیا تمہیں یقین ہے؟"
+   }
+}

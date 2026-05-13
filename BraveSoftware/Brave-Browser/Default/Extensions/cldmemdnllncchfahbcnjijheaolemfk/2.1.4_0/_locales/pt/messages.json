@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Emular firefox extensões em Chrome, Opera e outros navegadores baseados em Chromium"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Subir arquivo"
+   },
+   "homeCtaHelpText": {
+      "message": "Formatos suportados: crx, zip ou xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "O arquivo selecionado não é compatível."
+   },
+   "homeSubtitle": {
+      "message": "Emule firefox extensões em Chrome, Opera e outros navegadores baseados em Chromium."
+   },
+   "homeTitle": {
+      "message": "Instale Firefox Complementos em Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Falha ao extrair o ID do aplicativo."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Falha ao baixar extensão."
+   },
+   "installerErrorCancelButton": {
+      "message": "Cancelar instalação"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Falha ao extrair arquivos."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified concluiu a instalação de sua extensão.Aguarde o início da nova extensão."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Terminar a instalação"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Completo"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified está baixando e preparando sua extensão para instalação.Aguarde alguns instantes para que o download seja concluído."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Baixando extensão"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Baixar"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Instale mesmo assim"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Permitir permissões"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Cancelar"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Instalando extensão"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Instalação"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified não oferece suporte a todas as APIs necessárias para este complemento.Isso interromperá algumas funcionalidades adicionais."
+   },
+   "installerStepName": {
+      "message": "Degrau"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Extensão inicial"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Baixando"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Extraindo arquivos"
+   },
+   "pageLoadingMessage": {
+      "message": "Página de carregamento"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "não tem uma página de opções."
+   },
+   "settingsPermissionsText": {
+      "message": "Permissões"
+   },
+   "settingsUninstallButton": {
+      "message": "Desinstalar"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Cancelar"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "confirme"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Você tem certeza?"
+   }
+}

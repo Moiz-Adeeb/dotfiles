@@ -1,0 +1,34 @@
+import = [
+  "/home/moiz/.npm/_npx/808b709e6234a442/node_modules/alacritty-themes/themes/github_dark.toml"
+]
+
+[window]
+opacity = 1
+dynamic_title = true
+startup_mode = "Windowed"
+
+  [window.padding]
+  x = 10
+  y = 10
+
+[scrolling]
+history = 10_000
+multiplier = 3
+
+[font]
+size = 13
+
+  [font.normal]
+  family = "JetBrains Mono"
+  style = "Regular"
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[cursor]
+style = "Block"
+blink_interval = 500
+blink_timeout = 5
+
+[general]
+import = [ "~/.config/alacritty/themes/themes/carbonfox.toml" ]

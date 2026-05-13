@@ -1,0 +1,6 @@
+2026/04/23-00:24:32.918 b70 Creating DB /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb since it was missing.
+2026/04/23-00:24:32.974 b70 Reusing MANIFEST /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/23-00:24:35.051 b72 Level-0 table #5: started
+2026/04/23-00:24:35.067 b72 Level-0 table #5: 379 bytes OK
+2026/04/23-00:24:35.094 b72 Delete type=0 #3
+2026/04/23-00:24:35.094 b72 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

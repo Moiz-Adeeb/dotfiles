@@ -1,0 +1,47 @@
+2026/04/20-16:09:27.653 28be Reusing MANIFEST /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/20-16:09:27.654 28be Recovering log #41
+2026/04/20-16:09:27.654 28be Reusing old log /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/000041.log 
+2026/04/20-16:09:27.656 28be Delete type=2 #39
+2026/04/20-16:09:28.882 28ca Level-0 table #46: started
+2026/04/20-16:09:28.909 28ca Level-0 table #46: 1309 bytes OK
+2026/04/20-16:09:28.944 28ca Delete type=0 #41
+2026/04/20-16:09:28.946 28ca Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0f\x00\x00\x05' @ 1247 : 1
+2026/04/20-16:09:28.947 28ca Compacting 1@0 + 1@1 files
+2026/04/20-16:09:28.968 28ca Generated table #47@0: 53 keys, 1477 bytes
+2026/04/20-16:09:28.968 28ca Compacted 1@0 + 1@1 files => 1477 bytes
+2026/04/20-16:09:29.001 28ca compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/20-16:09:29.001 28ca Delete type=2 #46
+2026/04/20-16:09:29.001 28bc Manual compaction at level-0 from '\x00\x0f\x00\x00\x05' @ 1247 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/04/20-16:13:37.581 28cd Level-0 table #49: started
+2026/04/20-16:13:37.597 28cd Level-0 table #49: 2070 bytes OK
+2026/04/20-16:13:37.626 28cd Delete type=2 #43
+2026/04/20-16:13:37.626 28cd Delete type=0 #45
+2026/04/20-16:13:37.629 28cd Manual compaction at level-0 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at '\x00\x10\x00\x00\x05' @ 1336 : 1
+2026/04/20-16:13:37.629 28cd Compacting 1@0 + 1@1 files
+2026/04/20-16:13:37.641 28cd Generated table #50@0: 61 keys, 1543 bytes
+2026/04/20-16:13:37.642 28cd Compacted 1@0 + 1@1 files => 1543 bytes
+2026/04/20-16:13:37.674 28cd compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/20-16:13:37.675 28cd Delete type=2 #49
+2026/04/20-16:13:37.675 28be Manual compaction at level-0 from '\x00\x10\x00\x00\x05' @ 1336 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/04/20-16:27:07.904 28cc Level-0 table #52: started
+2026/04/20-16:27:07.921 28cc Level-0 table #52: 2996 bytes OK
+2026/04/20-16:27:07.942 28cc Delete type=2 #47
+2026/04/20-16:27:07.942 28cc Delete type=0 #48
+2026/04/20-16:27:07.942 28be Manual compaction at level-0 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at '\x00\x11\x00\x00\x05' @ 1467 : 1
+2026/04/20-16:27:07.942 28be Compacting 1@0 + 1@1 files
+2026/04/20-16:27:07.953 28be Generated table #53@0: 97 keys, 1894 bytes
+2026/04/20-16:27:07.953 28be Compacted 1@0 + 1@1 files => 1894 bytes
+2026/04/20-16:27:07.977 28be compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/20-16:27:07.978 28be Delete type=2 #52
+2026/04/20-16:27:07.978 28be Manual compaction at level-0 from '\x00\x11\x00\x00\x05' @ 1467 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/04/20-16:41:28.494 28ca Level-0 table #55: started
+2026/04/20-16:41:28.511 28ca Level-0 table #55: 3011 bytes OK
+2026/04/20-16:41:28.542 28ca Delete type=2 #50
+2026/04/20-16:41:28.542 28ca Delete type=0 #51
+2026/04/20-16:41:28.543 28bc Manual compaction at level-0 from '\x00\x12\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at '\x00\x12\x00\x00\x05' @ 1598 : 1
+2026/04/20-16:41:28.543 28bc Compacting 1@0 + 1@1 files
+2026/04/20-16:41:28.555 28bc Generated table #56@0: 133 keys, 2214 bytes
+2026/04/20-16:41:28.555 28bc Compacted 1@0 + 1@1 files => 2214 bytes
+2026/04/20-16:41:28.576 28bc compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/20-16:41:28.576 28bc Delete type=2 #55
+2026/04/20-16:41:28.576 28bc Manual compaction at level-0 from '\x00\x12\x00\x00\x05' @ 1598 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at (end)

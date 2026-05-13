@@ -1,0 +1,29 @@
+{
+   "appName": {
+      "message": "HEX-värvi valija"
+   },
+   "copiedToClipboard": {
+      "message": "Copied to the clipboard."
+   },
+   "extShortName": {
+      "message": "HEXcolorPick"
+   },
+   "pickColor": {
+      "message": "Pick a color"
+   },
+   "recentColors": {
+      "message": "Recent colors"
+   },
+   "shortDesc": {
+      "message": "Kasutage HEX-värvi valijat pildilt kiireks tuvastamiseks ja kasutamiseks oma projektides. Valida HEX-värvi mis tahes pildilt."
+   },
+   "storeDesc": {
+      "message": "Tutvustame HEX-värvi valijat, lõplikku Google Chrome'i laiendust, mis on loodud disaineritele, arendajatele ja kõigile, kes on graafika suhtes kirglikud. See võimas tööriist on loodud selleks, et aidata teil hõlpsalt valida HEX-värvi mis tahes pildilt, muutes teie töövoogu tõhusamaks ja täpsemaks. Kas töötate veebidisaini, graafikaprojektide või digitaalse kunstiga, meie HEX-värvi valija tagab, et teil on ideaalne tööriist käeulatuses.\n\nPeamised funktsioonid hõlmavad:\n🌟 Lihtne ekstraheerimine ja HEX-värvi koodi valija piltidelt\n🌟 Lihtne ja kasutajasõbralik liides\n🌟 Reaalajas eelvaade ja reguleerimine\n🌟 Sujuv integreerimine teiste disainitööriistadega\n\nKiirus ja jõudlus on olulised igas tööriistas ning meie laiendus on selles osas silmapaistev. See on kergekaaluline ja optimeeritud kiireks jõudluseks, tagades, et see ei aeglustaks teie veebibrauserit ega takistaks teie tootlikkust.\n\nSiin on mõned olukorrad, kus see võib olla eriti kasulik:\n1. Veebidisain:\n    📐 Tagab skeemide järjepidevuse\n    🌐 Lihtne värvi leidmine pildilt\n    🖥️ Täpne tõlkimine HTML-koodidesse\n2. Graafiline disain:\n    🎨 Ideaalne sobitamiseks\n    🖼️ Andmete eraldamine inspiratsioonipiltidelt\n    💡 Loo kooskõlalikke paletti\n3. Digitaalkunst:\n    🖌️ Värvi valija viitefotodelt\n    🎨 Reguleeri reaalajas\n    🔍 Suurenda täpseks valikuks\n4. Arendus:\n    💻 Kiire ja täpne HEX-koodi värvi valija\n    🔧 Integreerimine arendustööriistadega\n    ⚙️ Taga visuaalne järjepidevus\n\nNende erinevate formaatidega töötavatele inimestele sisaldab HEX-värvi valija ka RGB-värvi valijat. See võimaldab teil valida värvi RGB-vormingus, pakkudes paindlikkust ja täpsust erinevate disainivajaduste jaoks.\n\nKorduma kippuvad küsimused:\n- Mis on HEX?\n   Heksaadiline esitus, mida kasutatakse veebidisainis laiendusega.\n- Kas saan seda tööriista kasutada ilma internetiühenduseta?\n   Jah, Google'i värvi valijaga töötamiseks pole vaja internetiühendust.\n\nHEX-koodi leidja ja RGB-värvi valija funktsioonid tagavad, et saate hõlpsalt hallata igasugust ülesannet.\n\nVastus küsimusele, mis värv see on:\n* Heksaadiline (HEX): #FFFFFF\n* RGB: rgb(255, 255, 255)\n* HSL: hsl(0, 0%, 100%)\n\nNende erinevate formaatidega tegelevatele inimestele võimaldab meie laiendus tuvastada graafikat mis tahes formaadis, pakkudes paindlikkust ja täpsust erinevate disainivajaduste jaoks. Need funktsioonid tagavad, et saate hõlpsalt hakkama igasuguse ülesandega.\n\nKasutamiseks parimad näpunäited:\n💥 Kasutage kõrge resolutsiooniga pilte: tagab värvi valija täpse tuvastamise pildilt.\n💥 Kontrollige koode topelt: kontrollige koode enne nende rakendamist.\n💥 Salvesta sageli kasutatavad esemed: Hoidke paletti tavaliste esemete jaoks värvituvastajaga.\n\nSisseehitatud tilguti tööriist on võimas funktsioon, mis võimaldab teil proovida mis tahes graafikat oma brauserist. Lihtsalt klõpsake tilguti ikoonil, liikuge soovitud ala kohale ja klõpsake valimiseks. See tööriist on ideaalne andmete kogumiseks piltidelt, veebisaitidelt või muult digitaalselt sisult.\n\nKuidas kasutada HEX-värvi valijat:\n1️⃣ Installige laiendus: Lisage see oma Chrome'i brauserisse.\n2️⃣ Aktiveerige tööriist: Klõpsake laienduse ikoonil.\n3️⃣ Avage pilt: Minge pildile, mida soovite kasutada.\n4️⃣ Liikuge pildi kohale: Viige kursor soovitud alale.\n5️⃣ Klõpsake püüdmiseks: Salvestage kood oma kasutamiseks.\n\nPüsige kursis: Hoidke laiendust ajakohasena uute funktsioonide jaoks värvituvastaja Google'is.\nKombineerige disainitarkvaraga: Kasutage koos tööriistadega nagu Photoshop või Illustrator täiustatud funktsionaalsuse saavutamiseks.\n\nOmadused, mis on suurepärased\n⚡️ Värvikoodi HEX-valija: Ideaalne veebidisaini jaoks. Lihtsalt haarake kood ja sisestage see oma CSS-i.\nTagamaks, et teil oleks alati parim kogemus, saab laiendus regulaarseid värskendusi. Need värskendused hõlmavad uusi funktsioone, jõudluse parandusi ja vigade parandusi. Lisaks on tugimeeskond alati valmis teid abistama mis tahes probleemide või küsimustega, mis teil võivad tekkida.\n\n⚡️ Pildi värvivalija: Töötab mis tahes pildil, olgu see siis veebis või salvestatud teie arvutisse.\nReaalajas kohandamisfunktsioon võimaldab teil paletti kiiresti kohandada. Olgu teil vaja reguleerida tooni, küllastust või heledust, laiendus pakub liugureid, mis annavad teile täpse kontrolli. See tagab, et saate graafikat täpsustada täiuslikkuseni.\n\n⚡️ Värvipildi valija: Ideaalne inspiratsiooni leidmiseks fotodest ja kunstiteostest.\nKui peate kindlaks määrama konkreetse väärtuse, on seal abiks heksakoodi valija funktsioonid. Need funktsioonid tagavad, et saate alati määrata mis tahes graafika täpsed numbrid, muutes sobitamise ja kopeerimise lihtsaks ja täpseks.\n\n⚡️ Valija värv HEX-tööriist: Kiire ja lihtne viis saada vajalikud graafikad.\n\nNii et siin see on. HEX-värvi valija on teie peamine tööriist kõigis disainiasjades. Olgu teie eesmärk haarata paletti piltidelt veebidisaini, graafilise disaini või lihtsalt lõbu pärast, see laiendus katab teid. Õnnelikku disainimist!"
+   },
+   "title": {
+      "message": "Color picker"
+   },
+   "titleRateUs": {
+      "message": "Rate us:"
+   }
+}

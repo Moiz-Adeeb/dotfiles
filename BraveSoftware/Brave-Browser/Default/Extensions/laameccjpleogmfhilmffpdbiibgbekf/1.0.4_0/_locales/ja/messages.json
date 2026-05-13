@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "使用していないタブを一時停止して、メモリ使用量を節約し、コンピューターの実行を高速化します。 デバイスとバッテリーの負荷を軽減します。"
+   },
+   "name": {
+      "message": "Tab Suspender"
+   },
+   "title": {
+      "message": "Tab Suspender"
+   }
+}

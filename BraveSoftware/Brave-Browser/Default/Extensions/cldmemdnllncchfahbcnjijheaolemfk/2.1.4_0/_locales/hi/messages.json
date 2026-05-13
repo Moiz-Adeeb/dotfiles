@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Chrome एक्सटेंशन Chrome, Opera और अन्य Chromium आधारित ब्राउज़रों में अनुकरण करें"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "दस्तावेज अपलोड करें"
+   },
+   "homeCtaHelpText": {
+      "message": "समर्थित प्रारूप: crx, zip या xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "चयनित फ़ाइल समर्थित नहीं है।"
+   },
+   "homeSubtitle": {
+      "message": "Chrome एक्सटेंशन Chrome, Opera और अन्य Chromium आधारित ब्राउज़रों में अनुकरण करें।"
+   },
+   "homeTitle": {
+      "message": "Install Firefox Addons In Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "ऐप आईडी निकालने में विफल।"
+   },
+   "installerDownloadErrorMessage": {
+      "message": "एक्सटेंशन डाउनलोड करने में विफल।"
+   },
+   "installerErrorCancelButton": {
+      "message": "स्थापना रद्द करें"
+   },
+   "installerExtractErrorMessage": {
+      "message": "फ़ाइलों को निकालने में विफल।"
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified ने अपना एक्सटेंशन इंस्टॉल करना समाप्त कर दिया है।कृपया नए एक्सटेंशन के शुरू होने की प्रतीक्षा करें।"
+   },
+   "installerStepCompleteTitle": {
+      "message": "स्थापना समाप्त करें"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "पूर्ण"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified स्थापना के लिए आपके एक्सटेंशन को डाउनलोड और तैयार कर रहा है।कृपया डाउनलोड पूरा होने के लिए कुछ क्षण प्रतीक्षा करें।"
+   },
+   "installerStepDownloadTitle": {
+      "message": "डाउनलोडिंग एक्सटेंशन"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "डाउनलोड"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "वैसे भी स्थापित करें"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "अनुमतियाँ दें"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "रद्द करना"
+   },
+   "installerStepInstallationTitle": {
+      "message": "एक्सटेंशन स्थापित करना"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "स्थापना"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified इस ऐडऑन के लिए आवश्यक सभी एपीआई का समर्थन नहीं करता है।यह कुछ ऐडऑन कार्यक्षमता को तोड़ देगा।"
+   },
+   "installerStepName": {
+      "message": "चरण"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "विस्तार शुरू"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "डाउनलोड कर रहा है"
+   },
+   "installerStepProgressExtractText": {
+      "message": "फ़ाइलों को निकालना"
+   },
+   "pageLoadingMessage": {
+      "message": "लोडिंग पृष्ठ"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "एक विकल्प पृष्ठ नहीं है।"
+   },
+   "settingsPermissionsText": {
+      "message": "अनुमतियां"
+   },
+   "settingsUninstallButton": {
+      "message": "स्थापना रद्द करें"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "रद्द करना"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "पुष्टि करें"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "क्या आपको यकीन है?"
+   }
+}

@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Yi koyi da fadada firefox a cikin Chrome, Opera da sauran masu bincike na Chromium"
+    },
+    "homeTitle": {
+        "message": "Sanya Addini Firefox A cikin Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Yi koyi da fadada firefox a cikin Chrome, Opera da sauran masu bincike na Chromium."
+    },
+    "homeCtaButton": {
+        "message": "Sanya fayil"
+    },
+    "homeCtaHelpText": {
+        "message": "Tsarin tallafi: crx, zip ko xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Zaɓaɓɓun fayil ɗin ba shi da tallafi"
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Zazzagewa"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Girkawa"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Kammala"
+    },
+    "installerStepName": {
+        "message": "Mataki"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Ana sauke tsawo"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified yana zazzagewa yana shirya tsawaitawa don girkawa. Da fatan za a ɗan ɗan jira don saukarwar ta kammala."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Zazzagewa"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Cire fayiloli"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Extensionara tsawo"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Bada Izini"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified baya tallafawa duk APIs da ake buƙata don wannan addon. Wannan zai karya wasu ayyukan addon."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Shigar Duk da haka"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Soke"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Gama kafuwa"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified ya gama girka fadada. Da fatan za a jira sabon tsawo don farawa."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "An fara faɗaɗa"
+    },
+    "installerErrorCancelButton": {
+        "message": "Soke Girkawar"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Ba a yi nasarar zazzage tsawo ba"
+    },
+    "installerExtractErrorMessage": {
+        "message": "Ba a yi nasarar cire fayiloli ba"
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Ba a yi nasarar cire ID na app ba."
+    },
+    "pageLoadingMessage": {
+        "message": "Loading shafi na"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "bashi da shafin zabi."
+    },
+    "settingsPermissionsText": {
+        "message": "Izini"
+    },
+    "settingsUninstallButton": {
+        "message": "Cirewa"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Ka tabbata?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Tabbatar"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Soke"
+    }
+}

@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Emulasi firefox ekstensi di Chrome, Opera dan browser berbasis Chromium lainnya"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Unggah data"
+   },
+   "homeCtaHelpText": {
+      "message": "Format yang didukung: crx, zip atau xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "File yang dipilih tidak didukung."
+   },
+   "homeSubtitle": {
+      "message": "Emulasi firefox ekstensi di Chrome, Opera dan browser berbasis Chromium lainnya."
+   },
+   "homeTitle": {
+      "message": "Instal Firefox Addons Di Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Gagal mengekstrak ID aplikasi."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Gagal mengunduh ekstensi."
+   },
+   "installerErrorCancelButton": {
+      "message": "Batalkan Instalasi"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Gagal mengekstrak file."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified telah selesai memasang ekstensi Anda. Harap tunggu ekstensi baru dimulai."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Selesaikan instalasi"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Lengkap"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified sedang mengunduh dan menyiapkan ekstensi Anda untuk penginstalan. Harap tunggu beberapa saat hingga unduhan selesai."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Mengunduh ekstensi"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Unduh"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Instal Saja"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Izinkan Izin"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Membatalkan"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Memasang ekstensi"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Instalasi"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified tidak mendukung semua API yang diperlukan untuk addon ini. Ini akan merusak beberapa fungsi addon."
+   },
+   "installerStepName": {
+      "message": "Langkah"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Memulai ekstensi"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Mendownload"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Mengekstrak file"
+   },
+   "pageLoadingMessage": {
+      "message": "Memuat halaman"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "tidak memiliki halaman opsi."
+   },
+   "settingsPermissionsText": {
+      "message": "Izin"
+   },
+   "settingsUninstallButton": {
+      "message": "Copot pemasangan"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Membatalkan"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Konfirmasi"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Apakah kamu yakin"
+   }
+}

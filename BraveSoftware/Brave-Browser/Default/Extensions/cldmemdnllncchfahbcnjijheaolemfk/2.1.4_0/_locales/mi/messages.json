@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Whakahoahoa firefox toronga i Chrome, Opera me etahi atu Chromium nga kaitirotiro tuturu"
+    },
+    "homeTitle": {
+        "message": "Whakauruhia Firefox Taapiringa Ki Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Whakahoahoa firefox toronga i Chrome, Opera me etahi atu Chromium nga kaitirotiro tuturu."
+    },
+    "homeCtaButton": {
+        "message": "Tukuna te konae"
+    },
+    "homeCtaHelpText": {
+        "message": "He whakatakotoranga tautoko: crx, zip ko xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Kaore i te tautokohia te konae i kowhiria."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Tangohia"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Whakauru"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Oti"
+    },
+    "installerStepName": {
+        "message": "Hipanga"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Kei te tango toronga"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified kei te tango me te whakarite i to toronga hei whakauru. Tatari koa mo etahi wa poto kia oti te tango."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Kei te Tangohia"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Te tango i nga konae"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Kei te whakauru toronga"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Whakaaetia nga Whakaaetanga"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified Kaore i te tautoko i nga API katoa e hiahiatia ana mo tenei taapiri. Ma tenei ka pakaru etahi mahi taapiri."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Whakauruhia Heoi"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Whakakore"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Mutu te whakauru"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified kua mutu te whakauru i to toronga. Tatari koa kia tiimata te timatanga hou."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Tīmata toronga"
+    },
+    "installerErrorCancelButton": {
+        "message": "Whakakorea te Whakauru"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "I rahua te tango toronga."
+    },
+    "installerExtractErrorMessage": {
+        "message": "I rahua te tango i nga konae."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "I rahua te tango i te ID taupānga."
+    },
+    "pageLoadingMessage": {
+        "message": "Wharangi uta"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "kaore he wharangi whiringa."
+    },
+    "settingsPermissionsText": {
+        "message": "Whakaaetanga"
+    },
+    "settingsUninstallButton": {
+        "message": "Tango"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Kei te mohio koe?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Whakaū"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Whakakore"
+    }
+}

@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Navolg firefox uitbreidings in Chrome, Opera en ander Chromium blaaiers"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Laai leêr op"
+   },
+   "homeCtaHelpText": {
+      "message": "Ondersteunde formate: crx, zip of xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Geselekteerde lêer word nie ondersteun nie."
+   },
+   "homeSubtitle": {
+      "message": "Navolg firefox uitbreidings in Chrome, Opera en ander Chromium blaaiers."
+   },
+   "homeTitle": {
+      "message": "Installeer Firefox toevoegings in Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Kon nie program-ID onttrek nie."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Kon nie die uitbreiding aflaai nie."
+   },
+   "installerErrorCancelButton": {
+      "message": "Kanselleer die installasie"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Kon nie lêers uittreksel nie."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified het u uitbreiding geïnstalleer. Wag asseblief totdat die nuwe uitbreiding begin."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Voltooi die installasie"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Voltooi"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified laai en berei u uitbreiding vir installasie voor. Wag 'n paar oomblikke totdat die aflaai voltooi is."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Laai tans uitbreiding af"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Aflaai"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Installeer in elk geval"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Laat toestemmings toe"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Kanselleer"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Installeer tans uitbreiding"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Installasie"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified ondersteun nie al die API's wat benodig word vir hierdie byvoeging nie. Dit sal die addon funksionaliteit verbreek."
+   },
+   "installerStepName": {
+      "message": "Stap"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Begin uitbreiding"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Laai tans af"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Onttrek lêers"
+   },
+   "pageLoadingMessage": {
+      "message": "Laai tans bladsy"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "het nie 'n opsiesbladsy nie."
+   },
+   "settingsPermissionsText": {
+      "message": "Toestemmings"
+   },
+   "settingsUninstallButton": {
+      "message": "Verwyder"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Kanselleer"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Bevestig"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Is jy seker?"
+   }
+}

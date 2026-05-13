@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Tevedzera firefox kuwedzeredzwa mu Chrome, Opera uye zvimwe Chromium mabhurawuza"
+    },
+    "homeTitle": {
+        "message": "Isa Firefox Addons MuGoogle Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Tevedzera firefox kuwedzeredzwa mu Chrome, Opera uye zvimwe Chromium mabhurawuza."
+    },
+    "homeCtaButton": {
+        "message": "Isa faira"
+    },
+    "homeCtaHelpText": {
+        "message": "Mafomu akatsigirwa: crx, zip kana xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Yakasarudzwa faira haina kutsigirwa."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Download"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Kuiswa"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Pedzisa"
+    },
+    "installerStepName": {
+        "message": "Nhanho"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Kudhanilodha kuwedzera"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified iri kurodha pasi uye kugadzirira kuwedzera kwako kwekuisa. Ndokumbirawo umirire chinguva chidiki kuti dhanilodhi ripedze."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Kudhanilodha"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Kuburitsa mafaera"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Kuisa kuwedzera"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Rega Mvumo"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified haitsigire ese maAPI anodikanwa kune iyi addon. Izvi zvinotyora kumwe kuwedzera kweanoshanda."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Isa zvakadaro"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Kanzura"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Pedza kumisikidza"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified yapedza kuisa yako yekuwedzera. Ndokumbira umirire kuti kuwedzera kutsva kutange."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Kutanga kuwedzera"
+    },
+    "installerErrorCancelButton": {
+        "message": "Kanzura Kuisirwa"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Yakundikana kudhawunirodha kuwedzerwa."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Yakundikana kuburitsa mafaera."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Yakundikana kubvisa ID ID."
+    },
+    "pageLoadingMessage": {
+        "message": "Kuisa peji"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "haina peji rekusarudza."
+    },
+    "settingsPermissionsText": {
+        "message": "Zvibvumirano"
+    },
+    "settingsUninstallButton": {
+        "message": "Uninstall"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Une chokwadi here?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Simbisa"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Kanzura"
+    }
+}

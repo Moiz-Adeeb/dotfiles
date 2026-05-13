@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "Suspend tabs you are not using to save memory usage and make your computer run faster. Reduce the load on your device, and battery."
+   },
+   "name": {
+      "message": "Memory Saver"
+   },
+   "title": {
+      "message": "Tab Suspender"
+   }
+}

@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Imituokite firefox plėtinius Chrome, Opera ir kitose Chromium pagrįstose naršyklėse"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Įkelti failą"
+   },
+   "homeCtaHelpText": {
+      "message": "Palaikomi formatai: crx, zip arba xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Pasirinktas failas nepalaikomas."
+   },
+   "homeSubtitle": {
+      "message": "Imituokite firefox plėtinius Chrome, Opera ir kitose Chromium pagrįstose naršyklėse."
+   },
+   "homeTitle": {
+      "message": "Įdiekite Firefox „Google“ priedus Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Nepavyko išgauti programos ID."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Nepavyko atsisiųsti plėtinio."
+   },
+   "installerErrorCancelButton": {
+      "message": "Atšaukti diegimą"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Nepavyko išgauti failų."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified baigė diegti jūsų plėtinį. Palaukite, kol prasidės naujas plėtinys."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Baigti diegti"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Baigta"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified atsisiunčia ir rengia plėtinį įdiegti. Palaukite keletą minučių, kol bus baigtas atsisiuntimas."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Atsisiunčiamas plėtinys"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "parsisiųsti"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Įdiekite bet kokiu atveju"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Leisti leidimus"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Atšaukti"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Diegiamas plėtinys"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Montavimas"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified nepalaiko visų API, reikalingų šiam priedui. Tai sugadins kai kuriuos priedų funkcionalumus."
+   },
+   "installerStepName": {
+      "message": "Žingsnis"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Pradedamas plėtinys"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Atsisiunčiama"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Failų ištraukimas"
+   },
+   "pageLoadingMessage": {
+      "message": "Įkeliamas puslapis"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "neturi parinkčių puslapio."
+   },
+   "settingsPermissionsText": {
+      "message": "Leidimai"
+   },
+   "settingsUninstallButton": {
+      "message": "Pašalinti"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Atšaukti"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Patvirtinti"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Ar tu tuo tikras?"
+   }
+}

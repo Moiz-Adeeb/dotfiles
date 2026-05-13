@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "Suspendeu les pestanyes que no feu servir per estalviar l'ús de memòria i fer que l'ordinador funcioni més ràpid. Redueix la càrrega del dispositiu i la bateria."
+   },
+   "name": {
+      "message": "Tab Suspender"
+   },
+   "title": {
+      "message": "Tab Suspender"
+   }
+}

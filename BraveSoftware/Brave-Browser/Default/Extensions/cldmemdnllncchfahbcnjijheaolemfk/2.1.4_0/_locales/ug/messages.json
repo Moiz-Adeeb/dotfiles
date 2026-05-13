@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Chrome ، Opera ۋە باشقا Chromium ئاساسىدىكى توركۆرگۈچلەردە firefox كېڭەيتىلمىسىنى تەقلىد قىلىڭ"
+    },
+    "homeTitle": {
+        "message": "ئورنىتىش Firefox گۇگۇلغا قوشۇش Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Chrome ، Opera ۋە باشقا Chromium ئاساسىدىكى توركۆرگۈچلەردە firefox كېڭەيتىلمىسىنى تەقلىد قىلىڭ."
+    },
+    "homeCtaButton": {
+        "message": "ھۆججەت يۈكلەڭ"
+    },
+    "homeCtaHelpText": {
+        "message": "قوللايدىغان فورماتلىرى: crx ، zip ياكى xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "تاللانغان ھۆججەتنى قوللىمايدۇ."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "چۈشۈرۈش"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "قاچىلاش"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "تامام"
+    },
+    "installerStepName": {
+        "message": "قەدەم"
+    },
+    "installerStepDownloadTitle": {
+        "message": "كېڭەيتىلمىنى چۈشۈرۈش"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified چۈشۈرۈش ۋە قاچىلاشنى كېڭەيتىشكە تەييارلىق قىلىۋاتىدۇ. چۈشۈرۈشنىڭ تاماملىنىشىنى بىر ئاز ساقلاڭ."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "چۈشۈرۈش"
+    },
+    "installerStepProgressExtractText": {
+        "message": "ھۆججەتلەرنى چىقىرىش"
+    },
+    "installerStepInstallationTitle": {
+        "message": "كېڭەيتىلمە ئورنىتىش"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "رۇخسەت"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified بۇ خۇرۇچقا لازىملىق بارلىق API لارنى قوللىمايدۇ. بۇ بەزى addon ئىقتىدارىنى بۇزىدۇ."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "قانداقلا بولمىسۇن قاچىلاڭ"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "بىكار قىلىش"
+    },
+    "installerStepCompleteTitle": {
+        "message": "قاچىلاشنى تاماملاڭ"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified كېڭەيمىڭىزنى قاچىلاشنى تاماملاپ بولدى. يېڭى كېڭەيتىلمىنىڭ باشلىنىشىنى ساقلاڭ."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "كېڭەيتىشنى باشلاش"
+    },
+    "installerErrorCancelButton": {
+        "message": "قاچىلاشنى بىكار قىلىڭ"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "كېڭەيتىلمىنى چۈشۈرۈش مەغلۇب بولدى."
+    },
+    "installerExtractErrorMessage": {
+        "message": "ھۆججەتلەرنى چىقىرىش مەغلۇب بولدى."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "ئەپ كىملىكىنى ئالالمىدى."
+    },
+    "pageLoadingMessage": {
+        "message": "يۈكلەش بېتى"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "تاللاش بېتى يوق."
+    },
+    "settingsPermissionsText": {
+        "message": "ئىجازەت"
+    },
+    "settingsUninstallButton": {
+        "message": "ئۆچۈرۈۋېتىڭ"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "ئىشىنەمسىز؟"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "جەزملەشتۈرۈڭ"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "بىكار قىلىش"
+    }
+}

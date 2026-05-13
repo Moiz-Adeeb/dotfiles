@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Chrome, Opera ಮತ್ತು ಇತರ Chromium ಆಧಾರಿತ ಬ್ರೌಸರ್‌ಗಳಲ್ಲಿ firefox ವಿಸ್ತರಣೆಗಳನ್ನು ಅನುಕರಿಸಿ"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ"
+   },
+   "homeCtaHelpText": {
+      "message": "ಬೆಂಬಲಿತ ಸ್ವರೂಪಗಳು: crx, zip ಅಥವಾ xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "ಆಯ್ದ ಫೈಲ್ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ."
+   },
+   "homeSubtitle": {
+      "message": "Chrome, Opera ಮತ್ತು ಇತರ Chromium ಆಧಾರಿತ ಬ್ರೌಸರ್‌ಗಳಲ್ಲಿ firefox ವಿಸ್ತರಣೆಗಳನ್ನು ಅನುಕರಿಸಿ."
+   },
+   "homeTitle": {
+      "message": "Google ನಲ್ಲಿ Firefox Addons ಅನ್ನು ಸ್ಥಾಪಿಸಿ Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "ಅಪ್ಲಿಕೇಶನ್ ID ಅನ್ನು ಹೊರತೆಗೆಯಲು ವಿಫಲವಾಗಿದೆ."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "ವಿಸ್ತರಣೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ."
+   },
+   "installerErrorCancelButton": {
+      "message": "ಅನುಸ್ಥಾಪನೆಯನ್ನು ರದ್ದುಗೊಳಿಸಿ"
+   },
+   "installerExtractErrorMessage": {
+      "message": "ಫೈಲ್‌ಗಳನ್ನು ಹೊರತೆಗೆಯಲು ವಿಫಲವಾಗಿದೆ."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified ನಿಮ್ಮ ವಿಸ್ತರಣೆಯನ್ನು ಸ್ಥಾಪಿಸುವುದನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದೆ. ಹೊಸ ವಿಸ್ತರಣೆ ಪ್ರಾರಂಭವಾಗುವವರೆಗೆ ಕಾಯಿರಿ."
+   },
+   "installerStepCompleteTitle": {
+      "message": "ಅನುಸ್ಥಾಪನೆಯನ್ನು ಮುಗಿಸಿ"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "ಪೂರ್ಣಗೊಂಡಿದೆ"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified ನಿಮ್ಮ ವಿಸ್ತರಣೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಸ್ಥಾಪನೆಗೆ ಸಿದ್ಧಪಡಿಸುತ್ತಿದೆ. ಡೌನ್‌ಲೋಡ್ ಪೂರ್ಣಗೊಳ್ಳಲು ದಯವಿಟ್ಟು ಕೆಲವು ಕ್ಷಣಗಳು ಕಾಯಿರಿ."
+   },
+   "installerStepDownloadTitle": {
+      "message": "ವಿಸ್ತರಣೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "ಹೇಗಾದರೂ ಸ್ಥಾಪಿಸಿ"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "ಅನುಮತಿಗಳನ್ನು ಅನುಮತಿಸಿ"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "ರದ್ದುಮಾಡಿ"
+   },
+   "installerStepInstallationTitle": {
+      "message": "ವಿಸ್ತರಣೆಯನ್ನು ಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "ಅನುಸ್ಥಾಪನ"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified ಈ ಆಡ್ಆನ್‌ಗೆ ಅಗತ್ಯವಿರುವ ಎಲ್ಲಾ API ಗಳನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ಇದು ಕೆಲವು ಆಡಾನ್ ಕಾರ್ಯವನ್ನು ಮುರಿಯುತ್ತದೆ."
+   },
+   "installerStepName": {
+      "message": "ಹಂತ"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "ವಿಸ್ತರಣೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ"
+   },
+   "installerStepProgressExtractText": {
+      "message": "ಫೈಲ್‌ಗಳನ್ನು ಹೊರತೆಗೆಯಲಾಗುತ್ತಿದೆ"
+   },
+   "pageLoadingMessage": {
+      "message": "ಪುಟವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "ಆಯ್ಕೆಗಳ ಪುಟವನ್ನು ಹೊಂದಿಲ್ಲ."
+   },
+   "settingsPermissionsText": {
+      "message": "ಅನುಮತಿಗಳು"
+   },
+   "settingsUninstallButton": {
+      "message": "ಅಸ್ಥಾಪಿಸು"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "ರದ್ದುಮಾಡಿ"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "ದೃ irm ೀಕರಿಸಿ"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "ನೀವು ಖಚಿತವಾಗಿರುವಿರಾ?"
+   }
+}

@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Emuleer firefox extensies in Chrome, Opera en andere Chromium gebaseerde browsers"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Upload bestand"
+   },
+   "homeCtaHelpText": {
+      "message": "Ondersteunde formaten: crx, zip of xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Het geselecteerde bestand wordt niet ondersteund."
+   },
+   "homeSubtitle": {
+      "message": "Emuleer firefox extensies in Chrome, Opera en andere Chromium gebaseerde browsers."
+   },
+   "homeTitle": {
+      "message": "Installeer Firefox Add-ons in Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Kan app-ID niet extraheren."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Downloaden van extensie is mislukt."
+   },
+   "installerErrorCancelButton": {
+      "message": "Annuleer de installatie"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Het uitpakken van bestanden is mislukt."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified is klaar met het installeren van uw extensie. Wacht tot de nieuwe extensie start."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Voltooi de installatie"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Compleet"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified is uw extensie aan het downloaden en aan het voorbereiden voor installatie. Wacht een ogenblik totdat de download is voltooid."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Extensie downloaden"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Downloaden"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Hoe dan ook installeren"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Toestemmingen toestaan"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Annuleer"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Extensie installeren"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Installatie"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified ondersteunt niet alle API's die nodig zijn voor deze add-on. Dit zal sommige add-on-functionaliteit verbreken."
+   },
+   "installerStepName": {
+      "message": "Stap"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Extensie starten"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Downloaden"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Uitpakken van bestanden"
+   },
+   "pageLoadingMessage": {
+      "message": "Pagina wordt geladen"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "heeft geen optiepagina."
+   },
+   "settingsPermissionsText": {
+      "message": "Rechten"
+   },
+   "settingsUninstallButton": {
+      "message": "Verwijderen"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Annuleer"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Bevestigen"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Weet je het zeker?"
+   }
+}

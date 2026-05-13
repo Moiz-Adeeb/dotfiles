@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Emulera firefox-tillägg i Chrome, Opera och andra Chromium-baserade webbläsare"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Ladda upp fil"
+   },
+   "homeCtaHelpText": {
+      "message": "Format som stöds: crx, zip eller xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Den valda filen stöds inte."
+   },
+   "homeSubtitle": {
+      "message": "Emulera firefox-tillägg i Chrome, Opera och andra Chromium-baserade webbläsare."
+   },
+   "homeTitle": {
+      "message": "Installera Firefox Tillägg i Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Det gick inte att extrahera app-ID."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Det gick inte att ladda ner tillägget."
+   },
+   "installerErrorCancelButton": {
+      "message": "Avbryt installationen"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Det gick inte att extrahera filer."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified har installerat ditt tillägg. Vänta tills det nya tillägget startar."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Avsluta installationen"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Komplett"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified hämtar och förbereder ditt tillägg för installation. Vänta några ögonblick tills nedladdningen är klar."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Hämtar tillägget"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Ladda ner"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Installera hur som helst"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Tillåt behörigheter"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Annullera"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Installerar tillägg"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Installation"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified stöder inte alla API: er som krävs för detta tillägg. Detta kommer att bryta lite tilläggsfunktionalitet."
+   },
+   "installerStepName": {
+      "message": "Steg"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Startar förlängning"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Laddar ner"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Extrahera filer"
+   },
+   "pageLoadingMessage": {
+      "message": "Laddar sida"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "har ingen alternativsida."
+   },
+   "settingsPermissionsText": {
+      "message": "Behörigheter"
+   },
+   "settingsUninstallButton": {
+      "message": "Avinstallera"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Annullera"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Bekräfta"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Är du säker?"
+   }
+}

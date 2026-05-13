@@ -1,0 +1,29 @@
+{
+   "appName": {
+      "message": "Chọn Màu HEX"
+   },
+   "copiedToClipboard": {
+      "message": "Copied to the clipboard."
+   },
+   "extShortName": {
+      "message": "HEXcolorPick"
+   },
+   "pickColor": {
+      "message": "Pick a color"
+   },
+   "recentColors": {
+      "message": "Recent colors"
+   },
+   "shortDesc": {
+      "message": "Sử dụng Chọn Màu HEX từ hình ảnh để nhanh chóng xác định và sử dụng cho dự án của bạn. Dễ dàng chọn màu hex từ bất kỳ hình ảnh nào."
+   },
+   "storeDesc": {
+      "message": "Giới thiệu chọn màu HEX, tiện ích mở rộng Google Chrome cuối cùng được thiết kế cho các nhà thiết kế, nhà phát triển và bất kỳ ai đam mê đồ họa. Công cụ mạnh mẽ này được tinh chỉnh để giúp bạn dễ dàng chọn màu HEX từ bất kỳ hình ảnh nào, giúp quy trình làm việc của bạn trở nên hiệu quả và chính xác hơn. Cho dù bạn đang làm việc trên thiết kế web, dự án đồ họa hoặc nghệ thuật số, chọn màu HEX của chúng tôi đảm bảo bạn có công cụ hoàn hảo ngay trong tầm tay.\n\nCác tính năng chính bao gồm:\n🌟 Trích xuất dễ dàng và chọn mã màu HEX từ hình ảnh\n🌟 Giao diện đơn giản và thân thiện với người dùng\n🌟 Xem trước và điều chỉnh thời gian thực\n🌟 Tích hợp mượt mà với các công cụ thiết kế khác\n\nTốc độ và hiệu suất là rất quan trọng đối với bất kỳ công cụ nào, và tiện ích của chúng tôi vượt trội trong lĩnh vực này. Nó nhẹ và được tối ưu hóa cho hiệu suất nhanh chóng, đảm bảo rằng nó không làm chậm trình duyệt của bạn hoặc làm giảm năng suất của bạn.\n\nDưới đây là một số tình huống mà nó có thể hữu ích đặc biệt:\n1. Thiết kế Web:\n    📐 Đảm bảo sự nhất quán trong các kế hoạch\n    🌐 Dễ dàng tìm màu từ hình ảnh\n    🖥️ Dịch chính xác sang mã HTML\n2. Thiết kế Đồ họa:\n    🎨 Hoàn hảo cho việc phối màu\n    🖼️ Trích xuất dữ liệu từ hình ảnh truyền cảm hứng\n    💡 Tạo bảng màu thống nhất\n3. Nghệ thuật Số:\n    🖌️ Chọn màu từ hình ảnh tham khảo\n    🎨 Điều chỉnh thời gian thực\n    🔍 Phóng to để chọn chính xác\n4. Phát triển:\n    💻 Chọn mã màu HEX nhanh chóng và chính xác\n    🔧 Tích hợp với các công cụ phát triển\n    ⚙️ Đảm bảo sự nhất quán về mặt hình ảnh\n\nĐối với những người làm việc với các định dạng khác nhau, chọn màu HEX cũng bao gồm một bộ chọn màu rgb. Điều này cho phép bạn chọn màu theo định dạng RGB, cung cấp linh hoạt và chính xác cho các nhu cầu thiết kế đa dạng.\n\nCâu hỏi thường gặp:\n- Hex là gì?\n   Một biểu diễn thập lục phân, được sử dụng trong thiết kế web với tiện ích mở rộng.\n- Tôi có thể sử dụng công cụ này ngoại tuyến không?\n   Có, kết nối internet không cần thiết để làm việc với bộ chọn màu của Google.\n\nVới chức năng tìm mã màu HEX và bộ chọn màu rgb, bạn có thể dễ dàng quản lý bất kỳ công việc nào.\n\nTrả lời màu này là gì trong:\n* Thập lục phân (Hex): #FFFFFF\n* RGB: rgb(255, 255, 255)\n* HSL: hsl(0, 0%, 100%)\n\nĐối với những người làm việc với các định dạng khác nhau, tiện ích mở rộng của chúng tôi cho phép bạn phát hiện đồ họa trong bất kỳ định dạng nào, cung cấp linh hoạt và chính xác cho các nhu cầu thiết kế đa dạng. Các chức năng này đảm bảo bạn có thể xử lý bất kỳ công việc nào một cách dễ dàng.\n\nMẹo sử dụng tốt nhất:\n💥 Sử dụng Hình ảnh Độ phân giải Cao: Đảm bảo phát hiện chính xác với bộ chọn màu từ hình ảnh.\n💥 Kiểm tra mã màu lần thứ hai: Xác minh mã trước khi áp dụng chúng.\n💥 Lưu Các Mục Thường Sử Dụng: Duy trì một bảng màu của các mục phổ biến với bộ nhận dạng màu.\n\nCông cụ kính lúp tích hợp là một tính năng mạnh mẽ cho phép bạn lấy mẫu bất kỳ đồ họa nào từ trình duyệt của bạn. Chỉ cần nhấp vào biểu tượng kính lúp, di chuột qua khu vực mong muốn và nhấp để chọn. Công cụ này hoàn hảo để thu thập dữ liệu từ hình ảnh, trang web hoặc bất kỳ nội dung kỹ thuật số nào.\n\nCách Sử Dụng Chọn Màu HEX:\n1️⃣ Cài Đặt Tiện Ích: Thêm vào trình duyệt Chrome của bạn.\n2️⃣ Kích Hoạt Công Cụ: Nhấp vào biểu tượng tiện ích.\n3️⃣ Mở Một Hình Ảnh: Di chuyển đến hình ảnh bạn muốn sử dụng.\n4️⃣ Di Chuột Qua Hình Ảnh: Di chuyển con trỏ chuột đến khu vực mong muốn.\n5️⃣ Nhấp để Chụp: Lưu mã cho việc sử dụng của bạn.\n\nLuôn Cập Nhật: Giữ cho tiện ích được cập nhật với các tính năng mới trên công cụ chọn màu google.\nKết Hợp với Phần Mềm Thiết Kế: Sử dụng cùng với các công cụ như Photoshop hoặc Illustrator để tăng cường tính năng.\n\nCác Tính Năng Nổi Bật\n⚡️ Chọn Màu HEX: Hoàn hảo cho thiết kế web. Chỉ cần lấy mã và cắm vào CSS của bạn.\nĐể đảm bảo bạn luôn có trải nghiệm tốt nhất, tiện ích nhận các cập nhật định kỳ. Các cập nhật này bao gồm các tính năng mới, cải thiện hiệu suất và sửa lỗi. Ngoài ra, đội ngũ hỗ trợ luôn sẵn sàng hỗ trợ bạn với bất kỳ vấn đề hoặc câu hỏi nào bạn có.\n\n⚡️ Chọn Màu Hình Ảnh: Hoạt động trên bất kỳ hình ảnh nào, dù đó là trực tuyến hoặc đã lưu trên máy tính của bạn.\nTính năng điều chỉnh thời gian thực cho phép bạn điều chỉnh bảng màu ngay lập tức. Cho dù bạn cần điều chỉnh sắc thái, bão hòa hoặc độ sáng, tiện ích cung cấp thanh trượt để bạn kiểm soát chính xác. Điều này đảm bảo bạn có thể điều chỉnh đồ họa đến hoàn hảo.\n\n⚡️ Chọn Màu Hình Ảnh: Lý tưởng để tìm cảm hứng từ hình ảnh và tác phẩm nghệ thuật.\nKhi bạn cần xác định một giá trị cụ thể, các tính năng chọn màu hexa sẽ giúp đỡ. Những tính năng này đảm bảo bạn luôn có thể xác định chính xác số liệu của bất kỳ đồ họa nào, giúp việc phù hợp và sao chép trở nên dễ dàng và chính xác.\n\n⚡️ Công Cụ Chọn Màu HEX: Cách nhanh chóng và dễ dàng để có được đồ họa bạn cần.\n\nVậy là bạn đã biết rồi. Chọn Màu HEX là công cụ bạn cần cho tất cả các thiết kế. Cho dù bạn đang lấy bảng màu từ hình ảnh cho thiết kế web, thiết kế đồ họa hoặc chỉ đơn giản là vui chơi, tiện ích này đã giúp bạn. Chúc bạn thiết kế vui vẻ!"
+   },
+   "title": {
+      "message": "Color picker"
+   },
+   "titleRateUs": {
+      "message": "Rate us:"
+   }
+}

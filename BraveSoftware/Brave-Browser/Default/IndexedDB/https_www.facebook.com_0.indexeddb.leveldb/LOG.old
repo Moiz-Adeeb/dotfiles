@@ -1,0 +1,7 @@
+2026/05/03-16:56:46.877 e97 Reusing MANIFEST /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/05/03-16:56:46.877 e97 Recovering log #3
+2026/05/03-16:56:46.897 e97 Reusing old log /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000003.log 
+2026/05/03-16:57:06.099 e97 Level-0 table #5: started
+2026/05/03-16:57:06.127 e97 Level-0 table #5: 184730 bytes OK
+2026/05/03-16:57:06.154 e97 Delete type=0 #3
+2026/05/03-16:57:06.155 e97 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Ulateomi firefox ndọtị na Chrome, Opera na ndị nchọgharị ndị ọzọ dabere na Chromium"
+    },
+    "homeTitle": {
+        "message": "Wụnye Firefox Addons Na Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Ulateomi firefox ndọtị na Chrome, Opera na ndị nchọgharị ndị ọzọ dabere na Chromium."
+    },
+    "homeCtaButton": {
+        "message": "Bulite faịlụ"
+    },
+    "homeCtaHelpText": {
+        "message": "Formatsdị akwadoro: crx, zip ma ọ bụ xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Achọpụtaghị faịlụ ahọrọ"
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Budata"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Echichi"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Mezue"
+    },
+    "installerStepName": {
+        "message": "Nzọụkwụ"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Nbudata ndọtị"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified na-ebudata ma na-akwadebe ndọtị gị maka nrụnye. Biko chere oge ole na ole ka nbudata ahụ mezue."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Na-ebudata"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Wepụ faịlụ"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Wụnye ndọtị"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Nye ikike"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified anaghị akwado API niile achọrọ maka addon a. Nke a ga-agbaji ụfọdụ ọrụ mgbakwunye."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Wụnye agbanyeghị"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Kagbuo"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Mechaa nwụnye"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified emechala itinye mgbakwunye gị. Biko chere ka mgbati ọhụrụ ahụ bido."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Malite ndọtị"
+    },
+    "installerErrorCancelButton": {
+        "message": "Kagbuo nwụnye"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Tobudata ndọtị agaghị."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Extract wepu faịlụ na agaghị."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "To wepu ID ID."
+    },
+    "pageLoadingMessage": {
+        "message": "Ibe peeji nke"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "enweghị peeji nhọrọ."
+    },
+    "settingsPermissionsText": {
+        "message": "Ikike"
+    },
+    "settingsUninstallButton": {
+        "message": "Iwepụ"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "O doro gị anya?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Kwenye"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Kagbuo"
+    }
+}

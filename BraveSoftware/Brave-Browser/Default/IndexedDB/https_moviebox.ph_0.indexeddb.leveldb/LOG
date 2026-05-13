@@ -1,0 +1,33 @@
+2026/05/12-01:32:58.363 3acf9 Reusing MANIFEST /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_moviebox.ph_0.indexeddb.leveldb/MANIFEST-000001
+2026/05/12-01:32:58.368 3acf9 Recovering log #65
+2026/05/12-01:32:58.369 3acf9 Reusing old log /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_moviebox.ph_0.indexeddb.leveldb/000065.log 
+2026/05/12-01:32:58.434 3acfb Compacting 1@1 + 1@2 files
+2026/05/12-01:32:58.453 3acfb Generated table #68@1: 799 keys, 56727 bytes
+2026/05/12-01:32:58.453 3acfb Compacted 1@1 + 1@2 files => 56727 bytes
+2026/05/12-01:32:58.481 3acfb compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/12-01:32:59.258 3ad0a Level-0 table #70: started
+2026/05/12-01:32:59.279 3ad0a Level-0 table #70: 30692 bytes OK
+2026/05/12-01:32:59.308 3ad0a Delete type=2 #64
+2026/05/12-01:32:59.308 3ad0a Delete type=0 #65
+2026/05/12-01:32:59.308 3ad0a Delete type=2 #66
+2026/05/12-01:32:59.309 3acf9 Manual compaction at level-0 from '\x00\x17\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/05/12-01:33:03.436 3acf9 Compacting 1@1 + 1@2 files
+2026/05/12-01:33:03.458 3acf9 Generated table #71@1: 837 keys, 59726 bytes
+2026/05/12-01:33:03.458 3acf9 Compacted 1@1 + 1@2 files => 59726 bytes
+2026/05/12-01:33:03.489 3acf9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/12-01:33:03.490 3acf9 Delete type=2 #68
+2026/05/12-01:33:03.490 3acf9 Delete type=2 #70
+2026/05/12-01:33:04.084 3ad0a Level-0 table #73: started
+2026/05/12-01:33:04.099 3ad0a Level-0 table #73: 34114 bytes OK
+2026/05/12-01:33:04.128 3ad0a Delete type=0 #69
+2026/05/12-01:33:04.130 3acf9 Manual compaction at level-0 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/05/12-01:33:07.470 3ad07 Compacting 1@1 + 1@2 files
+2026/05/12-01:33:07.505 3ad07 Generated table #74@1: 880 keys, 62965 bytes
+2026/05/12-01:33:07.506 3ad07 Compacted 1@1 + 1@2 files => 62965 bytes
+2026/05/12-01:33:07.546 3ad07 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/12-01:33:07.547 3ad07 Delete type=2 #71
+2026/05/12-01:33:07.548 3ad07 Delete type=2 #73
+2026/05/12-01:33:08.172 3acf9 Level-0 table #76: started
+2026/05/12-01:33:08.224 3acf9 Level-0 table #76: 14445 bytes OK
+2026/05/12-01:33:08.289 3acf9 Delete type=0 #72
+2026/05/12-01:33:08.289 3acf9 Manual compaction at level-0 from '\x00\x19\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Tsanzirani zowonjezera za firefox mu Chrome, Opera ndi asakatuli ena Chromium"
+    },
+    "homeTitle": {
+        "message": "Ikani Firefox Addons Mu Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Tsanzirani zowonjezera za firefox mu Chrome, Opera ndi asakatuli ena Chromium."
+    },
+    "homeCtaButton": {
+        "message": "Kwezani fayilo"
+    },
+    "homeCtaHelpText": {
+        "message": "Mafomu othandizidwa: crx, zip kapena xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Fayilo yomwe yasankhidwa siyothandizidwa."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Tsitsani"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Kuyika"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Malizitsani"
+    },
+    "installerStepName": {
+        "message": "Gawo"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Kutsitsa kuwonjezera"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified ikutsitsa ndikukonzekera pulogalamu yanu yowonjezera. Chonde dikirani pang'ono kuti kutsitsa kumalizike."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Kutsitsa"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Kutulutsa mafayilo"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Kuyika kuwonjezera"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Lolani Zilolezo"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified sigwirizana ndi ma API onse omwe amafunika ku addon iyi. Izi zithetsa magwiridwe antchito a addon."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Ikani Komabe"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Kuletsa"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Malizitsani kukhazikitsa"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified yatsiriza kukhazikitsa kuwonjezera kwanu. Chonde dikirani kuti pulogalamu yatsopanoyi iyambe."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Kuyambira kuwonjezera"
+    },
+    "installerErrorCancelButton": {
+        "message": "Letsani Kuyika"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Takanika kutsitsa zowonjezera."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Takanika kutulutsa mafayilo."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Takanika kuchotsa ID ya pulogalamu."
+    },
+    "pageLoadingMessage": {
+        "message": "Kutsegula tsamba"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "ilibe tsamba lazosankha."
+    },
+    "settingsPermissionsText": {
+        "message": "Zilolezo"
+    },
+    "settingsUninstallButton": {
+        "message": "Yochotsa"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Mukutsimikiza?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Tsimikizani"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Kuletsa"
+    }
+}

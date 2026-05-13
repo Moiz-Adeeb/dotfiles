@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "firefox پسوندها را در مرورگرهای مبتنی بر Chrome ، Opera و سایر Chromium الگوبرداری کنید"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "آپلود فایل"
+   },
+   "homeCtaHelpText": {
+      "message": "قالب های پشتیبانی شده: crx ، zip یا xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "پرونده انتخاب شده پشتیبانی نمی شود."
+   },
+   "homeSubtitle": {
+      "message": "firefox پسوندها را در مرورگرهای مبتنی بر Chrome ، Opera و سایر Chromium الگوبرداری کنید."
+   },
+   "homeTitle": {
+      "message": "نصب Firefox افزودنیها در Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "شناسه برنامه استخراج نشد."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "برنامه افزودنی بارگیری نشد."
+   },
+   "installerErrorCancelButton": {
+      "message": "لغو نصب"
+   },
+   "installerExtractErrorMessage": {
+      "message": "استخراج پرونده ها انجام نشد."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified نصب برنامه افزودنی شما به پایان رسیده است. لطفا منتظر بمانید تا برنامه افزودنی جدید شروع شود."
+   },
+   "installerStepCompleteTitle": {
+      "message": "نصب را تمام کنید"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "کامل"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified در حال بارگیری و آماده سازی برنامه افزودنی شما برای نصب است. لطفاً چند لحظه صبر کنید تا بارگیری کامل شود."
+   },
+   "installerStepDownloadTitle": {
+      "message": "در حال بارگیری برنامه افزودنی"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "دانلود"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "به هر حال نصب کنید"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "اجازه ها را مجاز کنید"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "لغو"
+   },
+   "installerStepInstallationTitle": {
+      "message": "در حال نصب برنامه افزودنی"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "نصب و راه اندازی"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified از تمام API های مورد نیاز برای این افزونه پشتیبانی نمی کند. این باعث از بین رفتن برخی از قابلیت های addon می شود."
+   },
+   "installerStepName": {
+      "message": "گام"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "شروع برنامه افزودنی"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "در حال بارگیری"
+   },
+   "installerStepProgressExtractText": {
+      "message": "استخراج فایل های"
+   },
+   "pageLoadingMessage": {
+      "message": "در حال بارگیری صفحه"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "صفحه گزینه ای ندارد."
+   },
+   "settingsPermissionsText": {
+      "message": "مجوزها"
+   },
+   "settingsUninstallButton": {
+      "message": "حذف نصب کنید"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "لغو"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "تایید"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "مطمئنی؟"
+   }
+}

@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Emulujte firefox rozšírenia v Chrome, Opera a ďalších Chromium založených prehliadačoch"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Nahrajte súbor"
+   },
+   "homeCtaHelpText": {
+      "message": "Podporované formáty: crx, zip alebo xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Vybratý súbor nie je podporovaný."
+   },
+   "homeSubtitle": {
+      "message": "Emulujte firefox rozšírenia v Chrome, Opera a ďalších Chromium založených prehliadačoch."
+   },
+   "homeTitle": {
+      "message": "Nainštalujte si Firefox doplnky v Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "ID aplikácie sa nepodarilo extrahovať."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Nepodarilo sa stiahnuť rozšírenie."
+   },
+   "installerErrorCancelButton": {
+      "message": "Zrušiť inštaláciu"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Nepodarilo sa extrahovať súbory."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified dokončil inštaláciu vášho rozšírenia. Počkajte, kým sa spustí nová prípona."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Dokončite inštaláciu"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Dokončené"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified sťahuje a pripravuje rozšírenie na inštaláciu. Počkajte chvíľu, kým sa dokončí sťahovanie."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Sťahuje sa rozšírenie"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Stiahnuť ▼"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Nainštalovať aj tak"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Povoliť povolenia"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Zrušiť"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Inštaluje sa rozšírenie"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Inštalácia"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified nepodporuje všetky API požadované pre tento doplnok. Týmto sa poruší niektorá funkčnosť doplnku."
+   },
+   "installerStepName": {
+      "message": "Krok"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Počiatočné rozšírenie"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Sťahovanie"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Extrahovanie súborov"
+   },
+   "pageLoadingMessage": {
+      "message": "Načítava sa stránka"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "nemá stránku s možnosťami."
+   },
+   "settingsPermissionsText": {
+      "message": "Povolenia"
+   },
+   "settingsUninstallButton": {
+      "message": "Odinštalovať"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Zrušiť"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Potvrdiť"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Si si istý?"
+   }
+}

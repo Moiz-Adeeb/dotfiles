@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Chrome, Opera, മറ്റ് Chromium അടിസ്ഥാനമാക്കിയുള്ള ബ്ര rowsers സറുകളിൽ firefox എക്സ്റ്റൻഷനുകൾ അനുകരിക്കുക."
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "ഫയൽ അപ്‌ലോഡുചെയ്യുക"
+   },
+   "homeCtaHelpText": {
+      "message": "പിന്തുണയ്‌ക്കുന്ന ഫോർമാറ്റുകൾ: crx, zip അല്ലെങ്കിൽ xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "തിരഞ്ഞെടുത്ത ഫയൽ പിന്തുണയ്ക്കുന്നില്ല."
+   },
+   "homeSubtitle": {
+      "message": "Chrome, Opera, മറ്റ് Chromium അടിസ്ഥാനമാക്കിയുള്ള ബ്ര rowsers സറുകളിൽ firefox എക്സ്റ്റൻഷനുകൾ അനുകരിക്കുക."
+   },
+   "homeTitle": {
+      "message": "Google- ൽ Firefox ആഡോണുകൾ ഇൻസ്റ്റാൾ ചെയ്യുക Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "അപ്ലിക്കേഷൻ ഐഡി എക്‌സ്‌ട്രാക്റ്റുചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "വിപുലീകരണം ഡൗൺലോഡുചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു."
+   },
+   "installerErrorCancelButton": {
+      "message": "ഇൻസ്റ്റാളേഷൻ റദ്ദാക്കുക"
+   },
+   "installerExtractErrorMessage": {
+      "message": "ഫയലുകൾ എക്‌സ്‌ട്രാക്റ്റുചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified നിങ്ങളുടെ വിപുലീകരണം ഇൻസ്റ്റാൾ ചെയ്തു. പുതിയ വിപുലീകരണം ആരംഭിക്കുന്നതിന് ദയവായി കാത്തിരിക്കുക."
+   },
+   "installerStepCompleteTitle": {
+      "message": "ഇൻസ്റ്റാളേഷൻ പൂർത്തിയാക്കുക"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "പൂർത്തിയായി"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified ഇൻസ്റ്റാളേഷനായി നിങ്ങളുടെ വിപുലീകരണം ഡ download ൺലോഡ് ചെയ്യുകയും തയ്യാറാക്കുകയും ചെയ്യുന്നു. ഡ download ൺ‌ലോഡ് പൂർത്തിയാകുന്നതിന് കുറച്ച് നിമിഷങ്ങൾ കാത്തിരിക്കുക."
+   },
+   "installerStepDownloadTitle": {
+      "message": "വിപുലീകരണം ഡൗൺലോഡുചെയ്യുന്നു"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "ഡൗൺലോഡ്"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "എന്തായാലും ഇൻസ്റ്റാൾ ചെയ്യുക"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "അനുമതികൾ അനുവദിക്കുക"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "റദ്ദാക്കുക"
+   },
+   "installerStepInstallationTitle": {
+      "message": "വിപുലീകരണം ഇൻസ്റ്റാൾ ചെയ്യുന്നു"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "ഇൻസ്റ്റാളേഷൻ"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified ഈ ആഡോണിന് ആവശ്യമായ എല്ലാ API കളെയും പിന്തുണയ്‌ക്കുന്നില്ല. ഇത് ചില ആഡോൺ പ്രവർത്തനങ്ങളെ തകർക്കും."
+   },
+   "installerStepName": {
+      "message": "ഘട്ടം"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "വിപുലീകരണം ആരംഭിക്കുന്നു"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "ഡൗൺലോഡുചെയ്യുന്നു"
+   },
+   "installerStepProgressExtractText": {
+      "message": "ഫയലുകൾ എക്‌സ്‌ട്രാക്റ്റുചെയ്യുന്നു"
+   },
+   "pageLoadingMessage": {
+      "message": "പേജ് ലോഡുചെയ്യുന്നു"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "ഒരു ഓപ്‌ഷനുകൾ‌ പേജില്ല."
+   },
+   "settingsPermissionsText": {
+      "message": "അനുമതികൾ"
+   },
+   "settingsUninstallButton": {
+      "message": "അൺ‌ഇൻ‌സ്റ്റാൾ‌ ചെയ്യുക"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "റദ്ദാക്കുക"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "സ്ഥിരീകരിക്കുക"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "നിങ്ങള്ക്ക് ഉറപ്പാണോ?"
+   }
+}

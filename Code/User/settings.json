@@ -1,0 +1,10 @@
+{
+    "workbench.startupEditor": "none",
+    "chat.mcp.gallery.enabled": true,
+    "editor.fontSize": 18,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "'Cascadia Mono NF Regular', monospace",
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Tailwind - Darkest"
+}

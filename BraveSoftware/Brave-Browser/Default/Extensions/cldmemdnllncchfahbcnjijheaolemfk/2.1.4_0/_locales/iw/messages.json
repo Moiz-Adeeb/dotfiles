@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "חיקו firefox תוספים בדפדפנים Chrome, Opera ועוד Chromium"
+    },
+    "homeTitle": {
+        "message": "התקן Firefox תוספות בגוגל Chrome"
+    },
+    "homeSubtitle": {
+        "message": "חיקו firefox תוספים בדפדפנים Chrome, Opera ועוד Chromium."
+    },
+    "homeCtaButton": {
+        "message": "העלה קובץ"
+    },
+    "homeCtaHelpText": {
+        "message": "פורמטים נתמכים: crx, zip או xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "אין תמיכה בקובץ שנבחר."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "הורד"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "הַתקָנָה"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "לְהַשְׁלִים"
+    },
+    "installerStepName": {
+        "message": "שלב"
+    },
+    "installerStepDownloadTitle": {
+        "message": "מוריד סיומת"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified מוריד ומכין את התוסף להתקנה שלך. אנא המתן מספר רגעים עד לסיום ההורדה."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "מוריד"
+    },
+    "installerStepProgressExtractText": {
+        "message": "חילוץ קבצים"
+    },
+    "installerStepInstallationTitle": {
+        "message": "מתקין סיומת"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "אפשר הרשאות"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified אינו תומך בכל ממשקי ה- API הנדרשים עבור תוסף זה. זה ישבור פונקציונליות של תוספות."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "התקן בכל מקרה"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "לְבַטֵל"
+    },
+    "installerStepCompleteTitle": {
+        "message": "סיים את ההתקנה"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified סיים להתקין את התוסף שלך. אנא המתן לתחילת התוסף החדש."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "סיומת מתחילה"
+    },
+    "installerErrorCancelButton": {
+        "message": "בטל את ההתקנה"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "ההורדה של התוסף נכשלה."
+    },
+    "installerExtractErrorMessage": {
+        "message": "חילוץ הקבצים נכשל."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "חילוץ מזהה האפליקציה נכשל."
+    },
+    "pageLoadingMessage": {
+        "message": "טוען עמוד"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "אין דף אפשרויות."
+    },
+    "settingsPermissionsText": {
+        "message": "אישורים"
+    },
+    "settingsUninstallButton": {
+        "message": "הסר התקנה"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "האם אתה בטוח?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "לְאַשֵׁר"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "לְבַטֵל"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Chrome, Opera болон бусад Chromium дээр суурилсан хөтөч дээрх firefox өргөтгөлүүдийг дууриах"
+    },
+    "homeTitle": {
+        "message": "Google-д Firefox нэмэлтийг суулгаарай Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Chrome, Opera болон бусад Chromium дээр суурилсан хөтөч дээрх firefox өргөтгөлүүдийг дууриах."
+    },
+    "homeCtaButton": {
+        "message": "Файл байршуулах"
+    },
+    "homeCtaHelpText": {
+        "message": "Дэмжигдсэн формат: crx, zip эсвэл xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Сонгосон файлыг дэмжихгүй."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Татаж авах"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Суулгалт"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Дууссан"
+    },
+    "installerStepName": {
+        "message": "Алхам"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Өргөтгөлийг татаж байна"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified өргөтгөлийг татаж суулгахад бэлдэж байна. Татаж дуусах хүртэл хэдэн хором хүлээнэ үү."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Татаж байна"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Файлуудыг задалж байна"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Өргөтгөлийг суулгаж байна"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Зөвшөөрлийг зөвшөөрөх"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified нь энэ нэмэлтэд шаардлагатай бүх API-г дэмждэггүй. Энэ нь зарим нэмэлт функцийг эвдэх болно."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Ямар ч байсан суулгаарай"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Цуцлах"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Суулгалтыг дуусгах"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified таны өргөтгөлийг суулгаж дууслаа. Шинэ өргөтгөл эхлэхийг хүлээнэ үү."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Өргөтгөлийг эхлүүлж байна"
+    },
+    "installerErrorCancelButton": {
+        "message": "Суулгалтыг цуцлах"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Өргөтгөлийг татаж авч чадсангүй."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Файлыг гаргаж чадсангүй."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Апп ID-г гаргаж чадсангүй."
+    },
+    "pageLoadingMessage": {
+        "message": "Хуудсыг ачаалж байна"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "тохируулгын хуудас байхгүй байна."
+    },
+    "settingsPermissionsText": {
+        "message": "Зөвшөөрөл"
+    },
+    "settingsUninstallButton": {
+        "message": "Устгах"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Чи итгэлтэй байна уу?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Баталгаажуулах"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Цуцлах"
+    }
+}

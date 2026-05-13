@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Emulatu firefox luzapenak Chrome, Opera eta Chromium oinarritutako beste arakatzaileetan"
+    },
+    "homeTitle": {
+        "message": "Instalatu Firefox gehigarriak Google-n Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Emulatu firefox luzapenak Chrome, Opera eta Chromium oinarritutako beste arakatzaileetan."
+    },
+    "homeCtaButton": {
+        "message": "Fitxategia igo"
+    },
+    "homeCtaHelpText": {
+        "message": "Onartutako formatuak: crx, zip edo xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Aukeratutako fitxategia ez da onartzen."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Deskargatu"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Instalazioa"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Osatua"
+    },
+    "installerStepName": {
+        "message": "Pausoa"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Luzapena deskargatzen"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified zure luzapena deskargatzen eta prestatzen ari da instalatzeko. Itxaron une batzuk deskarga amaitzeko."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Deskargatzen"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Fitxategiak ateratzen"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Luzapena instalatzen"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Baimenak baimendu"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified-k ez ditu gehigarri honetarako beharrezkoak diren API guztiak onartzen. Horrek gehigarri funtzionalitate batzuk apurtuko ditu."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Instalatu Dena den"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Utzi"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Instalazioa amaitu"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified-ek zure luzapena instalatzen amaitu du. Mesedez, itxaron luzapen berria hasi arte."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Luzapena abiarazten"
+    },
+    "installerErrorCancelButton": {
+        "message": "Utzi instalazioa"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Ezin izan da luzapena deskargatu."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Ezin izan dira fitxategiak atera."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Ezin izan da aplikazioaren IDa atera."
+    },
+    "pageLoadingMessage": {
+        "message": "Orria kargatzen"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "ez du aukeren orririk."
+    },
+    "settingsPermissionsText": {
+        "message": "Baimenak"
+    },
+    "settingsUninstallButton": {
+        "message": "Desinstalatu"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Ziur zaude?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Berretsi"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Utzi"
+    }
+}

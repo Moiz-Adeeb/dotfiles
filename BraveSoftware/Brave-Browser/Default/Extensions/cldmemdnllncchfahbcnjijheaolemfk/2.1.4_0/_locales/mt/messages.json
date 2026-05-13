@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Emula estensjonijiet firefox fi Chrome, Opera u browsers oħra bbażati fuq Chromium"
+    },
+    "homeTitle": {
+        "message": "Installa Firefox Addons Fil-Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Emula estensjonijiet firefox fi Chrome, Opera u browsers oħra bbażati fuq Chromium."
+    },
+    "homeCtaButton": {
+        "message": "Tella 'fajl"
+    },
+    "homeCtaHelpText": {
+        "message": "Formati appoġġjati: crx, zip jew xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Il-fajl magħżul mhux appoġġjat."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Niżżel"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Installazzjoni"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Tlesti"
+    },
+    "installerStepName": {
+        "message": "Pass"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Tniżżil tal-estensjoni"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified qed iniżżel u jħejji l-estensjoni tiegħek għall-installazzjoni. Jekk jogħġbok stenna ftit mumenti biex it-tniżżil jitlesta."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Tniżżil"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Estrazzjoni ta 'fajls"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Installazzjoni tal-estensjoni"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Ħalli l-Permessi"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified ma jappoġġjax l-APIs kollha meħtieġa għal dan l-addon. Dan se jkisser xi funzjonalità addon."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Installa Xorta waħda"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Ikkanċella"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Spiċċa l-installazzjoni"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified spiċċa l-installazzjoni tal-estensjoni tiegħek. Jekk jogħġbok stenna biex tibda l-estensjoni l-ġdida."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Estensjoni tal-bidu"
+    },
+    "installerErrorCancelButton": {
+        "message": "Ikkanċella l-Installazzjoni"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Naqset milli tniżżel l-estensjoni."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Ma rnexxilhiex toħroġ il-fajls."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Ma rnexxilux jiġbed l-ID tal-app."
+    },
+    "pageLoadingMessage": {
+        "message": "Tagħbija paġna"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "m'għandux paġna ta 'għażliet."
+    },
+    "settingsPermissionsText": {
+        "message": "Permessi"
+    },
+    "settingsUninstallButton": {
+        "message": "Uninstall"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Żgur?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Ikkonferma"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Ikkanċella"
+    }
+}

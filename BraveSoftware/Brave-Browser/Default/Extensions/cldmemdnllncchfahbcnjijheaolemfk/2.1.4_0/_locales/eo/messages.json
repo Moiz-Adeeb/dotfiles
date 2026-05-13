@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Kopiu firefox etendaĵojn en Chrome, Opera kaj aliaj Chromium bazitaj retumiloj"
+    },
+    "homeTitle": {
+        "message": "Instalu Firefox Aldonaĵojn En Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Kopiu firefox etendaĵojn en Chrome, Opera kaj aliaj Chromium bazitaj retumiloj."
+    },
+    "homeCtaButton": {
+        "message": "Alŝutu dosieron"
+    },
+    "homeCtaHelpText": {
+        "message": "Subtenitaj formatoj: crx, zip aŭ xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Elektita dosiero ne estas subtenata."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Elŝuti"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Instalado"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Kompleta"
+    },
+    "installerStepName": {
+        "message": "Paŝo"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Elŝuta etendo"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified elŝutas kaj preparas vian etendaĵon por instalado. Bonvolu atendi kelkajn momentojn, kiam la elŝuto finiĝos."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Elŝutado"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Eltirante dosierojn"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Instalante etendaĵon"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Permesi Permesojn"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified ne subtenas ĉiujn APIojn necesajn por ĉi tiu aldonaĵo. Ĉi tio rompos iom da aldona funkcio."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Instali Ĉiuokaze"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Nuligi"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Finu instaladon"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified finis instali vian etendaĵon. Bonvolu atendi la komencon de la nova etendaĵo."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Komenca etendo"
+    },
+    "installerErrorCancelButton": {
+        "message": "Nuligi Instaladon"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Malsukcesis elŝuti etendaĵon."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Malsukcesis eltiri dosierojn."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Malsukcesis eltiri programan identigilon."
+    },
+    "pageLoadingMessage": {
+        "message": "Ŝarĝante paĝon"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "ne havas paĝon pri ebloj."
+    },
+    "settingsPermissionsText": {
+        "message": "Permesoj"
+    },
+    "settingsUninstallButton": {
+        "message": "Malinstali"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Ĉu vi certas?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Konfirmu"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Nuligi"
+    }
+}

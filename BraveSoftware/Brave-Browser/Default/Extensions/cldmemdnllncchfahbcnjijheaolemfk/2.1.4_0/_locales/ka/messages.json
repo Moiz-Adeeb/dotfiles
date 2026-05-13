@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "მიბაძეთ firefox გაფართოებებს Chrome, Opera და სხვა Chromium დაფუძნებულ ბრაუზერებში"
+    },
+    "homeTitle": {
+        "message": "დააინსტალირეთ Firefox დანამატები Google- ში Chrome"
+    },
+    "homeSubtitle": {
+        "message": "მიბაძეთ firefox გაფართოებებს Chrome, Opera და სხვა Chromium დაფუძნებულ ბრაუზერებში."
+    },
+    "homeCtaButton": {
+        "message": "Ატვირთე ფაილი"
+    },
+    "homeCtaHelpText": {
+        "message": "მხარდაჭერილი ფორმატები: crx, zip ან xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "არჩეული ფაილი არ არის მხარდაჭერილი."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "გადმოწერა"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "ინსტალაცია"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "დასრულებულია"
+    },
+    "installerStepName": {
+        "message": "ნაბიჯი"
+    },
+    "installerStepDownloadTitle": {
+        "message": "მიმდინარეობს გაფართოების ჩამოტვირთვა"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified ჩამოტვირთავს და ამზადებს თქვენს გაფართოებას ინსტალაციისთვის. გთხოვთ, დაელოდოთ რამდენიმე წუთს ჩამოტვირთვის დასრულებას."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "ჩამოტვირთვისას"
+    },
+    "installerStepProgressExtractText": {
+        "message": "ფაილების მოპოვება"
+    },
+    "installerStepInstallationTitle": {
+        "message": "მიმდინარეობს გაფართოების ინსტალაცია"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "ნებართვების დაშვება"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified მხარს არ უჭერს ყველა API- ს, რომელიც საჭიროა ამ დანამატისთვის. ეს გატეხავს დანართის ზოგიერთ ფუნქციონირებას."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "დააინსტალირეთ მაინც"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "გაუქმება"
+    },
+    "installerStepCompleteTitle": {
+        "message": "დასრულება ინსტალაცია"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified დასრულდა თქვენი გაფართოების ინსტალაცია. გთხოვთ, დაელოდოთ ახალი გაფართოების დაწყებას."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "მიმდინარეობს გაფართოება"
+    },
+    "installerErrorCancelButton": {
+        "message": "ინსტალაციის გაუქმება"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "გაფართოების ჩამოტვირთვა ვერ მოხერხდა."
+    },
+    "installerExtractErrorMessage": {
+        "message": "ფაილების ამოღება ვერ მოხერხდა."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "აპის ID ვერ მოიპოვა."
+    },
+    "pageLoadingMessage": {
+        "message": "გვერდი იტვირთება"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "არ აქვს პარამეტრების გვერდი."
+    },
+    "settingsPermissionsText": {
+        "message": "ნებართვები"
+    },
+    "settingsUninstallButton": {
+        "message": "წაშალეთ"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Დარწმუნებული ხარ?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "დაადასტურო"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "გაუქმება"
+    }
+}

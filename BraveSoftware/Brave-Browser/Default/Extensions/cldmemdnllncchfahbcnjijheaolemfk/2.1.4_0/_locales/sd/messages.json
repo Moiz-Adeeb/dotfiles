@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Chrome ، Opera ۽ ٻين Chromium ۾ ملندڙ براؤزرز کي ايمٽيڪل ڪيو"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "اپ لوڊ ٿيل فائل آهي"
+   },
+   "homeCtaHelpText": {
+      "message": "معاون فارميٽ: crx ، zip يا xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "چونڊيل فائل سهڪار نه آهي."
+   },
+   "homeSubtitle": {
+      "message": "Chrome ، Opera ۽ ٻين Chromium ۾ ملندڙ براؤزرز کي ايمٽيڪل ڪيو."
+   },
+   "homeTitle": {
+      "message": "Install Firefox Addons In Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "ايپ آءِ ڊي ڪ toڻ ۾ ناڪام ٿيو."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "توسيع ڊائونلوڊ ڪرڻ ۾ ناڪام ٿيو."
+   },
+   "installerErrorCancelButton": {
+      "message": "انسٽاليشن رد ڪريو"
+   },
+   "installerExtractErrorMessage": {
+      "message": "فائل ڪ toڻ ۾ ناڪام."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified توهان جي توسيع کي انسٽال ڪرڻ ختم ڪري ڇڏيو آهي. مهرباني ڪري نئين واڌ جي شروعات لاءِ انتظار ڪريو"
+   },
+   "installerStepCompleteTitle": {
+      "message": "انسٽاليشن ختم ڪريو"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "مڪمل ٿيو"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified ڊائون لوڊ ڪري رهيو آهي ۽ انسٽاليشن لاءِ توهان جي ايڪسٽينشن تيار ڪري رهيو آهي. مهرباني ڪري ڊائون لوڊ ڪرڻ لاءِ ڪجهه لمحن جي انتظار ڪريو."
+   },
+   "installerStepDownloadTitle": {
+      "message": "ڊائون لوڊنگ ايڪسٽينشن"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "ڊائون لوڊ ڪريو"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "بحرحال انسٽال ڪريو"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "اجازت ڏيو"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "رد ڪرڻ"
+   },
+   "installerStepInstallationTitle": {
+      "message": "انسٽال ڪرڻ ايڪسٽينشن"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "انسٽاليشن"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified هن اضافي لاءِ گهربل سڀ API سپورٽ نٿو ڪري. اهو ڪجهه اضافو ڪارڪردگي کي ٽوڙيندو."
+   },
+   "installerStepName": {
+      "message": "قدم"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "شروع ٿيڻ واري واڌ"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "ڊائونلوڊ ٿئي پئي"
+   },
+   "installerStepProgressExtractText": {
+      "message": "فائلون ڪڻ"
+   },
+   "pageLoadingMessage": {
+      "message": "پيج لوڊ ڪندي"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "آپشن جا پيج نه آهن"
+   },
+   "settingsPermissionsText": {
+      "message": "اجازت نامو"
+   },
+   "settingsUninstallButton": {
+      "message": "ڪinstallڻ"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "رد ڪرڻ"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "پڪ ڪريو"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "ڇا توهان کي پڪ آهي؟"
+   }
+}

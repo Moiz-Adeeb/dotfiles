@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Emulate firefox extensions in Chrome, Opera and other Chromium based browsers"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Upload file"
+   },
+   "homeCtaHelpText": {
+      "message": "Supported formats: crx, zip or xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Selected file is not supported."
+   },
+   "homeSubtitle": {
+      "message": "Emulate Firefox extensions in Chrome, Opera and other Chromium based browsers."
+   },
+   "homeTitle": {
+      "message": "Install Firefox Addons In Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Failed to extract app ID."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Failed to download extension."
+   },
+   "installerErrorCancelButton": {
+      "message": "Cancel Installation"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Failed to extract files."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified has finished installing your extension. Please wait for the new extension to start."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Finish installation"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Complete"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified is downloading and preparing your extension for installation. Please wait a few moments for the download to complete."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Downloading extension"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Download"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Install Anyway"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Allow Permissions"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Cancel"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Installing extension"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Installation"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified does not support all the APIs required for this addon. This will break some addon functionality."
+   },
+   "installerStepName": {
+      "message": "Step"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Starting extension"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Downloading"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Extracting files"
+   },
+   "pageLoadingMessage": {
+      "message": "Loading page"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "does not have an options page."
+   },
+   "settingsPermissionsText": {
+      "message": "Permissions"
+   },
+   "settingsUninstallButton": {
+      "message": "Uninstall"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Cancel"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Confirm"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Are you sure?"
+   }
+}

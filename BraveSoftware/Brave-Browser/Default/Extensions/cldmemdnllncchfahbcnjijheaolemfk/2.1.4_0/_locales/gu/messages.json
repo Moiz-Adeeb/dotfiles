@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Chrome, Opera અને અન્ય Chromium આધારિત બ્રાઉઝર્સમાં firefox એક્સ્ટેંશન્સનું અનુકરણ કરો."
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "ફાઈલ અપલોડ કરો"
+   },
+   "homeCtaHelpText": {
+      "message": "સપોર્ટેડ ફોર્મેટ્સ: crx, zip અથવા xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "પસંદ કરેલી ફાઇલ સપોર્ટેડ નથી."
+   },
+   "homeSubtitle": {
+      "message": "Chrome, Opera અને અન્ય Chromium આધારિત બ્રાઉઝર્સમાં firefox એક્સ્ટેંશન્સનું અનુકરણ કરો."
+   },
+   "homeTitle": {
+      "message": "ગૂગલમાં Firefox એડન્સ ઇન્સ્ટોલ કરો Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "એપ્લિકેશન ID કાractવામાં નિષ્ફળ."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "એક્સ્ટેંશન ડાઉનલોડ કરવામાં નિષ્ફળ."
+   },
+   "installerErrorCancelButton": {
+      "message": "ઇન્સ્ટોલેશન રદ કરો"
+   },
+   "installerExtractErrorMessage": {
+      "message": "ફાઇલો કાractવામાં નિષ્ફળ."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified એ તમારું એક્સ્ટેંશન ઇન્સ્ટોલ કરવાનું સમાપ્ત કર્યું. કૃપા કરીને નવા એક્સ્ટેંશન શરૂ થવાની રાહ જુઓ."
+   },
+   "installerStepCompleteTitle": {
+      "message": "સ્થાપન સમાપ્ત કરો"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "પૂર્ણ"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified ઇન્સ્ટોલેશન માટે તમારા એક્સ્ટેંશનને ડાઉનલોડ અને તૈયાર કરી રહ્યું છે. ડાઉનલોડ પૂર્ણ થવા માટે કૃપા કરીને થોડીવાર રાહ જુઓ."
+   },
+   "installerStepDownloadTitle": {
+      "message": "એક્સ્ટેંશન ડાઉનલોડ કરી રહ્યું છે"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "ડાઉનલોડ કરો"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "કોઈપણ રીતે ઇન્સ્ટોલ કરો"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "પરવાનગીને મંજૂરી આપો"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "રદ કરો"
+   },
+   "installerStepInstallationTitle": {
+      "message": "એક્સ્ટેંશન ઇન્સ્ટોલ કરી રહ્યું છે"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "સ્થાપન"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified આ એડન માટે જરૂરી તમામ API ને સપોર્ટ કરતું નથી. આ કેટલીક સહાયક કાર્યક્ષમતા તોડી નાખશે."
+   },
+   "installerStepName": {
+      "message": "પગલું"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "એક્સ્ટેંશન શરૂ કરી રહ્યું છે"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "ડાઉનલોડ કરી રહ્યું છે"
+   },
+   "installerStepProgressExtractText": {
+      "message": "ફાઇલો કાractવી"
+   },
+   "pageLoadingMessage": {
+      "message": "પૃષ્ઠ લોડ કરી રહ્યું છે"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "વિકલ્પો પૃષ્ઠ નથી."
+   },
+   "settingsPermissionsText": {
+      "message": "પરવાનગી"
+   },
+   "settingsUninstallButton": {
+      "message": "અનઇન્સ્ટોલ કરો"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "રદ કરો"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "પુષ્ટિ કરો"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "શું તમને ખાતરી છે?"
+   }
+}

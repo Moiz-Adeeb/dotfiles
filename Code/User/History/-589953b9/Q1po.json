@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "GitHub Dark",
+    "editor.fontSize": 18,
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "'Cascadia Mono NF Regular', monospace",
+    "editor.wordWrap": "on",
+    "workbench.startupEditor": "none",
+    "chat.editor.fontSize": 18,
+    "chat.fontSize": 18,
+    "debug.console.fontSize": 18,
+    "scm.inputFontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "markdown.preview.fontSize": 18,
+    "tailwindCSS.rootFontSize": 18,
+    "workbench.iconTheme": "material-icon-theme"
+}

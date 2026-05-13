@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Émulez les extensions firefox dans Chrome, Opera et autres navigateurs basés sur Chromium"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Téléverser un fichier"
+   },
+   "homeCtaHelpText": {
+      "message": "Formats pris en charge: crx, zip ou xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Le fichier sélectionné n'est pas pris en charge."
+   },
+   "homeSubtitle": {
+      "message": "Émulez les extensions firefox dans Chrome, Opera et autres navigateurs basés sur Chromium."
+   },
+   "homeTitle": {
+      "message": "Installez Firefox Addons dans Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Échec de l'extraction de l'ID d'application."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Échec du téléchargement de l'extension."
+   },
+   "installerErrorCancelButton": {
+      "message": "Annuler l'installation"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Échec de l'extraction des fichiers."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified a terminé l'installation de votre extension. Veuillez attendre que la nouvelle extension démarre."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Terminer l'installation"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Achevée"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified télécharge et prépare votre extension pour l'installation. Veuillez patienter quelques instants pour que le téléchargement se termine."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Téléchargement de l'extension"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Télécharger"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Installer quand même"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Autoriser les autorisations"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Annuler"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Installation de l'extension"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Installation"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified ne prend pas en charge toutes les API requises pour cet addon. Cela cassera certaines fonctionnalités de l'addon."
+   },
+   "installerStepName": {
+      "message": "Étape"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Extension de départ"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Téléchargement"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Extraction des fichiers"
+   },
+   "pageLoadingMessage": {
+      "message": "Page de chargement"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "n'a pas de page d'options."
+   },
+   "settingsPermissionsText": {
+      "message": "Autorisations"
+   },
+   "settingsUninstallButton": {
+      "message": "Désinstaller"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Annuler"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Confirmer"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Êtes-vous sûr?"
+   }
+}

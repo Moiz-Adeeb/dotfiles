@@ -1,0 +1,29 @@
+{
+   "appName": {
+      "message": "HEX Color Picker"
+   },
+   "copiedToClipboard": {
+      "message": "Copied to the clipboard."
+   },
+   "extShortName": {
+      "message": "HEXcolorPick"
+   },
+   "pickColor": {
+      "message": "Pick a color"
+   },
+   "recentColors": {
+      "message": "Recent colors"
+   },
+   "shortDesc": {
+      "message": "Use Hex Color Picker from image to quickly identify and use colors for your projects. Easily pick hex color from any image."
+   },
+   "storeDesc": {
+      "message": "Introducing the hex color picker, the ultimate Google Chrome extension designed for designers, developers, and anyone passionate about graphics. This powerful tool is tailored to help you easily pick hex color from any image, making your workflow more efficient and precise. Whether you are working on web design, graphic projects, or digital art, our hex colors picker ensures you have the perfect tool at your fingertips.\n\nKey features include:\n🌟 Easy extraction and hex color code picker from images\n🌟 Simple and user-friendly interface\n🌟 Real-time preview and adjustment\n🌟 Seamless integration with other design tools\n\nSpeed and performance are crucial in any tool, and the our extension excels in this regard. It is lightweight and optimized for quick performance, ensuring that it does not slow down your browser or hinder your productivity.\n\nHere are a few scenarios where it can be particularly useful:\n1. Web Design:\n    📐 Ensures consistency in schemes\n    🌐 Easy color finder from image\n    🖥️ Accurate translation to HTML codes\n2. Graphic Design:\n    🎨 Perfect for matching\n    🖼️ Extract data from inspirational images\n    💡 Create cohesive palettes\n3. Digital Art:\n    🖌️ colorpicker from reference photos\n    🎨 Adjust in real-time\n    🔍 Zoom in for precise selection\n4. Development:\n    💻 Quick and accurate hex code color picker\n    🔧 Integration with development tools\n    ⚙️ Ensure visual consistency\n\nFor those working with different formats, the hex color picker also includes an rgb color picker. This enables you to picked color in RGB format, providing flexibility and precision for various design needs.\n\nFrequently Asked Questions:\n- What is a hex?\n   A hexadecimal representation, used in web design with the extension.\n- Can I use this tool offline?\n   Yes, internet connection is not required to work with the google color picker.\n\nWith hex code finder and r g b color picker functionalities guarantee you can effortlessly manage any task.\n\nAnswering what color is this in:\n* Hexadecimal (Hex): #FFFFFF\n* RGB: rgb(255, 255, 255)\n* HSL: hsl(0, 0%, 100%)\n\nFor those dealing with various formats, our extension enables you to detect graphics in any format, providing flexibility and precision for diverse design needs. These functionalities ensure you can handle any task with ease.\n\nTips for Best Use:\n💥 Use High-Resolution Images: Ensures accurate detection with the color selector from image.\n💥 Double-Check Codes: Verify codes before applying them.\n💥 Save Frequently Used Items: Maintain a palette of common items with the color identifier.\n\nThe built-in eyedropper tool is a powerful feature that lets you sample any graphics from your browser. Simply click on the eyedropper icon, hover over the desired area, and click to select. This tool is perfect for capturing data from images, websites, or any digital content.\n\nHow to Use the Hex Color Picker:\n1️⃣ Install the Extension: Add it to your Chrome browser.\n2️⃣ Activate the Tool: Click the extension icon.\n3️⃣ Open an Image: Navigate to the image you want to use.\n4️⃣ Hover Over the Image: Move your cursor to the desired area.\n5️⃣ Click to Capture: Save the code for your use.\n\nStay Updated: Keep the extension updated for new features on the color picker google.\nCombine with Design Software: Use alongside tools like Photoshop or Illustrator for enhanced functionality.\n\nFeatures That Rock\n⚡️ Color Hex Code Picker: Perfect for web design. Just grab the code and plug it into your CSS.\nTo ensure that you always have the best experience, extension receives regular updates. These updates include new features, performance improvements, and bug fixes. Additionally, the support team is always ready to assist you with any issues or questions you might have.\n\n⚡️ Image Color Picker: Works on any image, whether it’s online or saved on your computer.\nThe real-time adjustment feature allows you to tweak pallete on the fly. Whether you need to adjust the hue, saturation, or brightness, the extension provides sliders that give you precise control. This ensures that you can fine-tune graphics to perfection.\n\n⚡️ Color Image Picker: Ideal for finding inspiration from photos and artwork.\nWhen you need to identify a specific value, the hexadecimal color picker functionalities are there to assist. These features ensure that you can always determine the exact numbers of any graphics, making matching and replication straightforward and accurate.\n\n⚡️ Picker Color Hex Tool: Quick and easy way to get the graphics you need.\n\nSo, there you have it. The Hex Color Picker is your go-to tool for all things design. Whether you’re grabbing palette from images for web design, graphic design, or just for fun, this extension has got you covered. Happy designing!"
+   },
+   "title": {
+      "message": "Color picker"
+   },
+   "titleRateUs": {
+      "message": "Rate us:"
+   }
+}

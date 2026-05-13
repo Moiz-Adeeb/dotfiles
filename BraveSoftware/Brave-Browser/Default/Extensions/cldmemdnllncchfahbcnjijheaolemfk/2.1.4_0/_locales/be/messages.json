@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Эмуляцыя пашырэнняў firefox у Chrome, Opera і іншых Chromium браўзэрах"
+    },
+    "homeTitle": {
+        "message": "Усталюйце Firefox аддоны ў Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Эмуляцыя пашырэнняў firefox у Chrome, Opera і іншых Chromium браўзэрах."
+    },
+    "homeCtaButton": {
+        "message": "Загрузіць файл"
+    },
+    "homeCtaHelpText": {
+        "message": "Падтрымліваюцца фарматы: crx, zip або xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Абраны файл не падтрымліваецца."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Спампаваць"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Ўстаноўка"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Поўны"
+    },
+    "installerStepName": {
+        "message": "Крок"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Загрузка пашырэння"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified загружае і рыхтуе ваша пашырэнне да ўсталёўкі. Пачакайце некалькі хвілін, пакуль загрузка завершыцца."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Загрузка"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Выманне файлаў"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Усталёўка пашырэння"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Дазволіць дазволы"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified не падтрымлівае ўсе API, неабходныя для гэтага адона. Гэта парушыць некаторыя функцыянальныя магчымасці адона."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Усталюйце ў любым выпадку"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Адмяніць"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Скончыце мантаж"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified скончыў устаноўку вашага пашырэння. Пачакайце, пакуль пачнецца новае пашырэнне."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Пачатак пашырэння"
+    },
+    "installerErrorCancelButton": {
+        "message": "Адмена ўстаноўкі"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Не атрымалася загрузіць пашырэнне."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Не атрымалася атрымаць файлы."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Не атрымалася атрымаць ідэнтыфікатар праграмы."
+    },
+    "pageLoadingMessage": {
+        "message": "Загрузка старонкі"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "не мае старонкі опцый."
+    },
+    "settingsPermissionsText": {
+        "message": "Дазволы"
+    },
+    "settingsUninstallButton": {
+        "message": "Выдаліць"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Вы ўпэўнены?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Пацвердзіце"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Адмяніць"
+    }
+}

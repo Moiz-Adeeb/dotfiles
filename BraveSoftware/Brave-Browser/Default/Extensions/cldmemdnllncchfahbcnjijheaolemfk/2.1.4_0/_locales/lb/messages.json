@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Emuléiert firefox Extensiounen an Chrome, Opera an aner Chromium baséiert Browser"
+    },
+    "homeTitle": {
+        "message": "Installéiert Firefox Addons In Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Emuléiert firefox Extensiounen an Chrome, Opera an aner Chromium baséiert Browser."
+    },
+    "homeCtaButton": {
+        "message": "Eroplueden Datei"
+    },
+    "homeCtaHelpText": {
+        "message": "Ënnerstëtzte Formater: crx, zip oder xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Déi gewielte Datei gëtt net ënnerstëtzt."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Eroflueden"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Installatioun"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Komplett"
+    },
+    "installerStepName": {
+        "message": "Schrëtt"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Erweiderung eroflueden"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified eroflueden a preparéiert Är Extensioun fir d'Installatioun. Waart w.e.g. e puer Momenter bis den Download fäerdeg ass."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Eroflueden"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Dateien extrahéieren"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Erweiderung installéieren"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Permissiounen erlaben"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified ënnerstëtzt net all APIen déi fir dësen Addon erfuerderlech sinn. Dëst wäert e puer Addon Funktionalitéit briechen."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Installéiere souwisou"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Ofbriechen"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Installatioun fäerdeg"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified huet Är Erweiderung installéiert. Waart w.e.g. bis déi nei Extensioun ufänkt."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Start Extensioun"
+    },
+    "installerErrorCancelButton": {
+        "message": "Installatioun ofbriechen"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Konnt d'Extensioun net eroflueden."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Ausgefall op Dateie extrahéieren."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Ausgefall op App ID extrahéieren."
+    },
+    "pageLoadingMessage": {
+        "message": "Luede Säit"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "huet keng Optiounssäit."
+    },
+    "settingsPermissionsText": {
+        "message": "Permissiounen"
+    },
+    "settingsUninstallButton": {
+        "message": "Installéieren"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Bass du secher?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Confirméieren"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Ofbriechen"
+    }
+}

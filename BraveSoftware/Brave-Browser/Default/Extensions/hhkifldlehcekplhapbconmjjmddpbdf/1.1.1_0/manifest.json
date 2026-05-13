@@ -1,0 +1,30 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_shortDesc__",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "img/icon-128.png",
+      "16": "img/icon-16.png",
+      "48": "img/icon-48.png",
+      "64": "img/icon-64.png",
+      "96": "img/icon-96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr2WmDHL6ZLOUbk9P122aUt0kbjbJjNZgzv0HjttmLr+yI12bgNHQGcabMakb7DqRtwM4PafqsDcJCbIJ0zszSszfg/PzRX+QaIT9VS1F+5hWAx+iFyVN49nG4Nmqs7I+dV9P9P3Vn9PDZxiXD7BJFZ49dbtV5qexOWt/afqYoQ8aSXBYzejCvhs45F63R2wDyCp3YEzpFSUlaI+0OObxbE6HfyiAW7EFjQ0KZiz3zYxYnyHH+zVBVHIr1WDrCV+5VR0c8Aq96y1z7VuIo4D4hWO/MVA+IwlGCyEen9K0UQ8iYVoloQVPXJOqZhBZOqXvPNbQZF5I9112Cm76GAERFQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "89",
+   "name": "__MSG_appName__",
+   "permissions": [  ],
+   "short_name": "__MSG_extShortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.1",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "img/*" ]
+   } ]
+}

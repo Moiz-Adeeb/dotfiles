@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Chrome, Opera və digər Chromium əsaslı brauzerlərdə firefox uzantılarını təqlid edin"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Fayl yüklə"
+   },
+   "homeCtaHelpText": {
+      "message": "Dəstəklənən formatlar: crx, zip və ya xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Seçilmiş fayl dəstəklənmir."
+   },
+   "homeSubtitle": {
+      "message": "Chrome, Opera və digər Chromium əsaslı brauzerlərdə firefox uzantılarını təqlid edin."
+   },
+   "homeTitle": {
+      "message": "Firefox Google-da əlavə edənləri quraşdırın Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Tətbiq identifikatoru çıxarıla bilmədi."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Uzatma yüklənmədi."
+   },
+   "installerErrorCancelButton": {
+      "message": "Quraşdırmanı ləğv edin"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Fayllar çıxarıla bilmədi."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified uzantınızı qurmağı tamamladı. Xahiş edirəm yeni uzantının başlamasını gözləyin."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Quraşdırmanı bitirin"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Tamamlandı"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified uzantınızı yükləyir və quraşdırmağa hazırlayır. Xahiş edirəm endirmənin tamamlanması üçün bir neçə dəqiqə gözləyin."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Uzatma yüklənir"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Yükləyin"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Hər halda quraşdırın"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "İcazələrə icazə verin"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Ləğv et"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Uzatma quraşdırılır"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Quraşdırma"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified bu əlavə üçün tələb olunan bütün API-ləri dəstəkləmir. Bu, bəzi əlavə funksiyalarını pozacaq."
+   },
+   "installerStepName": {
+      "message": "Addım"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Uzatma başlayır"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Endirilir"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Faylların çıxarılması"
+   },
+   "pageLoadingMessage": {
+      "message": "Səhifə yüklənir"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "seçim səhifəsi yoxdur."
+   },
+   "settingsPermissionsText": {
+      "message": "İcazələr"
+   },
+   "settingsUninstallButton": {
+      "message": "Sil"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Ləğv et"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Təsdiqləyin"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Sən əminsən?"
+   }
+}

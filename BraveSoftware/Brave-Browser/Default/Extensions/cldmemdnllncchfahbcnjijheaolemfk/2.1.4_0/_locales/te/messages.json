@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Chrome, Opera మరియు ఇతర Chromium ఆధారిత బ్రౌజర్‌లలో firefox పొడిగింపులను అనుకరించండి"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "ఫైల్‌ను అప్‌లోడ్ చేయండి"
+   },
+   "homeCtaHelpText": {
+      "message": "మద్దతు ఉన్న ఆకృతులు: crx, zip లేదా xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "ఎంచుకున్న ఫైల్‌కు మద్దతు లేదు."
+   },
+   "homeSubtitle": {
+      "message": "Chrome, Opera మరియు ఇతర Chromium ఆధారిత బ్రౌజర్‌లలో firefox పొడిగింపులను అనుకరించండి."
+   },
+   "homeTitle": {
+      "message": "గూగుల్‌లో Firefox యాడ్ఆన్‌లను ఇన్‌స్టాల్ చేయండి Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "అనువర్తన ID ని తీయడంలో విఫలమైంది."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "పొడిగింపును డౌన్‌లోడ్ చేయడంలో విఫలమైంది."
+   },
+   "installerErrorCancelButton": {
+      "message": "ఇన్‌స్టాలేషన్‌ను రద్దు చేయండి"
+   },
+   "installerExtractErrorMessage": {
+      "message": "ఫైళ్ళను తీయడంలో విఫలమైంది."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified మీ పొడిగింపును ఇన్‌స్టాల్ చేయడం పూర్తయింది. దయచేసి క్రొత్త పొడిగింపు ప్రారంభమయ్యే వరకు వేచి ఉండండి."
+   },
+   "installerStepCompleteTitle": {
+      "message": "సంస్థాపన ముగించు"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "పూర్తయింది"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified మీ పొడిగింపును డౌన్‌లోడ్ చేసి, ఇన్‌స్టాలేషన్ కోసం సిద్ధం చేస్తోంది. డౌన్‌లోడ్ పూర్తి కావడానికి దయచేసి కొన్ని క్షణాలు వేచి ఉండండి."
+   },
+   "installerStepDownloadTitle": {
+      "message": "పొడిగింపును డౌన్‌లోడ్ చేస్తోంది"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "డౌన్‌లోడ్"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "ఏమైనా ఇన్‌స్టాల్ చేయండి"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "అనుమతులను అనుమతించండి"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "రద్దు చేయండి"
+   },
+   "installerStepInstallationTitle": {
+      "message": "పొడిగింపును ఇన్‌స్టాల్ చేస్తోంది"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "సంస్థాపన"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified ఈ యాడ్ఆన్ కోసం అవసరమైన అన్ని API లకు మద్దతు ఇవ్వదు. ఇది కొన్ని యాడ్ఆన్ కార్యాచరణను విచ్ఛిన్నం చేస్తుంది."
+   },
+   "installerStepName": {
+      "message": "దశ"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "పొడిగింపు ప్రారంభిస్తోంది"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "డౌన్‌లోడ్ చేస్తోంది"
+   },
+   "installerStepProgressExtractText": {
+      "message": "ఫైళ్ళను సంగ్రహిస్తోంది"
+   },
+   "pageLoadingMessage": {
+      "message": "పేజీని లోడ్ చేస్తోంది"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "ఎంపికల పేజీ లేదు."
+   },
+   "settingsPermissionsText": {
+      "message": "అనుమతులు"
+   },
+   "settingsUninstallButton": {
+      "message": "అన్‌ఇన్‌స్టాల్ చేయండి"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "రద్దు చేయండి"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "నిర్ధారించండి"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "మీరు చెప్పేది నిజమా?"
+   }
+}

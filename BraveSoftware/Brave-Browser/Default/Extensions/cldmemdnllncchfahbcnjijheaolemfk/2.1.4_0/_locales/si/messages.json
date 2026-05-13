@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Chrome, Opera සහ වෙනත් Chromium පදනම් කරගත් බ්‍රව්සර් වල firefox දිගු අනුකරණය කරන්න"
+    },
+    "homeTitle": {
+        "message": "ගූගල් හි Firefox ඇඩෝන ස්ථාපනය කරන්න Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Chrome, Opera සහ වෙනත් Chromium පදනම් කරගත් බ්‍රව්සර් වල firefox දිගු අනුකරණය කරන්න."
+    },
+    "homeCtaButton": {
+        "message": "ගොනුව උඩුගත කරන්න"
+    },
+    "homeCtaHelpText": {
+        "message": "සහාය දක්වන ආකෘති: crx, zip හෝ xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "තෝරාගත් ගොනුව සහාය නොදක්වයි."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "බාගත"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "ස්ථාපනය"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "සම්පූර්ණයි"
+    },
+    "installerStepName": {
+        "message": "පියවර"
+    },
+    "installerStepDownloadTitle": {
+        "message": "දිගුව බාගත කිරීම"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified යනු ස්ථාපනය සඳහා ඔබේ දිගුව බාගත කර සකස් කිරීමයි. බාගත කිරීම සම්පූර්ණ වීමට කරුණාකර මොහොතක් රැඳී සිටින්න."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "බාගත කිරීම"
+    },
+    "installerStepProgressExtractText": {
+        "message": "ලිපිගොනු උපුටා ගැනීම"
+    },
+    "installerStepInstallationTitle": {
+        "message": "දිගුව ස්ථාපනය කිරීම"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "අවසර වලට ඉඩ දෙන්න"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified මෙම ඇඩෝනය සඳහා අවශ්‍ය සියලුම API වලට සහය නොදක්වයි. මෙය සමහර ඇඩෝන ක්‍රියාකාරිත්වය බිඳ දමනු ඇත."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "කෙසේ හෝ ස්ථාපනය කරන්න"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "අවලංගු කරන්න"
+    },
+    "installerStepCompleteTitle": {
+        "message": "ස්ථාපනය අවසන් කරන්න"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified ඔබේ දිගුව ස්ථාපනය කිරීම අවසන් කර ඇත. කරුණාකර නව දිගුව ආරම්භ වන තෙක් රැඳී සිටින්න."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "දිගුව ආරම්භ කිරීම"
+    },
+    "installerErrorCancelButton": {
+        "message": "ස්ථාපනය අවලංගු කරන්න"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "දිගුව බාගත කිරීමට අපොහොසත් විය."
+    },
+    "installerExtractErrorMessage": {
+        "message": "ලිපිගොනු උපුටා ගැනීමට අසමත් විය."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "යෙදුම් හැඳුනුම්පත උකහා ගැනීමට අපොහොසත් විය."
+    },
+    "pageLoadingMessage": {
+        "message": "පිටුව පූරණය වෙමින් පවතී"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "විකල්ප පිටුවක් නොමැත."
+    },
+    "settingsPermissionsText": {
+        "message": "අවසර"
+    },
+    "settingsUninstallButton": {
+        "message": "අස්ථාපනය කරන්න"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "ඔබට විශ්වාසද?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "තහවුරු කරන්න"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "අවලංගු කරන්න"
+    }
+}

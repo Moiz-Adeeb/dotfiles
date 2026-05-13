@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Emulearje firefox tafoegings yn Chrome, Opera en oare Chromium basearre browsers"
+    },
+    "homeTitle": {
+        "message": "Ynstallearje Firefox tafoegings yn Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Emulearje firefox útwreidings yn Chrome, Opera en oare Chromium basearre browsers."
+    },
+    "homeCtaButton": {
+        "message": "Bestân oplade"
+    },
+    "homeCtaHelpText": {
+        "message": "Stipe formaten: crx, zip of xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Selektearre bestân wurdt net stipe."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Download"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Ynstallaasje"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Kompleet"
+    },
+    "installerStepName": {
+        "message": "Stap"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Extinsje wurdt ynladen"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified downloadt en bereidt jo tafoeging foar ynstallaasje foar. Wachtsje in pear mominten oant de download is foltôge."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Ynladen"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Bestannen útpakke"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Ynstallaasje ynstallearje"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Tastean tastimming"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified stipet net alle API's dy't nedich binne foar dizze addon. Dit sil wat addonfunksjonaliteit brekke."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Yn elk gefal ynstalleare"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Ofbrekke"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Finish ynstallaasje"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified hat jo tafoeging ynstalleare. Wachtsje asjebleaft oant de nije tafoeging begjint."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Utwreidings begjinne"
+    },
+    "installerErrorCancelButton": {
+        "message": "Ynstallaasje annulearje"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "De tafoeging koe net ynladen wurde."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Kon bestannen net útpakke."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "App-ID is net útpakke."
+    },
+    "pageLoadingMessage": {
+        "message": "Siden laden"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "hat gjin opsjespagina."
+    },
+    "settingsPermissionsText": {
+        "message": "Tastimming"
+    },
+    "settingsUninstallButton": {
+        "message": "Uninstallearje"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Bisto wis?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Befestigje"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Ofbrekke"
+    }
+}

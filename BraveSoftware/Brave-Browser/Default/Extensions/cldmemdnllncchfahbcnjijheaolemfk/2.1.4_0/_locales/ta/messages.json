@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Chrome, Opera மற்றும் பிற Chromium அடிப்படையிலான உலாவிகளில் firefox நீட்டிப்புகளைப் பின்பற்றுங்கள்"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "கோப்பை பதிவேற்றவும்"
+   },
+   "homeCtaHelpText": {
+      "message": "ஆதரிக்கப்படும் வடிவங்கள்: crx, zip அல்லது xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "தேர்ந்தெடுக்கப்பட்ட கோப்பு ஆதரிக்கப்படவில்லை."
+   },
+   "homeSubtitle": {
+      "message": "Chrome, Opera மற்றும் பிற Chromium அடிப்படையிலான உலாவிகளில் firefox நீட்டிப்புகளைப் பின்பற்றுங்கள்."
+   },
+   "homeTitle": {
+      "message": "கூகிளில் Firefox துணை நிரல்களை நிறுவவும் Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "பயன்பாட்டு ஐடியைப் பிரித்தெடுப்பதில் தோல்வி."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "நீட்டிப்பைப் பதிவிறக்குவதில் தோல்வி."
+   },
+   "installerErrorCancelButton": {
+      "message": "நிறுவலை ரத்துசெய்"
+   },
+   "installerExtractErrorMessage": {
+      "message": "கோப்புகளைப் பிரித்தெடுப்பதில் தோல்வி."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified உங்கள் நீட்டிப்பை நிறுவ முடிந்தது. புதிய நீட்டிப்பு தொடங்க காத்திருக்கவும்."
+   },
+   "installerStepCompleteTitle": {
+      "message": "நிறுவலை முடிக்கவும்"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "முழுமை"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified உங்கள் நீட்டிப்பை பதிவிறக்கம் செய்து நிறுவலுக்குத் தயார் செய்கிறது. பதிவிறக்கம் முடிவதற்கு சில கணங்கள் காத்திருக்கவும்."
+   },
+   "installerStepDownloadTitle": {
+      "message": "நீட்டிப்பைப் பதிவிறக்குகிறது"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "பதிவிறக்க Tamil"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "எப்படியும் நிறுவவும்"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "அனுமதிகளை அனுமதிக்கவும்"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "ரத்துசெய்"
+   },
+   "installerStepInstallationTitle": {
+      "message": "நீட்டிப்பை நிறுவுகிறது"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "நிறுவல்"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified இந்த துணைக்கு தேவையான அனைத்து API களையும் ஆதரிக்காது. இது சில addon செயல்பாட்டை உடைக்கும்."
+   },
+   "installerStepName": {
+      "message": "படி"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "நீட்டிப்பைத் தொடங்குகிறது"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "பதிவிறக்குகிறது"
+   },
+   "installerStepProgressExtractText": {
+      "message": "கோப்புகளை பிரித்தெடுக்கிறது"
+   },
+   "pageLoadingMessage": {
+      "message": "பக்கத்தை ஏற்றுகிறது"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "விருப்பங்கள் பக்கம் இல்லை."
+   },
+   "settingsPermissionsText": {
+      "message": "அனுமதிகள்"
+   },
+   "settingsUninstallButton": {
+      "message": "நிறுவல் நீக்கு"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "ரத்துசெய்"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "உறுதிப்படுத்தவும்"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "நீ சொல்வது உறுதியா?"
+   }
+}

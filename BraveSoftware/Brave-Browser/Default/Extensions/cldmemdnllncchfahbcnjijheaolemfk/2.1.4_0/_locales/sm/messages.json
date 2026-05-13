@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Faʻataʻitaʻi firefox faʻaopoopoga i Chrome, Opera ma isi Chromium faʻavae suʻesuʻe"
+    },
+    "homeTitle": {
+        "message": "Faʻapipiʻi Firefox Addons I Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Faʻataʻitaʻi firefox faʻaopoopoga i Chrome, Opera ma isi Chromium faʻavae suʻesuʻe."
+    },
+    "homeCtaButton": {
+        "message": "Tuʻu i luga le faila"
+    },
+    "homeCtaHelpText": {
+        "message": "Lagolago lagolago: crx, zip pe xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Filifiliga filifilia e le lagolagoina"
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Lalotoso"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Faapipiiina"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Maea"
+    },
+    "installerStepName": {
+        "message": "Sitepu"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Lolomiina o le faʻaopoopoga"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified o loʻo downloadina ma sauni lau faʻaopoopoga mo le faʻapipiʻiina. Faʻatali mo ni nai taimi mo le download e maeʻa."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Lalotoso"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Aveese mai faila"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Faʻapipiʻi faʻaopoopoga"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Faʻatagaina Faʻatagaina"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified e le lagolagoina API uma e manaʻomia mo lenei addon. Lenei o le a gagau ai nisi addon aoga."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Faʻapipiʻi Tusa lava"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Faalēaogāina"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Faʻauma le faʻapipiʻiina"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified ua maeʻa ona faʻapipiʻi lau faʻaopoopoga. Faʻatali mo le faʻaopoopo fou e amata."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Amataina le faʻaopoopoga"
+    },
+    "installerErrorCancelButton": {
+        "message": "Faalēaogāina le faʻapipiʻiina"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Ua le manuia le laiga e laʻu i lalo le faʻaopoopoga."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Ua le mafai ona aveʻese mai faila."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Ua le mafai ona aveʻese mai le ID polokalama."
+    },
+    "pageLoadingMessage": {
+        "message": "Utaina itulau"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "e leai se itulau filifiliga."
+    },
+    "settingsPermissionsText": {
+        "message": "Faʻatagaina"
+    },
+    "settingsUninstallButton": {
+        "message": "Aveese"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "E moʻi lava oe?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Faʻamaonia"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Faalēaogāina"
+    }
+}

@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Chrome, Opera 및 기타 Chromium 기반 브라우저에서 firefox 확장명 에뮬레이션"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "파일 업로드"
+   },
+   "homeCtaHelpText": {
+      "message": "지원되는 형식 : crx, zip 또는 xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "선택한 파일은 지원되지 않습니다."
+   },
+   "homeSubtitle": {
+      "message": "Chrome, Opera 및 기타 Chromium 기반 브라우저에서 firefox 확장을 에뮬레이션합니다."
+   },
+   "homeTitle": {
+      "message": "Firefox 애드온을 Google에 설치 Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "앱 ID를 추출하지 못했습니다."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "확장 프로그램을 다운로드하지 못했습니다."
+   },
+   "installerErrorCancelButton": {
+      "message": "설치 취소"
+   },
+   "installerExtractErrorMessage": {
+      "message": "파일을 추출하지 못했습니다."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified 확장 프로그램 설치가 완료되었습니다. 새 확장이 시작될 때까지 기다리십시오."
+   },
+   "installerStepCompleteTitle": {
+      "message": "설치 완료"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "완전한"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified는 설치를 위해 확장 프로그램을 다운로드하고 준비 중입니다. 다운로드가 완료 될 때까지 잠시 기다리십시오."
+   },
+   "installerStepDownloadTitle": {
+      "message": "확장 프로그램 다운로드"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "다운로드"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "어쨌든 설치"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "권한 허용"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "취소"
+   },
+   "installerStepInstallationTitle": {
+      "message": "확장 설치"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "설치"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified는이 애드온에 필요한 모든 API를 지원하지 않습니다. 이로 인해 일부 애드온 기능이 중단됩니다."
+   },
+   "installerStepName": {
+      "message": "단계"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "확장 시작"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "다운로드 중"
+   },
+   "installerStepProgressExtractText": {
+      "message": "파일들을 추출하는 중"
+   },
+   "pageLoadingMessage": {
+      "message": "로딩 페이지"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "옵션 페이지가 없습니다."
+   },
+   "settingsPermissionsText": {
+      "message": "권한"
+   },
+   "settingsUninstallButton": {
+      "message": "제거"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "취소"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "확인"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "확실합니까?"
+   }
+}

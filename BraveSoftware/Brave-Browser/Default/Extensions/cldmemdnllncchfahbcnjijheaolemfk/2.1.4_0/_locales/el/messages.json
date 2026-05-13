@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Εξομοίωση επεκτάσεων firefox σε προγράμματα περιήγησης Chrome, Opera και άλλων προγραμμάτων περιήγησης Chromium"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Ανέβασμα αρχείου"
+   },
+   "homeCtaHelpText": {
+      "message": "Υποστηριζόμενες μορφές: crx, zip ή xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Το επιλεγμένο αρχείο δεν υποστηρίζεται."
+   },
+   "homeSubtitle": {
+      "message": "Εξομοίωση επεκτάσεων firefox σε προγράμματα περιήγησης Chrome, Opera και άλλων προγραμμάτων περιήγησης Chromium."
+   },
+   "homeTitle": {
+      "message": "Εγκατάσταση Firefox Πρόσθετα στο Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Αποτυχία εξαγωγής αναγνωριστικού εφαρμογής."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Αποτυχία λήψης επέκτασης."
+   },
+   "installerErrorCancelButton": {
+      "message": "Ακύρωση εγκατάστασης"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Αποτυχία εξαγωγής αρχείων"
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified έχει ολοκληρωθεί η εγκατάσταση της επέκτασής σας. Περιμένετε να ξεκινήσει η νέα επέκταση."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Ολοκληρώστε την εγκατάσταση"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Πλήρης"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified κάνει λήψη και προετοιμάζει την επέκτασή σας για εγκατάσταση. Περιμένετε λίγα λεπτά για να ολοκληρωθεί η λήψη."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Λήψη επέκτασης"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Κατεβάστε"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Εγκατάσταση πάντως"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Να επιτρέπονται δικαιώματα"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Ματαίωση"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Εγκατάσταση επέκτασης"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Εγκατάσταση"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified δεν υποστηρίζει όλα τα API που απαιτούνται για αυτό το πρόσθετο. Αυτό θα σπάσει κάποια λειτουργικότητα του πρόσθετου."
+   },
+   "installerStepName": {
+      "message": "Βήμα"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Έναρξη επέκτασης"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Λήψη"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Εξαγωγή αρχείων"
+   },
+   "pageLoadingMessage": {
+      "message": "Φόρτωση σελίδας"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "δεν έχει σελίδα επιλογών."
+   },
+   "settingsPermissionsText": {
+      "message": "Άδειες"
+   },
+   "settingsUninstallButton": {
+      "message": "Κατάργηση εγκατάστασης"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Ματαίωση"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Επιβεβαιώνω"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Είσαι σίγουρος?"
+   }
+}

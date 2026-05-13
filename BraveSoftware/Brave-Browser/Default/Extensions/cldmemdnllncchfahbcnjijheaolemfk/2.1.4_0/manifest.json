@@ -1,0 +1,49 @@
+{
+   "action": {
+      "default_icon": "assets/img/icon-38px.png",
+      "default_popup": "ff-popup.html"
+   },
+   "author": "Foxified",
+   "background": {
+      "service_worker": "assets/js/ff-background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "assets/js/ff-store.js" ],
+      "matches": [ "https://addons.mozilla.org/*/firefox/addon/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "externally_connectable": {
+      "matches": [ "https://foxified.org/*" ]
+   },
+   "homepage_url": "https://foxified.org",
+   "host_permissions": [ "https://addons.cdn.mozilla.net/user-media/addons/*" ],
+   "icons": {
+      "128": "assets/img/icon-128px.png",
+      "16": "assets/img/icon-16px.png",
+      "19": "assets/img/icon-19px.png",
+      "38": "assets/img/icon-38px.png",
+      "48": "assets/img/icon-48px.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi7d6m9agFY6+stzXm38v5EONmW+L53JrG48//j9WhPmlJwYb5EGP1fA/Het/I3jyKcM+/r1smM567xSA0X8LjFZErya94F5EX/zG/+4sLXnSkfzHeD/zbitL+V3270P1LoEdcv34y1HGHvZfszEFo864hTe467IomYEOGgl/JIj9WfcxjYgCCKkKyAAcaZZURwSdvlXNb5W/7aYxRk5eXPsglkCPeEeIMwcSFFDqNmQDyBiuLUK85r1DJJuE+5F6kX8Sb17jgJIoU+zhvv11AXwEkMELvNYof3FA7LPn4nuHoPwMN8d1HUOBCz55SsERLHy/i8z9hjfWyHBhSud4uQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "120",
+   "name": "__MSG_extName__",
+   "optional_host_permissions": [ "http://*/*", "https://*/*" ],
+   "optional_permissions": [ "tabs", "downloads" ],
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "ff-options.html"
+   },
+   "permissions": [ "alarms", "storage", "unlimitedStorage", "offscreen", "scripting", "sidePanel", "declarativeNetRequestWithHostAccess" ],
+   "sandbox": {
+      "pages": [ "ff-sandbox.html" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.4",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "ff-options.html", "ff-sandbox.html" ]
+   } ]
+}

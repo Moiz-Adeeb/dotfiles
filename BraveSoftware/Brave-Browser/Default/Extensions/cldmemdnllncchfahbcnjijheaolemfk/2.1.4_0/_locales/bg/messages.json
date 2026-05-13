@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Емулирайте firefox разширения в Chrome, Opera и други Chromium базирани браузъри"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Качи файл"
+   },
+   "homeCtaHelpText": {
+      "message": "Поддържани формати: crx, zip или xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Избраният файл не се поддържа."
+   },
+   "homeSubtitle": {
+      "message": "Емулирайте firefox разширения в Chrome, Opera и други Chromium базирани браузъри."
+   },
+   "homeTitle": {
+      "message": "Инсталирайте Firefox добавки в Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Извличането на идентификатор на приложението не бе успешно."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Изтеглянето на разширението не бе успешно."
+   },
+   "installerErrorCancelButton": {
+      "message": "Отмяна на инсталацията"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Извличането на файлове не бе успешно."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified завърши инсталирането на вашето разширение. Моля, изчакайте новото разширение да започне."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Завършете инсталацията"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Пълна"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified изтегля и подготвя вашето разширение за инсталиране. Моля, изчакайте няколко минути, докато изтеглянето завърши."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Изтегляне на разширение"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Изтегли"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Инсталирайте все пак"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Разрешаване на разрешения"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Отказ"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Инсталиране на разширение"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Инсталация"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified не поддържа всички API, необходими за тази добавка. Това ще наруши някои функционалности на добавки."
+   },
+   "installerStepName": {
+      "message": "Стъпка"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Стартиране на разширението"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Изтегляне"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Извличане на файлове"
+   },
+   "pageLoadingMessage": {
+      "message": "Зареждане на страница"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "няма страница с опции."
+   },
+   "settingsPermissionsText": {
+      "message": "Разрешения"
+   },
+   "settingsUninstallButton": {
+      "message": "Деинсталирайте"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Отказ"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Потвърдете"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Сигурен ли си?"
+   }
+}

@@ -1,0 +1,73 @@
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+decorations = "None"
+opacity = 0.95
+dynamic_title = true
+startup_mode = "Windowed"
+dynamic_padding = true
+
+[window.padding]
+x = 10
+y = 10
+
+[selection]
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[terminal.shell]
+program = "/usr/bin/fish" 
+args = ["--login"]
+
+[scrolling]
+history = 10_000
+multiplier = 5
+
+[font]
+size = 12
+
+[font.normal]
+family = "FiraCode Nerd Font"  
+style = "Regular"
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[mouse]
+hide_when_typing = true
+
+[cursor]
+style = "Block"
+blink_interval = 500
+blink_timeout = 5
+
+
+[[keyboard.bindings]]
+key = "Plus"
+mods = "Control"
+action = "IncreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Minus"
+mods = "Control"
+action = "DecreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Key0"
+mods = "Control"
+action = "ResetFontSize"
+
+[general]
+import = [
+  "/home/moiz/.config/alacritty/themes/themes/custom.toml"
+]
+
+
+# [[hints.enabled]]
+# command = "xdg-open" 
+# hyperlinks = true
+# post_processing = true
+# mouse.enabled = true
+# binding = { key = "U", mods = "Control|Shift" }
+# regex = "(ipfs:|ipns:|magnets:|mailto:|gemini:|gopher:|https:|http:|news:|file:|git:|ssh:|ftp:)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"

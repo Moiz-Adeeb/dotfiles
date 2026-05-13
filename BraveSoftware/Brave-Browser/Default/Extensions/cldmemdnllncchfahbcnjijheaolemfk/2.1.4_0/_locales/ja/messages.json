@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Chrome、Operaおよびその他のChromiumベースのブラウザーでfirefox拡張機能をエミュレートします"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "ファイルをアップロードする"
+   },
+   "homeCtaHelpText": {
+      "message": "サポートされるフォーマット：crx、zipまたはxpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "選択したファイルはサポートされていません。"
+   },
+   "homeSubtitle": {
+      "message": "Chrome、Operaおよびその他のChromiumベースのブラウザーでfirefox拡張機能をエミュレートします。"
+   },
+   "homeTitle": {
+      "message": "GoogleにFirefoxアドオンをインストールChrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "アプリIDを抽出できませんでした。"
+   },
+   "installerDownloadErrorMessage": {
+      "message": "拡張機能のダウンロードに失敗しました。"
+   },
+   "installerErrorCancelButton": {
+      "message": "インストールをキャンセル"
+   },
+   "installerExtractErrorMessage": {
+      "message": "ファイルの抽出に失敗しました。"
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxifiedは拡張機能のインストールを完了しました。新しい拡張機能が開始するまでお待ちください。"
+   },
+   "installerStepCompleteTitle": {
+      "message": "インストールを完了する"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "コンプリート"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxifiedは、拡張機能をダウンロードしてインストールする準備をしています。ダウンロードが完了するまでしばらくお待ちください。"
+   },
+   "installerStepDownloadTitle": {
+      "message": "拡張機能をダウンロードしています"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "ダウンロード"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "とにかくインストールする"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "許可を許可"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "キャンセル"
+   },
+   "installerStepInstallationTitle": {
+      "message": "拡張機能のインストール"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "取り付け"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxifiedは、このアドオンに必要なすべてのAPIをサポートしているわけではありません。これはいくつかのアドオン機能を壊します。"
+   },
+   "installerStepName": {
+      "message": "ステップ"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "開始拡張"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "ダウンロード中"
+   },
+   "installerStepProgressExtractText": {
+      "message": "ファイルの抽出"
+   },
+   "pageLoadingMessage": {
+      "message": "ページを読み込んでいます"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "オプションページはありません。"
+   },
+   "settingsPermissionsText": {
+      "message": "許可"
+   },
+   "settingsUninstallButton": {
+      "message": "アンインストール"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "キャンセル"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "確認"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "本気ですか？"
+   }
+}

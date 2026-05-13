@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Емулирајте firefox екстензије у Chrome, Opera и осталим Chromium базираним прегледачима"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Отпреми датотеку"
+   },
+   "homeCtaHelpText": {
+      "message": "Подржани формати: crx, zip или xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Изабрана датотека није подржана."
+   },
+   "homeSubtitle": {
+      "message": "Емулирајте firefox екстензије у Chrome, Opera и осталим Chromium базираним прегледачима."
+   },
+   "homeTitle": {
+      "message": "Инсталирајте Firefox додатке у Гоогле Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Издвајање ИД-а апликације није успело."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Преузимање екстензије није успело."
+   },
+   "installerErrorCancelButton": {
+      "message": "Откажи инсталацију"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Издвајање датотека није успело."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified је завршио инсталирање вашег додатка. Сачекајте да започне ново проширење."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Завршите инсталацију"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "комплетан"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified преузима и припрема ваш додатак за инсталацију. Сачекајте неколико тренутака да се преузимање заврши."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Преузимање додатка"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Преузимање"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Инсталирајте свеједно"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Дозволи дозволе"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Поништити, отказати"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Инсталирање продужетка"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Инсталација"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified не подржава све АПИ-је потребне за овај додатак. Ово ће покварити неке функционалности додатака."
+   },
+   "installerStepName": {
+      "message": "Корак"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Почетно продужење"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Преузимање"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Вађење датотека"
+   },
+   "pageLoadingMessage": {
+      "message": "Учитавање странице"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "нема страницу са опцијама."
+   },
+   "settingsPermissionsText": {
+      "message": "Дозволе"
+   },
+   "settingsUninstallButton": {
+      "message": "Деинсталирај"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Поништити, отказати"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Потврди"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Јеси ли сигуран?"
+   }
+}

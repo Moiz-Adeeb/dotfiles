@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "เลียนแบบ firefox ส่วนขยายใน Chrome, Opera และเบราว์เซอร์อื่น ๆ Chromium"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "อัปโหลดไฟล์"
+   },
+   "homeCtaHelpText": {
+      "message": "รูปแบบที่รองรับ: crx, zip หรือ xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "ไม่รองรับไฟล์ที่เลือก"
+   },
+   "homeSubtitle": {
+      "message": "เลียนแบบ firefox ส่วนขยายใน Chrome, Opera และเบราว์เซอร์อื่น ๆ Chromium"
+   },
+   "homeTitle": {
+      "message": "ติดตั้ง Firefox Addons ใน Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "แยกรหัสแอปไม่สำเร็จ"
+   },
+   "installerDownloadErrorMessage": {
+      "message": "ดาวน์โหลดส่วนขยายไม่สำเร็จ"
+   },
+   "installerErrorCancelButton": {
+      "message": "ยกเลิกการติดตั้ง"
+   },
+   "installerExtractErrorMessage": {
+      "message": "แตกไฟล์ไม่สำเร็จ"
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified ติดตั้งส่วนขยายของคุณเสร็จแล้ว โปรดรอให้ส่วนขยายใหม่เริ่มต้น"
+   },
+   "installerStepCompleteTitle": {
+      "message": "เสร็จสิ้นการติดตั้ง"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "เสร็จสมบูรณ์"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified กำลังดาวน์โหลดและเตรียมส่วนขยายสำหรับการติดตั้ง โปรดรอสักครู่เพื่อให้การดาวน์โหลดเสร็จสมบูรณ์"
+   },
+   "installerStepDownloadTitle": {
+      "message": "กำลังดาวน์โหลดส่วนขยาย"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "ดาวน์โหลด"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "ติดตั้งอย่างไรก็ตาม"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "อนุญาตสิทธิ์"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "ยกเลิก"
+   },
+   "installerStepInstallationTitle": {
+      "message": "การติดตั้งส่วนขยาย"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "การติดตั้ง"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified ไม่รองรับ API ทั้งหมดที่จำเป็นสำหรับส่วนเสริมนี้ สิ่งนี้จะทำลายฟังก์ชันการทำงานส่วนเสริมบางอย่าง"
+   },
+   "installerStepName": {
+      "message": "ขั้นตอน"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "เริ่มต้นส่วนขยาย"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "กำลังดาวน์โหลด"
+   },
+   "installerStepProgressExtractText": {
+      "message": "การแตกไฟล์"
+   },
+   "pageLoadingMessage": {
+      "message": "กำลังโหลดหน้า"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "ไม่มีหน้าตัวเลือก"
+   },
+   "settingsPermissionsText": {
+      "message": "สิทธิ์"
+   },
+   "settingsUninstallButton": {
+      "message": "ถอนการติดตั้ง"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "ยกเลิก"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "ยืนยัน"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "คุณแน่ใจไหม?"
+   }
+}

@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Эмуляция firefox расширений в Chrome, Opera и других браузерах на базе Chromium"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Загрузить файл"
+   },
+   "homeCtaHelpText": {
+      "message": "Поддерживаемые форматы: crx, zip или xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Выбранный файл не поддерживается."
+   },
+   "homeSubtitle": {
+      "message": "Эмулировать расширения firefox в браузерах на базе Chrome, Opera и других Chromium."
+   },
+   "homeTitle": {
+      "message": "Установить Firefox Аддоны в Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Не удалось извлечь идентификатор приложения."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Не удалось скачать расширение."
+   },
+   "installerErrorCancelButton": {
+      "message": "Отменить установку"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Не удалось извлечь файлы."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified завершил установку вашего расширения. Подождите, пока запустится новое расширение."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Завершить установку"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Завершить"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified загружает и готовит ваше расширение к установке. Подождите несколько секунд, пока завершится загрузка."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Скачивание расширения"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Скачать"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Все равно установить"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Разрешить разрешения"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Отмена"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Установка расширения"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Монтаж"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified не поддерживает все API, необходимые для этого дополнения. Это нарушит некоторые функции аддона."
+   },
+   "installerStepName": {
+      "message": "Шаг"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Начальное расширение"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Скачивание"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Извлечения файлов"
+   },
+   "pageLoadingMessage": {
+      "message": "Страница загрузки"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "не имеет страницы параметров."
+   },
+   "settingsPermissionsText": {
+      "message": "Разрешения"
+   },
+   "settingsUninstallButton": {
+      "message": "Удалить"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Отмена"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Подтвердить"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Ты уверен?"
+   }
+}

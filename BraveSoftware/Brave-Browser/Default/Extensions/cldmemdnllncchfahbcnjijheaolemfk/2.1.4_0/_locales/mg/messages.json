@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Alao modely ny firefox fanitarana ao amin'ny Chrome, Opera ary ireo mpiorina miorina Chromium hafa"
+    },
+    "homeTitle": {
+        "message": "Mametraka Firefox Addons Ao amin'ny Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Alao modely ny firefox fanitarana ao amin'ny Chrome, Opera ary ireo mpiorina miorina Chromium hafa."
+    },
+    "homeCtaButton": {
+        "message": "Ampidiro rakitra"
+    },
+    "homeCtaHelpText": {
+        "message": "Fombam-peo tohanan'ny: crx, zip na xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Ny rakitra voafantina dia tsy tohanana."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Download"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "fametrahana"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Complete"
+    },
+    "installerStepName": {
+        "message": "dingana"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Mampidina extension"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified dia misintona ary manomana ny fanitarana anao amin'ny fametrahana azy. Miandrasa fotoana fohy kely vao vita ilay fampidinana."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "downloading"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Mamoaka rakitra"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Mametraka extension"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Mamela fahazoan-dàlana"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified dia tsy manohana ny API rehetra takiana amin'ity addon ity. Ity dia hanapaka ny fiasan'ny addon sasany."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Mametraka Na izany na tsy izany"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "hanafoana"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Famaranana fametrahana"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified dia nahavita nametraka ny extension anao. Miandrasa ny fiantombohan'ny fanitarana vaovao."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Manomboka fanitarana"
+    },
+    "installerErrorCancelButton": {
+        "message": "Hofoanana ny fametrahana"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Tsy nahomby tamin'ny fampidinana extension."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Tsy nahomby tamin'ny fitrandrahana rakitra."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Tsy nahomby tamin'ny fakana ny rindrambaiko ID."
+    },
+    "pageLoadingMessage": {
+        "message": "Pejy mampakatra"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "tsy manana pejy safidy."
+    },
+    "settingsPermissionsText": {
+        "message": "Permissions"
+    },
+    "settingsUninstallButton": {
+        "message": "esory"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Azonao antoka ve izany?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Manamarina"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "hanafoana"
+    }
+}

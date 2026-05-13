@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Emuláljon firefox kiterjesztéseket Chrome, Opera és más Chromium alapú böngészőkben"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Fájl feltöltés"
+   },
+   "homeCtaHelpText": {
+      "message": "Támogatott formátumok: crx, zip vagy xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "A kiválasztott fájl nem támogatott."
+   },
+   "homeSubtitle": {
+      "message": "Emuláljon firefox kiterjesztéseket Chrome, Opera és más Chromium alapú böngészőkben."
+   },
+   "homeTitle": {
+      "message": "Telepítse a Firefox kiegészítéseket a Google-ban Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Nem sikerült kibontani az alkalmazásazonosítót."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Nem sikerült letölteni a kiterjesztést."
+   },
+   "installerErrorCancelButton": {
+      "message": "A telepítés megszakítása"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Nem sikerült kibontani a fájlokat."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified befejezte a bővítmény telepítését. Kérjük, várja meg, amíg az új bővítmény elindul."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Fejezze be a telepítést"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "teljes"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified letöltötte és előkészíti a bővítmény telepítését. Várjon néhány percet, amíg a letöltés befejeződik."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Bővítmény letöltése"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Letöltés"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Telepítse egyébként"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Engedélyek engedélyezése"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Megszünteti"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Bővítmény telepítése"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Telepítés"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified nem támogatja az ehhez az addonhoz szükséges összes API-t. Ez megszakítja az addon néhány funkcióját."
+   },
+   "installerStepName": {
+      "message": "Lépés"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "A kiterjesztés indítása"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Letöltés"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Fájlok kibontása"
+   },
+   "pageLoadingMessage": {
+      "message": "Oldal betöltése"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "nincs opciós oldala."
+   },
+   "settingsPermissionsText": {
+      "message": "Engedélyek"
+   },
+   "settingsUninstallButton": {
+      "message": "Eltávolítás"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Megszünteti"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "megerősít"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "biztos vagy ebben?"
+   }
+}

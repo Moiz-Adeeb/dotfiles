@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "暂停您不使用的选项卡以节省内存使用量并使您的计算机运行得更快。 减少设备和电池的负载。"
+   },
+   "name": {
+      "message": "Tab Suspender"
+   },
+   "title": {
+      "message": "Tab Suspender"
+   }
+}

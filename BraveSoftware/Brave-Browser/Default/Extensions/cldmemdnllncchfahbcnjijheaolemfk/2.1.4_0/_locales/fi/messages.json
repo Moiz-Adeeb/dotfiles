@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Emuloi firefox laajennuksia Chrome, Opera ja muissa Chromium -pohjaisissa selaimissa"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Lataa tiedosto"
+   },
+   "homeCtaHelpText": {
+      "message": "Tuetut muodot: crx, zip tai xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Valittua tiedostoa ei tueta."
+   },
+   "homeSubtitle": {
+      "message": "Emuloi firefox laajennuksia Chrome, Opera ja muissa Chromium -pohjaisissa selaimissa."
+   },
+   "homeTitle": {
+      "message": "Asenna Firefox lisäosat Googleen Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Sovellustunnuksen purkaminen epäonnistui."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Laajennuksen lataaminen epäonnistui."
+   },
+   "installerErrorCancelButton": {
+      "message": "Peruuta asennus"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Tiedostojen purkaminen epäonnistui."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified on asentanut laajennuksesi. Odota uuden laajennuksen alkamista."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Viimeistele asennus"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Saattaa loppuun"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified lataa laajennusta asennusta varten ja valmistelee sitä. Odota hetki, kunnes lataus on valmis."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Ladataan laajennusta"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "ladata"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Asenna joka tapauksessa"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Salli käyttöoikeudet"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Peruuttaa"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Asennetaan laajennus"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Asennus"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified ei tue kaikkia tämän lisäosan edellyttämiä sovellusliittymiä. Tämä rikkoo joitain lisäominaisuuksia."
+   },
+   "installerStepName": {
+      "message": "Vaihe"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Aloitetaan laajennus"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Ladataan"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Tiedostojen purkamisen"
+   },
+   "pageLoadingMessage": {
+      "message": "Ladataan sivua"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "ei ole asetussivua."
+   },
+   "settingsPermissionsText": {
+      "message": "Käyttöoikeudet"
+   },
+   "settingsUninstallButton": {
+      "message": "Poista asennus"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Peruuttaa"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Vahvistaa"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Oletko varma?"
+   }
+}

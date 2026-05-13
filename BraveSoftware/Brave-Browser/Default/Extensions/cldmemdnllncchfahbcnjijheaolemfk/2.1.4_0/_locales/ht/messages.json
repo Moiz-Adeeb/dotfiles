@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Rivalize firefox ekstansyon nan Chrome, Opera ak lòt Chromium navigatè ki baze"
+    },
+    "homeTitle": {
+        "message": "Enstale Firefox Addons Nan Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Rivalize firefox ekstansyon nan Chrome, Opera ak lòt Chromium navigatè ki baze."
+    },
+    "homeCtaButton": {
+        "message": "Upload dosye"
+    },
+    "homeCtaHelpText": {
+        "message": "Fòma sipòte: crx, zip oswa xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Dosye chwazi a pa sipòte."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Telechaje"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Enstalasyon"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Ranpli"
+    },
+    "installerStepName": {
+        "message": "Etap"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Téléchargez ekstansyon"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified ap telechaje epi prepare ekstansyon ou pou enstalasyon an. Tanpri rete tann kèk moman pou download la fini."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Telechaje"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Ekstrè dosye"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Enstale ekstansyon"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Pèmèt pèmisyon yo"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified pa sipòte tout API ki nesesè pou sa a addon. Sa a pral kraze kèk fonctionnalités addon."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Enstale de tout fason"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Anile"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Fini enstalasyon"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified fini enstale ekstansyon ou an. Tanpri tann pou nouvo ekstansyon an kòmanse."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Kòmanse ekstansyon"
+    },
+    "installerErrorCancelButton": {
+        "message": "Anile Enstalasyon"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Echwe pou pou telechaje ekstansyon."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Echwe pou ekstrè dosye yo."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Echwe pou pou ekstrè ID app."
+    },
+    "pageLoadingMessage": {
+        "message": "Chaje paj la"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "pa gen yon paj opsyon."
+    },
+    "settingsPermissionsText": {
+        "message": "Otorizasyon"
+    },
+    "settingsUninstallButton": {
+        "message": "Désinstaller"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Èske ou sèten?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Konfime"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Anile"
+    }
+}

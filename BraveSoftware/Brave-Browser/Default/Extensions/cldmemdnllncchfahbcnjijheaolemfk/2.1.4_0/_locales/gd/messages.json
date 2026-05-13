@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Emulate leudachadh firefox ann an Chrome, Opera agus brobhsairean stèidhichte eile Chromium"
+    },
+    "homeTitle": {
+        "message": "Stàlaich Firefox Addons Ann an Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Emulate firefox leudachadh ann an Chrome, Opera agus brobhsairean stèidhichte eile Chromium."
+    },
+    "homeCtaButton": {
+        "message": "Luchdaich suas faidhle"
+    },
+    "homeCtaHelpText": {
+        "message": "Cruthan le taic: crx, zip no xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Chan eil taic ri faidhle taghte."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Luchdaich sìos"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Stàladh"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Crìochnaichte"
+    },
+    "installerStepName": {
+        "message": "Ceum"
+    },
+    "installerStepDownloadTitle": {
+        "message": "A ’luchdachadh sìos leudachadh"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Tha Foxified a ’luchdachadh sìos agus ag ullachadh an leudachadh agad airson an stàladh. Feuch an fuirich thu beagan mhionaidean airson an luchdachadh sìos a chrìochnachadh."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "A ’luchdachadh sìos"
+    },
+    "installerStepProgressExtractText": {
+        "message": "A ’toirt a-mach faidhlichean"
+    },
+    "installerStepInstallationTitle": {
+        "message": "A ’stàladh leudachadh"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Ceadaich ceadan"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Chan eil Foxified a ’toirt taic do na APIan uile a tha riatanach airson an addon seo. Bidh seo a ’briseadh cuid de ghnìomhachd addon."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Stàlaich Co-dhiù"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Sguir dheth"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Crìochnaich an stàladh"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Tha Foxified deiseil airson do leudachadh a stàladh. Fuirich ort gus an tòisich an leudachadh ùr."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "A ’tòiseachadh leudachadh"
+    },
+    "installerErrorCancelButton": {
+        "message": "Cuir dheth an stàladh"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Dh'fhàillig le leudachadh a luchdachadh sìos."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Dh ’fhàillig faidhlichean a thoirt a-mach."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Dh ’fhàillig ID ID a thoirt a-mach."
+    },
+    "pageLoadingMessage": {
+        "message": "Duilleag luchdaidh"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "chan eil duilleag roghainnean ann."
+    },
+    "settingsPermissionsText": {
+        "message": "Ceadan"
+    },
+    "settingsUninstallButton": {
+        "message": "Dì-stàlaich"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "A bheil thu cinnteach?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Dearbhaich"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Sguir dheth"
+    }
+}

@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Etterligne firefox utvidelser i Chrome, Opera og andre Chromium baserte nettlesere"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Last opp fil"
+   },
+   "homeCtaHelpText": {
+      "message": "Støttede formater: crx, zip eller xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Den valgte filen støttes ikke."
+   },
+   "homeSubtitle": {
+      "message": "Etterligne firefox utvidelser i Chrome, Opera og andre Chromium baserte nettlesere."
+   },
+   "homeTitle": {
+      "message": "Installer Firefox tillegg i Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Kunne ikke trekke ut app-ID."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Kunne ikke laste ned utvidelsen."
+   },
+   "installerErrorCancelButton": {
+      "message": "Avbryt installasjonen"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Kunne ikke trekke ut filer."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified har installert utvidelsen din. Vent til den nye utvidelsen starter."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Fullfør installasjonen"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Fullstendig"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified laster ned og klargjør utvidelsen din for installasjon. Vent litt til nedlastingen er fullført."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Laster ned utvidelse"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "nedlasting"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Installer uansett"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Tillat tillatelser"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Avbryt"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Installerer utvidelse"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Installasjon"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified støtter ikke alle API-ene som kreves for dette tillegget. Dette vil bryte litt tilleggsfunksjonalitet."
+   },
+   "installerStepName": {
+      "message": "Steg"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Starter forlengelse"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Laster ned"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Pakke ut filer"
+   },
+   "pageLoadingMessage": {
+      "message": "Laster inn side"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "har ikke en alternativside."
+   },
+   "settingsPermissionsText": {
+      "message": "Tillatelser"
+   },
+   "settingsUninstallButton": {
+      "message": "Avinstaller"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Avbryt"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Bekrefte"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Er du sikker?"
+   }
+}

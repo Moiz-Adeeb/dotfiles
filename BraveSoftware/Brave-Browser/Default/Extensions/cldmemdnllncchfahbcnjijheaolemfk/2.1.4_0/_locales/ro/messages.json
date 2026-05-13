@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Emulați extensii firefox în Chrome, Opera și alte browsere bazate pe Chromium"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Incarca fisier"
+   },
+   "homeCtaHelpText": {
+      "message": "Formate acceptate: crx, zip sau xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Fișierul selectat nu este acceptat."
+   },
+   "homeSubtitle": {
+      "message": "Emulați extensii firefox în Chrome, Opera și alte browsere bazate pe Chromium."
+   },
+   "homeTitle": {
+      "message": "Instalați addonuri Firefox în Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Nu s-a putut extrage ID-ul aplicației."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Descărcarea extensiei nu a reușit."
+   },
+   "installerErrorCancelButton": {
+      "message": "Anulați instalarea"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Nu s-au putut extrage fișierele."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified a terminat instalarea extensiei. Vă rugăm să așteptați să înceapă noua extensie."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Finalizați instalarea"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Complet"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified descarcă și pregătește extensia pentru instalare. Vă rugăm să așteptați câteva clipe pentru finalizarea descărcării."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Se descarcă extensia"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Descarca"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Instalați oricum"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Permiteți permisiunile"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Anulare"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Se instalează extensia"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Instalare"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified nu acceptă toate API-urile necesare pentru acest addon. Acest lucru va rupe unele funcționalități de completare."
+   },
+   "installerStepName": {
+      "message": "Etapa"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Se pornește extensia"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Descărcarea"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Extragerea fișierelor"
+   },
+   "pageLoadingMessage": {
+      "message": "Se încarcă pagina"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "nu are o pagină de opțiuni."
+   },
+   "settingsPermissionsText": {
+      "message": "Permisiuni"
+   },
+   "settingsUninstallButton": {
+      "message": "Dezinstalați"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Anulare"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "A confirma"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Esti sigur?"
+   }
+}

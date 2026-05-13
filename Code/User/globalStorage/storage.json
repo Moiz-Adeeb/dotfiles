@@ -1,0 +1,148 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "ef6dc3848ce5bfe1372cef1254428828c553f270c13837207e5bf37af2183098",
+    "telemetry.devDeviceId": "bb5808fb-d625-4e02-a8bb-23617383ec76",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/moiz/Work/Nafisa-Communication/React-Native"
+            },
+            {
+                "folderUri": "file:///run/media/moiz/Extended/development/Android"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1776691577373"
+            },
+            {
+                "backupFolder": "1776694668276"
+            },
+            {
+                "backupFolder": "1776696291467"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/moiz/Work/Nafisa-Communication/React-Native": "249cdeac",
+            "file:///run/media/moiz/Extended/development/Android": "249cdeac"
+        },
+        "emptyWindows": {
+            "1776691577373": "249cdeac",
+            "1776694668276": "249cdeac",
+            "1776696291467": "249cdeac"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#24292e",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#d1d5da",
+            "background": "#24292e",
+            "editorBackground": "#24292e",
+            "titleBarBackground": "#24292e",
+            "titleBarBorder": "#1b1f23",
+            "activityBarBackground": "#24292e",
+            "activityBarBorder": "#1b1f23",
+            "sideBarBackground": "#1f2428",
+            "sideBarBorder": "#1b1f23",
+            "statusBarBackground": "#24292e",
+            "statusBarBorder": "#1b1f23",
+            "statusBarNoFolderBackground": "#24292e"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///run/media/moiz/Extended/development/Android",
+            "backupPath": "/home/moiz/.config/Code/Backups/437b3bc662c38cfe0b38e316c7effcd1",
+            "uiState": {
+                "mode": 0,
+                "x": 11,
+                "y": 46,
+                "width": 1898,
+                "height": 1023
+            }
+        },
+        "openedWindows": [
+            {
+                "folder": "file:///home/moiz/Work/Nafisa-Communication/React-Native",
+                "backupPath": "/home/moiz/.config/Code/Backups/260842db98790ff0c9e998f05cb2325d",
+                "uiState": {
+                    "mode": 3,
+                    "display": 22107888914464064,
+                    "width": 1900,
+                    "height": 1018,
+                    "x": 10,
+                    "y": 52
+                }
+            },
+            {
+                "folder": "file:///run/media/moiz/Extended/development/Android",
+                "backupPath": "/home/moiz/.config/Code/Backups/437b3bc662c38cfe0b38e316c7effcd1",
+                "uiState": {
+                    "mode": 0,
+                    "x": 11,
+                    "y": 46,
+                    "width": 1898,
+                    "height": 1023
+                }
+            }
+        ]
+    },
+    "userDataProfiles": [
+        {
+            "location": "249cdeac",
+            "name": "React Native",
+            "icon": "device-mobile"
+        },
+        {
+            "location": "6b447914",
+            "name": "Angular",
+            "icon": "globe",
+            "useDefaultFlags": {
+                "keybindings": true
+            }
+        },
+        {
+            "location": "a7aa5ba",
+            "name": "Cobol",
+            "icon": "shield",
+            "useDefaultFlags": {
+                "settings": true,
+                "keybindings": true,
+                "tasks": true,
+                "mcp": true,
+                "snippets": true
+            }
+        },
+        {
+            "location": "5b819cbc",
+            "name": ".NET",
+            "icon": "azure",
+            "useDefaultFlags": {
+                "settings": true,
+                "keybindings": true,
+                "tasks": true,
+                "mcp": true,
+                "snippets": true
+            }
+        }
+    ],
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 816,
+            "workspaces": {
+                "ca2b162c98cf0becc39317d36ed990ed": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "עמיאַלייט firefox יקסטענשאַנז אין Chrome, Opera און אנדערע Chromium באזירט בראַוזערז"
+    },
+    "homeTitle": {
+        "message": "ינסטאַלירן Firefox אַדדאָנס אין Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "עמיאַלייט firefox יקסטענשאַנז אין Chrome, Opera און אנדערע Chromium באזירט בראַוזערז."
+    },
+    "homeCtaButton": {
+        "message": "צופֿעליקער טעקע"
+    },
+    "homeCtaHelpText": {
+        "message": "שטיצט פֿאָרמאַטירונגען: crx, zip אָדער xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "די סעלעקטעד טעקע איז ניט געשטיצט."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "אראפקאפיע"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "ינסטאַללאַטיאָן"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "גאַנץ"
+    },
+    "installerStepName": {
+        "message": "שריט"
+    },
+    "installerStepDownloadTitle": {
+        "message": "דאַונלאָודינג געשפּרייט"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified איז דאַונלאָודינג און פּריפּערינג דיין געשפּרייט פֿאַר ינסטאַלירונג. ביטע וואַרטן עטלעכע מאָומאַנץ ביז די אראפקאפיע איז גאַנץ."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "דאַונלאָודינג"
+    },
+    "installerStepProgressExtractText": {
+        "message": "יקסטראַקטינג טעקעס"
+    },
+    "installerStepInstallationTitle": {
+        "message": "ינסטאָלינג געשפּרייט"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "לאָזן פּערמישאַנז"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified שטיצט ניט אַלע די אַפּיס פארלאנגט פֿאַר דעם אַדדאָן. דאָס וועט ברעכן עטלעכע אַדדאָן פאַנגקשאַנאַליטי."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "ינסטאַלירן סייַ ווי סייַ"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "באָטל מאַכן"
+    },
+    "installerStepCompleteTitle": {
+        "message": "ענדיקן ינסטאַלירונג"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified האט פאַרטיק ינסטאָלינג דיין געשפּרייט. ביטע וואַרטן פֿאַר די נייַ פאַרלענגערונג צו אָנהייבן."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "סטאַרטינג געשפּרייט"
+    },
+    "installerErrorCancelButton": {
+        "message": "באָטל מאַכן ינסטאַללאַטיאָן"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "ניט אַנדערש צו אָפּלאָדירן פאַרלענגערונג."
+    },
+    "installerExtractErrorMessage": {
+        "message": "ניט אַנדערש צו עקסטראַקט טעקעס."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "ניט אַנדערש צו עקסטראַקט אַפּ שייַן."
+    },
+    "pageLoadingMessage": {
+        "message": "לאָודינג בלאַט"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "האט נישט אַן אָפּציעס בלאַט."
+    },
+    "settingsPermissionsText": {
+        "message": "פּערמישאַנז"
+    },
+    "settingsUninstallButton": {
+        "message": "נעם אַוועק"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "ביסטו זיכער?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "באַשטעטיקן"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "באָטל מאַכן"
+    }
+}

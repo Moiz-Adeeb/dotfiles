@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Líkja eftir firefox viðbætur í Chrome, Opera og öðrum Chromium vöfrum"
+    },
+    "homeTitle": {
+        "message": "Settu upp Firefox viðbót í Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Líkja eftir firefox viðbætur í Chrome, Opera og öðrum Chromium vöfrum."
+    },
+    "homeCtaButton": {
+        "message": "Hlaða inn skrá"
+    },
+    "homeCtaHelpText": {
+        "message": "Stuðningur snið: crx, zip eða xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Valin skrá er ekki studd."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Niðurhal"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Uppsetning"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Heill"
+    },
+    "installerStepName": {
+        "message": "Skref"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Sækir viðbót"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified er að hlaða niður og undirbúa viðbótina þína fyrir uppsetningu. Bíddu í smá stund til að niðurhalinu ljúki."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Sækir"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Útdráttur skráa"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Setur upp viðbót"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Leyfa heimildir"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified styður ekki öll API sem krafist er fyrir þessa viðbót. Þetta mun brjóta nokkra viðbótarvirkni."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Settu alla vega upp"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Hætta við"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Ljúktu við uppsetningu"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified hefur lokið við að setja upp viðbótina þína. Bíddu eftir að nýja viðbótin hefst."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Byrjar viðbyggingu"
+    },
+    "installerErrorCancelButton": {
+        "message": "Hætta við uppsetningu"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Mistókst að sækja viðbótina."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Mistókst að draga skrár út."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Mistókst að draga út auðkenni forrits."
+    },
+    "pageLoadingMessage": {
+        "message": "Hleður síðu"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "er ekki með valkostasíðu."
+    },
+    "settingsPermissionsText": {
+        "message": "Heimildir"
+    },
+    "settingsUninstallButton": {
+        "message": "Fjarlægja"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Ertu viss?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Staðfesta"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Hætta við"
+    }
+}

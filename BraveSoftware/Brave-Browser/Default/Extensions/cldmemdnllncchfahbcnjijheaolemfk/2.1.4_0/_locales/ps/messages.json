@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "ایملیټ firefox توسیعونه Chrome ، Opera او نور Chromium پر بنسټ براوزر کې"
+    },
+    "homeTitle": {
+        "message": "په ګوګل کې Firefox اډونونه نصب کړئ Chrome"
+    },
+    "homeSubtitle": {
+        "message": "ایملیټ firefox غزونه په Chrome ، Opera او نور Chromium پر بنسټ براوزرونو کې."
+    },
+    "homeCtaButton": {
+        "message": "دوتنه پورته کول"
+    },
+    "homeCtaHelpText": {
+        "message": "ملاتړ شوي فارمیټونه: crx، zip یا xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "ټاکل شوې دوتنه ملاتړ نده."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "ډاونلوډ"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "لګول"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "بشپړ"
+    },
+    "installerStepName": {
+        "message": "ګام"
+    },
+    "installerStepDownloadTitle": {
+        "message": "د غزولو وخت"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified د نصب لپاره ستاسو توسیع ډاونلوډ او چمتو کوي. مهرباني وکړئ د ډاونلوډ بشپړولو لپاره یو څو شېبې انتظار وکړئ."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "کښته کول"
+    },
+    "installerStepProgressExtractText": {
+        "message": "د فایلونو استخراج کول"
+    },
+    "installerStepInstallationTitle": {
+        "message": "د شاتاړي لګول"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "اجازه اجازه ورکړه"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified د دې اډون لپاره اړین ټول API نه ملاتړ کوي. دا به د اډون ځینې فعالیت مات کړي."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "بیا هم ولګوه"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "لغوه کول"
+    },
+    "installerStepCompleteTitle": {
+        "message": "بشپړول"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified ستاسو د شاتاړي نصب کول پای ته رسولي دي. مهرباني وکړئ د نوي غزونې پیل لپاره انتظار وکړئ."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "د غزونې پیل"
+    },
+    "installerErrorCancelButton": {
+        "message": "لګول لغوه کړه"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "د شاتاړي کښته کولو کې ناکام شو."
+    },
+    "installerExtractErrorMessage": {
+        "message": "د فایلونو ایستلو کې ناکام شو."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "د ایپ ID په ایستلو کې ناکام شو."
+    },
+    "pageLoadingMessage": {
+        "message": "پا Loه پورته کول"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "د اختیارونو پا notه نلري."
+    },
+    "settingsPermissionsText": {
+        "message": "اجازه"
+    },
+    "settingsUninstallButton": {
+        "message": "غیر نصب یې کړئ"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "تاسو ډاډه یاست؟"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "تصدیق یې کړئ"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "لغوه کول"
+    }
+}

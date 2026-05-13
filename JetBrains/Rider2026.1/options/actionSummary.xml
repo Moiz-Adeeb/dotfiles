@@ -1,0 +1,43 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ActivateProjectToolWindow">
+      <i c="2" l="1776160082579" />
+    </e>
+    <e n="ActivateTerminalToolWindow">
+      <i c="2" l="1776160078644" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="13" l="1776160095205" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="2" l="1776160038598" />
+    </e>
+    <e n="RiderNewSolution">
+      <i c="1" l="1776159575058" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="5" l="1776160063456" />
+    </e>
+    <e n="ShowSettings">
+      <i c="5" l="1776160065679" />
+    </e>
+    <e n="ToggleCompactMode">
+      <i c="1" l="1776159823589" />
+    </e>
+    <e n="Vcs.VcsClone">
+      <i c="1" l="1776159618871" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1776159848108" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="2" l="1776159808698" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1776160022564" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="1" l="1776159837790" />
+    </e>
+  </component>
+</application>

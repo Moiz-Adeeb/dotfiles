@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Giả lập các tiện ích mở rộng firefox trong Chrome, Opera và các trình duyệt dựa trên Chromium khác"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Cập nhật dử liệu"
+   },
+   "homeCtaHelpText": {
+      "message": "Các định dạng được hỗ trợ: crx, zip hoặc xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Tệp đã chọn không được hỗ trợ."
+   },
+   "homeSubtitle": {
+      "message": "Giả lập các tiện ích mở rộng firefox trong Chrome, Opera và các trình duyệt dựa trên Chromium khác."
+   },
+   "homeTitle": {
+      "message": "Cài đặt Firefox Addons trong Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Không trích xuất được ID ứng dụng."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Không thể tải xuống tiện ích mở rộng."
+   },
+   "installerErrorCancelButton": {
+      "message": "Hủy cài đặt"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Không giải nén được tệp."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified đã hoàn tất cài đặt tiện ích mở rộng của bạn. Vui lòng đợi phần mở rộng mới bắt đầu."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Kết thúc cài đặt"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Hoàn thành"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified đang tải xuống và chuẩn bị cài đặt tiện ích mở rộng của bạn. Vui lòng đợi một lát để quá trình tải xuống hoàn tất."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Đang tải xuống tiện ích mở rộng"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Tải xuống"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Vẫn cài đặt"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Cho phép quyền"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Huỷ bỏ"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Cài đặt tiện ích mở rộng"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Cài đặt"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified không hỗ trợ tất cả các API cần thiết cho phần bổ trợ này. Điều này sẽ phá vỡ một số chức năng của addon."
+   },
+   "installerStepName": {
+      "message": "Bươc"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Bắt đầu phần mở rộng"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Đang tải xuống"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Giải nén tập tin"
+   },
+   "pageLoadingMessage": {
+      "message": "Đang tải trang"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "không có trang tùy chọn."
+   },
+   "settingsPermissionsText": {
+      "message": "Quyền"
+   },
+   "settingsUninstallButton": {
+      "message": "Gỡ cài đặt"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Huỷ bỏ"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Xác nhận"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Bạn có chắc không?"
+   }
+}

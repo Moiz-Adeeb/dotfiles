@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Atdarināt firefox paplašinājumus Chrome, Opera un citās Chromium balstītās pārlūkprogrammās"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Augšupielādēt failu"
+   },
+   "homeCtaHelpText": {
+      "message": "Atbalstītie formāti: crx, zip vai xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Atlasītais fails netiek atbalstīts."
+   },
+   "homeSubtitle": {
+      "message": "Atdarināt firefox paplašinājumus Chrome, Opera un citās Chromium balstītās pārlūkprogrammās."
+   },
+   "homeTitle": {
+      "message": "Instalējiet Firefox papildinājumus Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Neizdevās iegūt lietotnes ID."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Neizdevās lejupielādēt paplašinājumu."
+   },
+   "installerErrorCancelButton": {
+      "message": "Atcelt instalēšanu"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Neizdevās iegūt failus."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified ir pabeidzis instalēt jūsu paplašinājumu. Lūdzu, uzgaidiet, līdz sāksies jaunais paplašinājums."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Pabeidziet instalēšanu"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Pabeigts"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified lejupielādē un gatavo paplašinājumu instalēšanai. Lūdzu, uzgaidiet dažus mirkļus, līdz tiek pabeigta lejupielāde."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Notiek paplašinājuma lejupielāde"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Lejupielādēt"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Instalēt jebkurā gadījumā"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Atļaut atļaujas"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Atcelt"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Instalē paplašinājumu"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Uzstādīšana"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified neatbalsta visas API, kas nepieciešamas šim papildinājumam. Tas pārtrauks dažas pievienojumprogrammas funkcionalitāti."
+   },
+   "installerStepName": {
+      "message": "Solis"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Tiek sākta paplašināšana"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Notiek lejupielāde"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Failu izvilkšana"
+   },
+   "pageLoadingMessage": {
+      "message": "Notiek lapas ielāde"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "nav opciju lapas."
+   },
+   "settingsPermissionsText": {
+      "message": "Atļaujas"
+   },
+   "settingsUninstallButton": {
+      "message": "Atinstalēt"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Atcelt"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Apstiprināt"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Vai tu esi pārliecināts?"
+   }
+}

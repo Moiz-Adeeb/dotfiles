@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Sundoga ang firefox nga mga extension sa Chrome, Opera ug uban pang Chromium nakabase nga mga browser"
+    },
+    "homeTitle": {
+        "message": "Pag-install Firefox Mga Addon Sa Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Sundoga ang firefox nga mga extension sa Chrome, Opera ug uban pang Chromium nakabase nga mga browser."
+    },
+    "homeCtaButton": {
+        "message": "Pag-upload sa file"
+    },
+    "homeCtaHelpText": {
+        "message": "Mga gisuportahan nga format: crx, zip o xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Ang gipili nga file dili gisuportahan."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Pag-download"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Pagbutang"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Kumpleto"
+    },
+    "installerStepName": {
+        "message": "Lakang"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Pag-download sa extension"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified ang pag-download ug pag-andam sa imong extension alang sa pag-install. Palihug paghulat pipila ka mga gutlo alang sa paghuman sa pag-download."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Pag-download"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Pagkuha mga file"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Pag-instalar sa extension"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Tugoti ang mga Permiso"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified Dili gisuportahan ang tanan nga mga API nga gikinahanglan alang sa kini nga addon. Bungkagon niini ang pipila nga pagpaandar sa addon."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Pag-install Bisan unsaon"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Kanselahon"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Taposon ang pagbutang"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified natapos na ang pag-install sa imong extension. Palihug paghulat nga magsugod ang bag-ong extension."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Pagsugod sa extension"
+    },
+    "installerErrorCancelButton": {
+        "message": "Kanselahon ang Pagbutang"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Napakyas sa pag-download sa extension."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Napakyas sa pagkuha mga file."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Napakyas pagkuha sa app ID."
+    },
+    "pageLoadingMessage": {
+        "message": "Nag-load nga panid"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "wala’y panid sa mga kapilian."
+    },
+    "settingsPermissionsText": {
+        "message": "Mga Pagtugot"
+    },
+    "settingsUninstallButton": {
+        "message": "Pagtangtang"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Sigurado ka"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Sa pagmatuod sa"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Kanselahon"
+    }
+}

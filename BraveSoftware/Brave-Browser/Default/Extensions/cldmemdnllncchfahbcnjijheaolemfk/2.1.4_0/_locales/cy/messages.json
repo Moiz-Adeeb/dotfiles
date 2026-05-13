@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Efelychu estyniadau firefox yn Chrome, Opera a phorwyr eraill Chromium"
+    },
+    "homeTitle": {
+        "message": "Gosod Firefox Addons Yn Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Efelychu estyniadau firefox yn Chrome, Opera a phorwyr eraill Chromium."
+    },
+    "homeCtaButton": {
+        "message": "Llwythwch ffeil"
+    },
+    "homeCtaHelpText": {
+        "message": "Fformatau â chymorth: crx, zip neu xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Ni chefnogir ffeil ddethol."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Dadlwythwch"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Gosod"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Wedi'i gwblhau"
+    },
+    "installerStepName": {
+        "message": "Cam"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Lawrlwytho estyniad"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Mae Foxified yn lawrlwytho ac yn paratoi eich estyniad i'w osod. Arhoswch ychydig eiliadau i'r lawrlwythiad gwblhau."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Llwytho i lawr"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Tynnu ffeiliau"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Gosod estyniad"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Caniatáu Caniatadau"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Nid yw Foxified yn cefnogi'r holl APIs sy'n ofynnol ar gyfer yr addon hwn. Bydd hyn yn torri rhywfaint o ymarferoldeb addon."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Gosod Beth bynnag"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Canslo"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Gorffen gosodiad"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified wedi gorffen gosod eich estyniad. Arhoswch i'r estyniad newydd ddechrau."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Estyniad cychwynnol"
+    },
+    "installerErrorCancelButton": {
+        "message": "Canslo Gosod"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Wedi methu lawrlwytho estyniad."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Wedi methu tynnu ffeiliau."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Wedi methu tynnu ID yr ap."
+    },
+    "pageLoadingMessage": {
+        "message": "Tudalen lwytho"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "nid oes ganddo dudalen opsiynau."
+    },
+    "settingsPermissionsText": {
+        "message": "Caniatadau"
+    },
+    "settingsUninstallButton": {
+        "message": "Dadosod"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Wyt ti'n siwr?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Cadarnhau"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Canslo"
+    }
+}

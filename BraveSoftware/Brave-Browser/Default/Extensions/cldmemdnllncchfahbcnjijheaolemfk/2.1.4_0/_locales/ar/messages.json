@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "محاكاة امتدادات firefox في Chrome و Opera والمتصفحات الأخرى القائمة على Chromium"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "رفع ملف"
+   },
+   "homeCtaHelpText": {
+      "message": "التنسيقات المدعومة: crx ، zip أو xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "الملف المحدد غير مدعوم."
+   },
+   "homeSubtitle": {
+      "message": "محاكاة امتدادات firefox في Chrome و Opera والمتصفحات الأخرى القائمة على Chromium."
+   },
+   "homeTitle": {
+      "message": "تثبيت Firefox Addons In Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "فشل استخراج معرف التطبيق."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "فشل تنزيل الامتداد."
+   },
+   "installerErrorCancelButton": {
+      "message": "إلغاء التثبيت"
+   },
+   "installerExtractErrorMessage": {
+      "message": "فشل استخراج الملفات."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified انتهى من تثبيت الامتداد الخاص بك. يرجى الانتظار حتى يبدأ التمديد الجديد."
+   },
+   "installerStepCompleteTitle": {
+      "message": "إنهاء التثبيت"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "اكتمال"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified يقوم بتحميل وإعداد الامتداد الخاص بك للتثبيت. الرجاء الانتظار بضع دقائق حتى يكتمل التنزيل."
+   },
+   "installerStepDownloadTitle": {
+      "message": "تحميل الامتداد"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "تحميل"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "تثبيت على أي حال"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "السماح للأذونات"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "إلغاء"
+   },
+   "installerStepInstallationTitle": {
+      "message": "تثبيت التمديد"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "التركيب"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified لا يدعم جميع واجهات برمجة التطبيقات المطلوبة لهذا الملحق. سيؤدي هذا إلى كسر بعض وظائف الملحق."
+   },
+   "installerStepName": {
+      "message": "خطوة"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "تمديد البداية"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "جارى التحميل"
+   },
+   "installerStepProgressExtractText": {
+      "message": "استخراج ملفات"
+   },
+   "pageLoadingMessage": {
+      "message": "تحميل الصفحة"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "ليس لديه صفحة خيارات."
+   },
+   "settingsPermissionsText": {
+      "message": "أذونات"
+   },
+   "settingsUninstallButton": {
+      "message": "الغاء التثبيت"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "إلغاء"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "تؤكد"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "هل أنت واثق؟"
+   }
+}

@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Ṣe apẹẹrẹ Awọn amugbooro firefox ni Chrome, Opera ati awọn burausa miiran ti o da lori Chromium"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Po si faili"
+   },
+   "homeCtaHelpText": {
+      "message": "Awọn ọna kika ti a ṣe atilẹyin: crx, zip tabi xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Faili ti a yan ko ni atilẹyin."
+   },
+   "homeSubtitle": {
+      "message": "Ṣe apẹẹrẹ Awọn ifaagun firefox ni Chrome, Opera ati awọn burausa miiran ti o da lori Chromium."
+   },
+   "homeTitle": {
+      "message": "Fi sori ẹrọ Firefox Awọn afikun Ni Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Kuna lati jade ID ID."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Kuna lati ṣe igbasilẹ itẹsiwaju."
+   },
+   "installerErrorCancelButton": {
+      "message": "Fagilee Fifi sori ẹrọ"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Kuna lati yọ awọn faili jade."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified ti pari fifi sori ẹrọ itẹsiwaju rẹ. Jọwọ duro fun itẹsiwaju tuntun lati bẹrẹ."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Pari fifi sori ẹrọ"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Pari"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified n ṣe igbasilẹ ati ngbaradi itẹsiwaju rẹ fun fifi sori ẹrọ. Jọwọ duro diẹ diẹ fun igbasilẹ lati pari."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Gbigba itẹsiwaju"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Ṣe igbasilẹ"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Fi sori ẹrọ Lonakona"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Gba Awọn igbanilaaye"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Fagilee"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Fifi itẹsiwaju"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Fifi sori ẹrọ"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified ko ṣe atilẹyin fun gbogbo awọn API ti o nilo fun addon yii. Eyi yoo fọ diẹ ninu iṣẹ addon."
+   },
+   "installerStepName": {
+      "message": "Igbesẹ"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Bibẹrẹ itẹsiwaju"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Gbigba lati ayelujara"
+   },
+   "installerStepProgressExtractText": {
+      "message": "N jade awọn faili jade"
+   },
+   "pageLoadingMessage": {
+      "message": "Ikojọpọ iwe"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "ko ni oju-iwe awọn aṣayan."
+   },
+   "settingsPermissionsText": {
+      "message": "Awọn igbanilaaye"
+   },
+   "settingsUninstallButton": {
+      "message": "Aifi si po"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Fagilee"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Jẹrisi"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Ṣe o da ọ loju?"
+   }
+}

@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "firefox এক্সটেনশানগুলি Chrome, Opera এবং অন্যান্য Chromium ভিত্তিক ব্রাউজারগুলিতে অনুকরণ করুন"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "ফাইল আপলোড করুন"
+   },
+   "homeCtaHelpText": {
+      "message": "সমর্থিত ফর্ম্যাটগুলি: crx, zip বা xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "নির্বাচিত ফাইল সমর্থিত নয়।"
+   },
+   "homeSubtitle": {
+      "message": "Chrome, Opera এবং অন্যান্য Chromium ভিত্তিক ব্রাউজারগুলিতে firefox এক্সটেনশনগুলি অনুকরণ করুন।"
+   },
+   "homeTitle": {
+      "message": "গুগলে Firefox অ্যাডোনস ইনস্টল করুন Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "অ্যাপ্লিকেশন আইডি বের করতে ব্যর্থ।"
+   },
+   "installerDownloadErrorMessage": {
+      "message": "এক্সটেনশন ডাউনলোড করতে ব্যর্থ।"
+   },
+   "installerErrorCancelButton": {
+      "message": "ইনস্টলেশন বাতিল করুন"
+   },
+   "installerExtractErrorMessage": {
+      "message": "ফাইলগুলি বের করতে ব্যর্থ।"
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified আপনার এক্সটেনশানটি ইনস্টল করা শেষ করেছে। নতুন এক্সটেনশানটি শুরু হওয়ার জন্য দয়া করে অপেক্ষা করুন।"
+   },
+   "installerStepCompleteTitle": {
+      "message": "ইনস্টলেশন শেষ করুন"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "সম্পূর্ণ"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified আপনার এক্সটেনশানটি ডাউনলোডের জন্য এবং প্রস্তুতি নিচ্ছে। ডাউনলোডটি শেষ হতে কয়েক মুহুর্ত অপেক্ষা করুন।"
+   },
+   "installerStepDownloadTitle": {
+      "message": "এক্সটেনশন ডাউনলোড হচ্ছে"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "ডাউনলোড করুন"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "যাইহোক ইনস্টল করুন"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "অনুমতি অনুমতি দিন"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "বাতিল"
+   },
+   "installerStepInstallationTitle": {
+      "message": "এক্সটেনশন ইনস্টল করা হচ্ছে"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "স্থাপন"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified এই অ্যাডোনটির জন্য প্রয়োজনীয় সমস্ত API সমর্থন করে না। এটি কিছু অ্যাডন কার্যকারিতা ভঙ্গ করবে।"
+   },
+   "installerStepName": {
+      "message": "পদক্ষেপ"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "প্রসার শুরু হচ্ছে"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "ডাউনলোড হচ্ছে"
+   },
+   "installerStepProgressExtractText": {
+      "message": "ফাইলগুলি তোলা হচ্ছে"
+   },
+   "pageLoadingMessage": {
+      "message": "পৃষ্ঠা লোড হচ্ছে"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "একটি বিকল্প পৃষ্ঠা নেই।"
+   },
+   "settingsPermissionsText": {
+      "message": "অনুমতি"
+   },
+   "settingsUninstallButton": {
+      "message": "আনইনস্টল করুন"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "বাতিল"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "কনফার্ম"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "তুমি কি নিশ্চিত?"
+   }
+}

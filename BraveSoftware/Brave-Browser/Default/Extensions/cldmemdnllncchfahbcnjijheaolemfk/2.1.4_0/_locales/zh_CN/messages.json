@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "在Chrome，Opera和其他Chromium浏览器中模拟firefox扩展"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "上传文件"
+   },
+   "homeCtaHelpText": {
+      "message": "支持的格式：crx，zip或xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "不支持所选文件。"
+   },
+   "homeSubtitle": {
+      "message": "在Chrome，Opera和其他基于Chromium的浏览器中模拟firefox扩展。"
+   },
+   "homeTitle": {
+      "message": "在Google中安装Firefox插件Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "无法提取应用ID。"
+   },
+   "installerDownloadErrorMessage": {
+      "message": "下载扩展失败。"
+   },
+   "installerErrorCancelButton": {
+      "message": "取消安装"
+   },
+   "installerExtractErrorMessage": {
+      "message": "无法提取文件。"
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified已完成扩展程序的安装。请等待新的扩展程序启动。"
+   },
+   "installerStepCompleteTitle": {
+      "message": "完成安装"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "完成"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified正在下载并准备您的扩展程序以进行安装。请稍等片刻，下载完成。"
+   },
+   "installerStepDownloadTitle": {
+      "message": "下载扩展"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "下载"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "仍然安装"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "允许权限"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "取消"
+   },
+   "installerStepInstallationTitle": {
+      "message": "安装扩展"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "安装"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified不支持该插件所需的所有API。这将破坏某些插件功能。"
+   },
+   "installerStepName": {
+      "message": "步"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "开始扩展"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "正在下载"
+   },
+   "installerStepProgressExtractText": {
+      "message": "提取文件"
+   },
+   "pageLoadingMessage": {
+      "message": "正在载入页面"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "没有选项页面。"
+   },
+   "settingsPermissionsText": {
+      "message": "权限"
+   },
+   "settingsUninstallButton": {
+      "message": "卸载"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "取消"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "确认"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "你确定吗？"
+   }
+}

@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Lingisa firefox ulwandiso kwi Chrome, Opera nakwezinye i-Chromium izikhangeli ezisekwe"
+    },
+    "homeTitle": {
+        "message": "Faka i-Firefox I-Addons kuGoogle Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Lingisa firefox ulwandiso kwi Chrome, Opera nakwezinye i-Chromium izikhangeli ezisekwe."
+    },
+    "homeCtaButton": {
+        "message": "Ngenisa ifayile"
+    },
+    "homeCtaHelpText": {
+        "message": "Iifomathi ezixhaswayo: crx, zip okanye xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Ifayile ekhethiweyo ayixhaswanga."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Khuphela"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Ukufakwa"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Gqibezela"
+    },
+    "installerStepName": {
+        "message": "Inyathelo"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Kuthotywa umthwalo wolwandiso"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified ikhuphela kwaye ilungiselela ulwandiso lwakho lofakelo. Nceda linda ixesha elifutshane ukuze ugcwalise ukhuphelo."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Kuthotywa umthwalo"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Ukukhupha iifayile"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Ukufaka ulwandiso"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Vumela iimvume"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified ayixhasi zonke ii-API ezifunekayo kule addon. Oku kuyakwaphula ukusebenza kwe-addon."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Faka nangona kunjalo"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Rhoxisa"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Gqiba ukufakwa"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified igqibile ukufaka ulwandiso lwakho. Nceda linda ulwandiso olutsha ukuqala."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Ukuqala ukongezwa"
+    },
+    "installerErrorCancelButton": {
+        "message": "Rhoxisa ukufakwa"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Isilele ukukhuphela ulwandiso."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Isilele ukufumana iifayile."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Isilele ukukhupha usetyenziso lwe-ID."
+    },
+    "pageLoadingMessage": {
+        "message": "Ilayisha iphepha"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "ayinalo iphepha lokukhetha."
+    },
+    "settingsPermissionsText": {
+        "message": "Iimvume"
+    },
+    "settingsUninstallButton": {
+        "message": "Khipha"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Ingaba uqinisekile?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Qinisekisa"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Rhoxisa"
+    }
+}

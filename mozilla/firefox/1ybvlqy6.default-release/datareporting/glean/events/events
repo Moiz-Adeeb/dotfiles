@@ -1,0 +1,17 @@
+{"timestamp":2419346,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"N/A","can_load":"true","path_key":"clean","glean_timestamp":"1778493223539"}}
+{"timestamp":2419346,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"true","path_key":"clean","loadfail_reason":"N/A","glean_timestamp":"1778493223539"}}
+{"timestamp":2419346,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"shutdown_reason":"N/A","glean_timestamp":"1778493223539","shutdown_ok":"false"}}
+{"timestamp":2420092,"category":"webcompatreporting","name":"reason_dropdown","extra":{"setting":"required","glean_timestamp":"1778493224286"}}
+{"timestamp":2420623,"category":"nimbus_events","name":"startup_database_consistency","extra":{"store_active_count":"32","primary":"database","trigger":"startup","total_db_count":"38","total_store_count":"38","db_active_count":"32","glean_timestamp":"1778493224819"}}
+{"timestamp":2420879,"category":"doh","name":"state_rollback","extra":{"value":"null","glean_timestamp":"1778493225072"}}
+{"timestamp":2420936,"category":"containers","name":"container_profile_loaded","extra":{"containers":"4","glean_timestamp":"1778493225129"}}
+{"timestamp":2421242,"category":"upgrade_dialog","name":"trigger_reason","extra":{"glean_timestamp":"1778493225435","value":"disabled"}}
+{"timestamp":2421664,"category":"normandy","name":"enroll_failed_nimbus_experiment","extra":{"value":"relay-integration-into-firefox-release-for-all-fxa-users","reason":"feature-conflict","glean_timestamp":"1778493225857"}}
+{"timestamp":2421664,"category":"nimbus_events","name":"enroll_failed","extra":{"glean_timestamp":"1778493225857","experiment":"relay-integration-into-firefox-release-for-all-fxa-users","reason":"feature-conflict"}}
+{"timestamp":2421809,"category":"normandy","name":"enroll_failed_nimbus_experiment","extra":{"value":"expand-vertical-tabs-callout-existing-profiles","glean_timestamp":"1778493226002","reason":"feature-conflict"}}
+{"timestamp":2421809,"category":"nimbus_events","name":"enroll_failed","extra":{"experiment":"expand-vertical-tabs-callout-existing-profiles","glean_timestamp":"1778493226002","reason":"feature-conflict"}}
+{"timestamp":2421873,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1778493226066"}}
+{"timestamp":2422513,"category":"extensions.data","name":"sync_usage_quotas","extra":{"items_count":"14","items_over_quota":"0","total_size_bytes":"861","addon_id":"treestyletab@piro.sakura.ne.jp","glean_timestamp":"1778493226706","backend":"rust"}}
+{"timestamp":2422820,"category":"nimbus_events","name":"database_write","extra":{"glean_timestamp":"1778493227013","success":"true"}}
+{"timestamp":2422790,"category":"extensions.data","name":"storage_local_error","extra":{"glean_timestamp":"1778493227032","addon_id":"treestyletab@piro.sakura.ne.jp","method":"get","error_name":"OtherError"}}
+{"timestamp":2422887,"category":"doh","name":"state_shutdown","extra":{"glean_timestamp":"1778493227080","value":"null"}}

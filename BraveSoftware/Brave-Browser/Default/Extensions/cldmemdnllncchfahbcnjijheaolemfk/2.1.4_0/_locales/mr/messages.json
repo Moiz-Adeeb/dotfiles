@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Chrome, Opera आणि इतर Chromium आधारित ब्राउझरमधील firefox विस्तार अनुकरण करा"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "अपलोड फाइल"
+   },
+   "homeCtaHelpText": {
+      "message": "समर्थित स्वरूप: crx, zip किंवा xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "निवडलेली फाईल समर्थित नाही."
+   },
+   "homeSubtitle": {
+      "message": "Chrome, Opera आणि अन्य Chromium आधारित ब्राउझरमधील firefox विस्तारांचे अनुकरण करा."
+   },
+   "homeTitle": {
+      "message": "Google मध्ये Firefox अ‍ॅडॉन स्थापित करा Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "अ‍ॅप आयडी काढण्यात अयशस्वी."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "विस्तार डाउनलोड करण्यात अयशस्वी."
+   },
+   "installerErrorCancelButton": {
+      "message": "स्थापना रद्द करा"
+   },
+   "installerExtractErrorMessage": {
+      "message": "फायली काढण्यात अयशस्वी."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified ने आपला विस्तार स्थापित करणे समाप्त केले. कृपया नवीन विस्तार प्रारंभ होईपर्यंत प्रतीक्षा करा."
+   },
+   "installerStepCompleteTitle": {
+      "message": "स्थापना पूर्ण करा"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "पूर्ण"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified स्थापित करण्यासाठी आपला विस्तार डाउनलोड आणि तयार करीत आहे. कृपया डाउनलोड पूर्ण होण्यासाठी काही क्षण प्रतीक्षा करा."
+   },
+   "installerStepDownloadTitle": {
+      "message": "विस्तार डाउनलोड करत आहे"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "डाउनलोड करा"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "तरीही स्थापित करा"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "परवानग्यांना परवानगी द्या"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "रद्द करा"
+   },
+   "installerStepInstallationTitle": {
+      "message": "विस्तार स्थापित करत आहे"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "स्थापना"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified या अ‍ॅडॉनसाठी आवश्यक असलेल्या सर्व API चे समर्थन करत नाही. हे काही अ‍ॅडॉन कार्यक्षमता खंडित करेल."
+   },
+   "installerStepName": {
+      "message": "पाऊल"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "विस्तार सुरू करत आहे"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "डाउनलोड करत आहे"
+   },
+   "installerStepProgressExtractText": {
+      "message": "फायली काढत आहे"
+   },
+   "pageLoadingMessage": {
+      "message": "पृष्ठ लोड करीत आहे"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "पर्याय पृष्ठ नाही."
+   },
+   "settingsPermissionsText": {
+      "message": "परवानग्या"
+   },
+   "settingsUninstallButton": {
+      "message": "विस्थापित करा"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "रद्द करा"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "पुष्टी"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "तुला खात्री आहे?"
+   }
+}

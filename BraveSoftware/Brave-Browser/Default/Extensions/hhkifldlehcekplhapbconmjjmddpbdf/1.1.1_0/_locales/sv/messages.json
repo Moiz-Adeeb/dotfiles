@@ -1,0 +1,29 @@
+{
+   "appName": {
+      "message": "Color Picker"
+   },
+   "copiedToClipboard": {
+      "message": "Copied to the clipboard."
+   },
+   "extShortName": {
+      "message": "HEXcolorPick"
+   },
+   "pickColor": {
+      "message": "Pick a color"
+   },
+   "recentColors": {
+      "message": "Recent colors"
+   },
+   "shortDesc": {
+      "message": "Använd HEX Color Picker från bild för att snabbt identifiera och använda den i dina projekt. Välj hexfärg från vilken bild som helst"
+   },
+   "storeDesc": {
+      "message": "Introducerar hex color picker, den ultimata Google Chrome-tillägget utformat för designers, utvecklare och alla som brinner för grafik. Denna kraftfulla verktyg är anpassad för att hjälpa dig enkelt välja hexfärg från vilken bild som helst, vilket gör ditt arbetsflöde mer effektivt och exakt. Oavsett om du arbetar med webbdesign, grafikprojekt eller digital konst, säkerställer vår HEX Färgväljare att du har det perfekta verktyget vid dina fingertoppar.\n\nNyckelfunktioner inkluderar:\n🌟 Enkel extrahering och hexfärgkodväljare från bilder\n🌟 Enkel och användarvänlig gränssnitt\n🌟 Förhandsgranskning i realtid och justering\n🌟 Sömlös integration med andra designverktyg\n\nHastighet och prestanda är avgörande i alla verktyg, och vårt tillägg är utmärkt inom detta område. Det är lättviktigt och optimerat för snabb prestanda, vilket säkerställer att det inte saktar ner din webbläsare eller hindrar din produktivitet.\n\nHär är några scenarier där det kan vara särskilt användbart:\n1. Webbdesign:\n    📐 Säkerställer konsistens i scheman\n    🌐 Enkel färgsökare från bild\n    🖥️ Exakt översättning till HTML-koder\n2. Grafisk design:\n    🎨 Perfekt för matchning\n    🖼️ Extrahera data från inspirerande bilder\n    💡 Skapa sammanhängande paletter\n3. Digital konst:\n    🖌️ Färgväljare från referensfoton\n    🎨 Justera i realtid\n    🔍 Zooma in för exakt urval\n4. Utveckling:\n    💻 Snabb och exakt hexkodfärgväljare\n    🔧 Integration med utvecklingsverktyg\n    ⚙️ Säkerställ visuell konsistens\n\nFör de som arbetar med olika format inkluderar hex color picker även en rgb-färgväljare. Detta gör att du kan välja färg i RGB-format, vilket ger flexibilitet och precision för olika designbehov.\n\nVanliga frågor:\n- Vad är en hex?\n   En hexadecimal representation, används i webbdesign med tillägget.\n- Kan jag använda detta verktyg offline?\n   Ja, internetanslutning krävs inte för att arbeta med Google Färgväljare.\n\nMed hexkodsfunktionen och rgb-färgväljaren garanteras att du enkelt kan hantera vilken uppgift som helst.\n\nBesvarar vilken färg detta är i:\n* Hexadecimal (Hex): #FFFFFF\n* RGB: rgb(255, 255, 255)\n* HSL: hsl(0, 0%, 100%)\n\nFör de som hanterar olika format möjliggör vårt tillägg att upptäcka grafik i vilket format som helst, vilket ger flexibilitet och precision för olika designbehov. Dessa funktioner säkerställer att du kan hantera vilken uppgift som helst med lätthet.\n\nTips för bästa användning:\n💥 Använd högupplösta bilder: Säkerställer noggrann detektion med färgväljaren från bild.\n💥 Dubbelkolla koder: Verifiera koder innan du tillämpar dem.\n💥 Spara Frekvent Använda Objekt: Behåll en palett med vanliga objekt med färgidentifierare.\n\nDen inbyggda pipetten är en kraftfull funktion som låter dig sampla grafik från din webbläsare. Klicka helt enkelt på pipettikonen, sväva över det önskade området och klicka för att välja. Detta verktyg är perfekt för att fånga data från bilder, webbplatser eller annat digitalt innehåll.\n\nHur man använder HEX Färgväljare:\n1️⃣ Installera tillägget: Lägg till det i din Chrome-webbläsare.\n2️⃣ Aktivera verktyget: Klicka på tilläggsikonen.\n3️⃣ Öppna en bild: Navigera till den bild du vill använda.\n4️⃣ Sväva över bilden: Flytta muspekaren till det önskade området.\n5️⃣ Klicka för att fånga: Spara koden för din användning.\n\nHåll dig uppdaterad: Håll tillägget uppdaterat för nya funktioner på färgväljaren google.\nKombinera med designprogramvara: Använd tillsammans med verktyg som Photoshop eller Illustrator för förbättrad funktionalitet.\n\nFunktioner som imponerar\n⚡️ Färg Hexkodväljare: Perfekt för webbdesign. Bara hämta koden och sätt in den i din CSS.\nFör att säkerställa att du alltid har den bästa upplevelsen får tillägget regelbundna uppdateringar. Dessa uppdateringar inkluderar nya funktioner, prestandaförbättringar och buggfixar. Dessutom är supportteamet alltid redo att hjälpa dig med eventuella problem eller frågor du kan ha.\n\n⚡️ Bildfärgväljare: Fungerar på vilken bild som helst, oavsett om den är online eller sparad på din dator.\nFunktionen för realtidsjustering gör att du kan justera paletten på språng. Oavsett om du behöver justera nyansen, mättnaden eller ljusstyrkan, ger tillägget reglage som ger dig exakt kontroll. Detta säkerställer att du kan finjustera grafik till perfektion.\n\n⚡️ Färgbildväljare: Idealisk för att hitta inspiration från foton och konstverk.\nNär du behöver identifiera ett specifikt värde finns hexadecimala färgväljarfunktioner där för att hjälpa till. Dessa funktioner säkerställer att du alltid kan bestämma de exakta numren för all grafik, vilket gör matchning och replikering enkel och exakt.\n\n⚡️ Färgväljare Hexverktyg: Snabbt och enkelt sätt att få den grafik du behöver.\n\nSå, där har du det. hex color picker är ditt go-to-verktyg för allt inom design. Oavsett om du hämtar palett från bilder för webbdesign, grafisk design eller bara för skojs skull, täcker detta tillägg dig. Trevlig design!"
+   },
+   "title": {
+      "message": "Color picker"
+   },
+   "titleRateUs": {
+      "message": "Rate us:"
+   }
+}

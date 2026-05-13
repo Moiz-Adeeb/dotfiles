@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "Keskeytä välilehdet, joita et käytä, säästääksesi muistin käyttöä ja saada tietokoneesi toimimaan nopeammin. Vähennä laitteesi ja akun kuormitusta."
+   },
+   "name": {
+      "message": "Tab Suspender"
+   },
+   "title": {
+      "message": "Tab Suspender"
+   }
+}

@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Piga viendelezi vya firefox katika Chrome, Opera na vivinjari vingine vya Chromium"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Pakia faili"
+   },
+   "homeCtaHelpText": {
+      "message": "Fomati zinazoungwa mkono: crx, zip au xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Faili iliyochaguliwa haitumiki."
+   },
+   "homeSubtitle": {
+      "message": "Piga viendelezi vya firefox katika Chrome, Opera na vivinjari vingine vya Chromium."
+   },
+   "homeTitle": {
+      "message": "Sakinisha Firefox Addons Katika Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Imeshindwa kutoa kitambulisho cha programu."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Imeshindwa kupakua kiendelezi."
+   },
+   "installerErrorCancelButton": {
+      "message": "Ghairi Usakinishaji"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Imeshindwa kutoa faili."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified imemaliza kusanikisha kiendelezi chako. Tafadhali subiri ugani mpya uanze."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Maliza ufungaji"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Kukamilisha"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified inapakua na kuandaa kiendelezi chako kwa usakinishaji. Tafadhali subiri kwa muda mfupi ili upakuaji ukamilike."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Inapakua kiendelezi"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Pakua"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Sakinisha Vyovyote vile"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Ruhusu Ruhusa"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Ghairi"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Inasakinisha kiendelezi"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Ufungaji"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified haiunga mkono APIs zote zinazohitajika kwa nyongeza hii. Hii itavunja utendaji wa nyongeza."
+   },
+   "installerStepName": {
+      "message": "Hatua"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Kuanza ugani"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Inapakua"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Kutoa faili"
+   },
+   "pageLoadingMessage": {
+      "message": "Inapakia ukurasa"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "haina ukurasa wa chaguzi."
+   },
+   "settingsPermissionsText": {
+      "message": "Ruhusa"
+   },
+   "settingsUninstallButton": {
+      "message": "Ondoa"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Ghairi"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Thibitisha"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Una uhakika?"
+   }
+}

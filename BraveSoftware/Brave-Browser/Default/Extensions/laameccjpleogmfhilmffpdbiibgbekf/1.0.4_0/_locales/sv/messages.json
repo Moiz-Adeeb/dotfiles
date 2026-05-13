@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "Stäng av flikar som du inte använder för att spara minnesanvändning och få din dator att gå snabbare. Minska belastningen på enheten och batteriet."
+   },
+   "name": {
+      "message": "Tab Suspender"
+   },
+   "title": {
+      "message": "Tab Suspender"
+   }
+}

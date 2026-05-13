@@ -1,0 +1,27 @@
+2026/05/12-00:24:44.554 3ad07 Reusing MANIFEST /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_moviebox.ph_0.indexeddb.leveldb/MANIFEST-000001
+2026/05/12-00:24:44.556 3ad07 Recovering log #54
+2026/05/12-00:24:44.557 3ad07 Reusing old log /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_moviebox.ph_0.indexeddb.leveldb/000054.log 
+2026/05/12-00:24:47.636 3acf9 Level-0 table #60: started
+2026/05/12-00:24:47.653 3acf9 Level-0 table #60: 28930 bytes OK
+2026/05/12-00:24:47.674 3acf9 Delete type=0 #54
+2026/05/12-00:24:47.674 3acf9 Manual compaction at level-0 from '\x00\x14\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/05/12-00:25:02.628 3ad07 Compacting 1@1 + 1@2 files
+2026/05/12-00:25:02.655 3ad07 Generated table #61@1: 653 keys, 45994 bytes
+2026/05/12-00:25:02.655 3ad07 Compacted 1@1 + 1@2 files => 45994 bytes
+2026/05/12-00:25:02.685 3ad07 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/12-00:25:02.688 3ad07 Delete type=2 #57
+2026/05/12-00:25:02.688 3ad07 Delete type=2 #60
+2026/05/12-00:25:03.323 3acf9 Level-0 table #63: started
+2026/05/12-00:25:03.341 3acf9 Level-0 table #63: 40098 bytes OK
+2026/05/12-00:25:03.369 3acf9 Delete type=0 #59
+2026/05/12-00:25:03.369 3acf9 Manual compaction at level-0 from '\x00\x15\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/05/12-00:25:06.357 3acf9 Compacting 1@1 + 1@2 files
+2026/05/12-00:25:06.381 3acf9 Generated table #64@1: 761 keys, 53713 bytes
+2026/05/12-00:25:06.382 3acf9 Compacted 1@1 + 1@2 files => 53713 bytes
+2026/05/12-00:25:06.417 3acf9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/12-00:25:06.417 3acf9 Delete type=2 #61
+2026/05/12-00:25:06.417 3acf9 Delete type=2 #63
+2026/05/12-00:25:07.029 3ad07 Level-0 table #66: started
+2026/05/12-00:25:07.041 3ad07 Level-0 table #66: 14044 bytes OK
+2026/05/12-00:25:07.069 3ad07 Delete type=0 #62
+2026/05/12-00:25:07.070 3acfb Manual compaction at level-0 from '\x00\x16\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at (end)

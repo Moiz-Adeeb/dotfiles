@@ -1,0 +1,18 @@
+# 1. Matches ONLY when HDMI is plugged in. 
+# If you want this to take priority when both are connected, place it first.
+profile "External-Only" {
+    output "HDMI-A-1" enable mode 1920x1080@60.00 position 0,0 scale 1.0
+    output "eDP-1" disable
+}
+
+# 2. Matches when BOTH are plugged in.
+profile "Dual-Screen" {
+    output "eDP-1" enable mode 1920x1080@60.02 position 0,0 scale 1.333
+    output "HDMI-A-1" enable mode 1920x1080@60.00 position 1444,0 scale 1.0
+}
+
+# 3. Matches ONLY when the laptop lid is open / HDMI is unplugged.
+profile "Laptop-Only" {
+    output "eDP-1" enable mode 1920x1080@60.02 position 0,0 scale 1.0
+}
+

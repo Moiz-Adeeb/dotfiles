@@ -1,0 +1,72 @@
+{
+   "action": {
+      "default_popup": "popup.html",
+      "default_title": "__MSG_title__"
+   },
+   "background": {
+      "service_worker": "./js/background.js"
+   },
+   "commands": {
+      "force_suspend_all_other_tabs_in_current_window": {
+         "description": "Force suspend all other tabs in active window"
+      },
+      "force_suspend_all_tabs_in_all_windows": {
+         "description": "Force suspend all tabs in all windows"
+      },
+      "open_tab_manager": {
+         "description": "Open tab manager",
+         "suggested_key": {
+            "linux": "Alt+E",
+            "mac": "Command+E",
+            "windows": "Alt+E"
+         }
+      },
+      "pause_unpause_current": {
+         "description": "Pause/Unpause suspension of active tab"
+      },
+      "suspend_all_other_tabs_in_current_window": {
+         "description": "Suspend all other tabs in active window"
+      },
+      "suspend_all_tabs_in_all_windows": {
+         "description": "Suspend all tabs in all windows"
+      },
+      "suspend_selected_tabs": {
+         "description": "Suspend selected tabs"
+      },
+      "suspend_unsuspend_current": {
+         "description": "Suspend/Unsuspend active tab"
+      },
+      "unsuspend_all_tabs_in_all_windows": {
+         "description": "Unsuspend all tabs in all windows"
+      },
+      "unsuspend_all_tabs_in_current_window": {
+         "description": "Unsuspend all tabs in active window"
+      },
+      "unsuspend_selected_tabs": {
+         "description": "Unsuspend selected tabs"
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "js/form-input-listener.js", "js/tab-manager.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_desc__",
+   "host_permissions": [ "http://*/*", "https://*/*" ],
+   "icons": {
+      "128": "assets/static/icons/128-suspend.png",
+      "32": "assets/static/icons/32-suspend.png",
+      "64": "assets/static/icons/64-suspend.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoFk8WVWJV8TuvNqTkf4jRjy2tZdyraMkLaqNYsA4zcyi1eSkOZBY7H+Bwg57HGqrggpJsqUIZ1F5eARroOmUJWLZXY6pph1SfO2fvu7PEo/76NAgbrPaVvcYWnbZz35QkFW6pZugkYAcn+Pl60TqTbStxmMjrXMdd98ZJKqf1pmmwoI5ni0U3yEIeJmb7nl+J+oJbk1mBbqAWcMfCM95yDcbyP76yC3eEym2AoostRBQWXzgFjOLpMLzNCJXJBF0kL1LDGhiYIGgoJW5rioKQVKzpHXhySsKoSd1KsLhFUi57HhIXP4VWETA7hpWs0JXaup0r+/yCXSz4dYa0zud+wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_name__",
+   "options_page": "./options.html",
+   "permissions": [ "storage", "unlimitedStorage", "tabs", "favicon", "scripting", "contextMenus", "system.memory" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.4",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "assets/*.svg", "assets/*.png", "assets/*.css", "assets/*.otf", "assets/static/*", "_favicon/*" ]
+   } ]
+}

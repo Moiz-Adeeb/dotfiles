@@ -1,0 +1,35 @@
+[global_config]
+  geometry_hinting = True
+  window_state = maximise
+  extra_styling = False
+  tab_position = bottom
+  inactive_color_offset = 0.5054945054945055
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#302c3a"
+    background_darkness = 1.0
+    cursor_blink = False
+    cursor_fg_color = "#e5a50a"
+    cursor_bg_color = "#e5a50a"
+    cursor_color_default = False
+    font = Cascadia Mono NF 14
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#2e3436:#a51d2d:#26a269:#e5a50a:#3465a4:#dc8add:#06989a:#9a9996:#77767b:#f66151:#8ff0a4:#f9f06b:#729fcf:#ad7fa8:#34e2e2:#ffffff"
+    custom_command = usr/bin/zsh
+    use_system_font = False
+    bold_is_bright = True
+    copy_on_selection = True
+    title_use_system_font = False
+    title_font = Cascadia Mono NF Semi-Bold 12
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]

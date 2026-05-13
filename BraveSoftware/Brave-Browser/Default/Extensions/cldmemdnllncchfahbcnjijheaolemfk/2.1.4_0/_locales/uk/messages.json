@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Емулювати розширення firefox у Chrome, Opera та інших Chromium браузерах"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Завантажити файл"
+   },
+   "homeCtaHelpText": {
+      "message": "Підтримувані формати: crx, zip або xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Вибраний файл не підтримується."
+   },
+   "homeSubtitle": {
+      "message": "Емулюйте розширення firefox у браузерах Chrome, Opera та інших Chromium."
+   },
+   "homeTitle": {
+      "message": "Встановіть Firefox аддони в Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "Не вдалося отримати ідентифікатор програми."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Не вдалося завантажити розширення."
+   },
+   "installerErrorCancelButton": {
+      "message": "Скасувати встановлення"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Не вдалося витягти файли."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified завершив установку вашого розширення. Зачекайте, поки почнеться нове розширення."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Завершіть установку"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Повна"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified завантажує та готує розширення до встановлення. Зачекайте кілька хвилин, поки завантаження завершиться."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Завантаження розширення"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Завантажити"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Встановіть все одно"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Дозволити дозволи"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Скасувати"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Встановлення розширення"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Встановлення"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified не підтримує всі API, необхідні для цього аддону. Це порушить деякі функціональні можливості аддону."
+   },
+   "installerStepName": {
+      "message": "Крок"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Початок розширення"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Завантаження"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Витяг файлів"
+   },
+   "pageLoadingMessage": {
+      "message": "Завантаження сторінки"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "не має сторінки опцій."
+   },
+   "settingsPermissionsText": {
+      "message": "Дозволи"
+   },
+   "settingsUninstallButton": {
+      "message": "Видаліть"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Скасувати"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Підтвердити"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Ти впевнений?"
+   }
+}

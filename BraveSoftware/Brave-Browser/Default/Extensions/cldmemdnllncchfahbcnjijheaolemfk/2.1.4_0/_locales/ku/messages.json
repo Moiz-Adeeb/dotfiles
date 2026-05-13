@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "firefox pêvekên li Chrome, Opera û yên din Chromium li gerokên bingeh binerin"
+    },
+    "homeTitle": {
+        "message": "Firefox Pêvekên Li Google Chrome Saz Bikin"
+    },
+    "homeSubtitle": {
+        "message": "firefox pêvekên li Chrome, Opera û yên din Chromium li gerokên bingeh binerin."
+    },
+    "homeCtaButton": {
+        "message": "Pelê bar bikin"
+    },
+    "homeCtaHelpText": {
+        "message": "Formatên piştgirî: crx, zip an xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Pelê bijartî nayê piştgirî kirin."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Dakêşînin"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Lêkirinî"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Temamkirin"
+    },
+    "installerStepName": {
+        "message": "Gav"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Daxistina pêvekê"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified pêveka we ji bo sazkirinê daxîne û amade dike. Ji kerema xwe çend hûrdeman bisekinin daku daxistin biqede."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Dakêşandin"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Pelên derxistin"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Sazkirina dirêjkirinê"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Destûrên Destûrê bidin"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified hemî API-yên ku ji bo vê addonê hewce ne piştgirî nake. Ev dê hin fonksiyonên addonê bişkîne."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Bi her awayî saz bikin"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Bişûndekirin"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Sazkirinê bidawî bikin"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified sazkirina pêveka we qedand. Ji kerema xwe li bendê bin ku dirêjkirina nû dest pê bike."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Destpêkirina dirêjkirinê"
+    },
+    "installerErrorCancelButton": {
+        "message": "Sazkirinê Betal Bikin"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Daxistina pêvekê têk çû."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Pel nehatin derxistin."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Nasnameya sepanê nehat derxistin."
+    },
+    "pageLoadingMessage": {
+        "message": "Rûpelê bar dike"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "rûpelê vebijarkan tune."
+    },
+    "settingsPermissionsText": {
+        "message": "Destûrên"
+    },
+    "settingsUninstallButton": {
+        "message": "Rakirin"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Piştrastin?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Tesdîqkirin"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Bişûndekirin"
+    }
+}

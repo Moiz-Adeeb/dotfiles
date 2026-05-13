@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "በ Chrome, Opera እና በሌሎች Chromium ላይ የተመሰረቱ አሳሾችን firefox ቅጥያዎችን ይምሰሉ"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "ፋይል ስቀል"
+   },
+   "homeCtaHelpText": {
+      "message": "የሚደገፉ ቅርጸቶች-crx, zip ወይም xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "የተመረጠው ፋይል አይደገፍም"
+   },
+   "homeSubtitle": {
+      "message": "firefox ቅጥያዎችን በ Chrome, Opera እና በሌሎች Chromium የተመሰረቱ አሳሾችን ምሰሉ ፡፡"
+   },
+   "homeTitle": {
+      "message": "ጫን Firefox Addons በ Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "የመተግበሪያ መታወቂያ ማውጣት አልተሳካም"
+   },
+   "installerDownloadErrorMessage": {
+      "message": "ቅጥያ ማውረድ አልተሳካም።"
+   },
+   "installerErrorCancelButton": {
+      "message": "መጫንን ሰርዝ"
+   },
+   "installerExtractErrorMessage": {
+      "message": "ፋይሎችን ማውጣት አልተሳካም"
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified ቅጥያዎን መጫኑን አጠናቋል። እባክዎ አዲሱ ቅጥያ እስኪጀመር ድረስ ይጠብቁ።"
+   },
+   "installerStepCompleteTitle": {
+      "message": "መጫኑን ጨርስ"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "ተጠናቀቀ"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified ቅጥያዎን ለመጫን ማውረድ እና ማዘጋጀት ነው። ማውረዱ እስኪጠናቀቅ ድረስ እባክዎ ጥቂት ጊዜዎችን ይጠብቁ።"
+   },
+   "installerStepDownloadTitle": {
+      "message": "ቅጥያ በማውረድ ላይ"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "አውርድ"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "ለማንኛውም ጫን"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "ፈቃዶችን ፍቀድ"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "ሰርዝ"
+   },
+   "installerStepInstallationTitle": {
+      "message": "ቅጥያ በመጫን ላይ"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "ጭነት"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified ለዚህ አዶ የሚያስፈልጉትን ሁሉንም ኤ.ፒ.አይዎች አይደግፍም ፡፡ ይህ የተወሰኑ የአዶዎችን ተግባር ይሰብራል።"
+   },
+   "installerStepName": {
+      "message": "ደረጃ"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "ቅጥያ በመጀመር ላይ"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "በማውረድ ላይ"
+   },
+   "installerStepProgressExtractText": {
+      "message": "ፋይሎችን ማውጣት"
+   },
+   "pageLoadingMessage": {
+      "message": "ገጽን በመጫን ላይ"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "አማራጮች ገጽ የለውም።"
+   },
+   "settingsPermissionsText": {
+      "message": "ፈቃዶች"
+   },
+   "settingsUninstallButton": {
+      "message": "ማራገፍ"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "ሰርዝ"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "አረጋግጥ"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "እርግጠኛ ነህ?"
+   }
+}

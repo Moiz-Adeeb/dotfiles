@@ -1,0 +1,15 @@
+# Ignore heavy IDE caches and extensions
+Code/CachedExtensionVSIXs/
+Code/Cache/
+Code/CachedData/
+Code/Logs/
+Code/User/workspaceStorage/
+google-chrome/
+chromium/
+
+# Ignore general application caches and temp files
+*Cache*
+*cache*
+*.log
+*.tmp
+

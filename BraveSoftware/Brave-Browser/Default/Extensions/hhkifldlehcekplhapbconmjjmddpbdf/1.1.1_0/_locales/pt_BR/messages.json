@@ -1,0 +1,29 @@
+{
+   "appName": {
+      "message": "Seletor de Cor HEX"
+   },
+   "copiedToClipboard": {
+      "message": "Copied to the clipboard."
+   },
+   "extShortName": {
+      "message": "HEXcolorPick"
+   },
+   "pickColor": {
+      "message": "Pick a color"
+   },
+   "recentColors": {
+      "message": "Recent colors"
+   },
+   "shortDesc": {
+      "message": "Use o Seletor de Cor HEX a partir da imagem para identificar e usá-lo rapidamente em seus projetos."
+   },
+   "storeDesc": {
+      "message": "Apresentando o seletor de cor HEX, a melhor extensão do Google Chrome projetada para designers, desenvolvedores e qualquer pessoa apaixonada por gráficos. Esta ferramenta poderosa é feita para ajudá-lo a escolher facilmente a cor HEX de qualquer imagem, tornando seu fluxo de trabalho mais eficiente e preciso. Seletor de Cor HEX garante que você tenha a ferramenta perfeita ao seu alcance.\n\nPrincipais recursos incluem:\n🌟 Extração fácil e seletor de código de cor HEX de imagens\n🌟 Interface simples e amigável\n🌟 Visualização e ajuste em tempo real\n🌟 Integração perfeita com outras ferramentas de design\n\nVelocidade e desempenho são cruciais em qualquer ferramenta, e nossa extensão se destaca nesse aspecto. É leve e otimizada para um desempenho rápido, garantindo que não prejudique a velocidade do seu navegador ou sua produtividade.\n\nAqui estão alguns cenários em que pode ser particularmente útil:\n1. Web Design:\n    📐 Garante consistência nos esquemas\n    🌐 Fácil localizador de cores a partir de imagens\n    🖥️ Tradução precisa para códigos HTML\n2. Design Gráfico:\n    🎨 Perfeito para combinar\n    🖼️ Extrair dados de imagens inspiradoras\n    💡 Criar paletas coesas\n3. Arte Digital:\n    🖌️ Seletor de cores de fotos de referência\n    🎨 Ajuste em tempo real\n    🔍 Amplie para seleção precisa\n4. Desenvolvimento:\n    💻 Seletor de cores de código HEX rápido e preciso\n    🔧 Integração com ferramentas de desenvolvimento\n    ⚙️ Garantir consistência visual\n\nPara aqueles que trabalham com diferentes formatos, o seletor de cor HEX também inclui um seletor de cor RGB. Isso permite que você escolha cores no formato RGB, oferecendo flexibilidade e precisão para diversas necessidades de design.\n\nPerguntas Frequentes:\n- O que é um hex?\n   Uma representação hexadecimal, usada em design web com a extensão.\n- Posso usar esta ferramenta offline?\n   Sim, conexão com a internet não é necessária para trabalhar com o seletor de cores do Google.\n\nCom as funcionalidades de localizador de código HEX e seletor de cores RGB, você pode gerenciar qualquer tarefa com facilidade.\n\nRespondendo qual cor é esta em:\n* Hexadecimal (Hex): #FFFFFF\n* RGB: rgb(255, 255, 255)\n* HSL: hsl(0, 0%, 100%)\n\nPara aqueles lidando com vários formatos, nossa extensão permite que você detecte gráficos em qualquer formato, oferecendo flexibilidade e precisão para diversas necessidades de design. Essas funcionalidades garantem que você possa lidar com qualquer tarefa com facilidade.\n\nDicas para Melhor Uso:\n💥 Use Imagens de Alta Resolução: Garante detecção precisa com o seletor de cor a partir de imagens.\n💥 Verifique os Códigos: Verifique os códigos antes de aplicá-los.\n💥 Salvar Itens Usados com Frequência: Mantenha uma paleta de itens comuns com o identificador de cor.\n\nA ferramenta conta-gotas integrada é um recurso poderoso que permite amostrar qualquer gráfico do seu navegador. Basta clicar no ícone do conta-gotas, passar sobre a área desejada e clicar para selecionar. Esta ferramenta é perfeita para capturar dados de imagens, sites ou qualquer conteúdo digital.\n\nComo Usar o Seletor de Cor HEX:\n1️⃣ Instale a Extensão: Adicione ao seu navegador Chrome.\n2️⃣ Ative a Ferramenta: Clique no ícone da extensão.\n3️⃣ Abra uma Imagem: Navegue até a imagem que deseja usar.\n4️⃣ Passe o Cursor sobre a Imagem: Mova o cursor para a área desejada.\n5️⃣ Clique para Capturar: Salve o código para seu uso.\n\nMantenha-se Atualizado: Mantenha a extensão atualizada para novos recursos no seletor de cor google.\nCombine com Software de Design: Use junto com ferramentas como Photoshop ou Illustrator para funcionalidade aprimorada.\n\nRecursos Incríveis\n⚡️ Seletor de Código de Cor HEX: Perfeito para design web. Basta pegar o código e inseri-lo em seu CSS.\nPara garantir que você tenha sempre a melhor experiência, a extensão recebe atualizações regulares. Essas atualizações incluem novos recursos, melhorias de desempenho e correções de bugs. Além disso, a equipe de suporte está sempre pronta para ajudá-lo com quaisquer problemas ou dúvidas que possa ter.\n\n⚡️ Seletor de Cor de Imagem: Funciona em qualquer imagem, seja online ou salva em seu computador.\nO recurso de ajuste em tempo real permite ajustar a paleta rapidamente. Seja para ajustar o matiz, saturação ou brilho, a extensão fornece controles deslizantes que oferecem controle preciso. Isso garante que você possa ajustar os gráficos com perfeição.\n\n⚡️ Seletor de Cor de Imagem: Ideal para encontrar inspiração em fotos e obras de arte.\nQuando você precisa identificar um valor específico, as funcionalidades do seletor de cor hexadecimal estão lá para ajudar. Esses recursos garantem que você possa sempre determinar os números exatos de qualquer gráfico, tornando a correspondência e replicação diretas e precisas.\n\n⚡️ Ferramenta Seletora de Cor HEX: Maneira rápida e fácil de obter os gráficos de que você precisa.\n\nEntão, aí está. O Seletor de Cor HEX é sua ferramenta essencial para tudo relacionado ao design. Seja capturando paletas de imagens para design web, design gráfico ou apenas por diversão, esta extensão tem tudo o que você precisa. Feliz design!"
+   },
+   "title": {
+      "message": "Color picker"
+   },
+   "titleRateUs": {
+      "message": "Rate us:"
+   }
+}

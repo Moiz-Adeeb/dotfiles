@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Emulieren Sie firefox -Erweiterungen in Chrome, Opera und anderen Chromium -basierten Browsern"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Datei hochladen"
+   },
+   "homeCtaHelpText": {
+      "message": "Unterstützte Formate: crx, zip oder xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Die ausgewählte Datei wird nicht unterstützt."
+   },
+   "homeSubtitle": {
+      "message": "Emulieren Sie firefox -Erweiterungen in Chrome, Opera und anderen Chromium -basierten Browsern."
+   },
+   "homeTitle": {
+      "message": "Installiere Firefox Addons in Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "App-ID konnte nicht extrahiert werden."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Erweiterung konnte nicht heruntergeladen werden."
+   },
+   "installerErrorCancelButton": {
+      "message": "Installation abbrechen"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Dateien konnten nicht extrahiert werden."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified hat die Installation Ihrer Erweiterung abgeschlossen. Bitte warten Sie, bis die neue Erweiterung startet."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Beenden Sie die Installation"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Komplett"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified lädt Ihre Erweiterung herunter und bereitet sie für die Installation vor. Bitte warten Sie einige Momente, bis der Download abgeschlossen ist."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Erweiterung herunterladen"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Herunterladen"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Wie auch immer installieren"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Berechtigungen zulassen"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Stornieren"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Erweiterung installieren"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Installation"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified unterstützt nicht alle für dieses Addon erforderlichen APIs. Dadurch werden einige Addon-Funktionen unterbrochen."
+   },
+   "installerStepName": {
+      "message": "Schritt"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Erweiterung starten"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "wird heruntergeladen"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Entpacke Dateien"
+   },
+   "pageLoadingMessage": {
+      "message": "Ladeseite"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "hat keine Optionsseite."
+   },
+   "settingsPermissionsText": {
+      "message": "Berechtigungen"
+   },
+   "settingsUninstallButton": {
+      "message": "Deinstallieren"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Stornieren"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Bestätigen"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Bist du sicher?"
+   }
+}

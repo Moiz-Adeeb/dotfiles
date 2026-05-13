@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Chrome, Opera және басқа Chromium негізделген браузерлерде firefox кеңейтімдерін имитациялау"
+    },
+    "homeTitle": {
+        "message": "Firefox қосымшаларын Google-да орнатыңыз Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Chrome, Opera және басқа Chromium негізделген браузерлерде firefox кеңейтімдерін имитациялау."
+    },
+    "homeCtaButton": {
+        "message": "Файлды жүктеңіз"
+    },
+    "homeCtaHelpText": {
+        "message": "Қолдау көрсетілетін форматтар: crx, zip немесе xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Таңдалған файлға қолдау көрсетілмейді."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Жүктеу"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Орнату"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Аяқталды"
+    },
+    "installerStepName": {
+        "message": "Қадам"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Кеңейтім жүктелуде"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified жүктеуде және кеңейтуге дайындалып жатыр. Жүктеу аяқталғанша бірнеше минут күтіңіз."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Жүктеу"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Файлдарды шығару"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Кеңейтімді орнату"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Рұқсат етіңіз"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified осы қосымшаға қажет барлық API-ді қолдамайды. Бұл кейбір қосымшалардың функционалдығын бұзады."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Қалай болса да орнатыңыз"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Бас тарту"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Орнатуды аяқтаңыз"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified сіздің кеңейтіміңізді орнатуды аяқтады. Жаңа кеңейтім басталғанша күтіңіз."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Кеңейту басталуда"
+    },
+    "installerErrorCancelButton": {
+        "message": "Орнатудан бас тарту"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Кеңейтім жүктелмеді."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Файлдар шығарылмады."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Қолданба идентификаторы шығарылмады."
+    },
+    "pageLoadingMessage": {
+        "message": "Парақ жүктелуде"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "опциялар парағы жоқ."
+    },
+    "settingsPermissionsText": {
+        "message": "Рұқсаттар"
+    },
+    "settingsUninstallButton": {
+        "message": "Жойыңыз"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Сіз сенімдісіз бе?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Растаңыз"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Бас тарту"
+    }
+}

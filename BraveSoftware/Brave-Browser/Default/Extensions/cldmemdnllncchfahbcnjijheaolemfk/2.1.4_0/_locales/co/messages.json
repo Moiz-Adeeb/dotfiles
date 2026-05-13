@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Emulate firefox estensioni in Chrome, Opera è altri navigatori basati Chromium"
+    },
+    "homeTitle": {
+        "message": "Installa Firefox Addons In Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Emulate firefox estensioni in Chrome, Opera è altri navigatori basati Chromium."
+    },
+    "homeCtaButton": {
+        "message": "Caricà u fugliale"
+    },
+    "homeCtaHelpText": {
+        "message": "Formati supportati: crx, zip o xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "U schedariu selezziunatu ùn hè micca suppurtatu."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Scaricà"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Stallazione"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Cumpletta"
+    },
+    "installerStepName": {
+        "message": "Passu"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Scaricamentu di l'estensione"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Foxified scarica è prepara a vostra estensione per l'installazione. Per piacè, aspittà uni pochi di minuti per chì u scaricamentu sia compiu."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Scaricamentu"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Estrazione di fugliali"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Stallazione di l'installazione"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Permettite Permessi"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Foxified ùn supporta micca tutte l'APIs necessarie per questu addon. Questu romperà alcune funzionalità addon."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Installa In ogni modu"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Annulla"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Finisci a stallazione"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Foxified hà finitu d'installà a vostra estensione. Aspettate per piacè chì a nova estensione cummencia."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Cumincià l'estensione"
+    },
+    "installerErrorCancelButton": {
+        "message": "Annulla a stallazione"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Impussibule di scaricà l'estensione."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Fiascu di l'estrazzione di i fugliali."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Fiascu di l'estrazione di l'ID di l'app."
+    },
+    "pageLoadingMessage": {
+        "message": "Caricamentu di a pagina"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "ùn hà micca una pagina d'opzioni."
+    },
+    "settingsPermissionsText": {
+        "message": "Permessi"
+    },
+    "settingsUninstallButton": {
+        "message": "Uninstall"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "Sì sicuru?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Cunfirmà"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Annulla"
+    }
+}

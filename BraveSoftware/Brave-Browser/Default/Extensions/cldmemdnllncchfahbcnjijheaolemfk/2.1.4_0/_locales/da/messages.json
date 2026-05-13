@@ -1,0 +1,104 @@
+{
+   "extDescription": {
+      "message": "Efterligne firefox udvidelser i Chrome, Opera og andre Chromium baserede browsere"
+   },
+   "extName": {
+      "message": "Foxified"
+   },
+   "homeCtaButton": {
+      "message": "Upload fil"
+   },
+   "homeCtaHelpText": {
+      "message": "Understøttede formater: crx, zip eller xpi"
+   },
+   "homeInvalidUploadError": {
+      "message": "Den valgte fil understøttes ikke."
+   },
+   "homeSubtitle": {
+      "message": "Efterligne firefox udvidelser i Chrome, Opera og andre Chromium baserede browsere."
+   },
+   "homeTitle": {
+      "message": "Installer Firefox Tilføjelser i Google Chrome"
+   },
+   "installerAppIdErrorMessage": {
+      "message": "App-id kunne ikke udtages."
+   },
+   "installerDownloadErrorMessage": {
+      "message": "Kunne ikke downloade udvidelsen."
+   },
+   "installerErrorCancelButton": {
+      "message": "Annuller installationen"
+   },
+   "installerExtractErrorMessage": {
+      "message": "Kunne ikke udtrække filer."
+   },
+   "installerStepCompleteBodyText": {
+      "message": "Foxified er færdig med at installere din udvidelse. Vent til den nye udvidelse starter."
+   },
+   "installerStepCompleteTitle": {
+      "message": "Afslut installationen"
+   },
+   "installerStepCompleteTooltip": {
+      "message": "Komplet"
+   },
+   "installerStepDownloadBodyText": {
+      "message": "Foxified downloader og forbereder din udvidelse til installation. Vent et øjeblik til download er afsluttet."
+   },
+   "installerStepDownloadTitle": {
+      "message": "Download udvidelse"
+   },
+   "installerStepDownloadTooltip": {
+      "message": "Hent"
+   },
+   "installerStepInstallationAllowAnywayButton": {
+      "message": "Installer alligevel"
+   },
+   "installerStepInstallationAllowButton": {
+      "message": "Tillad tilladelser"
+   },
+   "installerStepInstallationCancelButton": {
+      "message": "Afbestille"
+   },
+   "installerStepInstallationTitle": {
+      "message": "Installerer udvidelse"
+   },
+   "installerStepInstallationTooltip": {
+      "message": "Installation"
+   },
+   "installerStepInstallationWarning": {
+      "message": "Foxified understøtter ikke alle de API'er, der kræves til denne tilføjelse. Dette vil bryde nogle tilføjelsesfunktioner."
+   },
+   "installerStepName": {
+      "message": "Trin"
+   },
+   "installerStepProgressCompleteText": {
+      "message": "Starter udvidelse"
+   },
+   "installerStepProgressDownloadText": {
+      "message": "Downloader"
+   },
+   "installerStepProgressExtractText": {
+      "message": "Uddrag af filer"
+   },
+   "pageLoadingMessage": {
+      "message": "Indlæser side"
+   },
+   "pageNoOptionsWarningMessage": {
+      "message": "har ikke en indstillingsside."
+   },
+   "settingsPermissionsText": {
+      "message": "Tilladelser"
+   },
+   "settingsUninstallButton": {
+      "message": "Afinstaller"
+   },
+   "settingsUninstallCancelButton": {
+      "message": "Afbestille"
+   },
+   "settingsUninstallConfirmButton": {
+      "message": "Bekræfte"
+   },
+   "settingsUninstallConfirmText": {
+      "message": "Er du sikker?"
+   }
+}

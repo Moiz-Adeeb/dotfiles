@@ -1,0 +1,104 @@
+{
+    "extName": {
+        "message": "Foxified"
+    },
+    "extDescription": {
+        "message": "Déan aithris ar síntí firefox i Chrome, Opera agus brabhsálaithe eile Chromium bunaithe"
+    },
+    "homeTitle": {
+        "message": "Suiteáil Firefox Addons In Google Chrome"
+    },
+    "homeSubtitle": {
+        "message": "Déan aithris ar síntí firefox i Chrome, Opera agus brabhsálaithe eile Chromium bunaithe."
+    },
+    "homeCtaButton": {
+        "message": "Uaslódáil comhad"
+    },
+    "homeCtaHelpText": {
+        "message": "Formáidí tacaithe: crx, zip nó xpi"
+    },
+    "homeInvalidUploadError": {
+        "message": "Ní thacaítear leis an gcomhad roghnaithe."
+    },
+    "installerStepDownloadTooltip": {
+        "message": "Íoslódáil"
+    },
+    "installerStepInstallationTooltip": {
+        "message": "Suiteáil"
+    },
+    "installerStepCompleteTooltip": {
+        "message": "Comhlánaigh"
+    },
+    "installerStepName": {
+        "message": "Céim"
+    },
+    "installerStepDownloadTitle": {
+        "message": "Síneadh á íoslódáil"
+    },
+    "installerStepDownloadBodyText": {
+        "message": "Tá Foxified ag íoslódáil agus ag ullmhú do shíneadh le haghaidh suiteála. Fan cúpla nóiméad le do thoil chun an íoslódáil a chríochnú."
+    },
+    "installerStepProgressDownloadText": {
+        "message": "Íoslódáil"
+    },
+    "installerStepProgressExtractText": {
+        "message": "Comhaid a bhaint"
+    },
+    "installerStepInstallationTitle": {
+        "message": "Síneadh a shuiteáil"
+    },
+    "installerStepInstallationAllowButton": {
+        "message": "Ceadaigh Ceadanna"
+    },
+    "installerStepInstallationWarning": {
+        "message": "Ní thacaíonn Foxified leis na APIanna go léir a theastaíonn don addon seo. Briseoidh sé seo roinnt feidhmiúlachtaí addon."
+    },
+    "installerStepInstallationAllowAnywayButton": {
+        "message": "Suiteáil Ar aon nós"
+    },
+    "installerStepInstallationCancelButton": {
+        "message": "Cealaigh"
+    },
+    "installerStepCompleteTitle": {
+        "message": "Críochnaigh an tsuiteáil"
+    },
+    "installerStepCompleteBodyText": {
+        "message": "Tá Foxified críochnaithe le do shíneadh a shuiteáil. Fan go dtosóidh an síneadh nua le do thoil."
+    },
+    "installerStepProgressCompleteText": {
+        "message": "Ag tosú síneadh"
+    },
+    "installerErrorCancelButton": {
+        "message": "Cealaigh Suiteáil"
+    },
+    "installerDownloadErrorMessage": {
+        "message": "Theip ar an síneadh a íoslódáil."
+    },
+    "installerExtractErrorMessage": {
+        "message": "Theip ar chomhaid a bhaint."
+    },
+    "installerAppIdErrorMessage": {
+        "message": "Theip ar ID an aip a bhaint."
+    },
+    "pageLoadingMessage": {
+        "message": "Leathanach luchtaithe"
+    },
+    "pageNoOptionsWarningMessage": {
+        "message": "níl leathanach roghanna ann."
+    },
+    "settingsPermissionsText": {
+        "message": "Ceadanna"
+    },
+    "settingsUninstallButton": {
+        "message": "Dhíshuiteáil"
+    },
+    "settingsUninstallConfirmText": {
+        "message": "An bhfuil tú cinnte?"
+    },
+    "settingsUninstallConfirmButton": {
+        "message": "Deimhnigh"
+    },
+    "settingsUninstallCancelButton": {
+        "message": "Cealaigh"
+    }
+}
