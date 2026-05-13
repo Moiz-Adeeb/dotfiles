@@ -31,28 +31,42 @@
 
 window#waybar {
     border: 0px solid rgba(0, 0, 0, 0);
-    background-color: #24273a;
+    background-color: rgba(0, 0, 0, 0);
+    /* background-color: #24273a; */
 }
 
 #workspaces button {
     color: @base;
     border-radius: 10px;
-    /* background-color: @base; */
-    margin: 0px 4px;
-    padding: 0px 4px;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    /* transition: all 0.2s ease-in-out;  */
+    background-color: transparent;
+    margin: 0px 0px;
+    padding: 0px 8px;
 }
 
-/* #workspaces button:hover { */
-/*     background-color: @mauve; */
-/*     border: 0px; */
-/* } */
-
-#workspaces button:hover * {
+window#waybar #workspaces button:hover {
     color: @base;
-    border-radius: 10px;
-    padding: 0px 4px;
-    background-color: @mauve;
+    background: @mauve;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    border: 0px;
 }
+
+window#waybar #workspaces button:hover label {
+    color: @base;
+}
+
+/* #workspaces button:hover * { */
+/*     color: @base; */
+/*     border-radius: 10px; */
+/*     padding: 0px 0px; */
+/*     margin: 0; */
+/*     background-color: @mauve; */
+/* } */
 
 #workspaces * {
     color: whitesmoke;
@@ -62,12 +76,12 @@ window#waybar {
 #submap,
 #workspaces {
     border-style: solid;
-    background-color: black;
+    background-color: @base;
     opacity: 1;
-    border-radius: 12px;
+    border-radius: 10px;
     /* margin: 0px 0px 0px 0px; */
     padding: 0px 0px;
-    margin: 4px 24px;
+    margin: 4px 16px;
 }
 
 #workspaces button.active {
@@ -192,7 +206,7 @@ window#waybar.empty #window {
     color: @white;
     border-radius: 10px;
     padding: 0px 20px;
-    margin: 0px 0px;
+    margin: 4px;
 }
 
 #backlight {
@@ -206,7 +220,12 @@ window#waybar.empty #window {
     /* border-bottom: 2px solid @sky; */
     /* border-bottom: 2px solid #d8dee9; */
     border-radius: 0 10px 10px 0;
-    margin-right: 10px;
+    margin: 4px 10px 4px 0;
+}
+
+#custom-dnf {
+    margin: 4px;
+    border-radius: 10px;
 }
 
 #battery.charging {
@@ -268,7 +287,7 @@ window#waybar.empty #window {
     color: @sky;
     /* border-bottom: 2px solid @blue; */
     border-radius: 10px 0 0 10px;
-    margin-left: 0px;
+    margin: 4px 0px;
 
 }
 
@@ -282,7 +301,7 @@ window#waybar.empty #window {
     color: @green;
     /* border-bottom: 2px solid @green; */
     border-radius: 0 10px 10px 0;
-    margin-right: 10px;
+    margin: 4px 10px 4px 0px;
 }
 
 #network.disconnected {
@@ -293,11 +312,13 @@ window#waybar.empty #window {
 #pulseaudio {
     color: @flamingo;
     border-radius: 10px 0 0 10px;
+    margin: 4px 0px;
     /* border-bottom: 2px solid @flamingo; */
 }
 
 #pulseaudio.muted {
-    color: #3b4252;
+    color: @gray;
+    /* color: #3b4252; */
     /* border-bottom: 2px solid #3b4252; */
 }
 

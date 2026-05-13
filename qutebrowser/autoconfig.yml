@@ -6,7 +6,9 @@
 
 config_version: 2
 settings:
-  tabs.show:
+  statusbar.show:
     global: never
+  tabs.show:
+    global: multiple
   tabs.width:
     global: 40

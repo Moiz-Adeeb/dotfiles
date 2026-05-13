@@ -1,6 +1,6 @@
 {
   "hyprland/workspaces": {
-    "disable-scroll": false,
+    "disable-scroll": true,
     "all-outputs": true,
     "format": "{icon}",
     "on-click": "activate",
@@ -38,7 +38,6 @@
     "on-click": "mpc -q pause && mpc -q prev && mpc -q start"
   },
   "mpd#3": {
-    "interval": 1,
     "format": "{stateIcon}",
     "format-disconnected": "",
     "format-paused": "{stateIcon}",
@@ -67,14 +66,14 @@
     "interval": 5,
     "exec": "mpc current --format='\"title\":\"%title%\",\"artist\":\"%artist%\"'"
   },
-  "custom/cava-internal": {
-    "exec": "sh ~/.config/waybar/scripts/Cava.sh",
-    "format": "{}",
-    "tooltip": false,
-    "on-click": "swaymsg reload & pkill waybar & waybar",
-    "layer": "below",
-    "output": "all"
-  },
+  //  "custom/cava-internal": {
+  //    "exec": "sh ~/.config/waybar/scripts/Cava.sh",
+  //    "format": "{}",
+  //    "tooltip": false,
+  //    "on-click": "swaymsg reload & pkill waybar & waybar",
+  //     "layer": "below",
+  //     "output": "all"
+  //  },
   "hyprland/submap": {
     "format": "✌️ {}",
     "max-length": 8,
@@ -202,10 +201,10 @@
       "warning": 30,
       "critical": 15
     },
-    "format": "{icon} {capacity: >3}%",
-    "format-charging": "  {capacity}%",
-    "format-plugged": "  {capacity}%",
-    "format-alt": "{icon}  {time}",
+    "format": "{icon}",
+    "format-charging": "",
+    "format-plugged": "",
+    "format-alt": "{icon} {capacity}%\tRemaining: {time}",
     // "format-good": "", // An empty format will hide the module
     // "format-full": "",
     "format-icons": [
@@ -214,14 +213,16 @@
       "",
       "",
       ""
-    ]
+    ],
+    "tooltip-format": "Battery: {capacity}%\nTime Remaining: {time}"
   },
   "network": {
     "interface": "wlp2s0",
-    "format": "⚠ OFF",
-    "format-wifi": " {essid}",
+    "interval": 5,
+    "format": "⚠",
+    "format-wifi": "",
     "format-ethernet": " {essid}",
-    "format-disconnected": "⚠  Disconnected",
+    "format-disconnected": "⚠",
     "tooltip-format": " {ifname} via {gwaddri}",
     "tooltip-format-wifi": "   {essid} ({signalStrength}%)",
     "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
@@ -230,21 +231,22 @@
     "on-click-right": "nmcli radio wifi | grep -q 'enabled' && nmcli radio wifi off || nmcli radio wifi on"
   },
   "bluetooth": {
+    "interval": 5,
     "format": "",
-    "format-off": "OFF ",
-    "format-on": "ON ",
-    "format-connected": "{device_alias} {device_battery_percentage}% ",
+    "format-off": "",
+    "format-on": "",
+    "format-connected": "",
     "tooltip-format": "{controller_alias}\t{controller_address}",
     "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
-    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+    "tooltip-format-enumerate-connected": "{device_alias}:{device_battery_percentage}% \t{device_address}",
     "on-click": "footclient -a float_small -e bluetui",
     "on-click-right": "bluetoothctl show | grep -q 'Powered: yes' && bluetoothctl power off || bluetoothctl power on"
   },
   "pulseaudio": {
     "scroll-step": 5,
-    "format": "{icon} {volume: >3}%",
-    "format-bluetooth": "{icon} {volume: >3}%",
-    "format-muted": " muted",
+    "format": "{icon}",
+    "format-bluetooth": "{icon}",
+    "format-muted": "",
     "format-icons": {
       "headphones": "",
       "handsfree": "",
@@ -257,7 +259,9 @@
         ""
       ]
     },
+    "tooltip-format": "Volume: {volume: >3}%",
     "on-click": "footclient -a float_small -e wiremix",
+    "on-click-right": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
     "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
     "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%"
   },

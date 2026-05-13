@@ -16,3 +16,7 @@ profile "Laptop-Only" {
     output "eDP-1" enable mode 1920x1080@60.02 position 0,0 scale 1.0
 }
 
+profile "Laptop-Only-Large" {
+    output "eDP-1" enable mode 1920x1080@60.02 position 0,0 scale 1.333333
+}
+
