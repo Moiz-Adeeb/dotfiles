@@ -6,7 +6,8 @@ Code/Logs/
 Code/User/workspaceStorage/
 google-chrome/
 chromium/
-
+BraveSoftware/
+qutebrowser/
 # Ignore general application caches and temp files
 *Cache*
 *cache*
