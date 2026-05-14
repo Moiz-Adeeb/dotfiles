@@ -55,6 +55,14 @@ end
 # Yazi wrapper
 function y
 	set tmp (mktemp -t "yazi-cwd.XXXXXX")
+
+
+
+
+
+
+
+
 # --- Startup ---
 # Fastfetch (your custom command)
 fastfetch --structure Title:Separator:OS:Host:Kernel:Uptime:Packages:Shell:Terminal:Memory:Swap --logo ~/.config/fastfetch/logos/moiz.txt
@@ -64,7 +72,7 @@ set -gx EDITOR nvim
 set -gx VISUAL nvim
 set -gx SUDO_EDITOR nvim
 set -gx FCEDIT nvim
-set -gx TERMINAL alacritty
+set -gx TERMINAL footclient
 set -gx BROWSER brave-browser
 
 if type -q bat
@@ -111,6 +119,14 @@ function y
 	if set cwd (cat -- "$tmp"); and [ -n "$cwd" ]; and [ "$cwd" != "$PWD" ]
 		builtin cd -- "$cwd"
 	end
+
+
+
+
+
+
+
+
 # --- Startup ---
 # Fastfetch (your custom command)
 fastfetch --structure Title:Separator:OS:Host:Kernel:Uptime:Packages:Shell:Terminal:Memory:Swap --logo ~/.config/fastfetch/logos/moiz.txt
@@ -120,7 +136,7 @@ set -gx EDITOR nvim
 set -gx VISUAL nvim
 set -gx SUDO_EDITOR nvim
 set -gx FCEDIT nvim
-set -gx TERMINAL alacritty
+set -gx TERMINAL footclient
 set -gx BROWSER brave-browser
 
 if type -q bat

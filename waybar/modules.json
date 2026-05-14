@@ -4,7 +4,7 @@
     "all-outputs": true,
     "format": "{icon}",
     "on-click": "activate",
-    "format_focused": "< %g ● >",
+    "format_focused": "< %g ●>",
     "format-icons": {
       "1": "01",
       "2": "02",
@@ -221,6 +221,7 @@
     "interval": 5,
     "format": "⚠",
     "format-wifi": "",
+    "format-off": " OFF",
     "format-ethernet": " {essid}",
     "format-disconnected": "⚠",
     "tooltip-format": " {ifname} via {gwaddri}",

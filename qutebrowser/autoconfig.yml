@@ -6,8 +6,8 @@
 
 config_version: 2
 settings:
-  statusbar.show:
-    global: never
+  content.javascript.clipboard:
+    https://claude.ai: access-paste
   tabs.show:
     global: multiple
   tabs.width:
