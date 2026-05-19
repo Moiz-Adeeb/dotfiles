@@ -1,0 +1,254 @@
+# Global Configuration Options using YAML Anchors
+bg_dark: &bg_dark 000000ff
+bg_green: &bg_green 689479ff
+bg_red: &bg_red 943b4eff
+bg_blue: &bg_blue 616bffff
+bg_darkred: &bg_darkred 80363dff
+bg_white: &bg_white ffffffff
+fg_white: &fg_white ffffffff
+fg_black: &fg_black 000000ff
+fg_purple: &fg_purple cba6f7ff
+fg_blue_light: &fg_blue_light b4befeff
+border_black: &border_black 000000ff
+border_white: &border_white ffffff00
+border_gray: &border_gray 3f4045ff
+
+bar:
+  height: 28
+  location: top
+  background: 00000000
+  font: "Noto Sans:pixelsize=14"
+  spacing: 10
+
+  # Layout Arrangement
+  left:
+    - label:
+        content:
+          string:
+            text: " ⭅ "
+            foreground: *fg_white
+            margin: 0
+            deco:
+              stack:
+                - background:
+                    color: *bg_green
+                - border:
+                    size: 1
+                    color: *border_black
+            on-click: swaymsg workspace prev
+
+    - label:
+        content:
+          string:
+            text: " ⭆ "
+            foreground: *fg_white
+            margin: 0
+            deco:
+              stack:
+                - background:
+                    color: *bg_green
+                - border:
+                    size: 1
+                    color: *border_black
+            on-click: swaymsg workspace next
+
+    - label:
+        content:
+          string:
+            text: " ☍ "
+            foreground: *fg_white
+            margin: 0
+            deco:
+              stack:
+                - background:
+                    color: *bg_red
+                - border:
+                    size: 1
+                    color: *border_black
+            on-click: bash -c "swaymsg workspace number \$(( \$(swaymsg -t get_workspaces | jq '[.[] | .num] | max') + 1 ))"
+
+    - label:
+        content:
+          string:
+            text: " ☋ "
+            foreground: *fg_white
+            margin: 0
+            deco:
+              stack:
+                - background:
+                    color: *bg_red
+                - border:
+                    size: 1
+                    color: *border_black
+            on-click: bash -c "NEW_WS=\$(( \$(swaymsg -t get_workspaces | jq '[.[] | .num] | max // 0') + 1 )); swaymsg move container to workspace number \$NEW_WS; swaymsg workspace number \$NEW_WS"
+
+  center:
+    - script:
+        path: /bin/bash
+        args: ["-c", "res=$(/home/moiz/.config/i3blocks/scripts/volume.sh | head -n 1); echo \"output|string|$res\"; echo \"\""]
+        poll-interval: 1000
+        content:
+          string:
+            text: "  {output}  "
+            foreground: *fg_purple
+
+    - script:
+        path: /bin/bash
+        args: ["-c", "res=$(/home/moiz/.config/i3blocks/scripts/brightness.sh | head -n 1); echo \"output|string|$res\"; echo \"\""]
+        poll-interval: 1000
+        content:
+          string:
+            text: "   {output}  "
+            foreground: *fg_blue_light
+
+  right:
+    - script:
+        path: /bin/bash
+        args: 
+          - "-c"
+          - |
+            raw_icon=$(/home/moiz/.config/i3blocks/scripts/bluetooth.sh | sed -e 's/<[^>]*>//g' | xargs)
+            if bluetoothctl show | grep -q "Powered: yes"; then
+                if bluetoothctl info | grep -q "Connected: yes"; then
+                    state="connected"
+                else
+                    state="on"
+                fi
+            else
+                state="off"
+            fi
+            echo "icon|string|$raw_icon"
+            echo "state|string|$state"
+            echo ""
+        poll-interval: 3000
+        content:
+          map:
+            conditions:
+              state == "connected":
+                string:
+                  text: "  {icon}  "
+                  foreground: 89dcebff
+                  deco:
+                    stack:
+                      - background: { color: *bg_dark }
+                      - border: { size: 1, color: *border_white }
+                  # Key Fix: on-click is a single dictionary mapping button names
+                  on-click:
+                    left: kitty --class=float_small -e bluetui
+                    right: bash -c "bluetoothctl power off"
+
+              state == "on":
+                string:
+                  text: "  {icon}  "
+                  foreground: 6495EDff
+                  deco:
+                    stack:
+                      - background: { color: *bg_dark }
+                      - border: { size: 1, color: *border_white }
+                  on-click:
+                    left: kitty --class=float_small -e bluetui
+                    right: bash -c "bluetoothctl power off"
+
+              state == "off":
+                string:
+                  text: "  {icon}  "
+                  foreground: 707880ff
+                  deco:
+                    stack:
+                      - background: { color: *bg_dark }
+                      - border: { size: 1, color: *border_white }
+                  on-click:
+                    left: footclient -a float_small -e /home/moiz/.cargo/bin/bluetui
+                    right: bash -c "bluetoothctl power on"
+
+    - script:
+        path: /bin/bash
+        args: ["-c", "res=$(/home/moiz/.config/i3blocks/scripts/network.sh | sed -e 's/<[^>]*>//g' | head -n 1); echo \"output|string|$res\"; echo \"\""]
+        poll-interval: 10000
+        content:
+          string:
+            text: "  {output}  "
+            deco:
+              stack:
+                - background:
+                    color: *bg_dark
+                - border:
+                    size: 1
+                    color: *border_white
+
+    - script:
+        path: /bin/bash
+        args: ["-c", "res=$(/home/moiz/.config/i3blocks/scripts/battery.sh | sed -e 's/<[^>]*>//g' | head -n 1); echo \"output|string|$res\"; echo \"\""]
+        poll-interval: 30000
+        content:
+          string:
+            text: "  {output}  "
+            deco:
+              stack:
+                - background:
+                    color: *bg_dark
+                - border:
+                    size: 1
+                    color: *border_white
+
+    - clock:
+        date-format: "%m/%d/%y"
+        time-format: "%H:%M"
+        content:
+          string:
+            text: "  {date} | {time}  "
+            foreground: *fg_black
+            deco:
+              stack:
+                - background:
+                    color: *bg_white
+                - border:
+                    size: 1
+                    color: *border_gray
+
+    - label:
+        content:
+          string:
+            text: "    "
+            foreground: *fg_white
+            deco:
+              stack:
+                - background:
+                    color: *bg_blue
+                - border:
+                    size: 1
+                    color: *border_black
+            on-click: rofi -show drun -replace
+
+    - label:
+        content:
+          string:
+            text: "  ⏻  "
+            foreground: *fg_white
+            deco:
+              stack:
+                - background:
+                    color: *bg_darkred
+                - border:
+                    size: 1
+                    color: *border_black
+            on-click: /home/moiz/.config/rofi/powermenu/powermenu.sh
+
+# bar: 
+#   location: top
+#   height: 40
+#   background: 1a1a1aff
+#   font: JetBrains Mono:pixelsize=12
+#
+#   left:
+#     - label:
+#         content:
+#           string:
+#             text: "Niri Desktop"
+#
+#   right: 
+#     - clock:
+#         time-format: "%H:%M"
+#         content:  
+#           - string: {text: " {time} "}
+

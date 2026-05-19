@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Define the monitor name from your polybar config
 MONITOR="HDMI-1"

@@ -1,7 +1,8 @@
 {
   "hyprland/workspaces": {
-    "disable-scroll": true,
-    "all-outputs": true,
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
+    "all-outputs": false,
     "format": "{icon}",
     "on-click": "activate",
     "format_focused": "< %g ●>",
@@ -88,10 +89,11 @@
       "(.*) - Chromium": "$1",
       "(.*) - Brave Search": "$1",
       "(.*) - Outlook": "$1",
-      "(.*) Microsoft Teams": "$1"
+      "(.*) Microsoft Teams": "$1",
+      "(.*) - qutebrowser": "$1"
     },
     "separate-outputs": true,
-    "format": "<span color=\"#24273a\" style=\"italic\">{}</span>"
+    "format": "<span color=\"#24273A\" style=\"italic\">{}</span>"
   },
   "idle_inhibitor": {
     "format": "{icon}",
@@ -201,12 +203,12 @@
       "warning": 30,
       "critical": 15
     },
-    "format": "{icon}",
-    "format-charging": "",
-    "format-plugged": "",
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity: >3}%",
+    "format-plugged": " {capacity: >3}%",
     "format-alt": "{icon} {capacity}%\tRemaining: {time}",
     // "format-good": "", // An empty format will hide the module
-    // "format-full": "",
+    "format-full": "{icon} FULL",
     "format-icons": [
       "",
       "",
@@ -220,10 +222,11 @@
     "interface": "wlp2s0",
     "interval": 5,
     "format": "⚠",
-    "format-wifi": "",
+    "format-disabled": "⚠ OFF",
+    "format-wifi": " {essid}",
     "format-off": " OFF",
     "format-ethernet": " {essid}",
-    "format-disconnected": "⚠",
+    "format-disconnected": "⚠ DISCONNECTED",
     "tooltip-format": " {ifname} via {gwaddri}",
     "tooltip-format-wifi": "   {essid} ({signalStrength}%)",
     "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
@@ -234,9 +237,9 @@
   "bluetooth": {
     "interval": 5,
     "format": "",
-    "format-off": "",
-    "format-on": "",
-    "format-connected": "",
+    "format-off": " OFF",
+    "format-on": " ON",
+    "format-connected": " {device_alias} {device_battery_percentage}%",
     "tooltip-format": "{controller_alias}\t{controller_address}",
     "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}:{device_battery_percentage}% \t{device_address}",
@@ -245,9 +248,9 @@
   },
   "pulseaudio": {
     "scroll-step": 5,
-    "format": "{icon}",
-    "format-bluetooth": "{icon}",
-    "format-muted": "",
+    "format": "{icon} {volume: >3}%",
+    "format-bluetooth": "{icon} {volume: >3}%",
+    "format-muted": " MUTED",
     "format-icons": {
       "headphones": "",
       "handsfree": "",
@@ -266,12 +269,20 @@
     "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
     "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%"
   },
+  //  "custom/dnf": {
+  //    "format": " {} UPDATES",
+  //   "interval": 7200,
+  //    "exec": "updates=$(dnf check-update --quiet | grep -v '^$' | wc -l); [ \"$updates\" -gt 0 ] && echo \"$updates\" || echo \"0\"",
+  //    "exec-if": "exit 0",
+  //    "on-click": "footclient -a float_large -e sudo dnf update",
+  //    "signal": 8,
+  //    "tooltip": false
+  //  },
   "custom/dnf": {
-    "format": " {}",
-    "interval": 7200,
-    "exec": "updates=$(dnf check-update --quiet | grep -v '^$' | wc -l); [ \"$updates\" -gt 0 ] && echo \"$updates\" || echo \"0\"",
-    "exec-if": "exit 0",
-    "on-click": "footclient -a float_large -e sudo dnf update",
+    "format": "{}",
+    "return-type": "json",
+    "exec": "cat /tmp/dnf_updates.json 2>/dev/null || echo '{\"text\":\" Checking...\",\"alt\":\"no-updates\"}'",
+    "on-click": "footclient -a float_large -e sh -c 'sudo dnf update && systemctl --user start dnf-check.service'",
     "signal": 8,
     "tooltip": false
   },
@@ -293,7 +304,7 @@
   },
   "custom/launcher": {
     "format": "",
-    "on-click": "rofi -show drun -replace",
+    "on-click": "rofi -show drun -replace -run-command 'uwsm app -- {cmd}'",
     "tooltip": false
   }
 }

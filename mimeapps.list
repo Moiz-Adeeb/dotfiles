@@ -13,6 +13,7 @@ application/xhtml+xml=org.mozilla.firefox.desktop
 application/x-extension-xhtml=org.mozilla.firefox.desktop
 application/x-extension-xht=org.mozilla.firefox.desktop
 x-scheme-handler/webcal=brave-browser.desktop
+application/zip=userapp-7zip-R6LGP3.desktop
 
 [Added Associations]
 x-scheme-handler/http=org.mozilla.firefox.desktop;
@@ -25,3 +26,4 @@ application/x-extension-shtml=org.mozilla.firefox.desktop;
 application/xhtml+xml=org.mozilla.firefox.desktop;
 application/x-extension-xhtml=org.mozilla.firefox.desktop;
 application/x-extension-xht=org.mozilla.firefox.desktop;
+application/zip=userapp-7zip-R6LGP3.desktop;

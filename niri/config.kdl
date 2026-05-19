@@ -1,0 +1,52 @@
+include "autostart.kdl"
+include "keybinds.kdl"
+include "rules.kdl"
+include "window.kdl"
+include "workspace.kdl"
+include "visuals.kdl"
+
+prefer-no-csd
+
+environment {
+    DISPLAY null
+    // Force Wayland in apps that support it
+    GDK_BACKEND "wayland,x11"
+    QT_QPA_PLATFORM "wayland;xcb"
+    SDL_VIDEODRIVER "wayland"
+    CLUTTER_BACKEND "wayland"
+    // Disable GPU-side vsync stutter in some toolkits
+    //__GL_SYNC_TO_VBLANK "0"
+        // Intel HD specific — remove the GL vsync line, replace with:
+    MESA_NO_ERROR "1"
+    mesa_glthread "true"
+    LIBGL_DRI3_DISABLE "0"
+}
+
+input {
+    keyboard {
+        xkb {
+            layout "us"
+        }
+        // Faster key repeat = snappier feel
+        repeat-delay 250
+        repeat-rate 40
+    }
+
+    touchpad {
+        // off
+        // natural-scroll is true by default; set to false to match Hyprland
+        //natural-scroll
+        tap
+        dwt
+        // drag-lock         // optional
+        // tap-button-map "left-middle-right"
+        accel-speed 0.2
+        accel-profile "adaptive"  // better for touchpad than flat
+    }
+
+    mouse {
+        accel-speed 0.5
+        accel-profile "flat"
+    }
+    warp-mouse-to-focus 
+}

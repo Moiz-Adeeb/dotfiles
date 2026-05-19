@@ -1,0 +1,14 @@
+[Unit]
+Description=Kanshi Display Profile Manager
+BindsTo=graphical-session.target
+After=graphical-session.target
+PartOf=hyprland-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/kanshi
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=hyprland-session.target

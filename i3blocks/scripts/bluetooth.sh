@@ -22,6 +22,6 @@ if bluetoothctl show | grep -q "Powered: yes"; then
         echo "<span color='#6495ED'></span>"
     fi
 else
-    echo "<span color='#707880'></span>"
+    echo "<span color='#FFFFFF'></span>"
 fi
 

@@ -1,10 +1,13 @@
 # if status is-interactive
 #     # Commands to run in interactive sessions can go here
-# end
+#      end
 #
 # --- Startup ---
 # Fastfetch (your custom command)
 fastfetch --structure Title:Separator:OS:Host:Kernel:Uptime:Packages:Shell:Terminal:Memory:Swap --logo ~/.config/fastfetch/logos/moiz.txt
+
+starship init fish | source
+
 
 # --- Environment Variables ---
 set -gx EDITOR nvim

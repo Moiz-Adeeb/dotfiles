@@ -98,10 +98,18 @@ case ${chosen} in
 		# fi
         ;;
     $suspend)
-		run_cmd --suspend
-        ;;
+		#run_cmd hyprlock && --suspend
+        if [[ "$(confirm_exit)" == "$yes" ]]; then
+            hyprlock &
+            sleep 1
+            systemctl suspend
+        fi        
+		;;
     $logout)
-		hyprctl dispatch exit
+        if [[ "$(confirm_exit)" == "$yes" ]]; then
+            hyprctl dispatch exit
+        fi		
+		#hyprctl dispatch exit
 		#run_cmd --logout
         ;;
 esac

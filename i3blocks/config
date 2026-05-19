@@ -6,84 +6,88 @@ separator=true
 separator_block_width=0
 markup=pango
 
-[previous-wotrkspace]
-full_text=⭅
-color=#FFFFFF
-background=#689479
-min_width=20
-border=#000000
-border_bottom=1
-border_top=1
-border_right=0
-border_left=1
-align=center
-command=swaymsg workspace prev > /dev/null 2>&1 &
-
-[next-workspace]
-full_text=⭆
-color=#FFFFFF
-background=#689479
-min_width=20
-border=#000000
-border_bottom=1
-border_top=1
-border_right=1
-border_left=0
-align=center
-command=swaymsg workspace next > /dev/null 2>&1 &
-
-[new-workspace]
-full_text=☍
-color=#FFFFFF
-background=#943B4E
-min_width=20
-border=#000000
-border_bottom=1
-border_top=1
-border_right=0
-border_left=1
-align=center
-command=swaymsg workspace number $(( $(swaymsg -t get_workspaces | jq '[.[] | .num] | max') + 1 )) > /dev/null 2>&1 &
-
-[move-to-new-workspace]
-full_text=☋
-color=#FFFFFF
-background=#943B4E
-min_width=20
-border=#000000
-border_bottom=1
-border_top=1
-border_right=1
-border_left=0
-align=center
-command=bash -c 'NEW_WS=$(( $(swaymsg -t get_workspaces | jq "[.[] | .num] | max // 0") + 1 )); swaymsg move container to workspace number $NEW_WS; swaymsg workspace number $NEW_WS' > /dev/null 2>&1 &
+# [previous-wotrkspace]
+# full_text=⭅
+# color=#FFFFFF
+# background=#689479
+# min_width=20
+# border=#000000
+# border_bottom=1
+# border_top=1
+# border_right=0
+# border_left=1
+# align=center
+# command=swaymsg workspace prev > /dev/null 2>&1 &
+#
+# [next-workspace]
+# full_text=⭆
+# color=#FFFFFF
+# background=#689479
+# min_width=20
+# border=#000000
+# border_bottom=1
+# border_top=1
+# border_right=1
+# border_left=0
+# align=center
+# command=swaymsg workspace next > /dev/null 2>&1 &
+#
+# [new-workspace]
+# full_text=☍
+# color=#FFFFFF
+# background=#943B4E
+# min_width=20
+# border=#000000
+# border_bottom=1
+# border_top=1
+# border_right=0
+# border_left=1
+# align=center
+# command=swaymsg workspace number $(( $(swaymsg -t get_workspaces | jq '[.[] | .num] | max') + 1 )) > /dev/null 2>&1 &
+#
+# [move-to-new-workspace]
+# full_text=☋
+# color=#FFFFFF
+# background=#943B4E
+# min_width=20
+# border=#000000
+# border_bottom=1
+# border_top=1
+# border_right=1
+# border_left=0
+# align=center
+# command=bash -c 'NEW_WS=$(( $(swaymsg -t get_workspaces | jq "[.[] | .num] | max // 0") + 1 )); swaymsg move container to workspace number $NEW_WS; swaymsg workspace number $NEW_WS' > /dev/null 2>&1 &
 
 [audio]
-#label= 
 command=~/.config/i3blocks/scripts/volume.sh
 interval=once
+min_width=80
+align=center
 signal=2
-background=#00000000
-color=#cba6f7
+#background=#000000
+color=#FFAA8F
 
 [brightness]
 label= 
 command=~/.config/i3blocks/scripts/brightness.sh
 interval=once
+min_width=80
+align=center
 signal=3
-background=#00000000
-color=#b4befe
+#background=#000000
+color=#AA99FF
+#b4befe
 
 [bluetooth]
 command=~/.config/i3blocks/scripts/bluetooth.sh
 interval=5
-background=#000000
-min_width=40
-border=#FFFFFF
-border_bottom=1
-border_top=1
-border_right=0
-border_left=1
+#background=#000000
+min_width=30
+#border=#FFFFFF
+#border_bottom=1
+#border_top=1
+#border_right=0
+#border_left=1
 align=center
 signal=1
 markup=pango
@@ -92,13 +96,13 @@ markup=pango
 command=~/.config/i3blocks/scripts/network.sh
 interval=10
 markup=pango
-background=#000000
-min_width=40
-border=#FFFFFF
-border_bottom=1
-border_top=1
-border_right=0
-border_left=0
+#background=#000000
+min_width=30
+#border=#FFFFFF
+#border_bottom=1
+#border_top=1
+#border_right=0
+#border_left=0
 align=center
 signal=4
 
@@ -107,13 +111,13 @@ signal=4
 [battery]
 command=~/.config/i3blocks/scripts/battery.sh
 interval=30
-background=#000000
-min_width=40
-border=#FFFFFF
-border_bottom=1
-border_top=1
-border_right=1
-border_left=0
+#background=#000000
+#min_width=30
+border=#000000
+#border_bottom=1
+#border_top=1
+border_right=10
+border_left=10
 align=center
 
 #date '+%D<span color="#666666"> | </span>%H:%M<span color="#666666"> | </span>'
@@ -121,40 +125,40 @@ align=center
 [date]
 command=  date '+%D | %H:%M' 
 interval=5
-color=#000000
-background=#FFFFFF
-min_width=20
-border=#3F4045
-border_bottom=1
-border_top=1
-border_right=1
-border_left=0
+#color=#000000
+#background=#FFFFFF
+#min_width=160
+border=#1a1b26
+#border_bottom=1
+#border_top=1
+border_right=10
+border_left=10
 align=center
 
 [home]
 full_text=
-background=#616BFF
-color=#ffffff
-min_width=40
-border=#000000
-border_bottom=1
-border_top=1
-border_right=1
-border_left=1
+background=#6a6bd3
+color=#FFFFFF
+min_width=50
+#border=#000000
+#border_bottom=1
+#border_top=1
+#border_right=1
+#border_left=1
 align=center
 command=[ "$BLOCK_BUTTON" -eq 1 ] && rofi -show drun -replace > /dev/null 2>&1 &
 interval=once
 
 [power]
 full_text=⏻
-background=#80363D
+background=#6c2525
 color=#FFFFFF
-min_width=40
-border=#000000
-border_bottom=1
-border_top=1
-border_right=1
-border_left=1
+min_width=50
+#border=#000000
+#border_bottom=1
+#border_top=1
+#border_right=1
+#border_left=1
 align=center
 command=[ "$BLOCK_BUTTON" -eq 1 ] && ~/.config/rofi/powermenu/powermenu.sh > /dev/null 2>&1 &
 interval=once

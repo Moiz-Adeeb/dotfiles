@@ -1,4 +1,3 @@
-2026/05/11-16:18:47.263 ae05 Reusing MANIFEST /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/05/11-16:18:47.265 ae05 Recovering log #159
-2026/05/11-16:18:47.267 ae05 Reusing old log /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000159.log 
-2026/05/11-16:18:47.268 ae05 Delete type=2 #158
+2026/05/19-16:30:10.664 16033 Reusing MANIFEST /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/05/19-16:30:10.665 16033 Recovering log #222
+2026/05/19-16:30:10.665 16033 Reusing old log /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000222.log 

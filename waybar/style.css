@@ -21,40 +21,45 @@
 
 * {
     color: @lavender;
-    border: 0;
-    /* border-radius: 10px; */
+    border: none;
+    border-radius: 8px;
     padding: 0 0;
-    font-size: 16px;
-    /*font-family: "Fira Sans Semibold", "Font Awesome 6 Free", FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
+    font-size: 14px;
+    font-weight: 700;
+    /**/
+    /* font-family: "Fira Sans Semibold", "Font Awesome 6 Free", FontAwesome, Roboto, Helvetica, Arial, sans-serif;  */
     
     font-family: "JetBrains Mono", "Font Awesome 6 Free", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
 }
 
 window#waybar {
-    border: 0px solid rgba(0, 0, 0, 0);
-    /* background-color: rgba(0, 0, 0, 0); */
-    background-color: #24273a;
+    border: none;
+    background-color: rgba(000, 000, 000, 0);
+    /* background-color: @base; */
 }
 
 #workspaces button {
     color: @base;
-    border-radius: 10px;
-    border: none;
+    /* border: 2px solid @base; */
     box-shadow: none;
     text-shadow: none;
     /* transition: all 0.2s ease-in-out;  */
-    background-color: transparent;
-    margin: 0px 0px;
-    padding: 0px 8px;
+    background-color: @base;
+    margin: 2px;
+    padding: 0px 6px;
+}
+
+#workspaces button label {
+    color: @lavender;
 }
 
 window#waybar #workspaces button:hover {
     color: @base;
     background: @mauve;
-    border: none;
+    /* border: 2px solid @base; */
+    margin: 2px;
     box-shadow: none;
     text-shadow: none;
-    border: 0px;
 }
 
 window#waybar #workspaces button:hover label {
@@ -79,21 +84,22 @@ window#waybar #workspaces button:hover label {
     border-style: solid;
     background-color: @base;
     opacity: 1;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     /* margin: 0px 0px 0px 0px; */
     padding: 0px 0px;
-    margin: 4px 16px;
+    margin: 0px 0px;
 }
 
 #workspaces button.active {
+    /* border: 2px solid @base; */
     color: @base;
-    border-radius: 10px;
-    padding: 0px;
+    border-radius: 7px;
+    padding: 0px 6px;
+    margin: 2px;
     background-color: @mauve;
 }
 
-#workspaces button.active * {
-    padding: 0px 4px;
+#workspaces button.active label {
     color: @base;
 }
 
@@ -113,6 +119,8 @@ window#waybar #workspaces button:hover label {
 #custom-keyboard-layout,
 #backlight,
 #pulseaudio,
+#bluetooth,
+#network,
 #mode,
 #window,
 #tray,
@@ -128,39 +136,39 @@ window#waybar #workspaces button:hover label {
     margin: 0 0;
 }
 
-#bluetooth,
-#network {
-    padding: 0px 8px;
-    border-style: solid;
-    background-color: shade(@base, 1);
-    opacity: 1;
-    margin: 0 0;
-}
+/* #bluetooth, */
+/* #network { */
+/*     padding: 0px 8px; */
+/*     border-style: solid; */
+/*     background-color: shade(@base, 1); */
+/*     opacity: 1; */
+/*     margin: 0 0; */
+/* } */
 
 /* -----------------------------------------------------------------------------
   * Module styles
   * -------------------------------------------------------------------------- */
 #mpd {
-    border-radius: 10px;
+    /* border-radius: 10px; */
     color: @mauve;
     margin-left: 5px;
     background-color: rgba(0, 0, 0, 0);
 }
 
 #mpd.2 {
-    border-radius: 10px 0px 0px 10px;
+    /* border-radius: 10px 0px 0px 10px; */
     margin: 8px 0px 8px 6px;
     padding: 4px 12px 4px 10px;
 }
 
 #mpd.3 {
-    border-radius: 0px 0px 0px 0px;
+    /* border-radius: 0px 0px 0px 0px; */
     margin: 8px 0px 8px 0px;
     padding: 4px;
 }
 
 #mpd.4 {
-    border-radius: 0px 10px 10px 0px;
+    /* border-radius: 0px 10px 10px 0px; */
     margin: 8px 0px 8px 0px;
     padding: 4px 10px 4px 14px;
 }
@@ -169,7 +177,7 @@ window#waybar #workspaces button:hover label {
 #mpd.3,
 #mpd.4 {
     background-color: @base;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 #mode {
@@ -179,15 +187,17 @@ window#waybar #workspaces button:hover label {
 }
 
 #window {
-    border-radius: 25px;
-    color: @base;
-    margin: 8px;
-    margin-left: 0px;
-    margin-right: 0px;
+    /* border-radius: 25px; */
+    /* color: @base; */
+    /* margin: 8px; */
+    /* margin-left: 0px; */
+    /* margin-right: 0px; */
     background-color: @mauve;
+    border: 2px solid @base;
 }
 
 window#waybar.empty #window {
+    border: none;
     background-color:transparent;
 }
 #custom-cava-internal {
@@ -205,28 +215,31 @@ window#waybar.empty #window {
 #clock {
     /* background-color:#a3be8c; */
     color: @white;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 0px 20px;
-    margin: 4px;
+    /* margin: 4px; */
 }
 
 #backlight {
     color: @yellow;
     /* border-bottom: 2px solid @yellow; */
-    border-radius: 10px 0 0 10px;
+    /* border-radius: 10px 0 0 10px; */
 }
 
 #battery {
     color: @green;
     /* border-bottom: 2px solid @sky; */
     /* border-bottom: 2px solid #d8dee9; */
-    border-radius: 0 10px 10px 0;
-    margin: 4px 10px 4px 0;
+    /* border-radius: 0 10px 10px 0; */
+    /* margin: 4px 10px 4px 0; */
 }
 
 #custom-dnf {
-    margin: 4px;
-    border-radius: 10px;
+    background: @lavender;
+    border: 2px solid @base;
+    color: @base
+    /* margin: 4px; */
+    /* border-radius: 10px; */
 }
 
 #battery.charging {
@@ -280,15 +293,15 @@ window#waybar.empty #window {
 }
 
 #network.disabled {
-    color: #bf616a;
+    color: @gray;
     /* border-bottom: 2px solid #bf616a; */
 }
 
 #bluetooth {
     color: @sky;
     /* border-bottom: 2px solid @blue; */
-    border-radius: 10px 0 0 10px;
-    margin: 4px 0px;
+    /* border-radius: 10px 0 0 10px; */
+    /* margin: 4px 0px; */
 
 }
 
@@ -299,10 +312,10 @@ window#waybar.empty #window {
 
 
 #network {
-    color: @green;
+    color: @yellow;
     /* border-bottom: 2px solid @green; */
-    border-radius: 0 10px 10px 0;
-    margin: 4px 10px 4px 0px;
+    /* border-radius: 0 10px 10px 0; */
+    /* margin: 4px 10px 4px 0px; */
 }
 
 #network.disconnected {
@@ -312,8 +325,8 @@ window#waybar.empty #window {
 
 #pulseaudio {
     color: @flamingo;
-    border-radius: 10px 0 0 10px;
-    margin: 4px 0px;
+    /* border-radius: 10px 0 0 10px; */
+    /* margin: 4px 0px; */
     /* border-bottom: 2px solid @flamingo; */
 }
 
@@ -335,35 +348,38 @@ window#waybar.empty #window {
 }
 
 #idle_inhibitor {
-    font-size: 18px;
+    border: 2px solid @base;
+    font-size: 12px;
     background-color: #ebcb8b;
     color: @base;
-    border-radius: 10px;
-    padding: 0px 10px;
-    margin: 4px;
+    /* border-radius: 10px; */
+    padding: 0px 8px;
+    /* margin: 4px; */
 }
 
 #tray {
     /* background-color: @base; */
-    margin: 8px 10px;
+    margin: 0px 10px;
     border-radius: 10px;
 }
 
 #custom-launcher {
     background-color: @mauve;
     color: @base;
-    border-radius: 10px;
-    padding: 8px;
-    margin: 4px;
+    border: 2px solid @base;
+    /* border-radius: 10px; */
+    padding: 4px;
+    /* margin: 4px; */
 }
 
 #custom-power {
-    font-size: 22px;
+    border: 2px solid @base;
+    font-size: 16px;
     color: @base;
     background-color: @red;
-    border-radius: 10px;
-    padding: 0px 12px;
-    margin: 4px;
+    /* border-radius: 10px; */
+    padding: 0px 8px;
+    /* margin: 4px; */
 }
 
 /* #window { */

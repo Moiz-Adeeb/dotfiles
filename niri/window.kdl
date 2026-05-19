@@ -1,0 +1,78 @@
+// =========================================================================
+// NIRI WINDOW NAVIGATION, LAYOUTS & RESIZER (Syntax Validated)
+// =========================================================================
+
+binds {
+    // ---------------------------------------------------------------------
+    // Focus Movement (Arrows & HJKL)
+    // ---------------------------------------------------------------------
+    Mod+Left  { focus-column-left; }
+    Mod+Right { focus-column-right; }
+    Mod+Up    { focus-window-or-workspace-up; }
+    Mod+Down  { focus-window-or-workspace-down; }
+
+    Mod+H     { focus-column-left; }
+    Mod+L     { focus-column-right; }
+    Mod+K     { focus-window-or-workspace-up; }
+    Mod+J     { focus-window-or-workspace-down; }
+
+    // Focus Next (Alt+Tab)
+    Alt+Tab   { focus-column-right; }
+
+    // ---------------------------------------------------------------------
+    // Window/Column Movement (Shift + Arrows & Shift + HJKL)
+    // ---------------------------------------------------------------------
+    Mod+Shift+Left  { move-column-left; }
+    Mod+Shift+Right { move-column-right; }
+    Mod+Shift+Up    { move-window-up; }
+    Mod+Shift+Down  { move-window-down; }
+
+    Mod+Shift+H     { move-column-left; }
+    Mod+Shift+L     { move-column-right; }
+    Mod+Shift+K     { move-window-up; }
+    Mod+Shift+J     { move-window-down; }
+
+    Mod+Shift+WheelScrollDown { move-column-left; }
+    Mod+Shift+WheelScrollUp   { move-column-right; }
+
+    // ---------------------------------------------------------------------
+    // Layout Styles & Window States
+    // ---------------------------------------------------------------------
+    Mod+F       { fullscreen-window; }
+    Mod+Shift+F { maximize-column; } 
+
+    // Floating Management 
+    Mod+Space       { toggle-window-floating; }
+    Mod+Shift+Space { switch-focus-between-floating-and-tiling; } 
+
+    // Stacking/Column Groups (Tabbed/Stacked equivalents)
+    Mod+W { consume-window-into-column; } 
+    Mod+S { expel-window-from-column; }   
+
+    // ---------------------------------------------------------------------
+    // Scratchpad Equivalents (Correct Niri Action Key Strings)
+    // ---------------------------------------------------------------------
+    // Mod+Minus sends the active window down into the background tray
+    //Mod+Minus       { minimize-window; } 
+    
+    // Mod+Shift+Minus switches your keyboard focus layer to grab minimized cards
+    Mod+Shift+Minus { switch-focus-between-floating-and-tiling; } 
+
+    // ---------------------------------------------------------------------
+    // Snappy Window Resizing (Mod + Ctrl + Key Directions)
+    // ---------------------------------------------------------------------
+    Mod+Ctrl+Left  { set-column-width "-10%"; }
+    Mod+Ctrl+Right { set-column-width "+10%"; }
+    Mod+Ctrl+Up    { set-window-height "-10%"; }
+    Mod+Ctrl+Down  { set-window-height "+10%"; }
+
+    Mod+Ctrl+H     { set-column-width "-10%"; }
+    Mod+Ctrl+L     { set-column-width "+10%"; }
+    Mod+Ctrl+K     { set-window-height "-10%"; }
+    Mod+Ctrl+J     { set-window-height "+10%"; }
+
+    Mod+Ctrl+WheelScrollDown { set-column-width "-10%"; }
+    Mod+Ctrl+WheelScrollUp   { set-column-width "+10%"; }
+
+}
+

@@ -2,8 +2,9 @@
   "exclusive": true,
   "layer": "top", // Waybar at top layer
   "position": "top", // Waybar position (top|bottom|left|right)
-  "height": 10,
-  "margin": "0",
+  "height": 0,
+  "margin": "4px 4px 0px 4px",
+  "spacing": 8,
   //"width": 1880, // Waybar width
   // Choose the order of the modules idle_inhibitor
   "modules-left": [
@@ -11,7 +12,7 @@
     "hyprland/workspaces",
     //"custom/swap",
     //"tray",
-    //"hyprland/window",
+    "hyprland/window",
     "hyprland/submap",
     //"custom/cava-internal",
     "mpd#2",

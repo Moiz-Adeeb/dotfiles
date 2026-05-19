@@ -1,0 +1,11 @@
+spawn-at-startup "swaybg" "-i" "/home/moiz/.config/backgrounds/012.jpg" "-m" "fill"
+spawn-at-startup "dunst"
+spawn-at-startup "foot" "--server"
+//spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
+spawn-at-startup "wl-gammarelay-rs"
+spawn-at-startup "kanshi"
+spawn-at-startup "bluetoothctl" "power" "off"
+spawn-at-startup "waybar"
+
+spawn-at-startup "bash" "-c" "sleep 2 && sudo systemctl start thermald"
+

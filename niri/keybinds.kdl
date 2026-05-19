@@ -1,0 +1,78 @@
+// =========================================================================
+// NIRI KEYBINDINGS (Translated from Hyprland)
+// =========================================================================
+
+binds {
+    // ---------------------------------------------------------------------
+    // Applications & Core Actions
+    // ---------------------------------------------------------------------
+    Mod+Return { spawn "footclient"; }
+    Mod+X      { close-window; }
+    
+    // Niri native quit (Alternative to Hyprland's exit)
+    Mod+M      { quit; } 
+    Mod+Ctrl+E { quit; }
+
+    // Floating windows toggling
+    Mod+V      { toggle-window-floating; }
+
+    // Rofi Menus (Command string split into individual arguments)
+    Mod+D      { spawn "rofi" "-show" "drun"; }
+    Mod+P      { spawn "/home/moiz/.config/rofi/powermenu/powermenu.sh"; }
+    Mod+O { toggle-overview; }
+
+    // TUI Applications opened in Foot
+    Mod+Escape { spawn "footclient" "-a" "float_large" "-e" "btop"; }
+    Mod+E      { spawn "footclient" "-a" "float_large" "-e" "/home/moiz/.cargo/bin/yazi"; }
+    Mod+Shift+I { spawn "footclient" "-a" "float_small" "-e" "/home/moiz/.cargo/bin/impala-nm"; }
+    Mod+Shift+W { spawn "footclient" "-a" "float_small" "-e" "wiremix"; }
+    Mod+Shift+M { spawn "footclient" "-a" "float_small" "-e" "/home/moiz/.cargo/bin/bluetui"; }
+
+    // Utilities & Scripts
+    Mod+F10     { spawn "/home/moiz/.config/hypr/scripts/monitors.sh"; } // Note: Check if your script uses hyprctl commands
+    Mod+Shift+B { spawn "sh" "-c" "pkill waybar || waybar"; }
+    Mod+Shift+Z { spawn "sh" "-c" "pkill foot && foot --server"; }
+    Mod+Shift+G { spawn "/home/moiz/.config/sway/scripts/background-swap.sh"; }
+    Mod+Shift+N { spawn "dunstctl" "history-pop"; }
+
+    // Clipboard History Complex Pipe (Wrapped via shell executor)
+    Mod+Shift+V { spawn "sh" "-c" "cliphist list | rofi -dmenu | cliphist decode | wl-copy"; }
+
+    // ---------------------------------------------------------------------
+    // Native Niri Navigation & Workspace Controls
+    // ---------------------------------------------------------------------
+    // Replaces Hyprland layout/split binds with Niri ribbon equivalents
+    Mod+Left  { focus-column-left; }
+    Mod+Right { focus-column-right; }
+    Mod+Up    { focus-window-or-workspace-up; }
+    Mod+Down  { focus-window-or-workspace-down; }
+
+    // Moving columns horizontally along the infinite ribbon
+    Mod+Ctrl+Left  { move-column-left; }
+    Mod+Ctrl+Right { move-column-right; }
+    
+    // Changing Window sizing (Replaces pseudo / split toggles)
+    Mod+Shift+E { maximize-column; }
+    Mod+Shift+P { fullscreen-window; }
+
+    // Mouse Wheel Workspace Scrolling
+    Mod+WheelScrollDown { focus-workspace-down; }
+    Mod+WheelScrollUp   { focus-workspace-up; }
+
+    // ---------------------------------------------------------------------
+    // Hardware Adjustments (Volume, Brightness, Media)
+    // ---------------------------------------------------------------------
+    XF86AudioRaiseVolume  { spawn "pactl" "set-sink-volume" "@DEFAULT_SINK@" "+10%"; }
+    XF86AudioLowerVolume  { spawn "pactl" "set-sink-volume" "@DEFAULT_SINK@" "-10%"; }
+    XF86AudioMute         { spawn "pactl" "set-sink-mute"   "@DEFAULT_SINK@" "toggle"; }
+    XF86AudioMicMute      { spawn "pactl" "set-source-mute" "@DEFAULT_SOURCE@" "toggle"; }
+
+    XF86MonBrightnessUp   { spawn "sh" "-c" "brightnessctl set +10% && busctl --user -- call rs.wl-gammarelay / rs.wl.gammarelay UpdateBrightness d 0.1"; }
+    XF86MonBrightnessDown { spawn "sh" "-c" "brightnessctl set 10%- && busctl --user -- call rs.wl-gammarelay / rs.wl.gammarelay UpdateBrightness d -0.1"; }
+
+    XF86AudioNext         { spawn "playerctl" "next"; }
+    XF86AudioPause        { spawn "playerctl" "play-pause"; }
+    XF86AudioPlay         { spawn "playerctl" "play-pause"; }
+    XF86AudioPrev         { spawn "playerctl" "previous"; }
+}
+
