@@ -1,0 +1,14 @@
+[Unit]
+Description=Mako Notification Daemon
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+BusName=org.freedesktop.Notifications
+ExecStart=uwsm app -- /usr/bin/mako
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=hyprland-session.target

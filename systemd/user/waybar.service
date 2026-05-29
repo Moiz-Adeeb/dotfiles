@@ -1,12 +1,11 @@
 [Unit]
 Description=Waybar Status Bar
-BindsTo=graphical-session.target
 After=graphical-session.target
-PartOf=hyprland-session.target
+PartOf=graphical-session.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/waybar
+ExecStart=uwsm app -- /usr/bin/waybar
 Restart=on-failure
 RestartSec=3
 

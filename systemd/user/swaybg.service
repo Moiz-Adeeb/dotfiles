@@ -1,12 +1,11 @@
 [Unit]
 Description=Swaybg Wallpaper Daemon
-BindsTo=graphical-session.target
 After=graphical-session.target
-PartOf=hyprland-session.target
+PartOf=graphical-session.target
 
 [Service]
 Type=simple
-ExecStart=/bin/sh -c 'exec /usr/bin/swaybg -i $(cat %h/.background_wallpaper) -m fill'
+ExecStart=/bin/sh -c 'exec uwsm app -- /usr/bin/swaybg -i "$(cat /home/moiz/.background_wallpaper)" -m fill'
 Restart=on-failure
 RestartSec=3
 

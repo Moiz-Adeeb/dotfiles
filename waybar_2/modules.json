@@ -1,0 +1,310 @@
+{
+  "hyprland/workspaces": {
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
+    "all-outputs": false,
+    "format": "{icon}",
+    "on-click": "activate",
+    "format_focused": "< %g ●>",
+    "format-icons": {
+      "1": "01",
+      "2": "02",
+      "3": "03",
+      "4": "04",
+      "5": "05",
+      "6": "06",
+      "7": "07",
+      "8": "08",
+      "9": "09",
+      "10": "10"
+    }
+  },
+  "mpd": {
+    "tooltip": true,
+    "tooltip-format": "{artist} - {album} - {title} - Total Time : {totalTime:%M:%S}",
+    "format": " {elapsedTime:%M:%S}",
+    "format-disconnected": "⚠  Disconnected",
+    "format-stopped": " Not Playing",
+    "on-click": "mpc toggle",
+    "state-icons": {
+      "playing": "",
+      "paused": ""
+    }
+  },
+  "mpd#2": {
+    "format": "",
+    "format-disconnected": "",
+    "format-paused": "",
+    "format-stopped": "",
+    "on-click": "mpc -q pause && mpc -q prev && mpc -q start"
+  },
+  "mpd#3": {
+    "format": "{stateIcon}",
+    "format-disconnected": "",
+    "format-paused": "{stateIcon}",
+    "format-stopped": "",
+    "state-icons": {
+      "paused": "",
+      "playing": ""
+    },
+    "on-click": "mpc toggle"
+  },
+  "mpd#4": {
+    "format": "",
+    "format-disconnected": "",
+    "format-paused": "",
+    "format-stopped": "",
+    "on-click": "mpc -q pause && mpc -q next && mpc -q start"
+  },
+  "custom/swap": {
+    "on-click": "~/.config/waybar/scripts/swap.sh",
+    "format": "Bg  ",
+    "tooltip": true,
+    "tooltip-format": "Swap between waybar Themes"
+  },
+  "custom/mpd": {
+    "format": " {title} - {artist}",
+    "interval": 5,
+    "exec": "mpc current --format='\"title\":\"%title%\",\"artist\":\"%artist%\"'"
+  },
+  //  "custom/cava-internal": {
+  //    "exec": "sh ~/.config/waybar/scripts/Cava.sh",
+  //    "format": "{}",
+  //    "tooltip": false,
+  //    "on-click": "swaymsg reload & pkill waybar & waybar",
+  //     "layer": "below",
+  //     "output": "all"
+  //  },
+  "hyprland/submap": {
+    "format": "✌️ {}",
+    "max-length": 8,
+    "tooltip": false
+  },
+  "hyprland/mode": {
+    "format": "<span style=\"italic\">{}</span>"
+  },
+  "hyprland/window": {
+    "rewrite": {
+      "(.*) - Brave": "$1",
+      "(.*) - Chromium": "$1",
+      "(.*) - Brave Search": "$1",
+      "(.*) - Outlook": "$1",
+      "(.*) Microsoft Teams": "$1",
+      "(.*) - qutebrowser": "$1"
+    },
+    "separate-outputs": true,
+    "format": "<span color=\"#24273A\" style=\"italic\">{}</span>"
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "",
+      "deactivated": ""
+    }
+  },
+  "tray": {
+    "icon-size": 14,
+    "spacing": 5
+  },
+  "clock": {
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "weeks-pos": "right",
+      "on-scroll": 1,
+      "on-click-right": "mode",
+      "format": {
+        "months": "<span color='#bb9af7'><b>{}</b></span>", // Purple
+        "days": "<span color='#7aa2f7'><b>{}</b></span>", // Blue
+        "weeks": "<span color='#9ece6a'><b>W{}</b></span>", // Green
+        "weekdays": "<span color='#e0af68'><b>{}</b></span>", // Yellow
+        "today": "<span background='#2ac3de' color='#1a1b26'><b><u>{}</u></b></span>" // Cyan background with dark text
+      }
+    },
+    "actions": {
+      "on-click-right": "mode",
+      "on-click-forward": "tz_up",
+      "on-click-backward": "tz_down",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    },
+    "format": "{:%A %d %B | %H:%M}",
+    "format-alt": "  {:%Y-%m-%d  %H:%M:%S}",
+    "interval": 1
+  },
+  "custom/system": {
+    "format": "",
+    "tooltip": false
+  },
+  "cpu": {
+    "format": " {usage: >3}%",
+    "on-click": "ghostty -e htop"
+  },
+  "memory": {
+    "format": " {: >3}%",
+    "on-click": "ghostty -e htop"
+  },
+  "temperature": {
+    "thermal-zone": 4,
+    // "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
+    "critical-threshold": 80,
+    // "format-critical": "{temperatureC}°C ",
+    "format": "  {temperatureC}°C"
+  },
+  // Harddisc space used
+  "disk": {
+    // "interval": 30,
+    "format": " {percentage_used}% ",
+    "path": "/",
+    //"on-click": "ghostty -e htop"
+  },
+  // Group Hardware
+  "group/hardware": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 300,
+      "children-class": "not-memory",
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "custom/system",
+      "disk",
+      "cpu",
+      "memory"
+      //"backlight",
+      //"sway/language"
+    ]
+  },
+  "backlight": {
+    // "device": "acpi_video1",
+    "format": "{icon} {percent: >3}%",
+    // "format-icons": ["", ""],
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "on-scroll-down": "brightnessctl -c backlight set 5%-",
+    // "on-scroll-down": "light -A 5 && light -G | cut -d'.' -f1 > $SWAYSOCK.wob",
+    "on-scroll-up": "brightnessctl -c backlight set +5%",
+    // "on-scroll-up": "light -U 5 && light -G | cut -d'.' -f1 > $SWAYSOCK.wob"
+    "on-click": ""
+  },
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity: >3}%",
+    "format-plugged": " {capacity: >3}%",
+    "format-alt": "{icon} {capacity}%\tRemaining: {time}",
+    // "format-good": "", // An empty format will hide the module
+    "format-full": "{icon} FULL",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "tooltip-format": "Battery: {capacity}%\nTime Remaining: {time}"
+  },
+  "network": {
+    "interface": "wlp2s0",
+    "interval": 5,
+    "format": "⚠",
+    "format-disabled": "⚠ OFF",
+    "format-wifi": " {essid}",
+    "format-off": " OFF",
+    "format-ethernet": " {essid}",
+    "format-disconnected": "⚠ DISCONNECTED",
+    "tooltip-format": " {ifname} via {gwaddri}",
+    "tooltip-format-wifi": "   {essid} ({signalStrength}%)",
+    "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
+    "tooltip-format-disconnected": "⚠  Disconnected",
+    "on-click": "footclient -a float_small -e ~/.cargo/bin/impala-nm",
+    "on-click-right": "nmcli radio wifi | grep -q 'enabled' && nmcli radio wifi off || nmcli radio wifi on"
+  },
+  "bluetooth": {
+    "interval": 5,
+    "format": "",
+    "format-off": " OFF",
+    "format-on": " ON",
+    "format-connected": " {device_alias} {device_battery_percentage}%",
+    "tooltip-format": "{controller_alias}\t{controller_address}",
+    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}:{device_battery_percentage}% \t{device_address}",
+    "on-click": "footclient -a float_small -e bluetui",
+    "on-click-right": "bluetoothctl show | grep -q 'Powered: yes' && bluetoothctl power off || bluetoothctl power on"
+  },
+  "pulseaudio": {
+    "scroll-step": 5,
+    "format": "{icon} {volume: >3}%",
+    "format-bluetooth": "{icon} {volume: >3}%",
+    "format-muted": " MUTED",
+    "format-icons": {
+      "headphones": "",
+      "handsfree": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+        "",
+        ""
+      ]
+    },
+    "tooltip-format": "Volume: {volume: >3}%",
+    "on-click": "footclient -a float_small -e wiremix",
+    "on-click-right": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+    "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%"
+  },
+  //  "custom/dnf": {
+  //    "format": " {} UPDATES",
+  //   "interval": 7200,
+  //    "exec": "updates=$(dnf check-update --quiet | grep -v '^$' | wc -l); [ \"$updates\" -gt 0 ] && echo \"$updates\" || echo \"0\"",
+  //    "exec-if": "exit 0",
+  //    "on-click": "footclient -a float_large -e sudo dnf update",
+  //    "signal": 8,
+  //    "tooltip": false
+  //  },
+  "custom/dnf": {
+    "format": "{}",
+    "return-type": "json",
+    "exec": "cat /tmp/dnf_updates.json 2>/dev/null || echo '{\"text\":\" Checking...\",\"alt\":\"no-updates\"}'",
+    "on-click": "footclient -a float_large -e sh -c 'sudo dnf update && systemctl --user start dnf-check.service'",
+    "signal": 8,
+    "tooltip": false
+  },
+  "custom/power": {
+    "format": "⏻",
+    // "on-click": "wlogout -p layer-shell",
+    "on-click": "~/.config/rofi/powermenu/powermenu.sh",
+    "tooltip": false
+  },
+  "custom/keyboard-layout": {
+    "exec": "swaymsg -t get_inputs | grep -m1 'xkb_active_layout_name' | cut -d '\"' -f4",
+    // Interval set only as a fallback, as the value is updated by signal
+    "interval": 1,
+    "format": "  {}", // Icon: keyboard
+    // Signal sent by Sway key binding (~/.config/sway/key-bindings)
+    "signal": 1, // SIGHUP
+    "tooltip": false,
+    "on-click": "~/.config/waybar/scripts/keyhint.sh"
+  },
+  "custom/launcher": {
+    "format": "",
+    "on-click": "rofi -show drun -replace -run-command 'uwsm app -- {cmd}'",
+    "tooltip": false
+  }
+}

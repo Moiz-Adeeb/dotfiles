@@ -1,3 +1,5 @@
-2026/05/19-17:11:49.944 5 Reusing MANIFEST /home/moiz/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2026/05/19-17:11:49.945 5 Recovering log #78
-2026/05/19-17:11:49.945 5 Reusing old log /home/moiz/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000078.log 
+2026/05/29-21:43:31.447 5 Reusing MANIFEST /home/moiz/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2026/05/29-21:43:31.455 5 Recovering log #81
+2026/05/29-21:43:31.457 5 Level-0 table #85: started
+2026/05/29-21:43:31.476 5 Level-0 table #85: 35406 bytes OK
+2026/05/29-21:43:31.518 5 Delete type=0 #81

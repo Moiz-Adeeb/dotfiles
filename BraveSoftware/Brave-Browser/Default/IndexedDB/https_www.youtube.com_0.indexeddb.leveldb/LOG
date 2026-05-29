@@ -1,3 +1,17 @@
-2026/05/19-17:30:30.991 2ffc Reusing MANIFEST /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/05/19-17:30:30.993 2ffc Recovering log #222
-2026/05/19-17:30:31.008 2ffc Reusing old log /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000222.log 
+2026/05/29-22:12:59.771 c12 Reusing MANIFEST /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/05/29-22:12:59.772 c12 Recovering log #239
+2026/05/29-22:12:59.789 c12 Reusing old log /home/moiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000239.log 
+2026/05/29-22:12:59.790 c12 Delete type=2 #237
+2026/05/29-22:12:59.790 c12 Delete type=2 #240
+2026/05/29-22:13:46.579 c05 Level-0 table #245: started
+2026/05/29-22:13:46.632 c05 Level-0 table #245: 1749842 bytes OK
+2026/05/29-22:13:46.670 c05 Delete type=0 #239
+2026/05/29-22:15:33.780 c05 Compacting 1@1 + 1@2 files
+2026/05/29-22:15:33.810 c05 Generated table #246@1: 630 keys, 67809 bytes
+2026/05/29-22:15:33.812 c05 Compacted 1@1 + 1@2 files => 67809 bytes
+2026/05/29-22:15:33.839 c05 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/29-22:15:33.840 c05 Delete type=2 #242
+2026/05/29-22:15:33.840 c05 Delete type=2 #245
+2026/05/29-22:34:32.277 c05 Level-0 table #248: started
+2026/05/29-22:34:32.322 c05 Level-0 table #248: 1506712 bytes OK
+2026/05/29-22:34:32.357 c05 Delete type=0 #244

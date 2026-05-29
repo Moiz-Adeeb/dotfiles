@@ -76,7 +76,7 @@
   //     "output": "all"
   //  },
   "hyprland/submap": {
-    "format": "✌️ {}",
+    "format": "<span color=\"#B7BDF8\" style=\"italic\">{}</span>",
     "max-length": 8,
     "tooltip": false
   },
@@ -93,7 +93,7 @@
       "(.*) - qutebrowser": "$1"
     },
     "separate-outputs": true,
-    "format": "<span color=\"#24273A\" style=\"italic\">{}</span>"
+    "format": "<span color=\"#B7BDF8\" style=\"italic\">{}</span>"
   },
   "idle_inhibitor": {
     "format": "{icon}",
@@ -133,49 +133,6 @@
     "format-alt": "  {:%Y-%m-%d  %H:%M:%S}",
     "interval": 1
   },
-  "custom/system": {
-    "format": "",
-    "tooltip": false
-  },
-  "cpu": {
-    "format": " {usage: >3}%",
-    "on-click": "ghostty -e htop"
-  },
-  "memory": {
-    "format": " {: >3}%",
-    "on-click": "ghostty -e htop"
-  },
-  "temperature": {
-    "thermal-zone": 4,
-    // "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
-    "critical-threshold": 80,
-    // "format-critical": "{temperatureC}°C ",
-    "format": "  {temperatureC}°C"
-  },
-  // Harddisc space used
-  "disk": {
-    // "interval": 30,
-    "format": " {percentage_used}% ",
-    "path": "/",
-    //"on-click": "ghostty -e htop"
-  },
-  // Group Hardware
-  "group/hardware": {
-    "orientation": "inherit",
-    "drawer": {
-      "transition-duration": 300,
-      "children-class": "not-memory",
-      "transition-left-to-right": false
-    },
-    "modules": [
-      "custom/system",
-      "disk",
-      "cpu",
-      "memory"
-      //"backlight",
-      //"sway/language"
-    ]
-  },
   "backlight": {
     // "device": "acpi_video1",
     "format": "{icon} {percent: >3}%",
@@ -204,33 +161,36 @@
       "critical": 15
     },
     "format": "{icon} {capacity}%",
-    "format-charging": " {capacity: >3}%",
-    "format-plugged": " {capacity: >3}%",
+    "format-charging": "  {capacity}%",
+    "format-plugged": " {capacity}%",
     "format-alt": "{icon} {capacity}%\tRemaining: {time}",
-    // "format-good": "", // An empty format will hide the module
-    "format-full": "{icon} FULL",
+    "format-plugged-alt": "{icon} {capacity}%\tRemaining: {time}",
+    "format-charging-alt": "{icon} {capacity}%\tRemaining: {time}",
+    //"format-good": "", // An empty format will hide the module
+    "format-full": "{icon} {capacity}%",
     "format-icons": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "   {capacity}%",
+      " ",
+      " ",
+      " ",
+      " "
     ],
-    "tooltip-format": "Battery: {capacity}%\nTime Remaining: {time}"
+    "tooltip-format": "Battery: {capacity}%\nTime Remaining: {time}",
+    "tooltip-format-full": ""
   },
   "network": {
     "interface": "wlp2s0",
     "interval": 5,
-    "format": "⚠",
+    "format": "⚠ ON",
     "format-disabled": "⚠ OFF",
-    "format-wifi": " {essid}",
-    "format-off": " OFF",
+    "format-wifi": "  {essid}",
+    "format-off": "  OFF",
     "format-ethernet": " {essid}",
     "format-disconnected": "⚠ DISCONNECTED",
     "tooltip-format": " {ifname} via {gwaddri}",
     "tooltip-format-wifi": "   {essid} ({signalStrength}%)",
     "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
-    "tooltip-format-disconnected": "⚠  Disconnected",
+    "tooltip-format-disconnected": "⚠ Disconnected",
     "on-click": "footclient -a float_small -e ~/.cargo/bin/impala-nm",
     "on-click-right": "nmcli radio wifi | grep -q 'enabled' && nmcli radio wifi off || nmcli radio wifi on"
   },
@@ -238,9 +198,9 @@
     "interval": 5,
     "format": "",
     "format-off": " OFF",
-    "format-on": " ON",
+    "format-on": " ON",
     "format-connected": " {device_alias} {device_battery_percentage}%",
-    "tooltip-format": "{controller_alias}\t{controller_address}",
+    "tooltip-format": "{controller_alias}\t{controller_address}\t{device_battery_percentage}%",
     "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}:{device_battery_percentage}% \t{device_address}",
     "on-click": "footclient -a float_small -e bluetui",
@@ -248,19 +208,19 @@
   },
   "pulseaudio": {
     "scroll-step": 5,
-    "format": "{icon} {volume: >3}%",
-    "format-bluetooth": "{icon} {volume: >3}%",
+    "format": "{icon}{volume: >3}",
+    "format-bluetooth": "{icon}{volume: >3}",
     "format-muted": " MUTED",
     "format-icons": {
-      "headphones": "",
-      "handsfree": "",
-      "headset": "",
-      "phone": "",
-      "portable": "",
+      "headphones": " ",
+      "handsfree": " ",
+      "headset": " ",
+      "phone": " ",
+      "portable": " ",
       "car": "",
       "default": [
         "",
-        ""
+        " "
       ]
     },
     "tooltip-format": "Volume: {volume: >3}%",
@@ -278,11 +238,11 @@
   //    "signal": 8,
   //    "tooltip": false
   //  },
-  "custom/dnf": {
+  "custom/pacman": {
     "format": "{}",
     "return-type": "json",
-    "exec": "cat /tmp/dnf_updates.json 2>/dev/null || echo '{\"text\":\" Checking...\",\"alt\":\"no-updates\"}'",
-    "on-click": "footclient -a float_large -e sh -c 'sudo dnf update && systemctl --user start dnf-check.service'",
+    "exec": "cat /tmp/pacman_updates.json 2>/dev/null || echo '{\"text\":\" Checking...\",\"alt\":\"no-updates\"}'",
+    "on-click": "footclient -a float_large -e sh -c 'sudo pacman -Syu && systemctl --user start pacman-check.service'",
     "signal": 8,
     "tooltip": false
   },

@@ -1,47 +1,31 @@
 {
   "exclusive": true,
-  "layer": "top", // Waybar at top layer
-  "position": "top", // Waybar position (top|bottom|left|right)
+  "layer": "top",
+  "position": "top",
   "height": 0,
-  "margin": "4px 4px 0px 4px",
-  "spacing": 8,
-  //"width": 1880, // Waybar width
-  // Choose the order of the modules idle_inhibitor
+  "margin": "4px 0px 0px 0px",
+  "spacing": 0,
+  //"width": 1900,
   "modules-left": [
     "custom/launcher",
     "hyprland/workspaces",
-    //"custom/swap",
-    //"tray",
     "hyprland/window",
-    "hyprland/submap",
-    //"custom/cava-internal",
-    "mpd#2",
-    "mpd#3",
-    "mpd#4",
-    "mpd"
+    "hyprland/submap"
   ],
-  "modules-center": ["clock"],
+  "modules-center": [
+    "clock"
+  ],
   "modules-right": [
-    "custom/dnf",
-    //"backlight",
+    "custom/pacman",
+    "backlight",
     "pulseaudio",
-    //"custom/keyboard-layout",
-    //"temperature",
-    // "cpu",
-    // "memory",
-    // "disk",
-    //bin"group/hardware",
     "battery",
     "bluetooth",
     "network",
     "idle_inhibitor",
     "custom/power"
   ],
-
-
-    // Load Modules
-    "include": ["~/.config/waybar/modules.json"],
-
-  // Modules configuration
-
+  "include": [
+    "~/.config/waybar/modules.json"
+  ]
 }

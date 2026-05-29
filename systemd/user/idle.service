@@ -1,0 +1,14 @@
+[Unit]
+Description=Hypridle (Background Idle)
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=uwsm app -- /usr/bin/hypridle
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=hyprland-session.target
+

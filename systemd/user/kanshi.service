@@ -1,14 +1,15 @@
 [Unit]
-Description=Kanshi Display Profile Manager
-BindsTo=graphical-session.target
-After=graphical-session.target
-PartOf=hyprland-session.target
+Description=Kanshi display profile manager
+Documentation=man:kanshi(1)
+After=graphical-session.target hyprland-session.target
+PartOf=graphical-session.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/kanshi
+ExecStart=uwsm app -- /usr/bin/kanshi
 Restart=on-failure
-RestartSec=2
+RestartSec=1
 
 [Install]
 WantedBy=hyprland-session.target
+

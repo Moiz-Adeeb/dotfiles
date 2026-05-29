@@ -1,3 +1,6 @@
-2026/05/19-17:30:26.921 5 Reusing MANIFEST /home/moiz/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/19-17:30:26.928 5 Recovering log #400
-2026/05/19-17:30:26.929 5 Reusing old log /home/moiz/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000400.log 
+2026/05/29-22:12:54.374 5 Reusing MANIFEST /home/moiz/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/29-22:12:54.381 5 Recovering log #416
+2026/05/29-22:12:54.382 5 Reusing old log /home/moiz/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000416.log 
+2026/05/29-22:38:59.783 7 Level-0 table #420: started
+2026/05/29-22:38:59.808 7 Level-0 table #420: 21355 bytes OK
+2026/05/29-22:38:59.837 7 Delete type=0 #416
