@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "target": "ES2022",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./",
+        "paths": {
+            "gi://*": [
+                "./@girs/*"
+            ],
+            "astal/*": [
+                "/usr/share/astal/gjs/*"
+            ]
+        }
+    },
+    "include": [
+        "**/*.ts"
+    ]
+}

@@ -1,0 +1,29 @@
+/**
+ *
+ * Author : Aditya Shakya (adi1090x)
+ * Github : @adi1090x
+ * 
+ * Colors
+ *
+ * Available Colors Schemes
+ *
+ * adapta    catppuccin    everforest    navy       paper
+ * arc       cyberpunk     gruvbox       nord       solarized
+ * black     dracula       lovelace      onedark    yousai
+ *
+ **/
+
+/* Import color-scheme from `colors` directory */
+
+// @import "~/.config/rofi/colors/tokyonight.rasi"
+
+* {
+  background:    #000000dd;
+  background-alt: #16161e;
+  border:        #89ddff;
+  //border:        #7aa2f700;
+  foreground:    #c0caf5;
+  selected:      #7aa2f7dd;
+  active:        #7aa2f7;
+  urgent:        #f7768e;
+}

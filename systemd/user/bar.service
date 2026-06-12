@@ -1,0 +1,29 @@
+; [Unit]
+; Description=AGS Status Bar Component
+; After=graphical-session.target
+; PartOf=graphical-session.target
+;
+; [Service]
+; Type=simple
+; ExecStart=bash -c 'pkill gjs; uwsm app -- ags run'
+; Restart=on-failure
+; RestartSec=3
+;
+; [Install]
+; WantedBy=graphical-session.target
+
+
+[Unit]
+Description=Waybar Status Bar
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=uwsm app -- waybar
+;waybar
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=hyprland-session.target

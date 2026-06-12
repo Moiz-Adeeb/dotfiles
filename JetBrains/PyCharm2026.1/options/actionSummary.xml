@@ -1,0 +1,28 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="Exit">
+      <i c="1" l="1776164113385" />
+    </e>
+    <e n="ProjectFromVersionControl">
+      <i c="1" l="1776164121857" />
+    </e>
+    <e n="Register">
+      <i c="1" l="1776164046919" />
+    </e>
+    <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.JbChooserAction">
+      <i c="1" l="1776164009543" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="3" l="1776164183114" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.KeymapImplKt$notifyAboutMissingKeymap$1$projectOpened$1$action$2">
+      <i c="1" l="1776164091785" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="1" l="1776165410673" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="2" l="1776164110613" />
+    </e>
+  </component>
+</application>

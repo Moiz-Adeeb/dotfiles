@@ -1,0 +1,285 @@
+{
+  "hyprland/workspaces": {
+    //"on-scroll-up": "hyprctl dispatch workspace e+1",
+    //"on-scroll-down": "hyprctl dispatch workspace e-1",
+    "all-outputs": true,
+    "format": "",
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch 'hl.dsp.focus({ workspace = \"e+1\" })'",
+    "on-scroll-down": "hyprctl dispatch 'hl.dsp.focus({ workspace = \"e-1\" })'",
+    "format_focused": "< %g ●>"
+    // "format-icons": {
+    //   "1": "01",
+    //   "2": "02",
+    //   "3": "03",
+    //   "4": "04",
+    //   "5": "05",
+    //   "6": "06",
+    //   "7": "07",
+    //   "8": "08",
+    //   "9": "09",
+    //   "10": "10"
+    // }
+  },
+  "mpd": {
+    "tooltip": true,
+    "tooltip-format": "{artist} - {album} - {title} - Total Time : {totalTime:%M:%S}",
+    "format": " {elapsedTime:%M:%S}",
+    "format-disconnected": "⚠  Disconnected",
+    "format-stopped": " Not Playing",
+    "on-click": "mpc toggle",
+    "state-icons": {
+      "playing": "",
+      "paused": ""
+    }
+  },
+  "mpd#2": {
+    "format": "",
+    "format-disconnected": "",
+    "format-paused": "",
+    "format-stopped": "",
+    "on-click": "mpc -q pause && mpc -q prev && mpc -q start"
+  },
+  "mpd#3": {
+    "format": "{stateIcon}",
+    "format-disconnected": "",
+    "format-paused": "{stateIcon}",
+    "format-stopped": "",
+    "state-icons": {
+      "paused": "",
+      "playing": ""
+    },
+    "on-click": "mpc toggle"
+  },
+  "mpd#4": {
+    "format": "",
+    "format-disconnected": "",
+    "format-paused": "",
+    "format-stopped": "",
+    "on-click": "mpc -q pause && mpc -q next && mpc -q start"
+  },
+  "custom/mpd": {
+    "format": " {title} - {artist}",
+    "interval": 5,
+    "exec": "mpc current --format='\"title\":\"%title%\",\"artist\":\"%artist%\"'"
+  },
+  "hyprland/submap": {
+    "format": "<span color=\"#B7BDF8\" style=\"italic\">{}</span>",
+    "max-length": 8,
+    "tooltip": false
+  },
+  "hyprland/mode": {
+    "format": "<span style=\"italic\">{}</span>"
+  },
+  "hyprland/window": {
+    "rewrite": {
+      "(.*) - Brave": "$1",
+      "(.*) - Chromium": "$1",
+      "(.*) - Brave Search": "$1",
+      "(.*) - Outlook": "$1",
+      "(.*) Microsoft Teams": "$1",
+      "(.*) - qutebrowser": "$1",
+      "(.*) - Zen Browser": "$1"
+    },
+    "separate-outputs": true,
+    "format": "<span color=\"#B7BDF8\" style=\"italic\">{}</span>"
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "",
+      "deactivated": ""
+    }
+  },
+  "clock": {
+    "tooltip-format": "<tt><span size='125%'>{calendar}</span></tt>",
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "weeks-pos": "right",
+      "on-scroll": 1,
+      "on-click-right": "mode",
+      "format": {
+        "months": "<span color='#bb9af7'><b>{}</b></span>", // Purple
+        "days": "<span color='#7aa2f7'><b>{}</b></span>", // Blue
+        "weeks": "<span color='#9ece6a'><b>W{}</b></span>", // Green
+        "weekdays": "<span color='#e0af68'><b>{}</b></span>", // Yellow
+        "today": "<span background='#2ac3de' color='#1a1b26'><b><u>{}</u></b></span>" // Cyan background with dark text
+      }
+    },
+    "actions": {
+      "on-click-right": "mode",
+      "on-click-forward": "tz_up",
+      "on-click-backward": "tz_down",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    },
+    "format": "{:%A | %d %B %Y | %H:%M}",
+    "format-alt": "  {:%Y-%m-%d  %H:%M:%S}",
+    "interval": 60
+  },
+  "backlight": {
+    "device": "mmc0::",
+    "format": "{icon}{percent: >3}%",
+    // "format-icons": ["", ""],
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "on-scroll-down": "brightnessctl -c backlight set 5%-",
+    "on-scroll-up": "brightnessctl -c backlight set +5%",
+    "on-click": ""
+  },
+  "battery": {
+    "interval": 60,
+    "states": {
+      "good": 90,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon}{capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-alt": "{icon}{capacity}%\tRemaining: {time}",
+    "format-plugged-alt": "{icon}{capacity}%\tRemaining: {time}",
+    "format-charging-alt": "{icon}{capacity}%\tRemaining: {time}",
+    //"format-good": "", // An empty format will hide the module
+    "format-full": "{icon}FULL",
+    "format-icons": [
+      "  {capacity}%",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "tooltip-format": "Battery: {capacity}%\nTime Remaining: {time}",
+    "tooltip-format-full": "BATTERY FULLY CHARGED"
+  },
+  "network": {
+    "interface": "wlan0",
+    "interval": 5,
+    "format": "⚠ ON",
+    "format-disabled": "⚠ OFF",
+    "format-wifi": " {essid}",
+    "format-off": " OFF",
+    "format-ethernet": " {essid}",
+    "format-disconnected": "⚠ DISCONNECTED",
+    "tooltip-format": " {ifname} via {gwaddr}",
+    "tooltip-format-wifi": " {essid} ({signalStrength}%)\nIP: {ipaddr}\nDown: {bandwidthDownBits}\nUp: {bandwidthUpBits}",
+    "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
+    "tooltip-format-disconnected": "⚠ Disconnected",
+    "on-click": "footclient -a float_small -e impala",
+    //"on-click-right": "nmcli radio wifi | grep -q 'enabled' && nmcli radio wifi off || nmcli radio wifi on"
+    //"on-click-right": "rfkill list wifi | grep -q 'soft: yes' && rfkill unblock wifi || rfkill block wifi"
+    "on-click-right": "rfkill toggle wifi"
+  },
+  "bluetooth": {
+    "format": "",
+    "format-off": " OFF",
+    "format-on": " ON",
+    "format-connected": " {device_alias} {device_battery_percentage}%",
+    "tooltip-format": "{controller_alias}\t{controller_address}\t{device_battery_percentage}%",
+    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}:{device_battery_percentage}% \t{device_address}",
+    "on-click": "footclient -a float_small -e bluetui",
+    "on-click-right": "bluetoothctl show | grep -q 'Powered: yes' && bluetoothctl power off || bluetoothctl power on"
+  },
+  "pulseaudio": {
+    "scroll-step": 5,
+    "states": {
+      "mute": 0,
+      "normal": 99,
+      "full": 1000
+    },
+    "format": "{icon}{volume: >3}",
+    "format-full": "{icon} {volume: >3}",
+    "format-bluetooth": "{icon}{volume: >3}",
+    "format-bluetooth-full": "{icon} {volume: >3}",
+    "format-muted": " MUTED",
+    "format-icons": {
+      "headphones": "",
+      "handsfree": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+        "",
+        ""
+      ]
+    },
+    "tooltip-format": "Volume: {volume: >3}%",
+    "on-click": "footclient -a float_small -e wiremix",
+    "on-click-right": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+    "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%"
+  },
+  "custom/pacman": {
+    "interval": "once",
+    "format": " {}",
+    "return-type": "json",
+    "exec": "cat /tmp/pacman_updates.json 2>/dev/null || echo '{\"text\":\"Checking...\",\"alt\":\"no-updates\"}'",
+    "on-click": "footclient -a float_large -e sh -c 'sudo pacman -Syu && systemctl --user start pacman-check.service'",
+    "signal": 8,
+    "tooltip": false
+  },
+  "custom/power": {
+    "format": "⏻",
+    // "on-click": "wlogout -p layer-shell",
+    "on-click": "~/.config/rofi/powermenu/powermenu.sh",
+    "tooltip": false
+  },
+  "custom/launcher": {
+    "format": "",
+    "on-click": "rofi -show drun -replace -run-command 'uwsm app -- {cmd}'",
+    "tooltip": false
+  },
+  "group/status": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/pacman",
+      "backlight",
+      "pulseaudio",
+      "battery",
+      "bluetooth",
+      "network"
+    ]
+  },
+  "group/buttons": {
+    "orientation": "horizontal",
+    "modules": [
+      "idle_inhibitor",
+      "custom/power"
+    ]
+  },
+  "group/left": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/launcher",
+      "hyprland/workspaces",
+      "hyprland/window",
+      "hyprland/submap",
+      "mpd"
+    ]
+  },
+  "group/right": {
+    "orientation": "horizontal",
+    "modules": [
+      "group/status",
+      "group/buttons"
+    ]
+  },
+  "group/center": {
+    "orientation": "horizontal",
+    "modules": [
+      "clock"
+    ]
+  }
+}

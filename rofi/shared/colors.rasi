@@ -1,0 +1,29 @@
+/* Copyright (C) 2020-2023 Aditya Shakya <adi1090x@gmail.com> */
+
+/* Colors */
+
+// Colors - Catppuccin Mocha 
+
+* {
+  background:     #1e1e2ecc; /* Mocha Base with transparency */
+  background-alt: #181825;   /* Mocha Mantle */
+  border:         #89b4fa;   /* Mocha Blue */
+  //border:        #7aa2f700;
+  foreground:     #cdd6f4;   /* Mocha Text */
+  selected:       #cba6f7dd; /* Mocha Mauve with transparency */
+  active:         #b4befe;   /* Mocha Lavender */
+  urgent:         #f38ba8;   /* Mocha Red */
+}
+
+// Colors - Tokyo Night
+
+// * {
+//   background:    #000000dd;
+//   background-alt: #16161e;
+//   border:        #89ddff;
+//   //border:        #7aa2f700;
+//   foreground:    #c0caf5;
+//   selected:      #7aa2f7dd;
+//   active:        #7aa2f7;
+//   urgent:        #f7768e;
+// }

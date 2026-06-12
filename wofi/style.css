@@ -1,0 +1,54 @@
+/* Main Window */
+window {
+    margin: 0px;
+    padding: 0px;
+    background-color: #background; /* Change to your hex color */
+    border: 1px solid #selected;   /* Change to your hex color */
+    border-radius: 1px;
+    font-family: "Fira Code", monospace;
+}
+
+/* Main Box (The container) */
+#outer-box {
+    margin: 30px;
+}
+
+/* Input Bar */
+#input {
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    border: 1px solid #selected;
+    border-radius: 1px;
+    background-color: #background-alt;
+    color: #foreground;
+}
+
+/* Listview area */
+#scroll {
+    margin: 5px 0px;
+}
+
+/* Individual Elements */
+#entry {
+    padding: 12px;
+    color: #foreground;
+}
+
+/* Element Icon */
+#img {
+    margin-right: 10px;
+}
+
+/* Selected State (The focus effect) */
+#entry:selected {
+    background-color: transparent;
+    color: #selected;
+    border: 2px solid #selected;
+    border-radius: 1px;
+}
+
+/* Text highlight inside entry */
+#text:selected {
+    color: #selected;
+}
+

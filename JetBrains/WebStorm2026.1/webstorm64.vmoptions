@@ -1,0 +1,4 @@
+-Xmx979m
+-Dide.managed.by.toolbox=/home/moiz/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox
+-Dtoolbox.notification.token=b6f0999f-485a-4079-ad29-ee97d248f30d
+-Dtoolbox.notification.portFile=/home/moiz/.cache/JetBrains/Toolbox/ports/d3afebdc-b25c-4348-9e3e-9a3e69d2ce85.port

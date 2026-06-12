@@ -1,0 +1,31 @@
+[Default Applications]
+text/html=zen.desktop
+x-scheme-handler/http=zen.desktop
+x-scheme-handler/https=zen.desktop
+x-scheme-handler/about=brave-browser.desktop
+x-scheme-handler/unknown=brave-browser.desktop
+x-scheme-handler/jetbrains=jetbrainsd.desktop
+x-scheme-handler/chrome=zen.desktop
+application/x-extension-htm=zen.desktop
+application/x-extension-html=zen.desktop
+application/x-extension-shtml=zen.desktop
+application/xhtml+xml=zen.desktop
+application/x-extension-xhtml=zen.desktop
+application/x-extension-xht=zen.desktop
+x-scheme-handler/webcal=brave-browser.desktop
+application/zip=userapp-7zip-INLQQ3.desktop
+x-scheme-handler/mailto=brave-browser.desktop
+
+[Added Associations]
+x-scheme-handler/http=zen.desktop;org.mozilla.firefox.desktop;
+x-scheme-handler/https=zen.desktop;org.mozilla.firefox.desktop;
+x-scheme-handler/chrome=zen.desktop;org.mozilla.firefox.desktop;
+text/html=org.mozilla.firefox.desktop;zen.desktop;
+application/x-extension-htm=org.mozilla.firefox.desktop;zen.desktop;
+application/x-extension-html=org.mozilla.firefox.desktop;zen.desktop;
+application/x-extension-shtml=org.mozilla.firefox.desktop;zen.desktop;
+application/xhtml+xml=org.mozilla.firefox.desktop;zen.desktop;
+application/x-extension-xhtml=org.mozilla.firefox.desktop;zen.desktop;
+application/x-extension-xht=org.mozilla.firefox.desktop;zen.desktop;
+application/zip=userapp-7zip-R6LGP3.desktop;userapp-7zip-INLQQ3.desktop;
+video/x-matroska=mpv.desktop;vlc.desktop;

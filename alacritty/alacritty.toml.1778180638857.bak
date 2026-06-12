@@ -1,0 +1,42 @@
+
+# Your existing [window], [font], etc. settings go below this
+
+
+[window]
+# Adjusting opacity can help visibility, but set to 1.0 for max performance
+opacity = 1.0
+padding = { x = 10, y = 10 }
+dynamic_title = true
+startup_mode = "Windowed"
+
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[font]
+# Use a lightweight patched font like JetBrains Mono or Hack
+#normal = { family = "monospace", style = "Regular" }
+normal = { family = "JetBrains Mono", style = "Regular" }
+size = 13.0
+
+[colors]
+# Default "Tango" or "Solarized" themes are easy on older displays
+draw_bold_text_with_bright_colors = true
+
+[cursor]
+style = "Block"
+blink_interval = 500
+blink_timeout = 5
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/carbonfox.toml"
+]
+
+# [performance]
+# target_fps = 60 
+# multiplier = 1
+
+
+

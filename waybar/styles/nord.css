@@ -1,0 +1,33 @@
+/* Nord Theme */
+
+@define-color base #2e3440;       /* nord0: darkest background */
+@define-color mantle #242933;     /* nord0 blended darker for structural breaks */
+@define-color crust #1d212a;      /* deepest background shading */
+
+@define-color text #d8dee9;       /* nord4: clear white/grey text */
+@define-color subtext0 #c0c5ce;   /* intermediate text grey */
+@define-color subtext1 #a3be8c;   /* alternative text / soft tone */
+
+@define-color surface0 #3b4252;   /* nord1: panel backgrounds */
+@define-color surface1 #434c5e;   /* nord2: selection / element background */
+@define-color surface2 #4c566a;   /* nord3: brightened slate surface */
+
+@define-color overlay0 #4c566a;   /* nord3: alternate surface */
+@define-color overlay1 #616e88;   /* comment / inactive element accent */
+@define-color overlay2 #7082a4;   /* brightened inactive accent */
+
+@define-color blue #81a1c1;       /* nord9: glacial blue */
+@define-color lavender #88c0d0;   /* nord8: frost cyan/ice blue */
+@define-color sapphire #8fbcbb;   /* nord7: aurora green-blue tint */
+@define-color sky #5e81ac;        /* nord10: deep arctic ocean blue */
+@define-color teal #8fbcbb;       /* nord7: matched with frost teal */
+@define-color green #a3be8c;      /* nord14: aurora green */
+@define-color yellow #ebcb8b;     /* nord13: aurora yellow */
+@define-color peach #d08770;      /* nord12: aurora orange */
+@define-color maroon #bf616a;     /* soft variant of nord11 */
+@define-color red #bf616a;        /* nord11: aurora red */
+@define-color mauve #b48ead;      /* nord15: aurora purple */
+@define-color pink #b48ead;       /* mapped to aurora purple (Nord has no pink) */
+@define-color flamingo #d8dee9;   /* mapped to nord4 text asset */
+@define-color rosewater #e5e9f0;  /* nord5: snow storm white tint */
+

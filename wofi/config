@@ -1,0 +1,13 @@
+mode=drun
+show=drun
+width=1200
+height=600
+always_parse_args=true
+show_all=true
+print_command=true
+insensitive=true
+prompt=Search...
+allow_images=true
+image_size=20
+# Wofi uses pixels for width/height by default
+

@@ -1,0 +1,7 @@
+2026/06/11-12:01:52.485 483a Reusing MANIFEST /home/moiz/.config/Logseq/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/06/11-12:01:52.486 483a Recovering log #3
+2026/06/11-12:01:52.486 483a Reusing old log /home/moiz/.config/Logseq/WebStorage/2/IndexedDB/indexeddb.leveldb/000003.log 
+2026/06/11-12:01:53.117 4860 Level-0 table #5: started
+2026/06/11-12:01:53.135 4860 Level-0 table #5: 8571 bytes OK
+2026/06/11-12:01:53.150 4860 Delete type=0 #3
+2026/06/11-12:01:53.152 483a Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

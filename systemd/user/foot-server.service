@@ -1,0 +1,13 @@
+[Unit]
+Description=Foot Terminal Server
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=uwsm app -- /usr/bin/foot --server
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=hyprland-session.target

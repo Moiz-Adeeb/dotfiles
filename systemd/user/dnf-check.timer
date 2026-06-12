@@ -1,0 +1,10 @@
+[Unit]
+Description=Run DNF update check every 2 hours
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=2h
+
+[Install]
+WantedBy=default.target
+

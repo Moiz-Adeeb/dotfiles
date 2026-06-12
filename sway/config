@@ -1,0 +1,14 @@
+
+# set background
+output * bg /home/moiz/.config/backgrounds/012.jpg fill
+
+for_window [class="float_small"] move scratchpad, scratchpad show, resize set 900 600, move position center
+for_window [class="float_big"] move scratchpad, scratchpad show, resize set 1100 800, move position center
+for_window [class="float_large"] move scratchpad, scratchpad show, resize set 1280 800, move position center
+
+
+# include custom sway config
+include "${XDG_CONFIG_HOME:-$HOME/.config}/sway/config.d/*.conf"
+
+# include default sway config
+include '$(/usr/libexec/sway/layered-include "/usr/share/sway/config.d/*.conf" "/etc/sway/config.d/*.conf")'

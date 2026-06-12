@@ -1,0 +1,14 @@
+# Ignore heavy IDE caches and extensions
+Code/
+google-chrome/
+chromium/
+BraveSoftware/
+qutebrowser/
+zen/
+gh/
+# Ignore general application caches and temp files
+*Cache*
+*cache*
+*.log
+*.tmp
+

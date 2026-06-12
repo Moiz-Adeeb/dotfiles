@@ -1,0 +1,12 @@
+{
+    "workspace": {
+        "library": [
+            "~/.config/nvim/stubs"
+        ]
+    },
+    "diagnostics": {
+        "globals": [
+            "vim"
+        ]
+    }
+}

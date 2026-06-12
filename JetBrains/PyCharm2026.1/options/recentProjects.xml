@@ -1,0 +1,41 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/PyCharmMiscProject">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Welcome" projectWorkspaceId="3CLTpjnyigFpvFf4xMHKyIM2HZg">
+              <option name="activationTimestamp" value="1776164129418" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-261.22158.340" />
+              <option name="buildTimestamp" value="1774863960000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="260" y="40" width="1392" height="972" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1776164041861" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/book_api">
+          <value>
+            <RecentProjectMetaInfo frameTitle="book_api" opened="true" projectWorkspaceId="3CLU3rJHOAt9fBjmguVYeFT54sK">
+              <option name="activationTimestamp" value="1776165410803" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-261.22158.340" />
+              <option name="buildTimestamp" value="1774863960000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="260" y="40" width="1392" height="972" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1776164148777" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/PycharmProjects/book_api" />
+  </component>
+</application>

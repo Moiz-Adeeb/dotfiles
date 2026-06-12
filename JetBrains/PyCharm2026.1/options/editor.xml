@@ -1,0 +1,14 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="REFORMAT_ON_PASTE" value="1" />
+    <option name="INDENT_TO_CARET_ON_PASTE" value="true" />
+  </component>
+  <component name="CodeVisionSettings">
+    <option name="defaultPosition" value="Top" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\bNotImplementedException\b" />
+    <pattern icon="default" case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG:)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
+  </component>
+</application>

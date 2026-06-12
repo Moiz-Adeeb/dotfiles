@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Pacman update check every 2 hours
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=2h
+Persisten=true
+
+[Install]
+WantedBy=timers.target
+

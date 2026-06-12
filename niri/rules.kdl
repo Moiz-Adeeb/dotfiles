@@ -1,0 +1,27 @@
+// Floating Window Sizes (Fixes for float_large, float_big, and float_small)
+
+window-rule {
+    match app-id="float_large"
+    open-floating true
+    
+    // Sets dimensions for the window upon opening
+    default-column-width { fixed 1280; }
+    default-window-height { fixed 900; }
+}
+
+window-rule {
+    match app-id="float_big"
+    open-floating true
+    
+    default-column-width { fixed 1100; }
+    default-window-height { fixed 800; }
+}
+
+window-rule {
+    match app-id="float_small"
+    open-floating true
+    
+    default-column-width { fixed 900; }
+    default-window-height { fixed 600; }
+}
+
