@@ -83,6 +83,13 @@
         "Catpuccin",
         "MOcha",
         "catpuccin",
-        "gtop"
+        "gtop",
+        "keybinds",
+        "hyprlock",
+        "hypridle",
+        "hyprlauncher",
+        "hyprsunset",
+        "hyprtoolkit",
+        "dismissnotify"
     ]
 }

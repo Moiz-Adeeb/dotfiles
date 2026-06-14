@@ -20,39 +20,6 @@ window#waybar {
     /* background-color: @crust; */
 }
 
-#workspaces button {
-    min-width: 10px;
-    box-shadow: none;
-    text-shadow: none;
-    border: 1px solid @crust;
-    transition: all 0.1s ease-in-out;
-    background-color: @lavender;
-    margin: 0;
-    padding: 0px;
-    border-radius: 8px;
-    font-size: 0px;
-}
-
-#workspaces button label {
-    /* min-width: 1px; */
-    font-size: 0px;
-    padding: 0 0;
-    margin: 0;
-    font-weight: 900;
-    color: @base;
-}
-
-window#waybar #workspaces button:hover {
-    color: @base;
-    background: @mauve;
-    /* border: 2px solid @base; */
-    margin: 0px;
-    padding: 0 8px;
-    border-radius: 8px;
-    box-shadow: none;
-    text-shadow: none;
-}
-
 window#waybar #workspaces button:hover label {
     color: @base;
 }
@@ -72,9 +39,46 @@ window#waybar #workspaces button:hover label {
     padding: 0 10px;
 }
 
-#workspaces button.active {
+#workspaces {
+    min-width: 100px;
+}
+
+#workspaces button {
+    min-width: 7px;
+    box-shadow: none;
+    text-shadow: none;
+    border: 1px solid @crust;
+    transition: all 0.1s ease-in-out;
+    background-color: @lavender;
+    margin: 0;
+    padding: 0px;
+    border-radius: 100px;
+    font-size: 0px;
+}
+
+#workspaces button label {
+    /* min-width: 1px; */
+    font-size: 0px;
+    padding: 0 0;
+    margin: 0;
+    font-weight: 900;
+    color: @base;
+}
+
+#workspaces button:hover {
+    color: @base;
+    background: @mauve;
+    /* border: 2px solid @base; */
+    margin: 0px;
+    padding: 0 8px;
     border-radius: 8px;
-    padding: 0px 8px;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+#workspaces button.active {
+    border-radius: 1000px;
+    padding: 0px 10px;
     margin: 0px;
     background-color: @mauve;
 }
@@ -82,10 +86,6 @@ window#waybar #workspaces button:hover label {
 #workspaces button.active label {
     color: @base;
 }
-
-/* #workspaces:hover { */
-/*     padding: 5px 24px; */
-/* } */
 
 #mode {
     color: #ebcb8b;
@@ -142,7 +142,7 @@ window#waybar #workspaces button:hover label {
 }
 
 #window label {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 window#waybar.empty #window {
@@ -151,12 +151,12 @@ window#waybar.empty #window {
 }
 
 #clock {
-    font-family: "JetBrainsMonoNL NFM ExtraBold";
+    /* font-family: "JetBrainsMonoNL NFM ExtraBold"; */
     font-size: 13px;
-    font-weight: 900;
+    font-weight: 700;
     border-radius: 0 0 4px 4px;
     color: @text;
-    padding: 0px 20px;
+    padding: 0px 10px;
 }
 
 #clock:hover {
@@ -249,7 +249,6 @@ window#waybar.empty #window {
 }
 
 #custom-pacman {
-    margin: 0 1px 0 0;
     background-color: @lavender;
     color: @crust;
 }
@@ -287,11 +286,28 @@ window#waybar.empty #window {
 }
 
 #center,
-#left,
+#dock,
+#window-tab,
 #status,
 #buttons {
     margin: 0px 6px;
     /* padding: 0 1px; */
     background: @crust;
     border-radius: 0 0 4px 4px;
+}
+
+#buttons {
+    padding: 0 1px;
+}
+
+#window-tab {
+    background: @crust;
+    border-radius: 0 0 4px 4px;
+    margin-right: 50px;
+}
+
+window#waybar.empty #window-tab,
+window#waybar.empty #window {
+    border: none;
+    background-color: transparent;
 }

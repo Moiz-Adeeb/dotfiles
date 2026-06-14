@@ -1,102 +1,122 @@
-local key = require("hyprland.variables")
+local x = require("hyprland.variables")
+local helper = require("hyprland.helper")
+
 --------------
 -- KEYBINDS --
 --------------
 -- Terminal
 hl.bind(
-	key.mod.ctrl .. " + " .. key.enter,
-	hl.dsp.exec_cmd(
-		key.uwsm .. key.term.app .. " -a " .. key.window.large .. " -e " .. key.term.shell .. " -C " .. key.term.monitor
-	)
+	x.mod.ctrl .. " + " .. x.enter,
+	hl.dsp.exec_cmd(x.uwsm .. x.term.app .. " -a " .. x.win.lg .. " -e " .. x.term.sh .. " -C " .. x.term.monitor)
 )
 hl.bind(
-	key.mod.enter,
-	hl.dsp.exec_cmd(
-		key.uwsm .. key.term.app .. " -a " .. key.window.small .. " -e " .. key.term.shell .. " -C " .. key.term.monitor
-	)
+	x.mod.enter,
+	hl.dsp.exec_cmd(x.uwsm .. x.term.app .. " -a " .. x.win.sm .. " -e " .. x.term.sh .. " -C " .. x.term.monitor)
 )
-hl.bind(key.mod.shift .. " + " .. key.enter, hl.dsp.exec_cmd(key.uwsm .. key.term.app))
+hl.bind(x.mod.shift .. " + " .. x.enter, hl.dsp.exec_cmd(x.uwsm .. x.term.app))
 hl.bind(
-	key.alt .. " + PERIOD",
+	x.alt .. " + PERIOD",
 	hl.dsp.exec_cmd(
-		key.uwsm
-			.. key.term.app
+		x.uwsm
+			.. x.term.app
 			.. ' -e sh -c "'
-			.. key.term.multiplexer
+			.. x.term.mux
 			.. " '"
-			.. key.app.editor.nvim
-			.. [[ ~/.config/'"]]
+			.. x.app.editor.default.cmd
+			.. " "
+			.. x.dir.conf
+			.. [['"]]
 	)
 )
 
--- Core Operations & Window Dispatchers
-hl.bind(key.mod[1] .. " + E", hl.dsp.exec_cmd(key.uwsm .. key.app.file_mgr.yazi))
-hl.bind(key.mod.shift .. " + E", hl.dsp.exec_cmd(key.uwsm .. key.app.file_mgr.thunar))
+------------------------------------------
+-- Core Operations & Window Dispatchers --
+------------------------------------------
+-- File Manager
+hl.bind(x.mod[1] .. " + E", hl.dsp.exec_cmd(x.uwsm .. x.app.file_mgr.default.cmd))
+helper.submap("E", x.app.file_mgr, "File Manager")
 
-hl.bind(key.mod[1] .. " + ESCAPE", hl.dsp.exec_cmd(key.uwsm .. key.app.sys_monitor.btop))
-hl.bind(key.alt .. " + ESCAPE", hl.dsp.exec_cmd(key.uwsm .. key.app.sys_monitor.htop))
-hl.bind(key.ctrl .. " + ESCAPE", hl.dsp.exec_cmd(key.uwsm .. key.app.sys_monitor.gtop))
+-- System Monitor
+hl.bind(x.mod[1] .. " + " .. x.esc, hl.dsp.exec_cmd(x.uwsm .. x.app.sys_monitor.default.cmd))
+helper.submap(x.esc, x.app.sys_monitor, "System Monitor")
 
-hl.bind(key.mod[1] .. " + O", hl.dsp.exec_cmd(key.uwsm .. key.app.browser.zen))
-hl.bind(key.mod.shift .. " + O", hl.dsp.exec_cmd(key.uwsm .. key.app.browser.brave))
-hl.bind(key.mod.ctrl .. " + O", hl.dsp.exec_cmd(key.uwsm .. key.app.browser.chrome))
+-- Browser
+hl.bind(x.mod[1] .. " + O", hl.dsp.exec_cmd(x.uwsm .. x.app.browser.default.cmd))
+helper.submap("O", x.app.browser, "Browser")
 
-hl.bind(key.mod[1] .. " + D", hl.dsp.exec_cmd(key.uwsm .. key.menu.app))
-hl.bind(key.alt .. " + " .. key.space, hl.dsp.exec_cmd(key.uwsm .. key.menu.app))
-hl.bind(key.mod[1] .. " + P", hl.dsp.exec_cmd(key.uwsm .. key.menu.power))
+-- Application Menu
+for _, key in ipairs({
+	x.mod[1] .. " + D",
+	x.alt .. " + " .. x.space,
+}) do
+	hl.bind(key, hl.dsp.exec_cmd(x.uwsm .. x.menu.app))
+end
+hl.bind(x.mod[1] .. " + P", hl.dsp.exec_cmd(x.uwsm .. x.menu.power))
 
-hl.bind(key.mod[1] .. " + X", hl.dsp.window.close())
-hl.bind(key.alt .. " + F4", hl.dsp.window.close())
-hl.bind(key.mod.shift .. " + Q", hl.dsp.window.close())
+-- Close Window
+for _, key in ipairs({
+	x.mod[1] .. " + X",
+	x.alt .. " + F4",
+	x.mod.shift .. " + Q",
+}) do
+	hl.bind(key, hl.dsp.window.close())
+end
 
-hl.bind(key.mod.ctrl .. " + L", hl.dsp.exec_cmd("uwsm stop"))
-hl.bind(key.mod.ctrl .. " + E", hl.dsp.exit())
+-- hl.bind(x.mod[1] .. " + D", hl.dsp.exec_cmd(x.uwsm .. x.menu.app))
+-- hl.bind(x.alt .. " + " .. x.space, hl.dsp.exec_cmd(x.uwsm .. x.menu.app))
+
+-- hl.bind(x.mod[1] .. " + X", hl.dsp.window.close())
+-- hl.bind(x.alt .. " + F4", hl.dsp.window.close())
+-- hl.bind(x.mod.shift .. " + Q", hl.dsp.window.close())
+
+hl.bind(x.mod.ctrl .. " + L", hl.dsp.exec_cmd("uwsm stop"))
+hl.bind(x.mod.ctrl .. " + E", hl.dsp.exit())
 
 -- Network / Bluetooth / Audio
-hl.bind(key.mod.shift .. " + I", hl.dsp.exec_cmd(key.uwsm .. key.app.network))
-hl.bind(key.mod.shift .. " + M", hl.dsp.exec_cmd(key.uwsm .. key.app.bluetooth))
-hl.bind(key.mod.shift .. " + W", hl.dsp.exec_cmd(key.uwsm .. key.app.audio))
+hl.bind(x.mod.shift .. " + I", hl.dsp.exec_cmd(x.uwsm .. x.app.network))
+hl.bind(x.mod.shift .. " + M", hl.dsp.exec_cmd(x.uwsm .. x.app.bluetooth))
+hl.bind(x.mod.shift .. " + W", hl.dsp.exec_cmd(x.uwsm .. x.app.audio))
 
 -- Audio Control
-hl.bind(key.vol.kb .. "RaiseVolume", hl.dsp.exec_cmd(key.vol.ctl .. " +5%"), { repeating = true })
-hl.bind(key.vol.kb .. "LowerVolume", hl.dsp.exec_cmd(key.vol.ctl .. " -5%"), { repeating = true })
-hl.bind(key.vol.kb .. "Mute", hl.dsp.exec_cmd(key.vol.mut), { repeating = true })
-hl.bind(key.vol.kb .. "MicMute", hl.dsp.exec_cmd(key.vol.mic.mut), { repeating = true })
+hl.bind(x.vol.kb .. "RaiseVolume", hl.dsp.exec_cmd(x.vol.ctl .. " +5%"), { repeating = true })
+hl.bind(x.vol.kb .. "LowerVolume", hl.dsp.exec_cmd(x.vol.ctl .. " -5%"), { repeating = true })
+hl.bind(x.vol.kb .. "Mute", hl.dsp.exec_cmd(x.vol.mut), { repeating = true })
+hl.bind(x.vol.kb .. "MicMute", hl.dsp.exec_cmd(x.vol.mic.mut), { repeating = true })
 
 -- Brightness Control
-hl.bind(key.bright.kb .. "Up", hl.dsp.exec_cmd(key.bright.ctl .. " +0.05"), { repeating = true })
-hl.bind(key.bright.kb .. "Down", hl.dsp.exec_cmd(key.bright.ctl .. " -0.05"), { repeating = true })
+hl.bind(x.bright.kb .. "Up", hl.dsp.exec_cmd(x.bright.ctl .. " +0.05"), { repeating = true })
+hl.bind(x.bright.kb .. "Down", hl.dsp.exec_cmd(x.bright.ctl .. " -0.05"), { repeating = true })
 
 -- Media Controls
-hl.bind(key.vol.kb .. "Next", hl.dsp.exec_cmd(key.util.media .. " next"), { repeating = true })
-hl.bind(key.vol.kb .. "Pause", hl.dsp.exec_cmd(key.util.media .. " play-pause"), { repeating = true })
-hl.bind(key.vol.kb .. "Play", hl.dsp.exec_cmd(key.util.media .. " play-pause"), { repeating = true })
-hl.bind(key.vol.kb .. "Prev", hl.dsp.exec_cmd(key.util.media .. " previous"), { repeating = true })
+hl.bind(x.vol.kb .. "Next", hl.dsp.exec_cmd(x.util.media .. " next"), { repeating = true })
+hl.bind(x.vol.kb .. "Pause", hl.dsp.exec_cmd(x.util.media .. " play-pause"), { repeating = true })
+hl.bind(x.vol.kb .. "Play", hl.dsp.exec_cmd(x.util.media .. " play-pause"), { repeating = true })
+hl.bind(x.vol.kb .. "Prev", hl.dsp.exec_cmd(x.util.media .. " previous"), { repeating = true })
 
 -- System Services & Scripts
-hl.bind(key.mod.shift .. " + Z", hl.dsp.exec_cmd("systemctl --user restart foot-server"))
-hl.bind(key.mod[1] .. " + B", hl.dsp.exec_cmd(key.bar_toggle))
-hl.bind(key.mod.shift .. " + B", hl.dsp.exec_cmd(key.uwsm .. "systemctl --user restart bar"))
+hl.bind(x.mod.shift .. " + Z", hl.dsp.exec_cmd("systemctl --user restart foot-server"))
+hl.bind(x.mod[1] .. " + B", hl.dsp.exec_cmd(x.bar_toggle))
+hl.bind(x.mod.shift .. " + B", hl.dsp.exec_cmd(x.uwsm .. "systemctl --user restart bar"))
 hl.bind(
-	key.mod.ctrl .. " + B",
+	x.mod.ctrl .. " + B",
 	hl.dsp.exec_cmd("systemctl --user is-active --quiet bar && systemctl --user stop bar || systemctl --user start bar")
 )
-hl.bind(key.mod.shift .. " + N", hl.dsp.exec_cmd(key.uwsm .. key.util.notification .. " restore"))
-hl.bind(key.mod[1] .. " + F10", hl.dsp.exec_cmd(key.uwsm .. key.dir.scripts .. "monitors.sh"))
-hl.bind(key.mod.shift .. " + G", hl.dsp.exec_cmd(key.uwsm .. key.dir.scripts .. "background_swap.sh"))
-hl.bind(key.mod.ctrl .. " + G", hl.dsp.exec_cmd(key.uwsm .. key.dir.scripts .. "background_swap_prev.sh"))
+hl.bind(x.mod.shift .. " + N", hl.dsp.exec_cmd(x.uwsm .. x.util.notification .. " restore"))
+hl.bind(x.mod[1] .. " + F10", hl.dsp.exec_cmd(x.uwsm .. x.dir.scripts .. "monitors.sh"))
+hl.bind(x.mod.shift .. " + G", hl.dsp.exec_cmd(x.uwsm .. x.dir.scripts .. "background_swap.sh"))
+hl.bind(x.mod.ctrl .. " + G", hl.dsp.exec_cmd(x.uwsm .. x.dir.scripts .. "background_swap_prev.sh"))
 
 -- Utility Dispatchers
-hl.bind(key.mod[1] .. " + F1", hl.dsp.exec_cmd(key.uwsm .. key.util.lock))
-hl.bind("Print", hl.dsp.exec_cmd(key.uwsm .. key.util.snap))
-hl.bind(key.mod.shift .. " + V", hl.dsp.exec_cmd(key.uwsm .. key.util.clip))
-hl.bind(key.mod.shift .. " + R", hl.dsp.exec_cmd("hyprctl reload"), { repeating = true })
+hl.bind(x.mod[1] .. " + F1", hl.dsp.exec_cmd(x.uwsm .. x.util.lock))
+hl.bind("Print", hl.dsp.exec_cmd(x.uwsm .. x.util.snap))
+hl.bind(x.mod.shift .. " + V", hl.dsp.exec_cmd(x.uwsm .. x.util.clip))
+hl.bind(x.mod.shift .. " + R", hl.dsp.exec_cmd("hyprctl reload"), { repeating = true })
 
 ------------------------------------
 -- EXTRA JAPANESE KEY INTEGRATION --
 ------------------------------------
-hl.bind(key.extra_kb, hl.dsp.exec_cmd(key.bar_toggle))
-hl.bind(key.extra_kb, hl.dsp.exec_cmd(key.bar_toggle), { release = true })
+hl.bind(x.extra_kb, hl.dsp.exec_cmd(x.bar_toggle))
+hl.bind(x.extra_kb, hl.dsp.exec_cmd(x.bar_toggle), { release = true })
 
 -- ----------------------
 -- -- SCROLLING LAYOUT --

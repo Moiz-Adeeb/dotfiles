@@ -1,7 +1,7 @@
 hl.config({
 	general = {
-		gaps_out = 6,
-		gaps_in = 2,
+		gaps_out = 12,
+		gaps_in = 4,
 		border_size = 2,
 
 		col = {
@@ -33,17 +33,18 @@ hl.config({
 		rounding_power = 2,
 		active_opacity = 1,
 		inactive_opacity = 1,
+
 		shadow = {
 			enabled = false,
 		},
 
 		blur = {
 			enabled = false,
-			size = 10,
+			size = 4,
 			passes = 0,
 			ignore_opacity = false,
 			new_optimizations = true,
-			xray = false,
+			xray = true,
 		},
 
 		dim_inactive = false,

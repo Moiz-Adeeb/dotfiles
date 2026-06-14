@@ -6,10 +6,11 @@
   "position": "top",
   "height": 0,
   //"margin": "6px 0 0 0",
-  "spacing": 20,
+  "spacing": 25,
   //"width": 1900,
   "modules-left": [
-    "group/left"
+    "group/dock",
+    "group/window-tab"
   ],
   "modules-center": [
     "group/center"
@@ -19,6 +20,7 @@
     "group/buttons"
   ],
   "include": [
-    "~/.config/waybar/modules.jsonc"
+    "~/.config/waybar/modules.jsonc",
+    "~/.config/waybar/group.jsonc"
   ]
 }

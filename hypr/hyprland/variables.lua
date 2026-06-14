@@ -1,4 +1,4 @@
-local key = {
+local x = {
 	-- Configuration
 	user = "moiz",
 	uwsm = "uwsm app -- ",
@@ -11,13 +11,15 @@ local key = {
 	tab = "TAB",
 	enter = "RETURN",
 	space = "SPACE",
+	esc = "ESCAPE",
 	extra_kb = "MUHENKAN",
 
 	-- Window Sizes
-	window = {
-		small = "float_small",
-		big = "float_big",
-		large = "float_large",
+	win = {
+		ex_sm = "float_extra_small",
+		sm = "float_small",
+		bg = "float_big",
+		lg = "float_large",
 	},
 
 	-- Direction Keys (Vim / Arrow)
@@ -50,62 +52,126 @@ local key = {
 }
 
 -- Directories
-key.dir = {}
-key.dir.user = "/home/" .. key.user
-key.dir.config = key.dir.user .. "/.config/"
-key.dir.hypr = key.dir.config .. "hypr/"
-key.dir.scripts = key.dir.hypr .. "scripts/"
+x.dir = {
+	user = "/home/" .. x.user,
+	conf = "/home/" .. x.user .. "/.config/",
+	hypr = "/home/" .. x.user .. "/.config/hypr/",
+	scripts = "/home/" .. x.user .. "/.config/hypr/scripts/",
+}
 
--- Mod Keys
-key.mod = {
-	key.super,
-	shift = key.super .. " + " .. key.shift,
-	ctrl = key.super .. " + " .. key.ctrl,
-	enter = key.super .. " + " .. key.enter,
+-- Mod xs
+x.mod = {
+	x.super,
+	shift = x.super .. " + " .. x.shift,
+	ctrl = x.super .. " + " .. x.ctrl,
+	enter = x.super .. " + " .. x.enter,
+	alt = x.super .. " + " .. x.alt,
 }
 
 -- Rofi
-key.menu = {
-	app = "rofi -show drun -run-command '" .. key.uwsm .. "{cmd}'",
-	power = key.dir.config .. "rofi/powermenu/powermenu.sh",
+x.menu = {
+	app = "rofi -show drun -run-command '" .. x.uwsm .. "{cmd}'",
+	power = x.dir.conf .. "rofi/powermenu/powermenu.sh",
 }
 
 -- Terminal
-key.term = {
+x.term = {
 	app = "footclient",
-	shell = "fish",
-	multiplexer = "tmux new-session",
+	sh = "fish",
+	mux = "tmux new-session",
 	monitor = "fastfetch",
 }
 
 -- Applications
-key.app = {
+x.app = {
 	editor = {
-		nvim = "nvim",
-		vim = "vim",
-		nano = "nano",
+		default = {
+			cmd = "nvim",
+			name = "Neovim",
+		},
+		{
+			cmd = "nvim",
+			name = "Neovim",
+		},
+		{
+			cmd = "vim",
+			name = "Vim",
+		},
+		{
+			cmd = "nano",
+			name = "Nano",
+		},
 	},
-	network = key.term.app .. " -a " .. key.window.small .. " -e impala",
-	bluetooth = key.term.app .. " -a " .. key.window.small .. " -e bluetui",
-	audio = key.term.app .. " -a " .. key.window.small .. " -e wiremix",
+	network = x.term.app .. " -a " .. x.win.sm .. " -e impala",
+	bluetooth = x.term.app .. " -a " .. x.win.sm .. " -e bluetui",
+	audio = x.term.app .. " -a " .. x.win.sm .. " -e wiremix",
+
 	file_mgr = {
-		yazi = key.term.app .. " -a " .. key.window.large .. " -e yazi",
-		thunar = "thunar",
+		default = {
+			cmd = x.term.app .. " -a " .. x.win.lg .. " -e yazi",
+			name = "Yazi",
+		},
+		{
+			cmd = x.term.app .. " -a " .. x.win.lg .. " -e yazi",
+			name = "Yazi",
+		},
+		{
+			cmd = "thunar",
+			name = "Thunar",
+		},
 	},
 	sys_monitor = {
-		btop = key.term.app .. " -a " .. key.window.large .. " -e btop",
-		htop = key.term.app .. " -a " .. key.window.large .. " -e htop",
-		gtop = key.term.app .. " -a " .. key.window.large .. " -e gtop",
+		default = {
+			cmd = x.term.app .. " -a " .. x.win.lg .. " -e btop",
+			name = "Btop",
+		},
+		{
+			cmd = x.term.app .. " -a " .. x.win.lg .. " -e btop",
+			name = "Btop",
+		},
+		{
+			cmd = x.term.app .. " -a " .. x.win.lg .. " -e htop",
+			name = "Htop",
+		},
+		{
+			cmd = x.term.app .. " -a " .. x.win.lg .. " -e gtop",
+			name = "Gtop",
+		},
 	},
 	browser = {
-		zen = "zen-browser",
-		brave = "brave",
-		chrome = "google-chrome-stable",
+		default = {
+			cmd = "zen-browser",
+			name = "Zen Browser",
+		},
+		{
+			cmd = "zen-browser",
+			name = "Zen Browser",
+		},
+		{
+			cmd = "brave",
+			name = "Brave Browser",
+		},
+		{
+			cmd = "google-chrome-stable",
+			name = "Google Chrome",
+		},
+		{
+			cmd = "qutebrowser",
+			name = "Qute Browser",
+		},
+		{
+			cmd = "chromium",
+			name = "Chromium",
+		},
 	},
 }
+-- x.app.editor.default = x.app.editor.nvim
+-- x.app.file_mgr.default = x.app.file_mgr.yazi
+-- x.app.sys_monitor.default = x.app.sys_monitor.btop
+-- x.app.browser.default = x.app.browser.zen
 
 -- Utilities
-key.util = {
+x.util = {
 	bar = "waybar",
 	clip = "cliphist list | rofi -dmenu | cliphist decode | wl-copy",
 	lock = "hyprlock",
@@ -113,6 +179,6 @@ key.util = {
 	media = "playerctl",
 	notification = "mako",
 }
-key.bar_toggle = "pkill -SIGUSR1 " .. key.util.bar
+x.bar_toggle = "pkill -SIGUSR1 " .. x.util.bar
 
-return key
+return x

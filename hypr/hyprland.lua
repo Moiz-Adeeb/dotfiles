@@ -1,6 +1,6 @@
----------------------------------------
----- SOURCED CONFIGS (LUA MODULES) ----
----------------------------------------
+-------------------------
+---- SOURCED CONFIGS ----
+-------------------------
 require("hyprland.autostart")
 require("hyprland.visuals")
 require("hyprland.keybinds")

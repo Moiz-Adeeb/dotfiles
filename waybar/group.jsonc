@@ -1,0 +1,55 @@
+{
+    "group/status": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/pacman",
+            "backlight",
+            "pulseaudio",
+            "battery",
+            "bluetooth",
+            "network"
+        ]
+    },
+    "group/buttons": {
+        "orientation": "horizontal",
+        "modules": [
+            "idle_inhibitor",
+            "custom/power"
+        ]
+    },
+    "group/dock": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/launcher",
+            "hyprland/workspaces",
+            "mpd",
+            "hyprland/submap"
+        ]
+    },
+    "group/window-tab": {
+        "orientation": "horizontal",
+        "modules": [
+            "hyprland/window"
+        ]
+    },
+    "group/left": {
+        "orientation": "horizontal",
+        "modules": [
+            "group/dock",
+            "group/window-tab"
+        ]
+    },
+    "group/right": {
+        "orientation": "horizontal",
+        "modules": [
+            "group/status",
+            "group/buttons"
+        ]
+    },
+    "group/center": {
+        "orientation": "horizontal",
+        "modules": [
+            "clock"
+        ]
+    }
+}

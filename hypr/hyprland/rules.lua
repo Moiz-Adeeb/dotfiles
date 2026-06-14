@@ -54,6 +54,15 @@ hl.window_rule({
 })
 
 hl.window_rule({
+    match = { class = "^(float_extra_small)$" },
+    float = true,
+    center = true,
+    size = "360 420",
+    border_size = 0,
+    rounding = 20,
+})
+
+hl.window_rule({
     match = { class = "^(thunar)$" },
     float = true,
     center = true,
