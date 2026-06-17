@@ -10,8 +10,8 @@ startup_mode = "Windowed"
 dynamic_padding = true
 
 [window.padding]
-x = 10
-y = 10
+x = 5
+y = 5
 
 [selection]
 semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
@@ -28,7 +28,7 @@ multiplier = 5
 size = 12
 
 [font.normal]
-family = "FiraCode Nerd Font"  
+family = "JetBrainsMono NerdFont Propo"  
 style = "Regular"
 
 [colors]

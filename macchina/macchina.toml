@@ -1,0 +1,18 @@
+# ~/.config/macchina/macchina.toml
+
+# Mirror your Fastfetch layout options
+#show_ascii = true
+#padding = 1
+#spacing = 1
+
+# Select the custom layout theme we are creating below
+theme = "moiz_rose"
+
+# Tell Macchina which modules you want active
+#[hide]
+# gpu = false          # Keep GPU visible
+# battery = true       # Hiding fields you excluded 
+# backlight = true
+# kernel = false       # Keep Kernel visible
+# uptime = false       # Keep Uptime visible
+

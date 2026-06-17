@@ -1,14 +1,14 @@
--- hl.workspace_rule({
---     workspace = "w[tv1]",
---     gaps_out = 0,
---     gaps_in = 0
--- })
---
--- hl.workspace_rule({
---     workspace = "f[1]",
---     gaps_out = 0,
---     gaps_in = 0
--- })
+hl.workspace_rule({
+    workspace = "w[tv1]",
+    gaps_out = 14,
+    gaps_in = 0
+})
+
+hl.workspace_rule({
+    workspace = "f[1]",
+    gaps_out = 14,
+    gaps_in = 0
+})
 
 hl.window_rule({
     name = "no-gaps-wtv1",
@@ -63,7 +63,7 @@ hl.window_rule({
 })
 
 hl.window_rule({
-    match = { class = "^(thunar)$" },
+    match = { class = "^(thunar)$", "^(Volume Control)$" },
     float = true,
     center = true,
     size = "1600 900",

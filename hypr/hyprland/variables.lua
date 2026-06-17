@@ -13,6 +13,7 @@ local x = {
 	space = "SPACE",
 	esc = "ESCAPE",
 	extra_kb = "MUHENKAN",
+	fn = "function",
 
 	-- Window Sizes
 	win = {
@@ -49,6 +50,7 @@ local x = {
 		kb = "XF86MonBrightness",
 		ctl = "brightnessctl set +5% && busctl --user -- call rs.wl-gammarelay / rs.wl.gammarelay UpdateBrightness d",
 	},
+	sleep = "XF86Sleep"
 }
 
 -- Directories
@@ -59,7 +61,7 @@ x.dir = {
 	scripts = "/home/" .. x.user .. "/.config/hypr/scripts/",
 }
 
--- Mod xs
+-- Mod Keys
 x.mod = {
 	x.super,
 	shift = x.super .. " + " .. x.shift,
@@ -79,96 +81,175 @@ x.term = {
 	app = "footclient",
 	sh = "fish",
 	mux = "tmux new-session",
-	monitor = "fastfetch",
+	monitor = {
+		default = {
+			id = "fastfetch",
+			name = "Fastfetch",
+			cmd = "fastfetch"
+		},
+		{
+			id = "fastfetch",
+			name = "Fastfetch",
+			cmd = "fastfetch"
+		},
+		{
+			id = "macchina",
+			name = "Macchina",
+			cmd = "macchina"
+		},
+
+	},
 }
 
 -- Applications
 x.app = {
 	editor = {
 		default = {
-			cmd = "nvim",
+			id = "nvim",
 			name = "Neovim",
+			cmd = "nvim",
 		},
 		{
-			cmd = "nvim",
+			id = "nvim",
 			name = "Neovim",
+			cmd = "nvim",
 		},
 		{
-			cmd = "vim",
+			id = "vim",
 			name = "Vim",
+			cmd = "vim",
 		},
 		{
-			cmd = "nano",
+			id = "nano",
 			name = "Nano",
+			cmd = "nano",
 		},
 	},
-	network = x.term.app .. " -a " .. x.win.sm .. " -e impala",
-	bluetooth = x.term.app .. " -a " .. x.win.sm .. " -e bluetui",
-	audio = x.term.app .. " -a " .. x.win.sm .. " -e wiremix",
+	network = {
+		default = {
+			id = "impala",
+			name = "Impala",
+			cmd = x.term.app .. " -a " .. x.win.sm .. " -e impala",
+		},
+		{
+			id = "impala",
+			name = "Impala",
+			cmd = x.term.app .. " -a " .. x.win.sm .. " -e impala",
+		},
+		{
+			id = "iwctl",
+			name = "Iwd",
+			cmd = x.term.app .. " -a " .. x.win.sm .. " -e iwctl",
+		},
+	},
+	bluetooth = {
+		default = {
+			id = "bluetui",
+			name = "Bluetui",
+			cmd = x.term.app .. " -a " .. x.win.sm .. " -e bluetui",
+		},
+		{
+			id = "bluetui",
+			name = "Bluetui",
+			cmd = x.term.app .. " -a " .. x.win.sm .. " -e bluetui",
+		},
+		{
+			id = "bluetoothctl",
+			name = "Bluetoothctl",
+			cmd = x.term.app .. " -a " .. x.win.sm .. " -e bluetoothctl",
+		},
+	},
+	audio = {
+		default = {
+			id = "wiremix",
+			name = "Wiremix",
+			cmd = x.term.app .. " -a " .. x.win.sm .. " -e wiremix",
+		},
+		{
+			id = "wiremix",
+			name = "Wiremix",
+			cmd = x.term.app .. " -a " .. x.win.sm .. " -e wiremix",
+		},
+		{
+			id = "pavucontrol",
+			name = "Pavucontrol",
+			cmd = "pavucontrol",
+		}
 
+
+	},
 	file_mgr = {
 		default = {
-			cmd = x.term.app .. " -a " .. x.win.lg .. " -e yazi",
+			id = "yazi",
 			name = "Yazi",
+			cmd = x.term.app .. " -a " .. x.win.lg .. " -e yazi",
 		},
 		{
-			cmd = x.term.app .. " -a " .. x.win.lg .. " -e yazi",
+			id = "yazi",
 			name = "Yazi",
+			cmd = x.term.app .. " -a " .. x.win.lg .. " -e yazi",
 		},
 		{
-			cmd = "thunar",
+			id = "thunar",
 			name = "Thunar",
+			cmd = "thunar",
 		},
 	},
 	sys_monitor = {
 		default = {
-			cmd = x.term.app .. " -a " .. x.win.lg .. " -e btop",
+			id = "btop",
 			name = "Btop",
+			cmd = x.term.app .. " -a " .. x.win.lg .. " -e btop",
 		},
 		{
-			cmd = x.term.app .. " -a " .. x.win.lg .. " -e btop",
+			id = "btop",
 			name = "Btop",
+			cmd = x.term.app .. " -a " .. x.win.lg .. " -e btop",
 		},
 		{
-			cmd = x.term.app .. " -a " .. x.win.lg .. " -e htop",
+			id = "htop",
 			name = "Htop",
+			cmd = x.term.app .. " -a " .. x.win.lg .. " -e htop",
 		},
 		{
-			cmd = x.term.app .. " -a " .. x.win.lg .. " -e gtop",
+			id = "gtop",
 			name = "Gtop",
+			cmd = x.term.app .. " -a " .. x.win.lg .. " -e gtop",
 		},
 	},
 	browser = {
 		default = {
-			cmd = "zen-browser",
+			id = "zen-browser",
 			name = "Zen Browser",
+			cmd = "zen-browser",
 		},
 		{
-			cmd = "zen-browser",
+			id = "zen-browser",
 			name = "Zen Browser",
+			cmd = "zen-browser",
 		},
 		{
-			cmd = "brave",
+			id = "brave",
 			name = "Brave Browser",
+			cmd = "brave",
 		},
 		{
-			cmd = "google-chrome-stable",
+			id = "google-chrome-stable",
 			name = "Google Chrome",
+			cmd = "google-chrome-stable",
 		},
 		{
+			id = "qutebrowser",
+			name = "Qutebrowser",
 			cmd = "qutebrowser",
-			name = "Qute Browser",
 		},
 		{
-			cmd = "chromium",
+			id = "chromium",
 			name = "Chromium",
+			cmd = "chromium",
 		},
 	},
 }
--- x.app.editor.default = x.app.editor.nvim
--- x.app.file_mgr.default = x.app.file_mgr.yazi
--- x.app.sys_monitor.default = x.app.sys_monitor.btop
--- x.app.browser.default = x.app.browser.zen
 
 -- Utilities
 x.util = {

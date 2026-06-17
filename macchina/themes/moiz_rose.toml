@@ -1,0 +1,31 @@
+# ~/.config/macchina/themes/moiz-rose.toml
+
+[box]
+title = "Moiz-PC"
+border = "round"
+
+[palette]
+# Creating key-value coloring mappings
+key_color = "magenta"    # Map to your c4a7e7 Lavender
+value_color = "white"    # Map to your e0def4 Light White
+
+[custom_colors]
+# Hex code replacements for the palette keywords above
+magenta = "#c4a7e7"
+white = "#e0def4"
+
+# Map your specific fastfetch separators and glyph keys
+[keys]
+separator = "- "
+os = " "
+kernel = "   "
+host = "🖥 "
+shell = ">_"
+terminal = " "
+wm = " "
+cpu = "   "
+gpu = "   "
+memory = "🎟 "
+uptime = " "
+packages = " "
+

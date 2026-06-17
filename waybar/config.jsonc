@@ -6,8 +6,8 @@
   "position": "top",
   "height": 0,
   //"margin": "6px 0 0 0",
-  "spacing": 25,
-  //"width": 1900,
+  "spacing": 100,
+  "width": 1900,
   "modules-left": [
     "group/dock",
     "group/window-tab"
