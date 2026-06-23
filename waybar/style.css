@@ -9,15 +9,15 @@
     padding: 0 0;
     font-size: 11px;
     font-weight: 600;
-    /* transition: all 0.075s ease-in-out; */
+    transition: all 0.075s ease-in-out;
     /* font-family: "FiraCode Nerd Font", "Font Awesome 6 Free", FontAwesome, Roboto, Helvetica, Arial, sans-serif;  */
     font-family: "Font Awesome 7 Brands", "JetBrainsMono NerdFont Propo",  FontAwesome, Roboto, Helvetica, Arial, sans-serif;
 }
 
 window#waybar {
     border-radius: 0;
-    background-color: transparent;
-    /* background-color: @crust; */
+    /* background-color: transparent; */
+    background-color: @crust;
 }
 
 window#waybar #workspaces button:hover label {
@@ -57,7 +57,6 @@ window#waybar #workspaces button:hover label {
 }
 
 #workspaces button label {
-    /* min-width: 1px; */
     font-size: 0px;
     padding: 0 0;
     margin: 0;
@@ -65,22 +64,15 @@ window#waybar #workspaces button:hover label {
     color: @base;
 }
 
-#workspaces button:hover {
-    color: @base;
-    background: @mauve;
-    /* border: 2px solid @base; */
-    margin: 0px;
-    padding: 0 8px;
-    border-radius: 8px;
+#workspaces button:hover,
+#workspaces button.active{
+    border-radius: 1000px;
     box-shadow: none;
     text-shadow: none;
-}
-
-#workspaces button.active {
-    border-radius: 1000px;
-    padding: 0px 10px;
+    padding: 0px 12px;
     margin: 0px;
-    background-color: @mauve;
+    color: @base;
+    background: @mauve;
 }
 
 #workspaces button.active label {

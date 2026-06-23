@@ -90,6 +90,8 @@
         "hyprlauncher",
         "hyprsunset",
         "hyprtoolkit",
-        "dismissnotify"
+        "dismissnotify",
+        "Pavucontrol",
+        "pavucontrol"
     ]
 }

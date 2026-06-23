@@ -66,7 +66,7 @@ hl.config({
 		kb_options = "",
 		kb_rules = "",
 
-		follow_mouse = 1,
+		follow_mouse = 0,
 		sensitivity = 0,
 
 		touchpad = {

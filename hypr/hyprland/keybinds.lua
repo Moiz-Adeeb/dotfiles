@@ -27,7 +27,7 @@ hl.bind(
 			.. ' -e sh -c "'
 			.. x.term.mux
 			.. " '"
-			.. x.app.editor.default.cmd
+			.. x.app.editor.default.id
 			.. " "
 			.. x.dir.conf
 			.. [['"]]
@@ -46,6 +46,9 @@ helper.app_bind(x.esc, x.app.sys_monitor, "System Monitor")
 
 -- Browser
 helper.app_bind("O", x.app.browser, "Browser")
+
+-- Editor
+helper.app_bind("SEMICOLON", x.app.editor, "Editor")
 
 -- Network
 helper.app_bind("N", x.app.network, "Network")

@@ -107,22 +107,22 @@ x.app = {
 		default = {
 			id = "nvim",
 			name = "Neovim",
-			cmd = "nvim",
+			cmd = x.term.app .. " -e nvim",
 		},
 		{
 			id = "nvim",
 			name = "Neovim",
-			cmd = "nvim",
+			cmd = x.term.app .. " -e nvim",
 		},
 		{
 			id = "vim",
 			name = "Vim",
-			cmd = "vim",
+			cmd = x.term.app .. " -e vim",
 		},
 		{
 			id = "nano",
 			name = "Nano",
-			cmd = "nano",
+			cmd = x.term.app .. " -e nano",
 		},
 	},
 	network = {

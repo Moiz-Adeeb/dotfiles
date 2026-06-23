@@ -1,4 +1,31 @@
 -- return {
+-- 	"rebelot/kanagawa.nvim",
+-- 	lazy = false,
+-- 	priority = 1000,
+-- 	config = function()
+-- 		require("kanagawa").setup({
+-- 			theme = "lotus", -- Options: 'wave', 'dragon', 'lotus'
+-- 			transparent = true, -- Removes underlying layout background
+-- 		})
+-- 		vim.cmd([[colorscheme kanagawa]])
+-- 	end,
+-- }
+
+return {
+	"scottmckendry/cyberdream.nvim",
+	lazy = false,
+	priority = 1000,
+	config = function()
+		require("cyberdream").setup({
+			transparent = true,
+			italic_comments = true,
+			hide_fillchars = true,
+		})
+		vim.cmd([[colorscheme cyberdream]])
+	end,
+}
+
+-- return {
 -- 	"shaunsingh/nord.nvim",
 -- 	lazy = false,
 -- 	priority = 1000,
@@ -45,20 +72,6 @@
 --     vim.cmd([[colorscheme catppuccin]])
 --   end,
 -- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 -- return {
 --   "folke/tokyonight.nvim",
@@ -131,33 +144,33 @@
 --   end,
 -- }
 
-return {
-  "projekt0n/github-nvim-theme",
-  name = "github-theme", -- Explicitly naming it is a good habit for this plugin
-  lazy = false,
-  priority = 1000,
-  opts = {
-    options = {
-      transparent = true,
-      dim_inactive = false,
-      module_default = true,
-      styles = {
-        sidebars = "dark",
-      },
-      darken = {
-        sidebars = {
-          enable = true,
-          list = {"NvimTree"}, -- You can list specific sidebars like {"qf", "packer"} here
-        },
-        floats = true, -- This makes floating windows darker than the main editor
-      },
-    },
-  },
-  config = function(_, opts)
-    require("github-theme").setup(opts)
-    vim.cmd("colorscheme github_dark_high_contrast")
- end,
-}
+-- return {
+--   "projekt0n/github-nvim-theme",
+--   name = "github-theme", -- Explicitly naming it is a good habit for this plugin
+--   lazy = false,
+--   priority = 1000,
+--   opts = {
+--     options = {
+--       transparent = true,
+--       dim_inactive = false,
+--       module_default = true,
+--       styles = {
+--         sidebars = "dark",
+--       },
+--       darken = {
+--         sidebars = {
+--           enable = true,
+--           list = {"NvimTree"}, -- You can list specific sidebars like {"qf", "packer"} here
+--         },
+--         floats = true, -- This makes floating windows darker than the main editor
+--       },
+--     },
+--   },
+--   config = function(_, opts)
+--     require("github-theme").setup(opts)
+--     vim.cmd("colorscheme github_dark_high_contrast")
+--  end,
+-- }
 
 -- return {
 --   "projekt0n/github-nvim-theme",

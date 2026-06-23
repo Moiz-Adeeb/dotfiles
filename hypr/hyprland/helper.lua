@@ -15,7 +15,8 @@ function helper.show_popup(application_list)
 	end
 	msg = msg .. "\n [ESC / ENTER]  ->  Cancel"
 	local cmd = string.format(
-		x.term.app .. [[ -o colors-dark.background=002b36 -o colors-dark.alpha=0.9 --title popup -a "%s" bash -c "echo -e \"%s\"; read -n 1"]],
+		x.term.app
+			.. [[ -o colors-dark.background=002b36 -o colors-dark.alpha=0.9 --title popup -a "%s" bash -c "echo -e \"%s\"; read -n 1"]],
 		x.win.ex_sm,
 		msg
 	)
