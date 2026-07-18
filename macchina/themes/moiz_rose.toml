@@ -2,7 +2,7 @@
 
 [box]
 title = "Moiz-PC"
-border = "round"
+# border = "round"
 
 [palette]
 # Creating key-value coloring mappings
@@ -15,17 +15,17 @@ magenta = "#c4a7e7"
 white = "#e0def4"
 
 # Map your specific fastfetch separators and glyph keys
-[keys]
-separator = "- "
-os = " "
-kernel = "   "
-host = "🖥 "
-shell = ">_"
-terminal = " "
-wm = " "
-cpu = "   "
-gpu = "   "
-memory = "🎟 "
-uptime = " "
-packages = " "
-
+# [keys]
+# separator = "- "
+# os = " "
+# kernel = "   "
+# host = "🖥 "
+# shell = ">_"
+# terminal = " "
+# wm = " "
+# cpu = "   "
+# gpu = "   "
+# memory = "🎟 "
+# uptime = " "
+# packages = " "
+#

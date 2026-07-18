@@ -1,9 +1,3 @@
 [flavor]
-dark = "tokyonight-night"
-light = "tokyonight-night"
-
-[filetype]
-prepend_rules = [
-    { mime = "*", is = "hidden", fg = "cyan" },
-]
-
+dark = "nord"
+light = "nord"

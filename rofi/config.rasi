@@ -18,11 +18,11 @@ window {
     /* properties for window widget */
     transparency:                "real";
     location:                    south;
-    anchor:                      center;
+    anchor:                      south;
     fullscreen:                  false;
-    width:                       300px;
+    width:                       600px;
     x-offset:                    0px;
-    y-offset:                    60px;
+    y-offset:                    -10px;
 
     /* properties for all widgets */
     enabled:                     true;
@@ -79,15 +79,15 @@ entry {
     background-color:            inherit;
     text-color:                  inherit;
     cursor:                      text;
-    placeholder:                 "Search...";
+    placeholder:                 "Search ...";
     placeholder-color:           inherit;
 }
 
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     1;
-    lines:                       8;
+    columns:                     2;
+    lines:                       10;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;

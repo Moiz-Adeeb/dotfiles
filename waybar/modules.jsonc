@@ -1,7 +1,20 @@
 {
+  "dwl/tags": {
+    "num-tags": 9,
+    "hide-vacant": false,
+    "tag-labels": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
   "hyprland/workspaces": {
-    //"on-scroll-up": "hyprctl dispatch workspace e+1",
-    //"on-scroll-down": "hyprctl dispatch workspace e-1",
     "all-outputs": true,
     "format": "",
     "on-click": "activate",
@@ -93,7 +106,7 @@
     }
   },
   "clock": {
-    "tooltip-format": "<tt><span size='125%'>{calendar}</span></tt>",
+    "tooltip-format": "<tt><span size='150%'>{calendar}</span></tt>",
     "calendar": {
       "mode": "month",
       "mode-mon-col": 3,
@@ -115,9 +128,9 @@
       "on-scroll-up": "shift_up",
       "on-scroll-down": "shift_down"
     },
-    "format": "{:%H : %M}",
-    "format-alt": "{:%a | %d %B %Y | %H :%M}",
-    // "format-alt": "  {:%Y-%m-%d  %H:%M:%S}",
+    // "format": "{:%H : %M}",
+    "format": "{:%A | %d - %B - %Y | %H : %M}",
+    "format-alt": "  {:%Y-%m-%d  %H : %M}",
     "interval": 60
   },
   "backlight": {
@@ -153,7 +166,8 @@
     "format-plugged-alt": "{icon}{capacity}%\tRemaining: {time}",
     "format-charging-alt": "{icon}{capacity}%\tRemaining: {time}",
     //"format-good": "", // An empty format will hide the module
-    "format-full": "{icon}FULL",
+    // "format-full": "{icon}FULL",
+    "format-full": "",
     "format-icons": [
       "  {capacity}%",
       " ",
@@ -225,10 +239,10 @@
   },
   "custom/pacman": {
     "interval": "once",
-    "format": " {}",
+    "format": "{}",
     "return-type": "json",
     "exec": "cat /tmp/pacman_updates.json 2>/dev/null || echo '{\"text\":\"Checking...\",\"alt\":\"no-updates\"}'",
-    "on-click": "footclient -a float_large -e sh -c 'sudo pacman -Syu && systemctl --user start pacman-check.service'",
+    "on-click": "footclient -a float_large -e sh -c 'sudo pacman -Syu && systemctl --user start pacman-check.service && yay -Syyu'",
     "signal": 8,
     "tooltip": false
   },

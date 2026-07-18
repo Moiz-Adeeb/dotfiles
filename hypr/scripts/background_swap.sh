@@ -2,12 +2,13 @@
 
 # Set the directory where the backgrounds are stored
 BACKGROUND_DIR="$HOME/.config/backgrounds"
+BACKGROUND_FILE="$HOME/.background_wallpaper"
 
 # Get the list of backgrounds
 BACKGROUND_LIST=("$BACKGROUND_DIR"/*)
 
 # Read the current wallpaper from the background file
-CURRENT_BACKGROUND=$(cat "$HOME/.background_wallpaper")
+CURRENT_BACKGROUND=$(cat "$BACKGROUND_FILE")
 echo "Current background: $CURRENT_BACKGROUND"
 
 # Find the index of the current background in the list
@@ -29,10 +30,10 @@ NEXT_BACKGROUND="${BACKGROUND_LIST[$NEXT_INDEX]}"
 echo "Next background: $NEXT_BACKGROUND"
 
 # Save the next background to the background file
-echo "$NEXT_BACKGROUND" > "$HOME/.background_wallpaper"
+echo "$NEXT_BACKGROUND" > "$BACKGROUND_FILE"
 
 # Restart swaybg service to apply the new background
 systemctl --user restart swaybg
 
 # Send a notification with the new background name
-notify-send -i "$NEXT_BACKGROUND" "Background changed" "$(basename $NEXT_BACKGROUND)"
+# notify-send -i "$NEXT_BACKGROUND" "Background changed" "$(basename $NEXT_BACKGROUND)"

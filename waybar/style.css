@@ -7,11 +7,12 @@
     padding: 0;
     margin: 0;
     padding: 0 0;
-    font-size: 11px;
-    font-weight: 600;
+    font-size: 10px;
+    font-weight: 900;
     transition: all 0.075s ease-in-out;
     /* font-family: "FiraCode Nerd Font", "Font Awesome 6 Free", FontAwesome, Roboto, Helvetica, Arial, sans-serif;  */
     font-family: "Font Awesome 7 Brands", "JetBrainsMono NerdFont Propo",  FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    /* font-family: "JetBrainsMonoNL NFP", "Font Awesome 7 Brands", FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
 }
 
 window#waybar {
@@ -45,6 +46,7 @@ window#waybar #workspaces button:hover label {
 
 #workspaces button {
     min-width: 7px;
+    min-height: 0px;
     box-shadow: none;
     text-shadow: none;
     border: 1px solid @crust;
@@ -95,23 +97,10 @@ window#waybar #workspaces button:hover label {
     border: 1px solid shade(@crust, 1);
     border-radius: 4px;
     padding: 0px 6px;
-    background-color: shade(@crust, 1);
     opacity: 1;
     margin: 0 1px;
     color: @base;
 }
-
-/* #status *, */
-/* #buttons *, */
-/* #center * { */
-/*     border: 1px solid @crust; */
-/*     border-radius: 4px; */
-/*     padding: 0px 6px; */
-/*     background-color: @mauve; */
-/*     opacity: 1; */
-/*     margin: 0 1px; */
-/*     color: @base; */
-/* } */
 
 #clock:hover,
 #battery:hover,
@@ -123,7 +112,6 @@ window#waybar #workspaces button:hover label {
 #custom-pacman:hover,
 #custom-launcher:hover {
     padding: 0px 10px;
-    /* margin: 0 4px; */
 }
 
 #window {
@@ -134,7 +122,7 @@ window#waybar #workspaces button:hover label {
 }
 
 #window label {
-    font-size: 12px;
+    /* font-size: 12px; */
 }
 
 window#waybar.empty #window {
@@ -143,12 +131,9 @@ window#waybar.empty #window {
 }
 
 #clock {
-    /* font-family: "JetBrainsMonoNL NFM ExtraBold"; */
-    font-size: 13px;
-    font-weight: 700;
-    border-radius: 0 0 4px 4px;
+    /* font-size: 10px; */
+    font-weight: 900;
     color: @text;
-    min-width: 80px;
     padding: 0px 10px;
 }
 
@@ -258,19 +243,19 @@ window#waybar.empty #window {
     background-color: #ebcb8b;
     border-right: none;
     border-radius: 4px 0 0 4px;
-    padding: 0px 10px;
+    padding: 0px 8px;
 }
 
 #custom-power {
     background-color: @red;
     border-left: none;
     border-radius: 0 4px 4px 0;
-    padding: 0px 10px;
+    padding: 0px 8px;
 }
 
 #custom-power:hover,
 #idle_inhibitor:hover {
-    padding: 0 14px;
+    padding: 0 12px;
 }
 
 #custom-launcher {
@@ -286,7 +271,7 @@ window#waybar.empty #window {
     /* margin: 0px 6px; */
     /* padding: 0 1px; */
     background: @crust;
-    border-radius: 0 0 4px 4px;
+    /* border-radius: 0 0 4px 4px; */
 }
 
 #buttons {
@@ -299,7 +284,6 @@ window#waybar.empty #window {
 
 #window-tab {
     background: @crust;
-    border-radius: 0 0 4px 4px;
     margin-right: 50px;
 }
 
@@ -308,3 +292,21 @@ window#waybar.empty #window {
     border: none;
     background-color: transparent;
 }
+#tags button {
+    padding: 0 5px;
+    color: #a0a0a0;
+}
+
+#tags button.focused {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#tags button.occupied {
+    color: #64727d;
+}
+
+#tags button.urgent {
+    color: #ebcb8b;
+}
+

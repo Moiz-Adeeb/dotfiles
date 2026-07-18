@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=My Custom App
+Comment=Launch my custom program easily
+Exec=/home/moiz/.config/dwl/autostart.sh
+# Icon=/absolute/path/to/icon.png
+Terminal=false
+Categories=Utility;Development;
+

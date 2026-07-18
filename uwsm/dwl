@@ -1,0 +1,4 @@
+description=dwl - dwm for Wayland
+exec=dwl -s 'sh ~/.config/dwl/autostart.sh <&-' 
+type=wlr
+

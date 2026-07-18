@@ -3,7 +3,7 @@
         "orientation": "horizontal",
         "modules": [
             "custom/pacman",
-            "backlight",
+            //"backlight",
             "pulseaudio",
             "battery",
             "bluetooth",
@@ -22,6 +22,7 @@
         "modules": [
             "custom/launcher",
             "hyprland/workspaces",
+            "dwl/tags",
             "mpd",
             "hyprland/submap"
         ]

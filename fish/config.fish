@@ -33,6 +33,8 @@ abbr -a cp 'cp -iv'
 abbr -a mv 'mv -iv'
 abbr -a rm 'rm -iv'
 abbr -a lg lazygit
+abbr -a dwl "uwsm app -- dwl -s 'sh ~/.config/dwl/autostart.sh <&-'"
+
 
 if type -q lsd
     abbr -a ls 'lsd -F --group-dirs first'
@@ -47,9 +49,9 @@ end
 
 # --- VI Mode (Cleaned & Grouped) ---
 fish_vi_key_bindings
-set fish_cursor_default     block      blink
-set fish_cursor_insert      line       blink
-set fish_cursor_replace_one underscore blink
+set fish_cursor_default     block
+set fish_cursor_insert      line
+set fish_cursor_replace_one underscore
 set fish_cursor_visual      block
 
 # # if status is-interactive

@@ -1,0 +1,61 @@
+file:///home/moiz/Code/Booking/backend/test-express/src/services/user/queries/getUserList.ts {"mtime":1782644794391,"ctime":1782644794390,"size":1282,"etag":"3g9r0d7oc1ab","orphaned":false,"typeId":""}
+import { UserDto } from "../models/user.js";
+
+// export class GetUserListRequestDto extends Request { }
+//
+// export class GetUserListResponseDto {
+//     public success: boolean = true;
+//     public data: UserDto[];
+//
+//     constructor(usersArray: UserDto[] = []) {
+//         this.data = usersArray;
+//     }
+// }
+
+export interface GetUserListRequestDto {
+    page?: string;
+    limit?: string;
+}
+
+export interface GetUserListResponseDto {
+    success: boolean;
+    message: any | null;
+    data: any[] | null;
+    constructor(usersArray: UserDto[] = []) {
+        this.data = usersArray;
+uuuuuuu    }
+}
+
+export default async function getUserList(request: GetUserListRequestDto): Promise<GetUserListResponseDto> {
+    console.log(request);
+    const rawDbUsers: UserDto[] = [
+        {
+            id: 1,
+            name: "Alice",
+            email: "alice@example.com"
+        },
+        {
+            id: 2,
+            name: "Alice",
+            email: "alice@example.com"
+        },
+        {
+            id: 2,
+            name: "Alice",
+            email: "alice@example.com"
+        },
+        {
+            id: 4,
+            name: "Alice",
+            email: "alice@example.com"
+        },
+        {
+            id: 5,
+            name: "Alice",
+            email: "alice@example.com"
+        },
+    ];
+
+    return new GetUserListResponseDto(rawDbUsers);
+}
+
