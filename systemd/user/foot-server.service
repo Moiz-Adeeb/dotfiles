@@ -10,4 +10,4 @@ Restart=on-failure
 RestartSec=2
 
 [Install]
-WantedBy=hyprland-session.target
+WantedBy=hyprland-session.target dwl-session.target

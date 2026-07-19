@@ -3,7 +3,7 @@ set -gx EDITOR nvim
 set -gx VISUAL nvim
 set -gx SUDO_EDITOR nvim
 set -gx FCEDIT nvim
-set -gx TERMINAL alacritty
+set -gx TERMINAL foot
 set -gx BROWSER zen-browser
 
 if type -q bat
@@ -33,7 +33,7 @@ abbr -a cp 'cp -iv'
 abbr -a mv 'mv -iv'
 abbr -a rm 'rm -iv'
 abbr -a lg lazygit
-abbr -a dwl "uwsm app -- dwl -s 'sh ~/.config/dwl/autostart.sh <&-'"
+# abbr -a dwl "uwsm app -- dwl -s 'sh ~/.config/dwl/autostart.sh <&-'"
 
 
 if type -q lsd

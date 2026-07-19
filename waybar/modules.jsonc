@@ -241,7 +241,7 @@
     "interval": "once",
     "format": "{}",
     "return-type": "json",
-    "exec": "cat /tmp/pacman_updates.json 2>/dev/null || echo '{\"text\":\"Checking...\",\"alt\":\"no-updates\"}'",
+    "exec": "cat /tmp/pacman_updates.json 2>/dev/null || echo '{\"text\":\"Checking for Updates ...\",\"alt\":\"no-updates\"}'",
     "on-click": "footclient -a float_large -e sh -c 'sudo pacman -Syu && systemctl --user start pacman-check.service && yay -Syyu'",
     "signal": 8,
     "tooltip": false

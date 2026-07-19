@@ -1,7 +1,7 @@
 /*****----- Configuration -----*****/
 configuration {
 	modi:                       "drun,run,window";
-    show-icons:                 true;
+    show-icons:                 false;
     display-drun:               "";
     display-run:                "";
     display-window:             "";
@@ -20,9 +20,9 @@ window {
     location:                    south;
     anchor:                      south;
     fullscreen:                  false;
-    width:                       600px;
+    width:                       300px;
     x-offset:                    0px;
-    y-offset:                    -10px;
+    y-offset:                    -8px;
 
     /* properties for all widgets */
     enabled:                     true;
@@ -86,8 +86,8 @@ entry {
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     2;
-    lines:                       10;
+    columns:                     1;
+    lines:                       8;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;
@@ -95,7 +95,7 @@ listview {
     reverse:                     false;
     fixed-height:                false;
     fixed-columns:               false;
-    spacing:                     4px;
+    spacing:                     0px;
     background-color:            transparent;
     text-color:                  @foreground;
     cursor:                      "default";
@@ -150,7 +150,7 @@ element selected.normal {
     //background-color:            var(background);
     background-color:            transparent;
     text-color:                  var(selected);
-    border:                      2px 0px 2px 0px;
+    border:                      2px 2px 2px 2px;
     border-radius:               0px;
     border-color:                var(selected);
 }
