@@ -1,0 +1,20 @@
+{
+	"updaterLastSeenVersion": "1.24012.9",
+	"first_launch_at": 1784875795214,
+	"locale": "en-US",
+	"userThemeMode": "system",
+	"dxt:allowlistEnabled:0051b574-0cec-4c20-9ecf-f8f0a1c768e0": false,
+	"dxt:allowlistLastUpdated:0051b574-0cec-4c20-9ecf-f8f0a1c768e0": "2026-08-03T06:30:46.928Z",
+	"lastKnownAccountUuid": "afb7be47-f5b0-4edd-8240-dd896f55543b",
+	"lastSeenRequireCoworkFullVmSandbox": null,
+	"hasTrackedInitialActivation": true,
+	"insecureStorageNoticeShown": true,
+	"remote_uploads_migration_done_v1_4600f5d83276": true,
+	"remote_marketplace_migration_done_v1": true,
+	"dxt:allowlistEnabled:e0dc4f0b-9d66-4bcc-b760-051c619570cd": false,
+	"dxt:allowlistLastUpdated:e0dc4f0b-9d66-4bcc-b760-051c619570cd": "2026-08-09T10:03:46.805Z",
+	"dxt:allowlistEnabled:765beca6-9b36-44ff-8273-7bc3f1922c8e": false,
+	"dxt:allowlistLastUpdated:765beca6-9b36-44ff-8273-7bc3f1922c8e": "2026-08-02T10:36:18.074Z",
+	"remote_uploads_migration_done_v1_cf4eb64544b2": true,
+	"remote_uploads_migration_done_v1_db1273c58436": true
+}

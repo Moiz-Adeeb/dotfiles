@@ -25,52 +25,52 @@
 -- 	end,
 -- }
 
+-- return {
+-- 	"shaunsingh/nord.nvim",
+-- 	lazy = false,
+-- 	priority = 1000,
+-- 	config = function()
+-- 		-- Configure options before loading the colorscheme
+-- 		vim.g.nord_contrast = true
+-- 		vim.g.nord_borders = true
+-- 		vim.g.nord_disable_background = true -- Enables transparency
+-- 		vim.g.nord_enable_sidebar_background = false
+--
+-- 		-- Load the colorscheme
+-- 		vim.cmd([[colorscheme nord]])
+-- 		-- Make floating windows and their borders completely transparent
+-- 		local hl_groups = {
+-- 			"NormalFloat", -- The main background of floating panels
+-- 			"FloatBorder", -- The borders surrounding floating panels
+-- 			"TelescopeNormal", -- Main background for Telescope search box
+-- 			"TelescopeBorder", -- Borders for Telescope search box
+-- 		}
+--
+-- 		for _, group in ipairs(hl_groups) do
+-- 			vim.api.nvim_set_hl(0, group, { bg = "none", ctermbg = "none" })
+-- 		end
+-- 	end,
+-- }
+
 return {
-	"shaunsingh/nord.nvim",
-	lazy = false,
-	priority = 1000,
-	config = function()
-		-- Configure options before loading the colorscheme
-		vim.g.nord_contrast = true
-		vim.g.nord_borders = true
-		vim.g.nord_disable_background = true -- Enables transparency
-		vim.g.nord_enable_sidebar_background = false
-
-		-- Load the colorscheme
-		vim.cmd([[colorscheme nord]])
-		-- Make floating windows and their borders completely transparent
-		local hl_groups = {
-			"NormalFloat", -- The main background of floating panels
-			"FloatBorder", -- The borders surrounding floating panels
-			"TelescopeNormal", -- Main background for Telescope search box
-			"TelescopeBorder", -- Borders for Telescope search box
-		}
-
-		for _, group in ipairs(hl_groups) do
-			vim.api.nvim_set_hl(0, group, { bg = "none", ctermbg = "none" })
-		end
-	end,
+  "catppuccin/nvim",
+  lazy = false,
+  priority = 1000,
+  opts = {
+    flavour = "mocha",
+    transparent_background = true,
+    terminal_colore = true,
+    styles = {
+      sidebars = "transparent",
+      --floats = "dark",
+    },
+  },
+  config = function(_, opts)
+    require("catppuccin").setup(opts)
+    vim.cmd([[colorscheme catppuccin]])
+  end,
 }
 
--- return {
---   "catppuccin/nvim",
---   lazy = false,
---   priority = 1000,
---   opts = {
---     flavour = "mocha",
---     transparent_background = true,
---     terminal_colore = true,
---     styles = {
---       sidebars = "transparent",
---       --floats = "dark",
---     },
---   },
---   config = function(_, opts)
---     require("catppuccin").setup(opts)
---     vim.cmd([[colorscheme catppuccin]])
---   end,
--- }
---
 -- return {
 --   "folke/tokyonight.nvim",
 --   lazy = false,

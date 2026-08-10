@@ -1,0 +1,16 @@
+[Unit]
+Description=Eye Protection Daemon
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=uwsm app -- wlsunset -l 30.2 -L 71.5 -t 5000 -T 7000
+Nice=10                     # Lowers CPU scheduling priority (0 is default, 19 is lowest)
+CPUSchedulingPolicy=idle    # Only gives this app CPU cycles when the processor is otherwise resting
+IOSchedulingClass=3         # 3 = Idle disk I/O priority. Stops disk reads from slowing down input response
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=hyprland-session.target dwl-session.target

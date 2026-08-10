@@ -1,0 +1,93 @@
+{
+  "lastUpdated": 1785738649657,
+  "plugins": [
+    {
+      "id": "plugin_0155zZVATbJU3jHUmPP9NvMC",
+      "name": "cowork-plugin-management",
+      "updatedAt": "2026-07-24T23:38:18.624941Z",
+      "updatedAtVerified": true,
+      "displayName": "Plugin Management",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_011v5h6QUzBZvas64y44XLhy",
+      "name": "pdf-viewer",
+      "updatedAt": "2026-07-24T23:38:15.773896Z",
+      "updatedAtVerified": true,
+      "displayName": "PDF Viewer",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_019TBdWa5NQJJuDFmEc4k6BJ",
+      "name": "operations",
+      "updatedAt": "2026-07-24T23:38:17.439606Z",
+      "updatedAtVerified": true,
+      "displayName": "Operations",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_01XXJmxLXPEhPMmnxmrgntNw",
+      "name": "design",
+      "updatedAt": "2026-07-24T23:38:17.475134Z",
+      "updatedAtVerified": true,
+      "displayName": "Design",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_014WxCYbLf7f3uw2isHFR9US",
+      "name": "productivity",
+      "updatedAt": "2026-07-24T23:38:18.620894Z",
+      "updatedAtVerified": true,
+      "displayName": "Productivity",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_016kCmK4LhtWJEFSRVcTBZeB",
+      "name": "customer-support",
+      "updatedAt": "2026-07-24T23:38:18.007367Z",
+      "updatedAtVerified": true,
+      "displayName": "Customer Support",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_011e6UhbCkoAGkCN3JgHvJY7",
+      "name": "brightdata-plugin",
+      "updatedAt": "2026-07-24T23:38:16.363377Z",
+      "updatedAtVerified": true,
+      "displayName": "Bright Data",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_01VUWKAs3gYLNqeKbDtxv1Xs",
+      "name": "figma",
+      "updatedAt": "2026-07-30T18:35:09.483338Z",
+      "updatedAtVerified": true,
+      "displayName": "Figma",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    }
+  ]
+}

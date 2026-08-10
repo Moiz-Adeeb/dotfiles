@@ -22,7 +22,7 @@ set -gx FZF_DEFAULT_OPTS "$FZF_DEFAULT_OPTS \
 # --- Path Management ---
 fish_add_path ~/bin ~/sbin ~/.local/bin ~/.bin ~/.cargo/bin ~/.config/tmux/plugins/tmuxifier/bin ~/.dotnet/tools ~/.npm-global/bin
 
-# --- Abbreviations (Optimized Speed) ---
+# --- Abbreviations ---
 abbr -a c clear
 abbr -a q exit
 abbr -a t tmux
@@ -33,6 +33,7 @@ abbr -a cp 'cp -iv'
 abbr -a mv 'mv -iv'
 abbr -a rm 'rm -iv'
 abbr -a lg lazygit
+abbr -a toggle_monitor ~/.config/kanshi/scripts/toggle_monitor.sh
 # abbr -a dwl "uwsm app -- dwl -s 'sh ~/.config/dwl/autostart.sh <&-'"
 
 
@@ -54,12 +55,12 @@ set fish_cursor_insert      line
 set fish_cursor_replace_one underscore
 set fish_cursor_visual      block
 
-# # if status is-interactive
-# #     # Commands to run in interactive sessions can go here
-# #      end
-# #
-# # --- Startup ---
-# # Fastfetch (your custom command)
-# #fastfetch --structure Title:Separator:OS:Host:Kernel:Uptime:Packages:Shell:Terminal:Memory:Swap --logo ~/.config/fastfetch/logos/moiz.txt
-#
-# starship init fish | source
+# --- Startup ---
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+
+    # Fastfetch (your custom command)
+    # fastfetch --structure Title:Separator:OS:Host:Kernel:Uptime:Packages:Shell:Terminal:Memory:Swap --logo ~/.config/fastfetch/logos/moiz.txt
+    # starship init fish | source
+
+end

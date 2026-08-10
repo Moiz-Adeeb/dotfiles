@@ -1,0 +1,101 @@
+{
+  "manifest_version": "0.3",
+  "name": "pdf-viewer",
+  "display_name": "pdf-viewer",
+  "version": "1.7.5",
+  "description": "Read, annotate, and interact with PDF files \u2014 interactive viewer with search, navigation, annotations, form filling, and text extraction",
+  "author": {
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com"
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "dist/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/dist/index.js",
+        "--stdio",
+        "${user_config.pdf_directories}"
+      ],
+      "env": {}
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/modelcontextprotocol/ext-apps"
+  },
+  "license": "MIT",
+  "tools": [
+    {
+      "name": "list_pdfs",
+      "description": "List available PDF files that can be displayed"
+    },
+    {
+      "name": "display_pdf",
+      "description": "Display an interactive PDF viewer with search and navigation"
+    },
+    {
+      "name": "interact",
+      "description": "Interact with the PDF viewer \u2014 navigate, annotate, highlight text, fill forms, extract pages"
+    },
+    {
+      "name": "read_pdf_bytes",
+      "description": "Read a range of bytes from a PDF file (max 512KB per request)"
+    },
+    {
+      "name": "save_pdf",
+      "description": "Save the current PDF with annotations applied"
+    },
+    {
+      "name": "poll_pdf_commands",
+      "description": "Poll for pending PDF commands from the viewer"
+    },
+    {
+      "name": "submit_page_data",
+      "description": "Submit rendered page data for a get_pages request"
+    },
+    {
+      "name": "submit_save_data",
+      "description": "Submit save data from the PDF viewer"
+    },
+    {
+      "name": "submit_viewer_state",
+      "description": "Submit current viewer state from the PDF viewer"
+    }
+  ],
+  "user_config": {
+    "pdf_directories": {
+      "type": "directory",
+      "title": "PDF Directories",
+      "description": "Folders the PDF viewer may list and open PDFs from",
+      "multiple": true,
+      "required": false,
+      "default": [
+        "${HOME}/Documents"
+      ]
+    }
+  },
+  "homepage": "https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/pdf-server",
+  "support": "https://github.com/modelcontextprotocol/ext-apps/issues",
+  "icon": "icon.png",
+  "keywords": [
+    "pdf",
+    "documents",
+    "viewer",
+    "reading"
+  ],
+  "compatibility": {
+    "platforms": [
+      "darwin",
+      "win32",
+      "linux"
+    ],
+    "runtimes": {
+      "node": ">=18.0.0"
+    }
+  },
+  "privacy_policies": [
+    "https://www.anthropic.com/privacy"
+  ]
+}

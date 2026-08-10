@@ -11,44 +11,66 @@ linemode = "size"
 
 [open]
 rules = [
-  # 1. Folders first
-  { url = "*/", use = ["enter"] },
-
-  # 2. Specific types (Now including the custom command prompts)
-  { mime = "text/*", use = ["edit", "ask-cmd-block", "open"] },
-  { mime = "image/*", use = ["open"] },
-  { mime = "video/*", use = ["open", "vlc"] },
-  { mime = "application/pdf", use = ["open"] },
-  { mime = "application/vnd.openxmlformats-officedocument*", use = ["open", "ask-cmd-bg"] },
-  { mime = "document/*", use = ["edit", "ask-cmd-block", "open"] },
-  
-  # 3. Catch-alls at the very bottom
-  { mime = "*/*", use = ["open"] },
-  { url = "*", use = ["open"] },
+  # Folders
+  { url = "*/", use = [
+    "enter",
+  ] },
+  # Application Type
+  { mime = "text/*", use = [
+    "edit",
+    "ask-cmd-block",
+    "open",
+  ] },
+  { mime = "image/*", use = [
+    "open",
+  ] },
+  { mime = "video/*", use = [
+    "open",
+    "vlc",
+  ] },
+  { mime = "application/pdf", use = [
+    "zathura",
+    "open",
+    "ask-cmd-bg",
+  ] },
+  { url = "*.{cbz,cbr,cb7,cbt}", use = [
+    "zathura",
+    "open",
+    "ask-cmd-bg",
+  ] },
+  { mime = "application/vnd.openxmlformats-officedocument*", use = [
+    "open",
+    "ask-cmd-bg",
+  ] },
+  { mime = "document/*", use = [
+    "edit",
+    "ask-cmd-block",
+    "open",
+  ] },
+  # Catch all
+  { mime = "*/*", use = [
+    "open",
+  ] },
+  { url = "*", use = [
+    "open",
+  ] },
 ]
 
 [opener]
 edit = [
   { run = 'nvim "$@"', block = true, desc = "Neovim", for = "unix" },
-  { run = '$EDITOR "$@"', block = true, for = "unix" },
+  { run = '$EDITOR "$@"', block = true, desc = "Editor", for = "unix" },
 ]
-open = [
-  { run = 'xdg-open "$1"', desc = "Open", orphan = true, for = "linux" }
-]
-copy-content = [
-  { run = 'cat "$1" | xclip -sel clipboard', for = "linux" }
-]
-# Hooks for the open-with-cmd plugin directly into the "Open With..." menu
+open = [{ run = 'xdg-open "$1"', desc = "Open", orphan = true, for = "linux" }]
+copy-content = [{ run = 'cat "$1" | wl-copy', for = "linux" }]
 ask-cmd-block = [
-  { run = 'plugin open-with-cmd --args="-- block"', block = true, desc = "Command Prompt (Blocking)", for = "unix" }
+  { run = 'plugin open-with-cmd --args="-- block"', block = true, desc = "CMD (Blocking)", for = "unix" },
 ]
 ask-cmd-bg = [
-  { run = 'plugin open-with-cmd', desc = "Command Prompt (Background)", for = "unix" }
+  { run = "plugin open-with-cmd", desc = "CMD (Background)", for = "unix" },
 ]
-
-[filetype]
-rules = [
-  { url = "*", is = "hidden", fg = "cyan" },
+zathura = [
+  { run = 'zathura "$@"', desc = "Zathura", orphan = true, for = "linux" },
 ]
 
 [preview]

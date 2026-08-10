@@ -1,0 +1,85 @@
+{
+  "coworkUserFilesPath": "/home/moiz/Claude",
+  "preferences": {
+    "launchPreviewPersistedWorkspaces": [],
+    "launchPreviewSessionScopedSessions": [],
+    "coworkScheduledTasksEnabled": false,
+    "coworkHipaaRestricted": false,
+    "ccdScheduledTasksEnabled": false,
+    "sidebarMode": "chat",
+    "bypassPermissionsGateByAccount": {
+      "2cd5789a-bc48-46d2-aef8-dd70a21b941d": false,
+      "afb7be47-f5b0-4edd-8240-dd896f55543b": false,
+      "96954fa6-71e0-459b-9ef8-43c155cd7913": false
+    },
+    "coworkWebSearchEnabled": true,
+    "coworkModelAutoFallbackByAccount": {
+      "2cd5789a-bc48-46d2-aef8-dd70a21b941d": true,
+      "afb7be47-f5b0-4edd-8240-dd896f55543b": true,
+      "96954fa6-71e0-459b-9ef8-43c155cd7913": true
+    },
+    "remoteToolsDeviceName": "shadow-garden",
+    "epitaxyPrefs": {
+      "desktop-frame.paneStore.v1": {
+        "state": {
+          "extraPanesByMode": {},
+          "colWeightsByMode": {},
+          "rowSplit": 0.5,
+          "draftNonce": 0
+        },
+        "version": 4
+      },
+      "starred-local-code-sessions": [],
+      "starred-cowork-spaces": [],
+      "starred-session-groups": [],
+      "ccd-sessions-filter": {
+        "state": {
+          "selectedProjects": []
+        },
+        "version": 0
+      },
+      "dframe-group-scopes": {},
+      "dframe-local-slice": {
+        "pinnedOrder": [],
+        "homeProjectsPinnedOrder": []
+      },
+      "epitaxy-tasks-store": {
+        "state": {
+          "rowFields": [
+            {
+              "id": "title",
+              "visible": true
+            },
+            {
+              "id": "summary",
+              "visible": true
+            },
+            {
+              "id": "repo",
+              "visible": false
+            },
+            {
+              "id": "diff",
+              "visible": true
+            },
+            {
+              "id": "time",
+              "visible": true
+            }
+          ],
+          "collapsedGroups": {},
+          "groupBy": "status",
+          "groupFilters": {},
+          "layout": "list",
+          "staleThresholdDays": 7,
+          "splitRatio": 60,
+          "autoAdvanceAfterAction": false,
+          "defaultSessionViewMode": "transcript",
+          "sidebarCollapsed": true,
+          "sidebarWidth": 240
+        },
+        "version": 17
+      }
+    }
+  }
+}

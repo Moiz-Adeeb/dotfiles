@@ -2776,6 +2776,7 @@ tile(Monitor *m)
 {
 	unsigned int h, r, e = m->gaps, mw, my, ty;
 	int i, n = 0;
+	int border_width;
 	Client *c;
 
 	wl_list_for_each(c, &clients, link)
@@ -2786,6 +2787,9 @@ tile(Monitor *m)
 	if (smartgaps == n)
 		e = 0;
 
+	/* Dynamic border property tracking */
+	border_width = (n == 1) ? 0 : borderpx;
+
 	if (n > m->nmaster)
 		mw = m->nmaster ? (int)roundf((m->w.width + gappx*e) * m->mfact) : 0;
 	else
@@ -2795,33 +2799,85 @@ tile(Monitor *m)
 	wl_list_for_each(c, &clients, link) {
 		if (!VISIBLEON(c, m) || c->isfloating || c->isfullscreen)
 			continue;
+		
+		/* Tell dwl/wlroots to explicitly change the border rendering flag */
+		c->bw = border_width;
+
 		if (i < m->nmaster) {
 			r = MIN(n, m->nmaster) - i;
 			h = (m->w.height - my - gappx*e - gappx*e * (r - 1)) / r;
-			resize(c, (struct wlr_box){.x = m->w.x + gappx*e, .y = m->w.y + my,
-				.width = mw - 2*gappx*e, .height = h}, 0);
+			
+			resize(c, (struct wlr_box){
+				.x = m->w.x + gappx*e, .y = m->w.y + my,
+				.width = mw - 2*gappx*e, .height = h
+			}, 0);
 			my += c->geom.height + gappx*e;
 		} else {
 			r = n - i;
 			h = (m->w.height - ty - gappx*e - gappx*e * (r - 1)) / r;
-			resize(c, (struct wlr_box){.x = m->w.x + mw, .y = m->w.y + ty,
-				.width = m->w.width - mw - gappx*e, .height = h}, 0);
+			
+			resize(c, (struct wlr_box){
+				.x = m->w.x + mw, .y = m->w.y + ty,
+				.width = m->w.width - mw - gappx*e, .height = h
+			}, 0);
 			ty += c->geom.height + gappx*e;
 		}
 		i++;
 	}
 }
+// void
+// tile(Monitor *m)
+// {
+// 	unsigned int h, r, e = m->gaps, mw, my, ty;
+// 	int i, n = 0;
+// 	Client *c;
+//
+// 	wl_list_for_each(c, &clients, link)
+// 		if (VISIBLEON(c, m) && !c->isfloating && !c->isfullscreen)
+// 			n++;
+// 	if (n == 0)
+// 		return;
+// 	if (smartgaps == n)
+// 		e = 0;
+//
+// 	if (n > m->nmaster)
+// 		mw = m->nmaster ? (int)roundf((m->w.width + gappx*e) * m->mfact) : 0;
+// 	else
+// 		mw = m->w.width;
+// 	i = 0;
+// 	my = ty = gappx*e;
+// 	wl_list_for_each(c, &clients, link) {
+// 		if (!VISIBLEON(c, m) || c->isfloating || c->isfullscreen)
+// 			continue;
+// 		if (i < m->nmaster) {
+// 			r = MIN(n, m->nmaster) - i;
+// 			h = (m->w.height - my - gappx*e - gappx*e * (r - 1)) / r;
+// 			resize(c, (struct wlr_box){.x = m->w.x + gappx*e, .y = m->w.y + my,
+// 				.width = mw - 2*gappx*e, .height = h}, 0);
+// 			my += c->geom.height + gappx*e;
+// 		} else {
+// 			r = n - i;
+// 			h = (m->w.height - ty - gappx*e - gappx*e * (r - 1)) / r;
+// 			resize(c, (struct wlr_box){.x = m->w.x + mw, .y = m->w.y + ty,
+// 				.width = m->w.width - mw - gappx*e, .height = h}, 0);
+// 			ty += c->geom.height + gappx*e;
+// 		}
+// 		i++;
+// 	}
+// }
 
 
 /* dwindle patch */
+
 void
 dwindle(Monitor *m)
 {
 	unsigned int i, n = 0;
 	int nx, ny, nw, nh;
 	int horizontal;
+	int border_width;
 	Client *c;
-	int g = gaps ? gappx : 0; /* check if gaps are toggled on globally */
+	int g = gaps ? gappx : 0;
 
 	/* count clients */
 	wl_list_for_each(c, &clients, link)
@@ -2831,11 +2887,13 @@ dwindle(Monitor *m)
 	if (n == 0)
 		return;
 
-	/* If smartgaps is enabled and there is only 1 window, don't add gaps */
+	/* smart gaps check */
 	if (smartgaps && n == 1)
 		g = 0;
 
-	/* Apply outer layout margins */
+	/* Dynamic border property tracking */
+	border_width = (n == 1) ? 0 : borderpx;
+
 	nx = m->w.x + g;
 	ny = m->w.y + g;
 	nw = m->w.width - (2 * g);
@@ -2848,11 +2906,12 @@ dwindle(Monitor *m)
 		if (!VISIBLEON(c, m) || c->isfloating || c->isfullscreen)
 			continue;
 
+		/* Force update the window context's border configuration */
+		c->bw = border_width;
+
 		if (i == n - 1) {
-			/* last window gets remaining space (minus bottom/right inner gap edge) */
 			resize(c, (struct wlr_box){nx, ny, nw, nh}, 0);
 		} else if (horizontal) {
-			/* Split vertically, factoring in half-gaps between the windows */
 			int w = (nw - g) / 2;
 
 			resize(c, (struct wlr_box){nx, ny, w, nh}, 0);
@@ -2860,7 +2919,6 @@ dwindle(Monitor *m)
 			nx += w + g;
 			nw -= w + g;
 		} else {
-			/* Split horizontally, factoring in half-gaps between the windows */
 			int h = (nh - g) / 2;
 
 			resize(c, (struct wlr_box){nx, ny, nw, h}, 0);
@@ -2873,6 +2931,65 @@ dwindle(Monitor *m)
 		i++;
 	}
 }
+// void
+// dwindle(Monitor *m)
+// {
+// 	unsigned int i, n = 0;
+// 	int nx, ny, nw, nh;
+// 	int horizontal;
+// 	Client *c;
+// 	int g = gaps ? gappx : 0; /* check if gaps are toggled on globally */
+//
+// 	/* count clients */
+// 	wl_list_for_each(c, &clients, link)
+// 		if (VISIBLEON(c, m) && !c->isfloating && !c->isfullscreen)
+// 			n++;
+//
+// 	if (n == 0)
+// 		return;
+//
+// 	/* If smartgaps is enabled and there is only 1 window, don't add gaps */
+// 	if (smartgaps && n == 1)
+// 		g = 0;
+//
+// 	/* Apply outer layout margins */
+// 	nx = m->w.x + g;
+// 	ny = m->w.y + g;
+// 	nw = m->w.width - (2 * g);
+// 	nh = m->w.height - (2 * g);
+//
+// 	horizontal = 1; // toggle split direction
+// 	i = 0;
+//
+// 	wl_list_for_each(c, &clients, link) {
+// 		if (!VISIBLEON(c, m) || c->isfloating || c->isfullscreen)
+// 			continue;
+//
+// 		if (i == n - 1) {
+// 			/* last window gets remaining space (minus bottom/right inner gap edge) */
+// 			resize(c, (struct wlr_box){nx, ny, nw, nh}, 0);
+// 		} else if (horizontal) {
+// 			/* Split vertically, factoring in half-gaps between the windows */
+// 			int w = (nw - g) / 2;
+//
+// 			resize(c, (struct wlr_box){nx, ny, w, nh}, 0);
+//
+// 			nx += w + g;
+// 			nw -= w + g;
+// 		} else {
+// 			/* Split horizontally, factoring in half-gaps between the windows */
+// 			int h = (nh - g) / 2;
+//
+// 			resize(c, (struct wlr_box){nx, ny, nw, h}, 0);
+//
+// 			ny += h + g;
+// 			nh -= h + g;
+// 		}
+//
+// 		horizontal = !horizontal;
+// 		i++;
+// 	}
+// }
 void
 movestack(const Arg *arg)
 {

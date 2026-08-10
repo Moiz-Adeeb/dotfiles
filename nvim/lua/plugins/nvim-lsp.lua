@@ -217,25 +217,28 @@ return {
         rust_analyzer = {},
         golangci_lint_ls = {},
         angularls = {},
-        omnisharp = {
-          use_mono = false,
-          settings = {
-            RoslynExtensionsOptions = {
-              EnableAnalyzersSupport = true,
-              EnableImportCompletion = true,
-              AnalyzeOpenDocumentsOnly = true,
-            },
-            MsBuild = {
-              LoadProjectsOnDemand = true,
-            },
-            FormattingOptions = {
-              EnableEditorConfigSupport = true,
-              },
-            Sdk = {
-              IncludePrereleases = true, -- Useful if you use .NET 9.0/10.0 previews
-            },
-          },
-        },
+        -- omnisharp = {
+        --   use_mono = false,
+        --   settings = {
+        --     RoslynExtensionsOptions = {
+        --       EnableAnalyzersSupport = true,
+        --       EnableImportCompletion = true,
+        --       AnalyzeOpenDocumentsOnly = true,
+        --     },
+        --     MsBuild = {
+        --       LoadProjectsOnDemand = true,
+        --     },
+        --     FormattingOptions = {
+        --       EnableEditorConfigSupport = true,
+        --       },
+        --     Sdk = {
+        --       IncludePrereleases = true, -- Useful if you use .NET 9.0/10.0 previews
+        --     },
+        --   },
+        -- },
+        html_lsp = {},
+        superhtml = {},
+        eslint = {},
         --csharp_ls = {},
         capabilitiess_variables = {},
         --omnisharp_mono = {},

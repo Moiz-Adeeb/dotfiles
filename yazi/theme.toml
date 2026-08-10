@@ -1,3 +1,13 @@
 [flavor]
-dark = "nord"
-light = "nord"
+dark = "catppuccin-mocha"
+light = "catppuccin-mocha"
+
+# [filetype]
+# rules = [
+#   { url = "*", is = "hidden", fg = "cyan", bold = false },
+#   { url = "*/", is = "hidden", fg = "cyan", bold = false },
+#   { mime = "image/*", fg = "yellow", bold = true },
+#   { mime = "video/*", fg = "green", bold = true },
+#   { mime = "application/pdf", fg = "red", bold = true },
+#   { url = "*.{cbz,cbr,cb7,cbt}", fg = "magenta", bold = false },
+# ]

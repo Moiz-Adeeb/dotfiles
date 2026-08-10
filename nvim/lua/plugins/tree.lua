@@ -21,7 +21,7 @@ return {
 			},
 			renderer = {
 				highlight_git = true,
-				highlight_opened_files = "open",
+				-- highlight_opened_files = "open",
 				icons = {
 					show = {
 						git = true,

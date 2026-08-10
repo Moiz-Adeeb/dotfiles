@@ -22,8 +22,13 @@
         "modules": [
             "custom/launcher",
             "hyprland/workspaces",
-            "dwl/tags",
             "mpd",
+            "mpd#2",
+            "mpd#3",
+            "mpd#4",
+            "custom/mpd",
+            // "group/dwltags",
+            // "custom/dwl-tags",
             "hyprland/submap"
         ]
     },

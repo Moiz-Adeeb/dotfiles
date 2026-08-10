@@ -1,15 +1,16 @@
 /*****----- Configuration -----*****/
 configuration {
-	modi:                       "drun,run,window";
-    show-icons:                 false;
+    modi:                       "drun,run,window";
+    show-icons:                 true;
     display-drun:               "";
     display-run:                "";
     display-window:             "";
-	drun-display-format:        "{name}";
+    drun-display-format:        "{name}";
 
 }
 
 /*****----- Global Properties -----*****/
+// @import                          "colors/catppuccin.rasi"
 @import                          "shared/colors.rasi"
 @import                          "shared/fonts.rasi"
 
@@ -17,12 +18,12 @@ configuration {
 window {
     /* properties for window widget */
     transparency:                "real";
-    location:                    south;
-    anchor:                      south;
+    location:                    northwest;
+    anchor:                      northwest;
     fullscreen:                  false;
     width:                       300px;
-    x-offset:                    0px;
-    y-offset:                    -8px;
+    x-offset:                    8px;
+    y-offset:                    8px;
 
     /* properties for all widgets */
     enabled:                     true;
@@ -83,7 +84,7 @@ entry {
     placeholder-color:           inherit;
 }
 
-/*****----- Listview -----*****/
+/*****----- List View -----*****/
 listview {
     enabled:                     true;
     columns:                     1;
@@ -174,7 +175,7 @@ mode-switcher{
     enabled:                     true;
     spacing:                     20px;
     margin:                      0px;
-    padding:                     0px 200px;
+    padding:                     0px 20px;
     background-color:            transparent;
     text-color:                  @foreground;
 }

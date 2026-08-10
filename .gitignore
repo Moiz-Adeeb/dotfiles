@@ -1,6 +1,8 @@
 # Ignore heavy IDE caches and extensions
 Code/
+Claude/
 google-chrome/
+GIMP/
 chromium/
 BraveSoftware/
 qutebrowser/

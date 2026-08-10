@@ -188,8 +188,6 @@ footer  = { fg = "#c0caf5", bg = "#1a1b26" }
 [filetype]
 
 rules = [
-	{ mime = "*", is = "hidden", fg = "cyan" },
-
 	# Images
 	{ mime = "image/*", fg = "#e0af68" },
 
@@ -207,12 +205,12 @@ rules = [
 	# { mime = "inode/x-empty", fg = "#f7768e" },
 
 	# Special files
-	{ url = "*", is = "orphan", bg = "#f7768e" },
-	{ url = "*", is = "exec"  , fg = "#9ece6a" },
+	{ name = "*", is = "orphan", bg = "#f7768e" },
+	{ name = "*", is = "exec"  , fg = "#9ece6a" },
 
 	# Fallback
-	{ url = "*/", fg = "#7aa2f7" },
-	{ url = "*", fg = "#c0caf5" }
+	{ name = "*/", fg = "#7aa2f7" },
+	{ name = "*", fg = "#c0caf5" }
 ]
 
 # : }}}

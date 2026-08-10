@@ -1,4 +1,5 @@
 
+vim.keymap.set('i', '---', '—', { desc = 'Insert em dash' })
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 -- Set <space> as the leader key

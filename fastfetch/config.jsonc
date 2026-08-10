@@ -13,7 +13,7 @@
         }
     },
     "display": {
-        "separator": "- "
+        "separator": " ── "
     },
     "modules": [
         //"break",
@@ -25,86 +25,87 @@
         "break",
         {
             "type": "os",
-            "key": "  ",
+            "key": "     OS  ",
             "keyColor": "#c4a7e7",
-            "format": ""
+            "format": "{2} ({8})"
         },
         {
             "type": "kernel",
-            "key": " 󰒓 ",
+            "key": " KERNEL 󰒓 ",
             "keyColor": "#c4a7e7",
-            "format": "{} {}"
+            "format": "{} {} {4}"
         },
         {
             "type": "host",
-            "key": " 🖥 ",
+            "key": "   HOST 🖥 ",
             "keyColor": "#c4a7e7",
-            "format": "{}{}"
+            "format": "{2} {5}"
         },
         {
             "type": "shell",
-            "key": " >_",
+            "key": "  SHELL >_",
             "keyColor": "#c4a7e7",
-            "format": "{}"
+            "format": "{} {4}  {7}"
         },
         {
             "type": "terminal",
-            "key": "  ",
+            "key": "   TERM  ",
             "keyColor": "#c4a7e7",
-            "format": "{}"
+            "format": "{} {6} {2}"
         },
         {
             "type": "wm",
-            "key": "  ",
+            "key": "     WM  ",
             "keyColor": "#c4a7e7",
-            "format": "{}"
+            "format": "{} ({3})"
         },
         {
             "type": "cpu",
-            "key": " 󰍛 ",
+            "key": "    CPU 󰍛 ",
             "keyColor": "#c4a7e7",
             // "format": "{}"
         },
         {
             "type": "gpu",
-            "key": " 󰢮 ",
+            "key": "    GPU 󰢮 ",
             "keyColor": "#c4a7e7",
-            "format": "Intel Haswell-ULT @ 1.10 GHZ"
+            "format": "{} {6} {3}"
+            // "format": "Intel Haswell-ULT @ 1.10 GHZ"
         },
         {
             "type": "memory",
-            "key": " 🎟 ",
+            "key": " MEMORY 🎟 ",
             "keyColor": "#c4a7e7",
-            "format": "{} {}"
+            "format": "{}/{} {}"
         },
         {
             "type": "swap",
-            "key": " 🎟 ",
+            "key": "   SWAP 🎟 ",
             "keyColor": "#c4a7e7",
-            "format": "{} {}"
+            "format": "{}/{} {}"
         },
         {
             "type": "uptime",
-            "key": "  ",
+            "key": " UPTIME  ",
             "keyColor": "#c4a7e7",
             "format": "{} Days {} Hours {} Mins"
         },
         {
             "type": "battery",
-            "key": "  ",
+            "key": "BATTERY  ",
             "keyColor": "#c4a7e7",
             "format": ""
         },
         {
             "type": "packages",
-            "key": "  ",
+            "key": "PACKAGE  ",
             "keyColor": "#c4a7e7",
         },
         {
             "type": "disk",
-            "key": "  {}",
+            "key": " DISK {5}  ",
             "keyColor": "#c4a7e7",
-            "format": "{} {}"
+            "format": "Used({3}) Total({2})"
         }
         //"break",
         //"break",

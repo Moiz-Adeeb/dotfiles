@@ -1,3 +1,4 @@
+/* @import "styles/grayscale.css"; */
 @import "styles/catpuccin-mocha.css";
 
 * {
@@ -9,7 +10,8 @@
     padding: 0 0;
     font-size: 10px;
     font-weight: 900;
-    transition: all 0.075s ease-in-out;
+    letter-spacing: 0.125em;
+    transition: all 0.05s ease-in-out;
     /* font-family: "FiraCode Nerd Font", "Font Awesome 6 Free", FontAwesome, Roboto, Helvetica, Arial, sans-serif;  */
     font-family: "Font Awesome 7 Brands", "JetBrainsMono NerdFont Propo",  FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     /* font-family: "JetBrainsMonoNL NFP", "Font Awesome 7 Brands", FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
@@ -17,8 +19,9 @@
 
 window#waybar {
     border-radius: 0;
-    /* background-color: transparent; */
-    background-color: @crust;
+    background-color: transparent;
+    /* background-color: @crust; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 window#waybar #workspaces button:hover label {
@@ -85,6 +88,11 @@ window#waybar #workspaces button:hover label {
     color: #ebcb8b;
 }
 
+#mpd,
+#mpd#2,
+#mpd#3,
+#mpd#4,
+#custom-mpd,
 #clock,
 #battery,
 #backlight,
@@ -94,25 +102,33 @@ window#waybar #workspaces button:hover label {
 #window,
 #custom-pacman,
 #custom-launcher {
+    /* font-family: "JetBrainsMonoNL NFP", "Font Awesome 7 Brands", FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
+    background: @lavender;
     border: 1px solid shade(@crust, 1);
-    border-radius: 4px;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
     padding: 0px 6px;
     opacity: 1;
     margin: 0 1px;
     color: @base;
 }
 
-#clock:hover,
-#battery:hover,
-#backlight:hover,
-#pulseaudio:hover,
-#bluetooth:hover,
-#network:hover,
-#window:hover,
-#custom-pacman:hover,
-#custom-launcher:hover {
-    padding: 0px 10px;
-}
+/* #mpd:hover, */
+/* #mpd#2:hover, */
+/* #mpd#3:hover, */
+/* #mpd#4:hover, */
+/* #custom-mpd:hover, */
+/* #clock:hover, */
+/* #battery:hover, */
+/* #backlight:hover, */
+/* #pulseaudio:hover, */
+/* #bluetooth:hover, */
+/* #network:hover, */
+/* #window:hover, */
+/* #custom-pacman:hover, */
+/* #custom-launcher:hover { */
+/*     padding: 0px 10px; */
+/* } */
 
 #window {
     border: none;
@@ -131,15 +147,16 @@ window#waybar.empty #window {
 }
 
 #clock {
-    /* font-size: 10px; */
+    background: @crust;
+    letter-spacing: 0.125em;
     font-weight: 900;
     color: @text;
     padding: 0px 10px;
 }
 
-#clock:hover {
-    padding: 0 40px;
-}
+/* #clock:hover { */
+/*     padding: 0 40px; */
+/* } */
 
 @keyframes charging {
     to {
@@ -240,17 +257,17 @@ window#waybar.empty #window {
 }
 
 #idle_inhibitor {
-    background-color: #ebcb8b;
+    background-color: @yellow;
     border-right: none;
-    border-radius: 4px 0 0 4px;
-    padding: 0px 8px;
+    border-radius: 0 0 0 4px;
+    padding: 0 6px 0 8px;
 }
 
 #custom-power {
     background-color: @red;
     border-left: none;
-    border-radius: 0 4px 4px 0;
-    padding: 0px 8px;
+    border-radius: 0 0 4px 0;
+    padding: 0 8px 0 6px;
 }
 
 #custom-power:hover,
@@ -265,17 +282,24 @@ window#waybar.empty #window {
 
 #center,
 #dock,
-#window-tab,
+/* #window-tab, */
 #status,
 #buttons {
     /* margin: 0px 6px; */
     /* padding: 0 1px; */
     background: @crust;
-    /* border-radius: 0 0 4px 4px; */
+    border-left: 1px solid @crust;
+    border-right: 1px solid @crust;
+    border-radius: 0 0 4px 4px;
 }
 
 #buttons {
+    /* margin-right: 110px; */
     padding: 0 1px;
+}
+
+#dock {
+    /* margin-left: 110px; */
 }
 
 #center {
@@ -292,21 +316,3 @@ window#waybar.empty #window {
     border: none;
     background-color: transparent;
 }
-#tags button {
-    padding: 0 5px;
-    color: #a0a0a0;
-}
-
-#tags button.focused {
-    color: #ffffff;
-    font-weight: bold;
-}
-
-#tags button.occupied {
-    color: #64727d;
-}
-
-#tags button.urgent {
-    color: #ebcb8b;
-}
-

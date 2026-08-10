@@ -1,0 +1,148 @@
+{
+  "lastUpdated": 1786271026804,
+  "plugins": [
+    {
+      "id": "plugin_0155zZVATbJU3jHUmPP9NvMC",
+      "name": "cowork-plugin-management",
+      "updatedAt": "2026-08-04T00:17:31.551133Z",
+      "updatedAtVerified": true,
+      "displayName": "Plugin Management",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_01Eeb9y5m4iFuY3yRtytYfdc",
+      "name": "marketing",
+      "updatedAt": "2026-08-04T00:17:31.510057Z",
+      "updatedAtVerified": true,
+      "displayName": "Marketing",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_01XXJmxLXPEhPMmnxmrgntNw",
+      "name": "design",
+      "updatedAt": "2026-08-04T00:17:32.314161Z",
+      "updatedAtVerified": true,
+      "displayName": "Design",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_01FTLa86dhbVJ3HB1LdHdhN7",
+      "name": "engineering",
+      "updatedAt": "2026-08-04T00:17:32.340173Z",
+      "updatedAtVerified": true,
+      "displayName": "Engineering",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_01KmRfL8EXGF3PeqMRzef1TR",
+      "name": "finance",
+      "updatedAt": "2026-08-04T00:17:31.527092Z",
+      "updatedAtVerified": true,
+      "displayName": "Finance",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_011v5h6QUzBZvas64y44XLhy",
+      "name": "pdf-viewer",
+      "updatedAt": "2026-08-04T00:17:35.022864Z",
+      "updatedAtVerified": true,
+      "displayName": "PDF Viewer",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_019TBdWa5NQJJuDFmEc4k6BJ",
+      "name": "operations",
+      "updatedAt": "2026-08-04T00:17:32.326536Z",
+      "updatedAtVerified": true,
+      "displayName": "Operations",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_01AYHYqVLaZRH2Vi6aHgDwEw",
+      "name": "product-management",
+      "updatedAt": "2026-08-04T00:17:31.550558Z",
+      "updatedAtVerified": true,
+      "displayName": "Product Management",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_01SfWJSiw6JtGbsuW75PKvPK",
+      "name": "sales",
+      "updatedAt": "2026-08-04T00:17:31.535942Z",
+      "updatedAtVerified": true,
+      "displayName": "Sales",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_016kCmK4LhtWJEFSRVcTBZeB",
+      "name": "customer-support",
+      "updatedAt": "2026-08-04T00:17:31.526763Z",
+      "updatedAtVerified": true,
+      "displayName": "Customer Support",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_017zncz89kmhdPgdpZQZm5Dj",
+      "name": "small-business",
+      "updatedAt": "2026-08-04T00:17:32.598378Z",
+      "updatedAtVerified": true,
+      "displayName": "Small Business",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_012ABz1xjgtJYWKrcJkXW6ad",
+      "name": "legal",
+      "updatedAt": "2026-08-04T00:17:31.511091Z",
+      "updatedAtVerified": true,
+      "displayName": "Legal",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    },
+    {
+      "id": "plugin_014WxCYbLf7f3uw2isHFR9US",
+      "name": "productivity",
+      "updatedAt": "2026-08-07T15:14:15.660614Z",
+      "updatedAtVerified": true,
+      "displayName": "Productivity",
+      "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
+      "marketplaceName": "knowledge-work-plugins",
+      "installedBy": "user",
+      "installationPreference": "available"
+    }
+  ]
+}

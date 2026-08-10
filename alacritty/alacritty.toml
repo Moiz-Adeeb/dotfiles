@@ -1,4 +1,3 @@
-
 [env]
 TERM = "xterm-256color"
 
@@ -17,7 +16,7 @@ y = 5
 semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
 
 [terminal.shell]
-program = "/usr/bin/fish" 
+program = "/usr/bin/fish"
 args = ["--login"]
 
 [scrolling]
@@ -28,7 +27,7 @@ multiplier = 5
 size = 12
 
 [font.normal]
-family = "JetBrainsMono NerdFont Propo"  
+family = "JetBrainsMono NerdFont Propo"
 style = "Regular"
 
 [colors]
@@ -41,7 +40,6 @@ hide_when_typing = true
 style = "Block"
 blink_interval = 500
 blink_timeout = 5
-
 
 [[keyboard.bindings]]
 key = "Plus"
@@ -59,13 +57,10 @@ mods = "Control"
 action = "ResetFontSize"
 
 [general]
-import = [
-  "/home/moiz/.config/alacritty/themes/themes/custom.toml"
-]
-
+import = ["/home/moiz/.config/alacritty/themes/themes/custom.toml"]
 
 # [[hints.enabled]]
-# command = "xdg-open" 
+# command = "xdg-open"
 # hyperlinks = true
 # post_processing = true
 # mouse.enabled = true

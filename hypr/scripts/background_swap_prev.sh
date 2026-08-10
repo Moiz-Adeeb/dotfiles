@@ -33,7 +33,7 @@ echo "Next background: $NEXT_BACKGROUND"
 echo "$NEXT_BACKGROUND" > "$BACKGROUND_FILE"
 
 # Restart swaybg service to apply the new background
-systemctl --user restart swaybg
+systemctl --user restart wallpaper
 
 # Send a notification with the new background name
 # notify-send -i "$NEXT_BACKGROUND" "Background changed" "$(basename $NEXT_BACKGROUND)"
