@@ -1,8 +1,0 @@
-{
-    "window.autoDetectColorScheme": true,
-    "cursor.composer.shouldChimeAfterChatFinishes": true,
-    "cursor.general.glassShowWarningNotifications": true,
-    "cursor.composer.codeBlockWordWrap": true,
-    "cursor.composer.conversationDensity": "detailed",
-    "cursor.general.emailPrivacyEnabled": true
-}

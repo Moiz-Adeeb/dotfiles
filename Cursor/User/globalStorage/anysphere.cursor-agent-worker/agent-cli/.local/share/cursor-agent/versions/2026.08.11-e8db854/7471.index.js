@@ -1,1 +1,0 @@
-"use strict";exports.id=7471,exports.ids=[7471],exports.modules={"./src/commands/get-channel.ts"(e,s,t){function n(e){const s=e.get();s.channel&&process.stdout.write(`${s.channel}\n`),process.exit(0)}t.r(s),t.d(s,{handleGetChannel:()=>n})}};
