@@ -45,6 +45,10 @@ hl.config({
 		enabled = false,
 	},
 
+	binds = {
+        allow_workspace_cycles = true,
+    },
+
 	render = {
 		expand_undersized_textures = false,
 		cm_auto_hdr = false,

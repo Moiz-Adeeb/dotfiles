@@ -1,39 +1,4 @@
 {
-  "custom/tag1": {
-    "exec": "cat /dev/shm/dwl_tag_1",
-    "return-type": "json",
-    "signal": 1
-  },
-  "custom/tag2": {
-    "exec": "cat /dev/shm/dwl_tag_2",
-    "return-type": "json",
-    "signal": 1
-  },
-  "custom/tag3": {
-    "exec": "cat /dev/shm/dwl_tag_3",
-    "return-type": "json",
-    "signal": 1
-  },
-  "custom/tag4": {
-    "exec": "cat /dev/shm/dwl_tag_4",
-    "return-type": "json",
-    "signal": 1
-  },
-  "custom/tag5": {
-    "exec": "cat /dev/shm/dwl_tag_5",
-    "return-type": "json",
-    "signal": 1
-  },
-  "group/dwltags": {
-    "orientation": "horizontal",
-    "modules": [
-      "custom/tag1",
-      "custom/tag2",
-      "custom/tag3",
-      "custom/tag4",
-      "custom/tag5"
-    ]
-  },
   "hyprland/workspaces": {
     "all-outputs": true,
     "format": "",
@@ -93,11 +58,11 @@
     "on-click": "mpc -q pause && mpc -q next && mpc -q start"
   },
   "custom/mpd": {
-    // "format": " {title} - {artist}",
-    "format": "{}",
+    "format": " {title} - {artist}",
+    // "format": "{}",
     "interval": 5,
-    // "exec": "mpc current --format='\"title\":\"%title%\",\"artist\":\"%artist%\"'"
-    "exec": "mpc current"
+    "exec": "mpc current --format='\"title\":\"%title%\",\"artist\":\"%artist%\"'"
+    // "exec": "mpc current"
   },
   "hyprland/submap": {
     "format": "<span color=\"#B7BDF8\" style=\"italic\">{}</span>",
@@ -260,6 +225,12 @@
     "on-click-right": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
     "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
     "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%"
+  },
+  "tray": {
+    "icon-size": 16,
+    "spacing": 10,
+    "show-passive-items": true,
+    "reverse-direction": false
   },
   "custom/pacman": {
     "interval": "once",

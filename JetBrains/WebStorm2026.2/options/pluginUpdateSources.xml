@@ -1,0 +1,9 @@
+<application>
+  <component name="PluginUpdateSources">
+    <sources>
+      <entry pluginId="org.intellij.prisma">
+        <updateSource host="https://plugins.jetbrains.com/pluginManager" />
+      </entry>
+    </sources>
+  </component>
+</application>

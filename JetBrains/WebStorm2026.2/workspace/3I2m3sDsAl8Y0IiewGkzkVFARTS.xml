@@ -1,0 +1,522 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="OIBSIP" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="xo2nvxn32qiu">
+      <file>
+        <entry file="file://$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/app.ts" file-id="432" managing-fs="1786970760266">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="468">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"app.ts","foregroundColor":-3025959,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,34,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,84,121,112,101,83,99,114,105,112,116,70,105,108,101,46,115,118,103,18,36,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,121,112,101,83,99,114,105,112,116,46,115,118,103,26,10,74,97,118,97,83,99,114,105,112,116,34,26,105,110,116,101,108,108,105,106,46,106,97,118,97,115,99,114,105,112,116,46,112,97,114,115,101,114,40,-23,-107,-64,-58,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/routes/user.routes.ts" file-id="451" managing-fs="1786970760266">
+          <provider editor-type-id="text-editor" selected="true">
+            <state>
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"user.routes.ts","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,34,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,84,121,112,101,83,99,114,105,112,116,70,105,108,101,46,115,118,103,18,36,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,121,112,101,83,99,114,105,112,116,46,115,118,103,26,10,74,97,118,97,83,99,114,105,112,116,34,26,105,110,116,101,108,108,105,106,46,106,97,118,97,115,99,114,105,112,116,46,112,97,114,115,101,114,40,-23,-107,-64,-58,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "TypeScript": {
+      "usageCount": 2,
+      "lastUsed": 1786971295132
+    }
+  }
+}]]></component>
+  <component name="IdeDocumentHistory"><![CDATA[{}]]></component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="TypeScript">
+      <summary usageCount="2" lastUsage="1786971295132" />
+    </language>
+  </component>
+  <component name="ProjectRoots">
+    <project-root url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OIBSIP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OIBSIP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OIBSIP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OIBSIP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OIBSIP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OIBSIP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/routes}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="OIBSIP" />
+            <item name="OIBSIP" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="OIBSIP" />
+              <item name="dir{file:///home/moiz/development/OIBSIP}" type="462c0819:PsiDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.idea" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".idea" />
+                <item name="dir{file:///home/moiz/development/OIBSIP/.idea}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="WebDev-L3-Pizza-Delivery-Full-Stack-Application" />
+                <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="backend" />
+                  <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/dist" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="dist" />
+                    <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/dist}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/node_modules" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="node_modules" />
+                    <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/node_modules}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                    <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="Application" />
+                      <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Common" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="Common" />
+                      <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Common}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Domain" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="Domain" />
+                      <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Domain}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Infrastructure" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="Infrastructure" />
+                      <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Infrastructure}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Persistence" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="Persistence" />
+                      <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Persistence}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Test" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="Test" />
+                      <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Test}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="WebApi" />
+                      <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/composition" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="composition" />
+                        <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/composition}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/middleware" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="middleware" />
+                        <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/middleware}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/routes" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="routes" />
+                        <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/routes}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/routes/auth.routes.ts" />
+                            </map>
+                          </attributes>
+                          <data iconModule="intellij.javascript.parser" iconPath="icons/expui/fileTypes/typeScript.svg" iconPlugin="JavaScript" isLeaf="true" text="auth.routes.ts" />
+                          <item name="auth.routes.ts" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/routes/user.routes.ts" />
+                            </map>
+                          </attributes>
+                          <data iconModule="intellij.javascript.parser" iconPath="icons/expui/fileTypes/typeScript.svg" iconPlugin="JavaScript" isLeaf="true" text="user.routes.ts" />
+                          <item name="user.routes.ts" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/types" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="types" />
+                        <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/types}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/utils" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="utils" />
+                        <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/utils}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/app.ts" />
+                          </map>
+                        </attributes>
+                        <data iconModule="intellij.javascript.parser" iconPath="icons/expui/fileTypes/typeScript.svg" iconPlugin="JavaScript" isLeaf="true" text="app.ts" />
+                        <item name="app.ts" type="ab9368bb:PsiFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/server.ts" />
+                          </map>
+                        </attributes>
+                        <data iconModule="intellij.javascript.parser" iconPath="icons/expui/fileTypes/typeScript.svg" iconPlugin="JavaScript" isLeaf="true" text="server.ts" />
+                        <item name="server.ts" type="ab9368bb:PsiFileNode" />
+                      </presentation>
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/.env" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text=".env" />
+                    <item name=".env" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/.sh" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/shell.svg" iconPlugin="com.intellij" isLeaf="true" text=".sh" />
+                    <item name=".sh" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/cspell.json" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/json.svg" iconPlugin="com.intellij" isLeaf="true" text="cspell.json" />
+                    <item name="cspell.json" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/eslint.config.js" />
+                      </map>
+                    </attributes>
+                    <data iconModule="intellij.javascript.backend" iconPath="icons/expui/fileTypes/eslint.svg" iconPlugin="JavaScript" isLeaf="true" text="eslint.config.js" />
+                    <item name="eslint.config.js" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/package.json" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/json.svg" iconPlugin="com.intellij" isLeaf="true" text="package.json" />
+                    <item name="package.json" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/package-lock.json" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/json.svg" iconPlugin="com.intellij" isLeaf="true" text="package-lock.json" />
+                    <item name="package-lock.json" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/tsconfig.build.json" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/json.svg" iconPlugin="com.intellij" isLeaf="true" text="tsconfig.build.json" />
+                    <item name="tsconfig.build.json" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/tsconfig.json" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/json.svg" iconPlugin="com.intellij" isLeaf="true" text="tsconfig.json" />
+                    <item name="tsconfig.json" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/frontend" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="frontend" />
+                  <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/frontend}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/ReadMe.md" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/markdown.svg" iconPlugin="com.intellij" isLeaf="true" text="ReadMe.md" />
+                  <item name="ReadMe.md" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/library.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/fileTypes/scratches.svg" iconPlugin="com.intellij" isLeaf="true" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Node.js.Dev Run" />
+    </history>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="622000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21432292" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" show_stripe_button="false" weight="0.32972717" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.32972717" left="0.21432292" />
+    </layoutV2>
+    <recentWindows>
+      <value>Run</value>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" key="#Plugins" timestamp="1786970919720">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" key="#Plugins/0.0.1920.1080@0.0.1920.1080" timestamp="1786970919720" />
+    <state x="0" y="0" width="890" height="671" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1786971457752">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" width="890" height="671" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1786971457752" />
+    <state width="1435" height="313" key="GridCell.Tab.0.bottom" timestamp="1786971472632">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1435" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1786971472632" />
+    <state width="1435" height="313" key="GridCell.Tab.0.center" timestamp="1786971472632">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1435" height="313" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1786971472632" />
+    <state width="1435" height="313" key="GridCell.Tab.0.left" timestamp="1786971472632">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1435" height="313" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1786971472632" />
+    <state width="1435" height="313" key="GridCell.Tab.0.right" timestamp="1786971472632">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1435" height="313" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1786971472632" />
+    <state x="0" y="0" width="1708" height="887" key="SettingsEditor" timestamp="1786971472840">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" width="1708" height="887" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1786971472840" />
+    <state x="0" y="0" key="UniversalFileChooserDialog" timestamp="1786971468653">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" key="UniversalFileChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1786971468653" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/routes/user.routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

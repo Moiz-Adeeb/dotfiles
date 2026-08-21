@@ -27,15 +27,14 @@
             "mpd#3",
             "mpd#4",
             "custom/mpd",
-            // "group/dwltags",
-            // "custom/dwl-tags",
             "hyprland/submap"
         ]
     },
     "group/window-tab": {
         "orientation": "horizontal",
         "modules": [
-            "hyprland/window"
+            "hyprland/window",
+            "tray"
         ]
     },
     "group/left": {

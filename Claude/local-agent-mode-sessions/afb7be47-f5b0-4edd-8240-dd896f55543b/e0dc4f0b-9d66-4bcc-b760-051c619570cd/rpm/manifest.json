@@ -1,10 +1,10 @@
 {
-  "lastUpdated": 1786271026804,
+  "lastUpdated": 1787237858621,
   "plugins": [
     {
       "id": "plugin_0155zZVATbJU3jHUmPP9NvMC",
       "name": "cowork-plugin-management",
-      "updatedAt": "2026-08-04T00:17:31.551133Z",
+      "updatedAt": "2026-08-13T13:37:22.981915Z",
       "updatedAtVerified": true,
       "displayName": "Plugin Management",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
@@ -15,7 +15,7 @@
     {
       "id": "plugin_01Eeb9y5m4iFuY3yRtytYfdc",
       "name": "marketing",
-      "updatedAt": "2026-08-04T00:17:31.510057Z",
+      "updatedAt": "2026-08-13T13:37:22.558858Z",
       "updatedAtVerified": true,
       "displayName": "Marketing",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
@@ -26,7 +26,7 @@
     {
       "id": "plugin_01XXJmxLXPEhPMmnxmrgntNw",
       "name": "design",
-      "updatedAt": "2026-08-04T00:17:32.314161Z",
+      "updatedAt": "2026-08-13T13:37:21.801455Z",
       "updatedAtVerified": true,
       "displayName": "Design",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
@@ -37,7 +37,7 @@
     {
       "id": "plugin_01FTLa86dhbVJ3HB1LdHdhN7",
       "name": "engineering",
-      "updatedAt": "2026-08-04T00:17:32.340173Z",
+      "updatedAt": "2026-08-13T13:37:21.895882Z",
       "updatedAtVerified": true,
       "displayName": "Engineering",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
@@ -48,7 +48,7 @@
     {
       "id": "plugin_01KmRfL8EXGF3PeqMRzef1TR",
       "name": "finance",
-      "updatedAt": "2026-08-04T00:17:31.527092Z",
+      "updatedAt": "2026-08-13T13:37:22.750915Z",
       "updatedAtVerified": true,
       "displayName": "Finance",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
@@ -59,7 +59,7 @@
     {
       "id": "plugin_011v5h6QUzBZvas64y44XLhy",
       "name": "pdf-viewer",
-      "updatedAt": "2026-08-04T00:17:35.022864Z",
+      "updatedAt": "2026-08-13T13:37:19.224499Z",
       "updatedAtVerified": true,
       "displayName": "PDF Viewer",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
@@ -70,7 +70,7 @@
     {
       "id": "plugin_019TBdWa5NQJJuDFmEc4k6BJ",
       "name": "operations",
-      "updatedAt": "2026-08-04T00:17:32.326536Z",
+      "updatedAt": "2026-08-13T13:37:21.678302Z",
       "updatedAtVerified": true,
       "displayName": "Operations",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
@@ -81,7 +81,7 @@
     {
       "id": "plugin_01AYHYqVLaZRH2Vi6aHgDwEw",
       "name": "product-management",
-      "updatedAt": "2026-08-04T00:17:31.550558Z",
+      "updatedAt": "2026-08-13T13:37:22.543414Z",
       "updatedAtVerified": true,
       "displayName": "Product Management",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
@@ -92,7 +92,7 @@
     {
       "id": "plugin_01SfWJSiw6JtGbsuW75PKvPK",
       "name": "sales",
-      "updatedAt": "2026-08-04T00:17:31.535942Z",
+      "updatedAt": "2026-08-13T13:37:22.814554Z",
       "updatedAtVerified": true,
       "displayName": "Sales",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
@@ -103,7 +103,7 @@
     {
       "id": "plugin_016kCmK4LhtWJEFSRVcTBZeB",
       "name": "customer-support",
-      "updatedAt": "2026-08-04T00:17:31.526763Z",
+      "updatedAt": "2026-08-13T13:37:22.473621Z",
       "updatedAtVerified": true,
       "displayName": "Customer Support",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
@@ -114,7 +114,7 @@
     {
       "id": "plugin_017zncz89kmhdPgdpZQZm5Dj",
       "name": "small-business",
-      "updatedAt": "2026-08-04T00:17:32.598378Z",
+      "updatedAt": "2026-08-13T13:37:22.121984Z",
       "updatedAtVerified": true,
       "displayName": "Small Business",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
@@ -125,7 +125,7 @@
     {
       "id": "plugin_012ABz1xjgtJYWKrcJkXW6ad",
       "name": "legal",
-      "updatedAt": "2026-08-04T00:17:31.511091Z",
+      "updatedAt": "2026-08-13T13:37:22.744073Z",
       "updatedAtVerified": true,
       "displayName": "Legal",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",
@@ -136,7 +136,7 @@
     {
       "id": "plugin_014WxCYbLf7f3uw2isHFR9US",
       "name": "productivity",
-      "updatedAt": "2026-08-07T15:14:15.660614Z",
+      "updatedAt": "2026-08-13T13:37:23.214936Z",
       "updatedAtVerified": true,
       "displayName": "Productivity",
       "marketplaceId": "marketplace_01QRn9XAjzzeAokB5nPWVMxP",

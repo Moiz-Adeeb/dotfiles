@@ -1,3 +1,3 @@
-2026/08/05-10:16:03.775 887 Reusing MANIFEST /home/moiz/.config/Claude/Partitions/launch-preview-static/Local Storage/leveldb/MANIFEST-000001
-2026/08/05-10:16:03.775 887 Recovering log #3
-2026/08/05-10:16:03.777 887 Reusing old log /home/moiz/.config/Claude/Partitions/launch-preview-static/Local Storage/leveldb/000003.log 
+2026/08/19-14:58:51.301 10db5 Reusing MANIFEST /home/moiz/.config/Claude/Partitions/launch-preview-static/Local Storage/leveldb/MANIFEST-000001
+2026/08/19-14:58:51.301 10db5 Recovering log #3
+2026/08/19-14:58:51.302 10db5 Reusing old log /home/moiz/.config/Claude/Partitions/launch-preview-static/Local Storage/leveldb/000003.log 

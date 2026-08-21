@@ -12,7 +12,7 @@ return {
 
 		require("nvim-tree").setup({
 			view = {
-				width = 30,
+				width = 40,
 				side = "left",
 			},
 			git = {

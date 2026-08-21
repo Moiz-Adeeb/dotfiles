@@ -93,6 +93,7 @@
         "hyprtoolkit",
         "dismissnotify",
         "Pavucontrol",
-        "pavucontrol"
+        "pavucontrol",
+        "lazydocker"
     ]
 }

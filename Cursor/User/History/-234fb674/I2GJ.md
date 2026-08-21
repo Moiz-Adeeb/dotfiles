@@ -1,0 +1,239 @@
+---
+name: Backend Codebase Overview
+overview: Your backend is a well-structured TypeScript/Express API using Clean Architecture, MongoDB/Prisma, and JWT auth. The foundation is solid, but the pizza delivery domain (menu, orders, cart) has not been built yet — only user management and authentication exist today.
+todos:
+  - id: pizza-domain
+    content: Add Pizza/Order domain models, Prisma schema, use cases, and routes
+    status: pending
+  - id: roles-auth
+    content: Wire Role enum into User schema and add role-based authorization
+    status: pending
+  - id: tech-debt
+    content: Fix package.json deps, consolidate auth into use cases, add .env.example + README
+    status: pending
+  - id: testing
+    content: Add Vitest/Jest test suite for use cases and API routes
+    status: pending
+isProject: false
+---
+
+# Backend Codebase Overview
+
+## What You Have
+
+This is a **Pizza Delivery Full-Stack Application**, but the backend currently implements **user management + JWT authentication only**. No pizza, menu, cart, or order features exist yet.
+
+```mermaid
+flowchart TB
+    subgraph webapi [WebApi Layer]
+        Routes[auth.routes / user.routes]
+        SmartRouter[SmartRouter + Swagger]
+        Middleware[authenticate / validate / errorHandler]
+    end
+
+    subgraph application [Application Layer]
+        UserCmd[CreateUser / UpdateUserById]
+        UserQry[GetUserById / GetUserOwnData]
+        AuthCmd[Login / RefreshAccessToken - unused]
+    end
+
+    subgraph domain [Domain Layer]
+        UserEntity[User entity]
+        EmailVO[Email value object]
+        RoleEnum[Role enum - unused]
+    end
+
+    subgraph infra [Infrastructure + Persistence]
+        JWT[JwtTokenService]
+        Bcrypt[BcryptPasswordHasher]
+        Prisma[Prisma + MongoDB]
+    end
+
+    Routes --> SmartRouter --> Middleware
+    SmartRouter --> UserCmd
+    SmartRouter --> UserQry
+    UserCmd --> UserEntity
+    UserQry --> UserEntity
+    UserEntity --> EmailVO
+    UserCmd --> Prisma
+    UserQry --> Prisma
+    Routes --> JWT
+    Routes --> Bcrypt
+```
+
+---
+
+## Tech Stack
+
+| Concern | Choice |
+|---------|--------|
+| Language | TypeScript (strict, ES2022) |
+| Framework | Express 5 |
+| Database | MongoDB via Prisma ORM |
+| DI | tsyringe |
+| Validation + OpenAPI | Zod + `@asteasolutions/zod-to-openapi` |
+| Auth | JWT access tokens + hashed refresh tokens (bcrypt for passwords) |
+| Security | helmet, cors |
+| Docs | Swagger UI at `/api-docs` |
+
+**Entry point:** [`src/WebApi/server.ts`](src/WebApi/server.ts) → [`src/WebApi/app.ts`](src/WebApi/app.ts)
+
+---
+
+## Architecture (Clean / Hexagonal)
+
+Layers are enforced by [`eslint.config.js`](eslint.config.js) via `eslint-plugin-boundaries`:
+
+- **WebApi** — HTTP routes, middleware, Swagger, DI container
+- **Application** — use cases (commands/queries), DTOs as Zod schemas
+- **Domain** — entities and value objects (no framework deps)
+- **Infrastructure** — JWT, bcrypt implementations
+- **Persistence** — Prisma schema, mappers
+- **Common** — `Result<T>` pattern, errors, request context
+
+Path aliases in `tsconfig.json`: `@webapi/*`, `@application/*`, `@domain/*`, etc.
+
+### Standout patterns
+
+1. **`SmartRouter`** ([`src/WebApi/utils/smartRouter.ts`](src/WebApi/utils/smartRouter.ts)) — declarative route definition that wires validation, auth, handler, and OpenAPI registration in one place.
+
+2. **`Result<T>` pattern** — use cases return `Result` instead of throwing; HTTP status mapping happens in [`handleRequest.ts`](src/WebApi/utils/handleRequest.ts).
+
+3. **Request context** — [`requestContext.ts`](src/Common/context/requestContext.ts) uses `AsyncLocalStorage` so services extending `BaseService` can access the current user without passing it through every method.
+
+4. **Mapper layer** — [`UserMapper.ts`](src/Persistence/mappers/UserMapper.ts) translates between Prisma rows and domain entities.
+
+---
+
+## API Endpoints (current)
+
+| Method | Path | Auth | Purpose |
+|--------|------|------|---------|
+| GET | `/` | No | Health check |
+| POST | `/login` | No | Password login or refresh token grant |
+| GET | `/users/me` | Yes | Current user profile |
+| POST | `/users` | Yes | Create user (admin-style) |
+| GET | `/users/:id` | Yes | Get user by ID |
+| PUT | `/users/:id` | Yes | Update email/fullName |
+| GET | `/api-docs` | No | Swagger UI |
+
+**Login** supports a discriminated union body (`grant_type: "password" | "refresh_token"`) defined in [`AuthenticateRequest.ts`](src/Common/request/AuthenticateRequest.ts). Refresh flow includes token rotation and reuse detection (revokes all sessions on reuse).
+
+---
+
+## Data Models
+
+[`src/Persistence/prisma/schema.prisma`](src/Persistence/prisma/schema.prisma):
+
+- **User** — `id`, `email` (unique), `passwordHash`, `fullName`, `createdAt`
+- **RefreshToken** — `id`, `userId`, `tokenHash` (SHA-256), `expiresAt`, `revoked`, `createdAt`
+
+Domain: [`User`](src/Domain/entities/User.ts) entity + [`Email`](src/Domain/valueObjects/Email.ts) value object.
+
+**Not wired up:** [`Role`](src/Domain/enums/role.ts) enum (`ADMIN` / `USER`) exists but is not in the schema or auth middleware.
+
+---
+
+## Auth Flow
+
+```mermaid
+sequenceDiagram
+    participant Client
+    participant AuthRoute as POST /login
+    participant Bcrypt
+    participant JWT as JwtTokenService
+    participant DB as MongoDB
+
+    Client->>AuthRoute: email + password
+    AuthRoute->>DB: find user by email
+    AuthRoute->>Bcrypt: compare password
+    AuthRoute->>JWT: sign access token
+    AuthRoute->>DB: store hashed refresh token
+    AuthRoute->>Client: accessToken + refreshToken
+
+    Client->>AuthRoute: refresh_token grant
+    AuthRoute->>DB: verify + rotate refresh token
+    AuthRoute->>Client: new token pair
+```
+
+Protected routes use [`authenticate.ts`](src/WebApi/middleware/authenticate.ts) middleware expecting `Authorization: Bearer <token>`.
+
+**Missing auth features:** logout/revocation endpoint, password reset, role-based authorization, public self-registration.
+
+---
+
+## Configuration
+
+From [`.env`](.env) (no `.env.example` provided):
+
+- `PORT` (default 3000)
+- `DATABASE_URL` — MongoDB with `replicaSet=rs0` (required by Prisma for MongoDB)
+- `JWT_ACCESS_SECRET`, `JWT_ACCESS_EXPIRES_IN` (e.g. 15m)
+- `JWT_REFRESH_EXPIRES_IN_DAYS` (default 7)
+- `JWT_REFRESH_SECRET` — **defined but never used**
+
+**Run locally:**
+```bash
+npm run prisma:generate
+npm run prisma:migrate   # prisma db push
+npm run dev
+```
+
+---
+
+## What's Missing (Pizza Domain)
+
+The project name implies a pizza delivery app, but none of these exist yet:
+
+- Pizza / menu models and CRUD
+- Cart or order flow
+- Delivery tracking
+- Customer vs admin role separation
+- Public signup endpoint
+
+The full-stack repo appears to contain only the `backend/` folder in your workspace — no frontend was found alongside it.
+
+---
+
+## Technical Debt and Inconsistencies
+
+1. **Missing explicit dependencies** — `express` and `zod` are used everywhere but not listed in [`package.json`](package.json) dependencies (likely pulled transitively). Should be declared explicitly.
+
+2. **Unnecessary `crypto` npm package** — Node provides `crypto` natively; the `"crypto": "^1.0.1"` dependency can be removed.
+
+3. **Duplicate/unused code:**
+   - [`Login.ts`](src/Application/services/auth/commands/Login.ts) and [`RefreshAccessToken.ts`](src/Application/services/auth/commands/RefreshAccessToken.ts) exist but auth logic is **inlined in `auth.routes.ts`**
+   - Unused: `defineRoute.ts`, `asyncHandler.ts`, `BaseAuthService.ts`
+
+4. **`POST /users` requires auth** — blocks public signup; likely intentional for admin provisioning but worth confirming.
+
+5. **`PUT /users/:id` returns HTTP 203** — unusual; typically 200.
+
+6. **Dual PrismaClient instances** — singleton in [`PrismaClient.ts`](src/Persistence/prisma/PrismaClient.ts) vs separate instance in DI container.
+
+7. **No formal test suite** — only manual scripts in `src/Test/user/`; no `npm test` script.
+
+8. **No README or `.env.example`** for onboarding.
+
+---
+
+## Assessment
+
+**Strengths:**
+- Clean Architecture with enforced layer boundaries
+- Smart routing + auto-generated OpenAPI docs
+- Solid JWT refresh token rotation with reuse detection
+- Domain-driven patterns (entities, value objects, Result type)
+
+**Current state:** Early-stage foundation (~15–20 source files of real logic). Ready to extend with pizza domain features following the same patterns (Domain entity → Application use case → SmartRouter route → Prisma schema + mapper).
+
+---
+
+## Suggested Next Steps (when you're ready)
+
+Pick based on your priority:
+
+1. **Build pizza domain** — Add `Pizza`, `Order`, `OrderItem` models; menu CRUD; order placement flow
+2. **Wire up roles** — Add `role` to User schema; admin-only routes; public signup for customers
+3. **Clean up tech debt** — Move auth logic into `Login`/`RefreshAccessToken` use cases; add explicit deps; add `.env.example` + README
+4. **Add tests** — Vitest/Jest for use cases and route integration tests

@@ -6,74 +6,79 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/moiz/Code/Booking/backend/test-express"
+                "folderUri": "file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1782645459143"
-            }
-        ]
+        "emptyWindows": []
     },
-    "windowControlHeight": 35,
+    "windowControlHeight": 42,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/moiz/Code/Booking/backend/test-express": "__default__profile__"
+            "file:///home/moiz/Code/Booking/backend/test-express": "__default__profile__",
+            "file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend": "__default__profile__"
         },
-        "emptyWindows": {
-            "1782645459143": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/moiz/Code/Booking/backend/test-express",
-            "backupPath": "/home/moiz/.config/Code - OSS/Backups/aca1f7e69b52673a3ca6cc43ab0ff103",
+            "folder": "file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend",
+            "backupPath": "/home/moiz/.config/Code - OSS/Backups/3d4f60afdaba61ff0d72c5d3ac32f7f5",
             "uiState": {
-                "mode": 0,
-                "x": 1,
-                "y": 0,
-                "width": 978,
-                "height": 1081
+                "mode": 1,
+                "x": 10,
+                "y": 10,
+                "width": 1896,
+                "height": 1039,
+                "zoomLevel": 1
             }
         },
         "openedWindows": []
     },
     "theme": "vs-dark",
-    "themeBackground": "#121314",
+    "themeBackground": "#0d1117",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#bfbfbf",
-            "background": "#121314",
-            "editorBackground": "#121314",
-            "titleBarBackground": "#191a1b",
-            "titleBarBorder": "#2a2b2c",
-            "activityBarBackground": "#191a1b",
-            "activityBarBorder": "#2a2b2c",
-            "sideBarBackground": "#191a1b",
-            "sideBarBorder": "#2a2b2c",
-            "statusBarBackground": "#191a1b",
-            "statusBarBorder": "#2a2b2c",
-            "statusBarNoFolderBackground": "#191a1b"
+            "foreground": "#e6edf3",
+            "background": "#0d1117",
+            "editorBackground": "#0d1117",
+            "titleBarBackground": "#0d1117",
+            "titleBarBorder": "#30363d",
+            "activityBarBackground": "#0d1117",
+            "activityBarBorder": "#30363d",
+            "sideBarBackground": "#010409",
+            "sideBarBorder": "#30363d",
+            "panelBackground": "#010409",
+            "editorGroupBorder": "#30363d",
+            "agentsPanelBackground": "#010409",
+            "agentsPanelBorder": "rgba(230, 237, 243, 0.15)",
+            "statusBarBackground": "#0d1117",
+            "statusBarBorder": "#30363d",
+            "statusBarNoFolderBackground": "#0d1117"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
-            "activityBarWidth": 48,
-            "sideBarWidth": 239,
+            "activityBarWidth": 0,
+            "sideBarWidth": 259,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
-            "windowBorder": false
+            "windowBorder": false,
+            "modernUI": false
         }
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 239,
+            "sideBarWidth": 259,
             "auxiliaryBarWidth": 239,
             "workspaces": {
                 "8cca77eb060b0619beecddff95205abf": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "dac7682d5c5af146a936f62c36b537e8": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }

@@ -2868,16 +2868,14 @@ tile(Monitor *m)
 
 
 /* dwindle patch */
-
 void
 dwindle(Monitor *m)
 {
 	unsigned int i, n = 0;
 	int nx, ny, nw, nh;
 	int horizontal;
-	int border_width;
 	Client *c;
-	int g = gaps ? gappx : 0;
+	int g = gaps ? gappx : 0; /* check if gaps are toggled on globally */
 
 	/* count clients */
 	wl_list_for_each(c, &clients, link)
@@ -2887,13 +2885,11 @@ dwindle(Monitor *m)
 	if (n == 0)
 		return;
 
-	/* smart gaps check */
+	/* If smartgaps is enabled and there is only 1 window, don't add gaps */
 	if (smartgaps && n == 1)
 		g = 0;
 
-	/* Dynamic border property tracking */
-	border_width = (n == 1) ? 0 : borderpx;
-
+	/* Apply outer layout margins */
 	nx = m->w.x + g;
 	ny = m->w.y + g;
 	nw = m->w.width - (2 * g);
@@ -2906,12 +2902,11 @@ dwindle(Monitor *m)
 		if (!VISIBLEON(c, m) || c->isfloating || c->isfullscreen)
 			continue;
 
-		/* Force update the window context's border configuration */
-		c->bw = border_width;
-
 		if (i == n - 1) {
+			/* last window gets remaining space (minus bottom/right inner gap edge) */
 			resize(c, (struct wlr_box){nx, ny, nw, nh}, 0);
 		} else if (horizontal) {
+			/* Split vertically, factoring in half-gaps between the windows */
 			int w = (nw - g) / 2;
 
 			resize(c, (struct wlr_box){nx, ny, w, nh}, 0);
@@ -2919,6 +2914,7 @@ dwindle(Monitor *m)
 			nx += w + g;
 			nw -= w + g;
 		} else {
+			/* Split horizontally, factoring in half-gaps between the windows */
 			int h = (nh - g) / 2;
 
 			resize(c, (struct wlr_box){nx, ny, nw, h}, 0);
@@ -2931,65 +2927,6 @@ dwindle(Monitor *m)
 		i++;
 	}
 }
-// void
-// dwindle(Monitor *m)
-// {
-// 	unsigned int i, n = 0;
-// 	int nx, ny, nw, nh;
-// 	int horizontal;
-// 	Client *c;
-// 	int g = gaps ? gappx : 0; /* check if gaps are toggled on globally */
-//
-// 	/* count clients */
-// 	wl_list_for_each(c, &clients, link)
-// 		if (VISIBLEON(c, m) && !c->isfloating && !c->isfullscreen)
-// 			n++;
-//
-// 	if (n == 0)
-// 		return;
-//
-// 	/* If smartgaps is enabled and there is only 1 window, don't add gaps */
-// 	if (smartgaps && n == 1)
-// 		g = 0;
-//
-// 	/* Apply outer layout margins */
-// 	nx = m->w.x + g;
-// 	ny = m->w.y + g;
-// 	nw = m->w.width - (2 * g);
-// 	nh = m->w.height - (2 * g);
-//
-// 	horizontal = 1; // toggle split direction
-// 	i = 0;
-//
-// 	wl_list_for_each(c, &clients, link) {
-// 		if (!VISIBLEON(c, m) || c->isfloating || c->isfullscreen)
-// 			continue;
-//
-// 		if (i == n - 1) {
-// 			/* last window gets remaining space (minus bottom/right inner gap edge) */
-// 			resize(c, (struct wlr_box){nx, ny, nw, nh}, 0);
-// 		} else if (horizontal) {
-// 			/* Split vertically, factoring in half-gaps between the windows */
-// 			int w = (nw - g) / 2;
-//
-// 			resize(c, (struct wlr_box){nx, ny, w, nh}, 0);
-//
-// 			nx += w + g;
-// 			nw -= w + g;
-// 		} else {
-// 			/* Split horizontally, factoring in half-gaps between the windows */
-// 			int h = (nh - g) / 2;
-//
-// 			resize(c, (struct wlr_box){nx, ny, nw, h}, 0);
-//
-// 			ny += h + g;
-// 			nh -= h + g;
-// 		}
-//
-// 		horizontal = !horizontal;
-// 		i++;
-// 	}
-// }
 void
 movestack(const Arg *arg)
 {

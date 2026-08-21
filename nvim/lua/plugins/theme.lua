@@ -1,31 +1,4 @@
 -- return {
--- 	"rebelot/kanagawa.nvim",
--- 	lazy = false,
--- 	priority = 1000,
--- 	config = function()
--- 		require("kanagawa").setup({
--- 			theme = "lotus", -- Options: 'wave', 'dragon', 'lotus'
--- 			transparent = true, -- Removes underlying layout background
--- 		})
--- 		vim.cmd([[colorscheme kanagawa]])
--- 	end,
--- }
-
--- return {
--- 	"scottmckendry/cyberdream.nvim",
--- 	lazy = false,
--- 	priority = 1000,
--- 	config = function()
--- 		require("cyberdream").setup({
--- 			transparent = true,
--- 			italic_comments = true,
--- 			hide_fillchars = true,
--- 		})
--- 		vim.cmd([[colorscheme cyberdream]])
--- 	end,
--- }
-
--- return {
 -- 	"shaunsingh/nord.nvim",
 -- 	lazy = false,
 -- 	priority = 1000,
@@ -52,24 +25,24 @@
 -- 	end,
 -- }
 
-return {
-  "catppuccin/nvim",
-  lazy = false,
-  priority = 1000,
-  opts = {
-    flavour = "mocha",
-    transparent_background = true,
-    terminal_colore = true,
-    styles = {
-      sidebars = "transparent",
-      --floats = "dark",
-    },
-  },
-  config = function(_, opts)
-    require("catppuccin").setup(opts)
-    vim.cmd([[colorscheme catppuccin]])
-  end,
-}
+-- return {
+--   "catppuccin/nvim",
+--   lazy = false,
+--   priority = 1000,
+--   opts = {
+--     flavour = "mocha",
+--     transparent_background = true,
+--     terminal_colore = true,
+--     styles = {
+--       sidebars = "transparent",
+--       --floats = "dark",
+--     },
+--   },
+--   config = function(_, opts)
+--     require("catppuccin").setup(opts)
+--     vim.cmd([[colorscheme catppuccin]])
+--   end,
+-- }
 
 -- return {
 --   "folke/tokyonight.nvim",
@@ -170,40 +143,40 @@ return {
 --  end,
 -- }
 
--- return {
---   "projekt0n/github-nvim-theme",
---   name = "github-theme",
---   lazy = false,
---   priority = 1000,
---   opts = {
---     options = {
---       transparent = true,    -- Main editor stays transparent
---       styles = {
---         sidebars = "transparent", -- This is a text style; keep it default/transparent
---       },
---       darken = {
---         sidebars = {
---           enable = true,      -- THIS makes them solid/non-transparent
---           list = {
---             "qf",
---             "vista_kind",
---             "terminal",
---             "neo-tree",
---             "packer",
---             "spectre_panel",
---             "NeogitStatus",
---             "NvimTree",       -- Standard name for NvimTree
---           },
---         },
---         floats = true,
---       },
---     },
---   },
---   config = function(_, opts)
---     require("github-theme").setup(opts)
---     vim.cmd("colorscheme github_dark_high_contrast")
---   end,
--- }
+return {
+  "projekt0n/github-nvim-theme",
+  name = "github-theme",
+  lazy = false,
+  priority = 1000,
+  opts = {
+    options = {
+      transparent = true,    -- Main editor stays transparent
+      styles = {
+        sidebars = "transparent", -- This is a text style; keep it default/transparent
+      },
+      darken = {
+        sidebars = {
+          enable = true,      -- THIS makes them solid/non-transparent
+          list = {
+            "qf",
+            "vista_kind",
+            "terminal",
+            "neo-tree",
+            "packer",
+            "spectre_panel",
+            "NeogitStatus",
+            "NvimTree",       -- Standard name for NvimTree
+          },
+        },
+        floats = true,
+      },
+    },
+  },
+  config = function(_, opts)
+    require("github-theme").setup(opts)
+    vim.cmd("colorscheme github_dark_high_contrast")
+  end,
+}
 
 -- return {
 --   "catppuccin/nvim",

@@ -1,0 +1,10 @@
+{
+    "git.openRepositoryInParentFolders": "always",
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "'JetBrains Mono', monospace",
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.fontSize": 16,
+    "editor.mouseWheelZoom": true,
+    "window.menuBarVisibility": "compact"
+}

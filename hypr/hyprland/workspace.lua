@@ -3,7 +3,8 @@ local keys = require("hyprland.config.keys")
 -- WORKSPACE  --
 ----------------
 -- Cycle Workspaces
-hl.bind(keys.mod[1] .. " + " .. keys.tab, hl.dsp.focus({ workspace = "e+1" }), { repeating = true })
+-- hl.bind(keys.mod[1] .. " + " .. keys.tab, hl.dsp.focus({ workspace = "e+1" }), { repeating = true })
+hl.bind(keys.mod[1] .. " + " .. keys.tab, hl.dsp.focus({ workspace = "previous" }), { repeating = false })
 hl.bind(keys.mod[1] .. " + " .. keys.shift .. "+" .. keys.tab, hl.dsp.focus({ workspace = "e-1" }), { repeating = true })
 
 hl.bind(keys.mod[1] .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))

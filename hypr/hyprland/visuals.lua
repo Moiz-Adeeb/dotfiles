@@ -1,11 +1,12 @@
 hl.config({
 	general = {
-		gaps_out = 0,
-		gaps_in = 0,
+		gaps_out = 8,
+		gaps_in = 4,
 		border_size = 2,
 
 		col = {
-			active_border = "rgb(33ccff)", --{
+			active_border = "rgb(33ccff)",
+			-- active_border = { 
 			-- 	colors = {
 			-- 		"rgba(33ccffff)",
 			-- 		"rgba(00ff99ff)",
@@ -13,7 +14,8 @@ hl.config({
 			-- 	angle = 45,
 			-- },
 
-			inactive_border = "rgb(595959)", --{
+			inactive_border = "rgb(c6a0f6)",
+			-- inactive_border = { 
 			-- 	colors = {
 			-- 		"rgba(cba6f7ff)",
 			-- 		"rgba(c6a0f6ff)",
@@ -28,8 +30,8 @@ hl.config({
 	},
 
 	decoration = {
-		rounding = 0,
-		rounding_power = 0,
+		rounding = 10,
+		rounding_power = 2,
 		active_opacity = 1,
 		inactive_opacity = 1,
 
@@ -38,11 +40,11 @@ hl.config({
 		},
 
 		blur = {
-			enabled = false,
-			-- size = 0,
-			-- passes = 0,
+			enabled = true,
+			size = 4,
+			passes = 10,
 			-- ignore_opacity = false,
-			-- new_optimizations = true,
+			new_optimizations = true,
 			-- xray = false,
 		},
 
@@ -52,31 +54,6 @@ hl.config({
 
 	animations = {
 		enabled = false,
-		-- bezier = {
-		-- 	"linear, 0.0, 0.0, 1.0, 1.0",
-		-- 	"instantOut, 0.0, 1.0, 0.1, 1.0",
-		-- 	"snapFast, 0.25, 1.0, 0.25, 1.0",
-		-- },
-		--
-		-- animation = {
-		-- 	"global, 1, 2, snapFast",
-		-- 	"border, 1, 1, linear",
-		-- 	"windows, 1, 2, instantOut, slide",
-		-- 	"windowsIn, 1, 2, instantOut, slide",
-		-- 	"windowsOut, 1, 1.5, linear, popin 80%",
-		-- 	"fadeIn, 1, 1.5, linear",
-		-- 	"fadeOut, 1, 1, linear",
-		-- 	"fade, 1, 1.5, linear",
-		-- 	"layers, 1, 2, snapFast, fade",
-		-- 	"layersIn, 1, 2, snapFast, fade",
-		-- 	"layersOut, 1, 1.5, linear, fade",
-		-- 	"fadeLayersIn, 1, 1.5, linear",
-		-- 	"fadeLayersOut, 1, 1, linear",
-		-- 	"workspaces, 1, 2.2, snapFast, slidefade 10%",
-		-- 	"workspacesIn, 1, 2.2, snapFast, slidefade 10%",
-		-- 	"workspacesOut, 1, 1.5, linear, fade",
-		-- 	"zoomFactor, 1, 2, instantOut",
-		-- },
 	},
 
 	dwindle = {

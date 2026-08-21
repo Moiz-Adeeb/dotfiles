@@ -1,12 +1,12 @@
 {
-  "lastUpdated": 1786271904320,
+  "lastUpdated": 1787237897963,
   "skills": [
     {
       "skillId": "morning",
       "name": "morning",
       "description": "Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use only when the user explicitly asks to run, see, or set up their morning brief, or if they invoke /morning by name. A question about their day, schedule, or calendar is not by itself a request for the brief; answer it directly instead.",
       "creatorType": "anthropic",
-      "updatedAt": "2026-08-07T20:29:13.363095Z",
+      "updatedAt": "2026-08-14T00:06:41.628595Z",
       "enabled": true
     },
     {
@@ -14,7 +14,7 @@
       "name": "learn",
       "description": "Use this skill when the user wants intellectual understanding — learning how or why something works, not getting a task done or soliciting Claude's judgment.\n\nTrigger for:\n- Explicit learning requests: teach, explain, ELI5, walk me through, quiz me, flashcards, \"I'm rusty on\"; definitions (\"what is X\")\n- Terse concept names implying \"help me understand this\": \"Galois theory,\" \"transformers, from scratch\"\n- Confusion signals: \"won't stick,\" \"keep mixing these up,\" \"not getting it\"\n- Learning-path questions: prerequisites, sequencing, what to study before X\n- Conceptual questions about mechanisms, causes, or dynamics\n\nDon't trigger for:\n- Tasks: coding, writing, calculation, translation, factual lookup, news updates\n- Personal troubleshooting; resource/textbook recommendations\n- Claude's evaluative verdict: opinion prompts (\"do you think X\", \"settle this\", \"honest take\", \"is X dead / still taken seriously\") and interpretive takes (\"was X really as harsh as people say\")\n",
       "creatorType": "anthropic",
-      "updatedAt": "2026-08-07T20:29:13.038022Z",
+      "updatedAt": "2026-08-14T00:06:41.375866Z",
       "enabled": true
     },
     {
@@ -22,7 +22,7 @@
       "name": "skill-creator",
       "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
       "creatorType": "anthropic",
-      "updatedAt": "2026-08-07T20:29:12.887201Z",
+      "updatedAt": "2026-08-14T00:06:41.225431Z",
       "enabled": true
     },
     {
@@ -30,7 +30,7 @@
       "name": "mcp-builder",
       "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
       "creatorType": "anthropic",
-      "updatedAt": "2026-08-07T20:29:12.996595Z",
+      "updatedAt": "2026-08-14T00:06:41.316092Z",
       "enabled": true
     },
     {
@@ -85,6 +85,14 @@
       "skillId": "consolidate-memory",
       "name": "consolidate-memory",
       "description": "Reflective pass over your memory files — merge duplicates, fix stale facts, prune the index.",
+      "creatorType": "anthropic",
+      "updatedAt": null,
+      "enabled": true
+    },
+    {
+      "skillId": "explain-usage",
+      "name": "explain-usage",
+      "description": "Explain where this session's tokens went, with one simple chart in plain language. Use when the user says things like \"explain my usage\", \"where did my tokens go\", or asks for a usage breakdown.",
       "creatorType": "anthropic",
       "updatedAt": null,
       "enabled": true

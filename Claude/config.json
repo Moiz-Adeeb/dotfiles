@@ -1,5 +1,5 @@
 {
-	"updaterLastSeenVersion": "1.24012.9",
+	"updaterLastSeenVersion": "1.32885.1",
 	"first_launch_at": 1784875795214,
 	"locale": "en-US",
 	"userThemeMode": "system",
@@ -12,9 +12,62 @@
 	"remote_uploads_migration_done_v1_4600f5d83276": true,
 	"remote_marketplace_migration_done_v1": true,
 	"dxt:allowlistEnabled:e0dc4f0b-9d66-4bcc-b760-051c619570cd": false,
-	"dxt:allowlistLastUpdated:e0dc4f0b-9d66-4bcc-b760-051c619570cd": "2026-08-09T10:03:46.805Z",
+	"dxt:allowlistLastUpdated:e0dc4f0b-9d66-4bcc-b760-051c619570cd": "2026-08-20T14:37:39.800Z",
 	"dxt:allowlistEnabled:765beca6-9b36-44ff-8273-7bc3f1922c8e": false,
 	"dxt:allowlistLastUpdated:765beca6-9b36-44ff-8273-7bc3f1922c8e": "2026-08-02T10:36:18.074Z",
 	"remote_uploads_migration_done_v1_cf4eb64544b2": true,
-	"remote_uploads_migration_done_v1_db1273c58436": true
+	"remote_uploads_migration_done_v1_db1273c58436": true,
+	"quickWindowPosition": {
+		"absolutePointInWorkspace": {
+			"x": 0,
+			"y": 0
+		},
+		"monitor": {
+			"accelerometerSupport": "unknown",
+			"bounds": {
+				"x": 0,
+				"y": 0,
+				"width": 1920,
+				"height": 1080
+			},
+			"colorDepth": 24,
+			"colorSpace": "{primaries:BT709, transfer:SRGB, matrix:RGB, range:FULL}",
+			"depthPerComponent": 8,
+			"detected": true,
+			"displayFrequency": 0,
+			"id": 38,
+			"internal": false,
+			"label": "SANTAK CORP. HDTV          SN-000000001 (HDMI-A-1)",
+			"maximumCursorSize": {
+				"width": 0,
+				"height": 0
+			},
+			"monochrome": false,
+			"nativeOrigin": {
+				"x": 0,
+				"y": 0
+			},
+			"rotation": 0,
+			"scaleFactor": 1,
+			"size": {
+				"width": 1920,
+				"height": 1080
+			},
+			"workArea": {
+				"x": 0,
+				"y": 0,
+				"width": 1920,
+				"height": 1080
+			},
+			"workAreaSize": {
+				"width": 1920,
+				"height": 1080
+			},
+			"touchSupport": "unknown"
+		},
+		"relativePointFromMonitor": {
+			"x": 0,
+			"y": 0
+		}
+	}
 }

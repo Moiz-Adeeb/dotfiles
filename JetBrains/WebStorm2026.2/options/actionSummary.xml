@@ -1,0 +1,64 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ActivateProjectToolWindow">
+      <i c="8" l="1786971349062" />
+    </e>
+    <e n="ActivateTerminalToolWindow">
+      <i c="3" l="1786971934651" />
+    </e>
+    <e n="Debug">
+      <i c="1" l="1786971557909" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="39" l="1786971413560" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="2" l="1786971501701" />
+    </e>
+    <e n="OpenFile">
+      <i c="1" l="1786971464932" />
+    </e>
+    <e n="ProjectFromVersionControl">
+      <i c="1" l="1786971461114" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="11" l="1786971918013" />
+    </e>
+    <e n="Run">
+      <i c="4" l="1786971921303" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="3" l="1786971540062" />
+    </e>
+    <e n="ShowSettings">
+      <i c="2" l="1786971170998" />
+    </e>
+    <e n="Terminal.AiAgents.AgentSelector">
+      <i c="1" l="1786971946463" />
+    </e>
+    <e n="WelcomeScreen.OpenDirectoryProject">
+      <i c="1" l="1786970825657" />
+    </e>
+    <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.JbChooserAction">
+      <i c="1" l="1786970774990" />
+    </e>
+    <e n="com.intellij.ide.startup.importSettings.chooser.settingChooser.SettingChooserItemAction">
+      <i c="1" l="1786970778656" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="3" l="1786971487426" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.KeymapImplKt$notifyAboutMissingKeymap$1$projectOpened$1$action$2">
+      <i c="1" l="1786970859537" />
+    </e>
+    <e n="com.intellij.terminal.frontend.action.SendShortcutToTerminalAction">
+      <i c="1" l="1786971940409" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1786971931749" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="5" l="1786971836483" />
+    </e>
+  </component>
+</application>

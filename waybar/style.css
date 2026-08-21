@@ -8,10 +8,10 @@
     padding: 0;
     margin: 0;
     padding: 0 0;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 900;
     letter-spacing: 0.125em;
-    transition: all 0.05s ease-in-out;
+    /* transition: all 0.05s ease-in-out; */
     /* font-family: "FiraCode Nerd Font", "Font Awesome 6 Free", FontAwesome, Roboto, Helvetica, Arial, sans-serif;  */
     font-family: "Font Awesome 7 Brands", "JetBrainsMono NerdFont Propo",  FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     /* font-family: "JetBrainsMonoNL NFP", "Font Awesome 7 Brands", FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
@@ -99,7 +99,7 @@ window#waybar #workspaces button:hover label {
 #pulseaudio,
 #bluetooth,
 #network,
-#window,
+/* #window, */
 #custom-pacman,
 #custom-launcher {
     /* font-family: "JetBrainsMonoNL NFP", "Font Awesome 7 Brands", FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
@@ -113,6 +113,9 @@ window#waybar #workspaces button:hover label {
     color: @base;
 }
 
+#custom-mpd {
+    /* width: 10px; */
+}
 /* #mpd:hover, */
 /* #mpd#2:hover, */
 /* #mpd#3:hover, */
@@ -243,6 +246,26 @@ window#waybar.empty #window {
     background-color: #bf616a;
 }
 
+#tray {
+    /* background-color: #000000; */
+    border-radius: 4px;
+    padding: 0 4px;
+    margin: 0 4px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
 #custom-pacman {
     background-color: @lavender;
     color: @crust;
@@ -270,11 +293,6 @@ window#waybar.empty #window {
     padding: 0 8px 0 6px;
 }
 
-#custom-power:hover,
-#idle_inhibitor:hover {
-    padding: 0 12px;
-}
-
 #custom-launcher {
     font-size: 11px;
     background-color: @mauve;
@@ -282,14 +300,14 @@ window#waybar.empty #window {
 
 #center,
 #dock,
-/* #window-tab, */
+#window-tab,
 #status,
 #buttons {
     /* margin: 0px 6px; */
     /* padding: 0 1px; */
     background: @crust;
-    border-left: 1px solid @crust;
-    border-right: 1px solid @crust;
+   /* border-left: 1px solid @crust; */
+    /* border-right: 1px solid @crust; */
     border-radius: 0 0 4px 4px;
 }
 

@@ -1,0 +1,7 @@
+{
+    "git.openRepositoryInParentFolders": "always",
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "'JetBrains Mono', monospace",
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true
+}

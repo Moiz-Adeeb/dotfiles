@@ -1,0 +1,11 @@
+[color-theme]
+
+[color-theme.base]
+
+[core]
+modal = true
+color-theme = "Tokyo Night OLED"
+
+[editor]
+font-family = "JetBrains Mono"
+font-size = 16

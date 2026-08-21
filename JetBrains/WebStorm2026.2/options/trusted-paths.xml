@@ -1,0 +1,19 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/RiderProjects/nafisa-comm" value="true" />
+        <entry key="$USER_HOME$/RiderProjects/nafisa-comm/.idea/.idea.ChatApi" value="true" />
+        <entry key="$USER_HOME$/development/OIBSIP" value="true" />
+        <entry key="$USER_HOME$/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/development" />
+      </list>
+    </option>
+  </component>
+</application>

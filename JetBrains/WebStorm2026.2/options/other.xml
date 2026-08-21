@@ -1,0 +1,71 @@
+<application>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="JetBrains Mono Medium" />
+    <option name="fontSize" value="14.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+    <option name="overrideLafFonts" value="true" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "GeneralSettings.initiallyConfigured": "true",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "1",
+    "MarketplacePluginsSearchHistory": "/suggested",
+    "RunOnceActivity.AIPromoWindowAdvisorPreheat": "true",
+    "RunOnceActivity.TerminalFontSettingsService.fixStoredNonMonospacedFonts": "true",
+    "RunOnceActivity.TerminalOptionsProvider.TerminalEngineMigration.2026.1": "true",
+    "RunOnceActivity.TerminalOptionsProvider.appTitleMigration.2026.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.gateway.wsl.native.mode.default.set": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "RunOnceActivity.webstorm.auto-popup.quick-doc.initialized": "true",
+    "SettingsSearchHistory": "word wrap",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "cef_cleanup_temporary_cache_folder": "/home/moiz/.cache/JetBrains/WebStorm2026.2/jcef_cache_temp",
+    "cef_version_last_used": "144",
+    "evlsprt3.262": "6",
+    "experimental.ui.on.first.startup": "true",
+    "fileTypeChangedCounter": "2",
+    "fontSizeToResetConsole": "22.0",
+    "fontSizeToResetEditor": "22.0",
+    "git.working.trees.number.of.projects.with.git": "2",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "got.it.tooltip.js.debugger.terminal.start.debugger.from.url": "1",
+    "got.it.tooltip.settings.sync.in.settings": "1",
+    "ide.islands.ab3": "true",
+    "ide.islands.new.darcula": "true",
+    "ide.updates.old.dirs.scan.scheduled": "1787575647450",
+    "javascript.spte.engine.popup.was.shown": "true",
+    "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Islands Dark",
+    "registry.to.advanced.settings.migration.build": "WS-262.9437.145",
+    "settings.new.badge.shown.count.configurable.group.editor": "1",
+    "settings.new.badge.shown.count.preferences.editor": "2",
+    "trial.state.last.availability.check": "0",
+    "ts.lib.d.ts.version": "6.0.3",
+    "webstorm.hide.welcome.screen.promo": "true"
+  },
+  "keyToStringList": {
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="ReworkedTerminalUsage"><![CDATA[{
+  "enterKeyPressedTimes": 1,
+  "firstIdeSessionMoment": {
+    "type": "org.jetbrains.plugins.terminal.TerminalFirstIdeSessionMoment.BeforeTrackingStarted"
+  }
+}]]></component>
+  <component name="TerminalAgentsState"><![CDATA[{
+  "remainingJunieNewBadgePresentations": 2
+}]]></component>
+</application>

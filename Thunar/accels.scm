@@ -1,4 +1,4 @@
-; thunar GtkAccelMap rc-file         -*- scheme -*-
+; Thunar GtkAccelMap rc-file         -*- scheme -*-
 ; this file is an automated accelerator map dump
 ;
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-type" "")
@@ -7,7 +7,6 @@
 ; (gtk_accel_path "<Actions>/ThunarActionManager/cut" "<Primary>x")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-size" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/file-menu" "")
-; (gtk_accel_path "<Actions>/ThunarBookmarks/453b3fd6193e10a41ebd175e054273fd" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/close-tab" "<Primary>w")
 ; (gtk_accel_path "<Actions>/ThunarWindow/switch-previous-tab-alt" "<Primary><Shift>ISO_Left_Tab")
 ; (gtk_accel_path "<Actions>/ThunarStatusBar/toggle-size" "")
@@ -20,8 +19,8 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/switch-previous-tab" "<Primary>Page_Up")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/open" "<Primary>o")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-ascending" "")
-; (gtk_accel_path "<Actions>/ThunarWindow/toggle-split-view" "F3")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/4b162b7f1a312d966a15ad83f5b83c25" "")
+; (gtk_accel_path "<Actions>/ThunarWindow/toggle-split-view" "F3")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/copy-2" "<Primary>Insert")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/trash-delete" "Delete")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-recent" "")
@@ -83,6 +82,7 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/reload-alt-1" "F5")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/delete-3" "<Shift>KP_Delete")
 ; (gtk_accel_path "<Actions>/ThunarWindow/reload" "<Primary>r")
+; (gtk_accel_path "<Actions>/ThunarWindow/contents/help-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/arrange-items-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/unselect-all-files" "Escape")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-computer" "")
@@ -99,10 +99,9 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/search" "<Primary>f")
 ; (gtk_accel_path "<Actions>/ThunarWindow/new-tab" "<Primary>t")
 ; (gtk_accel_path "<Actions>/ThunarWindow/zoom-reset" "<Primary>0")
-; (gtk_accel_path "<Actions>/ThunarWindow/contents/help-menu" "")
+; (gtk_accel_path "<Actions>/ThunarStandardView/back-alt2" "Back")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/open-in-new-tab" "<Primary><Shift>p")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-location-selector-buttons" "")
-; (gtk_accel_path "<Actions>/ThunarStandardView/back-alt2" "Back")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/redo" "<Primary><Shift>z")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-trash" "")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/open-in-new-window" "<Primary><Shift>o")
