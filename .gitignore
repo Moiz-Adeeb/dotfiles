@@ -8,9 +8,14 @@ BraveSoftware/
 qutebrowser/
 zen/
 gh/
+zed/
+cursor/
+Cursor/
+zoom/
 # Ignore general application caches and temp files
 *Cache*
 *cache*
 *.log
 *.tmp
-
+zoom.conf
+zoomus.conf
