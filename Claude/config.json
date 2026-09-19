@@ -1,5 +1,5 @@
 {
-	"updaterLastSeenVersion": "1.32885.1",
+	"updaterLastSeenVersion": "1.52386.6",
 	"first_launch_at": 1784875795214,
 	"locale": "en-US",
 	"userThemeMode": "system",
@@ -12,7 +12,7 @@
 	"remote_uploads_migration_done_v1_4600f5d83276": true,
 	"remote_marketplace_migration_done_v1": true,
 	"dxt:allowlistEnabled:e0dc4f0b-9d66-4bcc-b760-051c619570cd": false,
-	"dxt:allowlistLastUpdated:e0dc4f0b-9d66-4bcc-b760-051c619570cd": "2026-08-20T14:37:39.800Z",
+	"dxt:allowlistLastUpdated:e0dc4f0b-9d66-4bcc-b760-051c619570cd": "2026-09-16T22:44:24.437Z",
 	"dxt:allowlistEnabled:765beca6-9b36-44ff-8273-7bc3f1922c8e": false,
 	"dxt:allowlistLastUpdated:765beca6-9b36-44ff-8273-7bc3f1922c8e": "2026-08-02T10:36:18.074Z",
 	"remote_uploads_migration_done_v1_cf4eb64544b2": true,
@@ -69,5 +69,15 @@
 			"x": 0,
 			"y": 0
 		}
+	},
+	"windowSizeWasSignedIn": true,
+	"bootFrameLayout": {
+		"sidebarWidth": 288,
+		"collapsed": true,
+		"narrowViewportMaxWidth": 700
+	},
+	"version_first_launch": {
+		"version": "1.52386.6",
+		"at": 1789577052008
 	}
 }

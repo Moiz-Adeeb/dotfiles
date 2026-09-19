@@ -1,7 +1,22 @@
 [
   {
-    "entries": [],
-    "lastUpdated": "2026-08-20T14:37:39.745Z",
+    "entries": [
+      {
+        "id": "ant.dir.gh.tomtom.tomtom-mcp",
+        "hash": null,
+        "certificateFingerprint": null,
+        "reason": "",
+        "is_internal_dxt": false
+      },
+      {
+        "id": "ant.dir.gh.tomtom.tomtom-mcp-linux-x64",
+        "hash": null,
+        "certificateFingerprint": null,
+        "reason": "",
+        "is_internal_dxt": false
+      }
+    ],
+    "lastUpdated": "2026-09-16T22:44:24.416Z",
     "url": "https://claude.ai/api/organizations/e0dc4f0b-9d66-4bcc-b760-051c619570cd/dxt/blocklist"
   }
 ]

@@ -1,11 +1,17 @@
 {
   "coworkUserFilesPath": "/home/moiz/Claude",
   "preferences": {
+    "menuBarEnabled": true,
+    "coworkBrowserToolsEnabled": false,
+    "coworkPreferredBrowser": "built_in",
     "launchPreviewPersistedWorkspaces": [],
     "launchPreviewSessionScopedSessions": [],
     "coworkScheduledTasksEnabled": false,
     "coworkHipaaRestricted": false,
+    "orgWorkAcrossAppsDisabled": true,
     "ccdScheduledTasksEnabled": false,
+    "hybridDetectLatched": true,
+    "earlyWindowShowLatched": true,
     "sidebarMode": "chat",
     "bypassPermissionsGateByAccount": {
       "2cd5789a-bc48-46d2-aef8-dd70a21b941d": false,
@@ -25,7 +31,8 @@
           "extraPanesByMode": {},
           "colWeightsByMode": {},
           "rowSplit": 0.5,
-          "draftNonce": 0
+          "draftNonce": 0,
+          "lastPrimaryCodeSession": null
         },
         "version": 4
       },
@@ -80,6 +87,7 @@
         },
         "version": 17
       }
-    }
+    },
+    "coworkLegacyRootGrantsPruned": true
   }
 }

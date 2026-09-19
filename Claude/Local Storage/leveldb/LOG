@@ -1,27 +1,6 @@
-2026/08/20-19:37:32.724 542ee Reusing MANIFEST /home/moiz/.config/Claude/Local Storage/leveldb/MANIFEST-000001
-2026/08/20-19:37:32.734 542ee Recovering log #3066
-2026/08/20-19:37:32.770 542ee Level-0 table #3069: started
-2026/08/20-19:37:32.856 542ee Level-0 table #3069: 2034263 bytes OK
-2026/08/20-19:37:32.896 542ee Delete type=0 #3066
-2026/08/20-19:38:32.984 542ed Level-0 table #3072: started
-2026/08/20-19:38:33.047 542ed Level-0 table #3072: 2062563 bytes OK
-2026/08/20-19:38:33.065 542ed Delete type=0 #3070
-2026/08/20-19:41:20.764 542ed Level-0 table #3074: started
-2026/08/20-19:41:20.829 542ed Level-0 table #3074: 2147859 bytes OK
-2026/08/20-19:41:20.853 542ed Delete type=0 #3071
-2026/08/20-19:41:20.854 542ed Compacting 4@0 + 1@1 files
-2026/08/20-19:41:21.015 542ed Generated table #3075@0: 70 keys, 2152429 bytes
-2026/08/20-19:41:21.032 542ed Generated table #3076@0: 13 keys, 1697 bytes
-2026/08/20-19:41:21.032 542ed Compacted 4@0 + 1@1 files => 2154126 bytes
-2026/08/20-19:41:21.050 542ed compacted to: files[ 0 2 1 0 0 0 0 ]
-2026/08/20-19:41:21.050 542ed Delete type=2 #3065
-2026/08/20-19:41:21.050 542ed Delete type=2 #3072
-2026/08/20-19:41:21.050 542ed Delete type=2 #3069
-2026/08/20-19:41:21.050 542ed Delete type=2 #3074
-2026/08/20-19:41:21.050 542ed Delete type=2 #3067
-2026/08/20-19:49:14.505 542ed Level-0 table #3078: started
-2026/08/20-19:49:14.567 542ed Level-0 table #3078: 2152995 bytes OK
-2026/08/20-19:49:14.584 542ed Delete type=0 #3073
-2026/08/20-19:53:11.519 542ed Level-0 table #3080: started
-2026/08/20-19:53:11.576 542ed Level-0 table #3080: 2153428 bytes OK
-2026/08/20-19:53:11.598 542ed Delete type=0 #3077
+2026/09/16-21:44:13.420 32142 Reusing MANIFEST /home/moiz/.config/Claude/Local Storage/leveldb/MANIFEST-000001
+2026/09/16-21:44:13.425 32142 Recovering log #3418
+2026/09/16-21:44:13.428 32142 Reusing old log /home/moiz/.config/Claude/Local Storage/leveldb/003418.log 
+2026/09/16-21:46:19.394 32143 Level-0 table #3422: started
+2026/09/16-21:46:19.410 32143 Level-0 table #3422: 22206 bytes OK
+2026/09/16-21:46:19.434 32143 Delete type=0 #3418

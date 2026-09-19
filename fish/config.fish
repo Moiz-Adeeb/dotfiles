@@ -41,7 +41,7 @@ abbr -a mv 'mv -iv'
 abbr -a rm 'rm -iv'
 abbr -a lg lazygit
 abbr -a ld lazydocker
-abbr -a toggle_monitor ~/.config/kanshi/scripts/toggle_monitor.sh
+abbr -a gc '~/.config/'
 
 if type -q lsd
     abbr -a ls 'lsd -F --group-dirs first'

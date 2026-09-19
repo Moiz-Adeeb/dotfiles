@@ -1,0 +1,39 @@
+00:00:00.000232 main     VirtualBox XPCOM Server 7.2.16 r174877 linux.amd64 (Aug 18 2026 19:12:07) release log
+00:00:00.000235 main     Log opened 2026-08-27T11:23:11.618855000Z
+00:00:00.000235 main     Build Type: release
+00:00:00.000237 main     OS Product: Linux
+00:00:00.000238 main     OS Release: 7.1.9-arch1-2
+00:00:00.000239 main     OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 21 Aug 2026 22:18:59 +0000
+00:00:00.000257 main     DMI Product Name: Latitude E7440
+00:00:00.000264 main     DMI Product Version: 01
+00:00:00.000271 main     Firmware type: UEFI
+00:00:00.000564 main     Secure Boot: Disabled
+00:00:00.000620 main     Host RAM: 7838MB (7.6GB) total, 5202MB (5.0GB) available
+00:00:00.000622 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000623 main     Process ID: 215166
+00:00:00.000623 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.005676 main     IPC socket path: /tmp/.vbox-moiz-ipc/ipcd
+00:00:00.009003 DCon01   VirtualBox: object creation starts
+00:00:00.009075 DCon01   Home directory: '/home/moiz/.config/VirtualBox'
+00:00:00.009205 DCon01   Loading settings file "/home/moiz/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.010617 DCon01   USB: Unknown USB device detected (idVendor: 0x1ea7, idProduct: 0x0064)
+00:00:00.010643 DCon01   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x07dc)
+00:00:00.010712 DCon01   Successfully initialised host USB using sysfs
+00:00:00.029401 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.030407 DCon01   HostDnsMonitor: initializing
+00:00:00.030619 DCon01   HostDnsMonitor: updating information
+00:00:00.030624 DCon01   HostDnsMonitor: unchanged
+00:00:00.032352 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.032439 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.033203 DCon01   Platform architecture set to 'x86'
+00:00:00.033451 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/run/media/moiz/Extended/VM/Work/Work.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.033455 DCon01   /build/virtualbox/src/VirtualBox-7.2.16/src/VBox/Main/src-server/MachineImpl.cpp[999] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.033768 DCon01   VirtualBox: object created
+00:00:00.048205 createBase ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Could not create the medium storage unit '/home/moiz/RawHDD.vmdk'.
+00:00:00.048212 createBase VMDK: Image path: '/home/moiz/RawHDD.vmdk'. Failed to open the raw drive '/dev/sda4' for reading (VERR_ACCESS_DENIED) (VERR_ACCESS_DENIED).
+00:00:00.048212 createBase VMDK: could not create raw descriptor for '/home/moiz/RawHDD.vmdk' (VERR_ACCESS_DENIED)}, preserve=false aResultDetail=-38
+00:00:05.051002 main     VirtualBox: object deletion starts
+00:00:05.051482 main     HostDnsMonitor: shutting down ...
+00:00:05.052287 main     HostDnsMonitor: shut down
+00:00:05.063737 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:05.063814 main     VirtualBox: object deleted

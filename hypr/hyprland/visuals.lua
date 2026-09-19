@@ -6,7 +6,7 @@ hl.config({
 
 		col = {
 			active_border = "rgb(33ccff)",
-			-- active_border = { 
+			-- active_border = {
 			-- 	colors = {
 			-- 		"rgba(33ccffff)",
 			-- 		"rgba(00ff99ff)",
@@ -15,7 +15,7 @@ hl.config({
 			-- },
 
 			inactive_border = "rgb(c6a0f6)",
-			-- inactive_border = { 
+			-- inactive_border = {
 			-- 	colors = {
 			-- 		"rgba(cba6f7ff)",
 			-- 		"rgba(c6a0f6ff)",

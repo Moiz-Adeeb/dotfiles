@@ -1,0 +1,18 @@
+{
+    "git.openRepositoryInParentFolders": "always",
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "'JetBrains Mono', monospace",
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.fontSize": 16,
+    "editor.mouseWheelZoom": true,
+    "window.menuBarVisibility": "compact",
+    "workbench.activityBar.compact": true,
+    "workbench.activityBar.location": "top",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "window.density.editorTabHeight": "compact",
+    "chat.titleBar.signIn.enabled": false,
+    "chat.titleBar.openInAgentsWindow.enabled": false,
+    "workbench.browser.showInTitleBar": true,
+    "explorer.confirmDelete": false
+}

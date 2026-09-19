@@ -1,10 +1,13 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="$Undo">
+      <i c="1" l="1787638168953" />
+    </e>
     <e n="ActivateProjectToolWindow">
-      <i c="8" l="1786971349062" />
+      <i c="12" l="1787638205017" />
     </e>
     <e n="ActivateTerminalToolWindow">
-      <i c="3" l="1786971934651" />
+      <i c="5" l="1787638192834" />
     </e>
     <e n="Debug">
       <i c="1" l="1786971557909" />
@@ -22,7 +25,7 @@
       <i c="1" l="1786971461114" />
     </e>
     <e n="RedesignedRunConfigurationSelector">
-      <i c="11" l="1786971918013" />
+      <i c="12" l="1787638007872" />
     </e>
     <e n="Run">
       <i c="4" l="1786971921303" />
@@ -39,6 +42,9 @@
     <e n="WelcomeScreen.OpenDirectoryProject">
       <i c="1" l="1786970825657" />
     </e>
+    <e n="com.intellij.codeInsight.daemon.NavigateAction">
+      <i c="3" l="1787638136818" />
+    </e>
     <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.JbChooserAction">
       <i c="1" l="1786970774990" />
     </e>
@@ -48,8 +54,14 @@
     <e n="com.intellij.notification.NotificationAction$Simple">
       <i c="3" l="1786971487426" />
     </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="2" l="1787638087441" />
+    </e>
     <e n="com.intellij.openapi.keymap.impl.KeymapImplKt$notifyAboutMissingKeymap$1$projectOpened$1$action$2">
       <i c="1" l="1786970859537" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="1" l="1787638209509" />
     </e>
     <e n="com.intellij.terminal.frontend.action.SendShortcutToTerminalAction">
       <i c="1" l="1786971940409" />

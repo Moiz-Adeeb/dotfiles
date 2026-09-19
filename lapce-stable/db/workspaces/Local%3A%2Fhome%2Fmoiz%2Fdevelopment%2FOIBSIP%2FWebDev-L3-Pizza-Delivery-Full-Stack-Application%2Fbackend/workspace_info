@@ -11,9 +11,6 @@
         "SourceControl",
         "Debug"
       ],
-      "RightTop": [
-        "DocumentSymbol"
-      ],
       "BottomLeft": [
         "Terminal",
         "Search",
@@ -21,27 +18,20 @@
         "CallHierarchy",
         "References",
         "Implementation"
+      ],
+      "RightTop": [
+        "DocumentSymbol"
       ]
     },
     "styles": {
+      "LeftTop": {
+        "active": 0,
+        "shown": false,
+        "maximized": false
+      },
       "BottomLeft": {
         "active": 0,
         "shown": true,
-        "maximized": false
-      },
-      "BottomRight": {
-        "active": 0,
-        "shown": false,
-        "maximized": false
-      },
-      "LeftTop": {
-        "active": 0,
-        "shown": true,
-        "maximized": false
-      },
-      "RightTop": {
-        "active": 0,
-        "shown": false,
         "maximized": false
       },
       "LeftBottom": {
@@ -49,7 +39,17 @@
         "shown": false,
         "maximized": false
       },
+      "BottomRight": {
+        "active": 0,
+        "shown": false,
+        "maximized": false
+      },
       "RightBottom": {
+        "active": 0,
+        "shown": false,
+        "maximized": false
+      },
+      "RightTop": {
         "active": 0,
         "shown": false,
         "maximized": false
@@ -64,17 +64,17 @@
       "right_split": 0.5
     },
     "sections": {
-      "FileExplorer": false,
-      "Variable": true,
-      "Breakpoint": true,
-      "Installed": true,
       "Process": true,
-      "StackFrame": true,
-      "OpenEditor": false,
+      "Available": false,
       "Error": true,
-      "Available": true,
+      "OpenEditor": false,
+      "Installed": true,
+      "FileExplorer": true,
+      "StackFrame": true,
+      "Warn": true,
+      "Breakpoint": true,
       "Changes": true,
-      "Warn": true
+      "Variable": true
     }
   },
   "breakpoints": {}

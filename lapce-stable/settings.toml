@@ -1,10 +1,21 @@
 [color-theme]
 
 [color-theme.base]
+orange = "#fab387"
+magenta = "#F5C2E7"
+blue = "#89b4fa"
+red = "#F38BA8"
+purple = "#cba6f7"
+black = "#45475A"
+green = "#A6E3A1"
+cyan = "#94E2D5"
+white = "#BAC2DE"
 
 [core]
 modal = true
-color-theme = "Tokyo Night OLED"
+color-theme = "Catppuccin Mocha"
+icon-theme = "Material Icons"
+custom-titlebar = true
 
 [editor]
 font-family = "JetBrains Mono"

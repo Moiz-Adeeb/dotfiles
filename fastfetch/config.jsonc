@@ -7,13 +7,13 @@
             "2": "#00dd77"
         },
         "padding": {
-            "top": 1,
-            "right": 1,
+            "top": 2,
+            "right": 2,
             "left": 1
         }
     },
     "display": {
-        "separator": " ── "
+        "separator": ": " //" ── "
     },
     "modules": [
         //"break",
@@ -54,6 +54,24 @@
             "format": "{} {6} {2}"
         },
         {
+            "type": "localip",
+            "key": "     IP 🌐",
+            "keyColor": "#c4a7e7",
+            "format": "{1} {4} {5}"
+        },
+        {
+            "type": "wifi",
+            "key": "   WIFI  ",
+            "keyColor": "#c4a7e7",
+            "format": "{4} ({3}) {7}"
+        },
+        {
+            "type": "bluetooth",
+            "key": "BLUE_TH  ",
+            "keyColor": "#c4a7e7",
+            "format": "{1} ({3}) {4}"
+        },
+        {
             "type": "wm",
             "key": "     WM  ",
             "keyColor": "#c4a7e7",
@@ -62,7 +80,7 @@
         {
             "type": "cpu",
             "key": "    CPU 󰍛 ",
-            "keyColor": "#c4a7e7",
+            "keyColor": "#c4a7e7"
             // "format": "{}"
         },
         {
@@ -80,7 +98,7 @@
         },
         {
             "type": "swap",
-            "key": "   SWAP 🎟 ",
+            "key": "   SWAP 📟",
             "keyColor": "#c4a7e7",
             "format": "{}/{} {}"
         },
@@ -99,11 +117,11 @@
         {
             "type": "packages",
             "key": "PACKAGE  ",
-            "keyColor": "#c4a7e7",
+            "keyColor": "#c4a7e7"
         },
         {
             "type": "disk",
-            "key": " DISK {5}  ",
+            "key": " DISK {5} 💿",
             "keyColor": "#c4a7e7",
             "format": "Used({3}) Total({2})"
         }

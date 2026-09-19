@@ -33,40 +33,40 @@
 -- })
 
 hl.window_rule({
-    match = { class = "^(float_large)$" },
-    float = true,
-    center = true,
-    size = "1600 900",
+	match = { class = "^(float_large)$" },
+	float = true,
+	center = true,
+	size = "1600 900",
 })
 
 hl.window_rule({
-    match = { class = "^(float_big)$" },
-    float = true,
-    center = true,
-    size = "1280 720",
+	match = { class = "^(float_big)$" },
+	float = true,
+	center = true,
+	size = "1280 720",
 })
 
 hl.window_rule({
-    match = { class = "^(float_small)$" },
-    float = true,
-    center = true,
-    size = "960 600",
+	match = { class = "^(float_small)$" },
+	float = true,
+	center = true,
+	size = "960 600",
 })
 
 hl.window_rule({
-    match = { class = "^(float_extra_small)$" },
-    float = true,
-    center = true,
-    size = "360 420",
-    border_size = 0,
-    -- border_color = "rgba(33CCFFAA)",
-    rounding = 20,
-    rounding_power = 10,
+	match = { class = "^(float_extra_small)$" },
+	float = true,
+	center = true,
+	size = "360 420",
+	border_size = 0,
+	-- border_color = "rgba(33CCFFAA)",
+	rounding = 20,
+	rounding_power = 10,
 })
 
 hl.window_rule({
-    match = { class = "^(thunar)$", "^(pavucontrol)$" },
-    float = true,
-    center = true,
-    size = "1600 900",
+	match = { class = "^(thunar)$", "^(pavucontrol)$" },
+	float = true,
+	center = true,
+	size = "1600 900",
 })

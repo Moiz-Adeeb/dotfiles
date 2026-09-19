@@ -52,7 +52,7 @@ local x = {
 		kb = "XF86MonBrightness",
 		ctl = "brightnessctl set +5% && busctl --user -- call rs.wl-gammarelay / rs.wl.gammarelay UpdateBrightness d",
 	},
-	sleep = "XF86Sleep"
+	sleep = "XF86Sleep",
 }
 
 -- Directories
@@ -88,14 +88,13 @@ x.term = {
 		{
 			id = "fastfetch",
 			name = "Fastfetch",
-			cmd = "fastfetch"
+			cmd = "fastfetch",
 		},
 		{
 			id = "macchina",
 			name = "Macchina",
-			cmd = "macchina"
+			cmd = "macchina",
 		},
-
 	},
 }
 

@@ -6,9 +6,9 @@
   //"mode": "overlay",
   "position": "top",
   "height": 0,
-  // "margin": "0 6 0 6",
+  // "margin": "0 0 2 0",
   "spacing": 48,
-  "width": 1880,
+  // "width": 1910,
   "modules-left": [
     "group/dock",
     "group/window-tab"

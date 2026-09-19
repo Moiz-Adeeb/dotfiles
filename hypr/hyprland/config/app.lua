@@ -70,8 +70,7 @@ local app = {
 			id = "hyprpwcenter",
 			name = "Hyprpwcenter",
 			cmd = "hyprpwcenter",
-		}
-
+		},
 	},
 	---@type AppList
 	file_mgr = {

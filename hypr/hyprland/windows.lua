@@ -16,7 +16,11 @@ hl.bind(keys.mod[1] .. " + " .. keys.space, hl.dsp.window.float({ action = "togg
 
 -- Cycle Focus on Windows
 hl.bind(keys.alt .. " + " .. keys.tab, hl.dsp.window.cycle_next({ visible = true, prev = true }), { repeating = true })
-hl.bind(keys.alt .. " + " .. keys.shift .. " + " .. keys.tab, hl.dsp.window.cycle_next({ historical = true }), { repeating = true })
+hl.bind(
+	keys.alt .. " + " .. keys.shift .. " + " .. keys.tab,
+	hl.dsp.window.cycle_next({ historical = true }),
+	{ repeating = true }
+)
 -- hl.bind("ALT + TAB", hl.dsp.layout("cyclenext loop"))
 
 --------------------

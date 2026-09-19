@@ -7,22 +7,85 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="xo2nvxn32qiu">
-      <file current-in-tab="true">
+    <leaf ideFingerprint="9370evlx5tiu" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
         <entry file="file://$PROJECT_DIR$/package.json" file-id="235" managing-fs="1786970760266">
           <provider editor-type-id="text-editor" selected="true">
             <state relative-caret-position="567">
-              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
             </state>
           </provider>
         </entry>
         <tab><![CDATA[{"tabTitle":"package.json","foregroundColor":-3025959,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,73,10,18,102,105,108,101,84,121,112,101,115,47,106,115,111,110,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,115,111,110,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-55,-15,-115,-58,-6,-1,-1,-1,-1,1,48,2]}]]></tab>
       </file>
       <file>
+        <entry file="file://$PROJECT_DIR$/src/WebApi/utils/smartRouter.ts" file-id="445" managing-fs="1786970760266">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-2358">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"smartRouter.ts","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,34,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,84,121,112,101,83,99,114,105,112,116,70,105,108,101,46,115,118,103,18,36,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,121,112,101,83,99,114,105,112,116,46,115,118,103,26,10,74,97,118,97,83,99,114,105,112,116,34,26,105,110,116,101,108,108,105,106,46,106,97,118,97,115,99,114,105,112,116,46,112,97,114,115,101,114,40,-23,-107,-64,-58,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/Application/services/users/commands/DeleteUserById.ts" file-id="13904" managing-fs="1786970760266">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-27">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"DeleteUserById.ts","foregroundColor":-1536119,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"e88f89"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,34,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,84,121,112,101,83,99,114,105,112,116,70,105,108,101,46,115,118,103,18,36,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,121,112,101,83,99,114,105,112,116,46,115,118,103,26,10,74,97,118,97,83,99,114,105,112,116,34,26,105,110,116,101,108,108,105,106,46,106,97,118,97,115,99,114,105,112,116,46,112,97,114,115,101,114,40,-23,-107,-64,-58,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/Application/services/users/commands/UpdateUserById.ts" file-id="480" managing-fs="1786970760266">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-729">
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"UpdateUserById.ts","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,34,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,84,121,112,101,83,99,114,105,112,116,70,105,108,101,46,115,118,103,18,36,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,121,112,101,83,99,114,105,112,116,46,115,118,103,26,10,74,97,118,97,83,99,114,105,112,116,34,26,105,110,116,101,108,108,105,106,46,106,97,118,97,115,99,114,105,112,116,46,112,97,114,115,101,114,40,-23,-107,-64,-58,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/WebApi/routes/user.routes.ts" file-id="451" managing-fs="1786970760266">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-481">
+              <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"user.routes.ts","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,34,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,84,121,112,101,83,99,114,105,112,116,70,105,108,101,46,115,118,103,18,36,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,121,112,101,83,99,114,105,112,116,46,115,118,103,26,10,74,97,118,97,83,99,114,105,112,116,34,26,105,110,116,101,108,108,105,106,46,106,97,118,97,115,99,114,105,112,116,46,112,97,114,115,101,114,40,-23,-107,-64,-58,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/WebApi/routes/auth.routes.ts" file-id="452" managing-fs="1786970760266">
+          <provider editor-type-id="text-editor" selected="true">
+            <state>
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"auth.routes.ts","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,34,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,84,121,112,101,83,99,114,105,112,116,70,105,108,101,46,115,118,103,18,36,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,121,112,101,83,99,114,105,112,116,46,115,118,103,26,10,74,97,118,97,83,99,114,105,112,116,34,26,105,110,116,101,108,108,105,106,46,106,97,118,97,115,99,114,105,112,116,46,112,97,114,115,101,114,40,-23,-107,-64,-58,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
         <entry file="file://$PROJECT_DIR$/src/WebApi/server.ts" file-id="427" managing-fs="1786970760266">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="297">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="270">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -31,31 +94,29 @@
         </entry>
         <tab><![CDATA[{"tabTitle":"server.ts","foregroundColor":-3025959,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,34,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,84,121,112,101,83,99,114,105,112,116,70,105,108,101,46,115,118,103,18,36,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,121,112,101,83,99,114,105,112,116,46,115,118,103,26,10,74,97,118,97,83,99,114,105,112,116,34,26,105,110,116,101,108,108,105,106,46,106,97,118,97,115,99,114,105,112,116,46,112,97,114,115,101,114,40,-23,-107,-64,-58,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
       </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/dist/WebApi/server.js" file-id="542" managing-fs="1786970760266">
-          <provider editor-type-id="text-editor" selected="true" />
-        </entry>
-        <tab><![CDATA[{"tabTitle":"server.js","foregroundColor":-2712981,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"d69a6b"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,85,10,24,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,18,30,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,97,118,97,83,99,114,105,112,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-59,-110,-33,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
-      </file>
     </leaf>
   </component>
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "TypeScript": {
-      "usageCount": 1,
-      "lastUsed": 1786971514511
+      "usageCount": 8,
+      "lastUsed": 1787638187336
     },
     "JavaScript": {
-      "usageCount": 1,
-      "lastUsed": 1786971577989
+      "usageCount": 2,
+      "lastUsed": 1787637984441
     },
     "JSON": {
-      "usageCount": 1,
-      "lastUsed": 1786971495797
+      "usageCount": 2,
+      "lastUsed": 1787637984349
     }
   }
 }]]></component>
-  <component name="IdeDocumentHistory"><![CDATA[{}]]></component>
+  <component name="IdeDocumentHistory"><![CDATA[{
+  "changedPaths": [
+    "/home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/routes/user.routes.ts"
+  ]
+}]]></component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -65,13 +126,13 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="JSON">
-      <summary usageCount="1" lastUsage="1786971495797" />
+      <summary usageCount="2" lastUsage="1787637984359" />
     </language>
     <language id="JavaScript">
-      <summary usageCount="1" lastUsage="1786971577989" />
+      <summary usageCount="2" lastUsage="1787637984441" />
     </language>
     <language id="TypeScript">
-      <summary usageCount="1" lastUsage="1786971514511" />
+      <summary usageCount="8" lastUsage="1787638187336" />
     </language>
   </component>
   <component name="ProjectRoots">
@@ -96,7 +157,58 @@
               <item name="backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application/services}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application/services}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application/services/users}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application/services}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application/services/users}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application/services/users/commands}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/routes}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/types}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/utils}" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,6 +267,87 @@
                   </attributes>
                   <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="Application" />
                   <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/Application/common" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="common" />
+                    <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application/common}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/Application/services" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="services" />
+                    <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application/services}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/Application/services/users" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="users" />
+                      <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application/services/users}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/src/Application/services/users/commands" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="commands" />
+                        <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application/services/users/commands}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/src/Application/services/users/commands/CreateUser.ts" />
+                            </map>
+                          </attributes>
+                          <data iconModule="intellij.javascript.parser" iconPath="icons/expui/fileTypes/typeScript.svg" iconPlugin="JavaScript" isLeaf="true" text="CreateUser.ts" />
+                          <item name="CreateUser.ts" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/src/Application/services/users/commands/DeleteUserById.ts" />
+                            </map>
+                          </attributes>
+                          <data iconModule="intellij.javascript.parser" iconPath="icons/expui/fileTypes/typeScript.svg" iconPlugin="JavaScript" isLeaf="true" text="DeleteUserById.ts" />
+                          <item name="DeleteUserById.ts" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/src/Application/services/users/commands/UpdateUserById.ts" />
+                            </map>
+                          </attributes>
+                          <data iconModule="intellij.javascript.parser" iconPath="icons/expui/fileTypes/typeScript.svg" iconPlugin="JavaScript" isLeaf="true" text="UpdateUserById.ts" />
+                          <item name="UpdateUserById.ts" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/src/Application/services/users/models" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="models" />
+                        <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application/services/users/models}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/src/Application/services/users/queries" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="queries" />
+                        <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Application/services/users/queries}" type="462c0819:PsiDirectoryNode" />
+                      </presentation>
+                    </presentation>
+                  </presentation>
                 </presentation>
                 <presentation>
                   <attributes>
@@ -195,15 +388,6 @@
                 <presentation>
                   <attributes>
                     <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/src/Test" />
-                    </map>
-                  </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="Test" />
-                  <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/Test}" type="462c0819:PsiDirectoryNode" />
-                </presentation>
-                <presentation>
-                  <attributes>
-                    <map>
                       <entry key="filePath" value="$PROJECT_DIR$/src/WebApi" />
                     </map>
                   </attributes>
@@ -235,6 +419,24 @@
                     </attributes>
                     <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="routes" />
                     <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/routes}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/WebApi/routes/auth.routes.ts" />
+                        </map>
+                      </attributes>
+                      <data iconModule="intellij.javascript.parser" iconPath="icons/expui/fileTypes/typeScript.svg" iconPlugin="JavaScript" isLeaf="true" text="auth.routes.ts" />
+                      <item name="auth.routes.ts" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/WebApi/routes/user.routes.ts" />
+                        </map>
+                      </attributes>
+                      <data iconModule="intellij.javascript.parser" iconPath="icons/expui/fileTypes/typeScript.svg" iconPlugin="JavaScript" isLeaf="true" text="user.routes.ts" />
+                      <item name="user.routes.ts" type="ab9368bb:PsiFileNode" />
+                    </presentation>
                   </presentation>
                   <presentation>
                     <attributes>
@@ -244,6 +446,15 @@
                     </attributes>
                     <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="types" />
                     <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/types}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/WebApi/types/express.d.ts" />
+                        </map>
+                      </attributes>
+                      <data iconModule="intellij.javascript.parser" iconPath="icons/expui/fileTypes/typeScript.svg" iconPlugin="JavaScript" isLeaf="true" text="express.d.ts" />
+                      <item name="express.d.ts" type="ab9368bb:PsiFileNode" />
+                    </presentation>
                   </presentation>
                   <presentation>
                     <attributes>
@@ -253,6 +464,33 @@
                     </attributes>
                     <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="utils" />
                     <item name="dir{file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend/src/WebApi/utils}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/WebApi/utils/handleRequest.ts" />
+                        </map>
+                      </attributes>
+                      <data iconModule="intellij.javascript.parser" iconPath="icons/expui/fileTypes/typeScript.svg" iconPlugin="JavaScript" isLeaf="true" text="handleRequest.ts" />
+                      <item name="handleRequest.ts" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/WebApi/utils/smartRouter.ts" />
+                        </map>
+                      </attributes>
+                      <data iconModule="intellij.javascript.parser" iconPath="icons/expui/fileTypes/typeScript.svg" iconPlugin="JavaScript" isLeaf="true" text="smartRouter.ts" />
+                      <item name="smartRouter.ts" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/WebApi/utils/swagger.ts" />
+                        </map>
+                      </attributes>
+                      <data iconModule="intellij.javascript.parser" iconPath="icons/expui/fileTypes/typeScript.svg" iconPlugin="JavaScript" isLeaf="true" text="swagger.ts" />
+                      <item name="swagger.ts" type="ab9368bb:PsiFileNode" />
+                    </presentation>
                   </presentation>
                   <presentation>
                     <attributes>
@@ -282,6 +520,15 @@
                 </attributes>
                 <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text=".env" />
                 <item name=".env" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.env.example" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text=".env.example" />
+                <item name=".env.example" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
                 <attributes>
@@ -371,7 +618,7 @@
   </component>
   <component name="TerminalTabsStorage">
     <option name="tabs">
-      <TerminalSessionPersistedTab name="Local" workingDirectory="$PROJECT_DIR$" processType="SHELL">
+      <TerminalSessionPersistedTab name="Local" processType="SHELL">
         <option name="shellCommand">
           <option value="/usr/bin/fish" />
           <option value="-i" />
@@ -383,17 +630,17 @@
     </option>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="484000" />
+    <option name="totallyTimeSpent" value="714000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21432292" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21171875" />
       <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32972717" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3222013" />
       <window_info anchor="bottom" id="Services" order="4" />
       <window_info anchor="bottom" id="Run" order="5" show_stripe_button="false" weight="0.32972717" />
       <window_info anchor="bottom" id="Debug" order="6" show_stripe_button="false" weight="0.32972717" />
@@ -402,12 +649,12 @@
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
-      <unified_weights bottom="0.32972717" left="0.21432292" />
+      <unified_weights bottom="0.3222013" left="0.21171875" />
     </layoutV2>
     <recentWindows>
+      <value>Project</value>
       <value>Terminal</value>
       <value>Run</value>
-      <value>Project</value>
       <value>Debug</value>
     </recentWindows>
   </component>
@@ -486,23 +733,78 @@
     <state x="0" y="0" key="UniversalFileChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1786971898244" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/WebApi/server.ts">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="567">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/WebApi/server.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/WebApi/server.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="270">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WebApi/utils/smartRouter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2358">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/zod/v4/classic/schemas.d.cts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="618" column="17" selection-start-line="618" selection-start-column="17" selection-end-line="618" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/services/users/commands/DeleteUserById.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application/services/users/commands/UpdateUserById.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WebApi/routes/user.routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-481">
+          <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WebApi/routes/auth.routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

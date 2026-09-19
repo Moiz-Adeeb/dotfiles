@@ -46,8 +46,8 @@ hl.config({
 	},
 
 	binds = {
-        allow_workspace_cycles = true,
-    },
+		allow_workspace_cycles = true,
+	},
 
 	render = {
 		expand_undersized_textures = false,

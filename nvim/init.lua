@@ -14,4 +14,5 @@
 require("config.options")
 require("config.keymaps")
 require("config.lazy")
+
 --vim.opt.guicursor = "a:ver25"

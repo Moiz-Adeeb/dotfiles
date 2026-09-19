@@ -8,20 +8,31 @@
     padding: 0;
     margin: 0;
     padding: 0 0;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 900;
     letter-spacing: 0.125em;
     /* transition: all 0.05s ease-in-out; */
-    /* font-family: "FiraCode Nerd Font", "Font Awesome 6 Free", FontAwesome, Roboto, Helvetica, Arial, sans-serif;  */
-    font-family: "Font Awesome 7 Brands", "JetBrainsMono NerdFont Propo",  FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    /* font-family: "JetBrainsMonoNL NFP", "Font Awesome 7 Brands", FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
+    /* font-family: "Font Awesome 7 Brands", "JetBrainsMono NerdFont Propo"; */
+    /* font-family: "JetBrainsMono NerdFont Propo"; */
+    font-family: "Hack", "Font Awesome 7 Brands";
+    /* font-family: "Roboto"; */
 }
 
 window#waybar {
-    border-radius: 0;
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: @crust;
+}
+
+window#waybar > box {
+    /* border-top: 2px solid #ffffff; */
+    /* border-left: 2px solid #ffffff; */
+    /* border-right: 2px solid #ffffff; */
+    /* border-bottom: 2px solid #ffffff; */
+    /* background-color: transparent; */
     /* background-color: @crust; */
-    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* background-color: rgba(0, 0, 0, 1); */
+    /* padding: 1px; */
+    margin: 0 2px;
 }
 
 window#waybar #workspaces button:hover label {
@@ -31,7 +42,7 @@ window#waybar #workspaces button:hover label {
 #submap,
 #workspaces {
     border-style: solid;
-    background-color: @crust;
+    /* background-color: @crust; */
     opacity: 1;
     color: @base;
     padding: 5px 4px;
@@ -99,39 +110,25 @@ window#waybar #workspaces button:hover label {
 #pulseaudio,
 #bluetooth,
 #network,
-/* #window, */
+#window,
 #custom-pacman,
+#custom-dwl,
 #custom-launcher {
-    /* font-family: "JetBrainsMonoNL NFP", "Font Awesome 7 Brands", FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
+    font-weight: 900;
     background: @lavender;
     border: 1px solid shade(@crust, 1);
     border-top: none;
     border-radius: 0 0 4px 4px;
     padding: 0px 6px;
+    min-width: 12px;
     opacity: 1;
-    margin: 0 1px;
-    color: @base;
+    margin: 0 0px;
+    color: @crust;
 }
 
 #custom-mpd {
     /* width: 10px; */
 }
-/* #mpd:hover, */
-/* #mpd#2:hover, */
-/* #mpd#3:hover, */
-/* #mpd#4:hover, */
-/* #custom-mpd:hover, */
-/* #clock:hover, */
-/* #battery:hover, */
-/* #backlight:hover, */
-/* #pulseaudio:hover, */
-/* #bluetooth:hover, */
-/* #network:hover, */
-/* #window:hover, */
-/* #custom-pacman:hover, */
-/* #custom-launcher:hover { */
-/*     padding: 0px 10px; */
-/* } */
 
 #window {
     border: none;
@@ -141,7 +138,7 @@ window#waybar #workspaces button:hover label {
 }
 
 #window label {
-    /* font-size: 12px; */
+    font-size: 12px;
 }
 
 window#waybar.empty #window {
@@ -150,16 +147,13 @@ window#waybar.empty #window {
 }
 
 #clock {
-    background: @crust;
-    letter-spacing: 0.125em;
+    font-size: 14px;
+    background: transparent;
+    letter-spacing: 0.25em;
     font-weight: 900;
     color: @text;
     padding: 0px 10px;
 }
-
-/* #clock:hover { */
-/*     padding: 0 40px; */
-/* } */
 
 @keyframes charging {
     to {
@@ -190,8 +184,8 @@ window#waybar.empty #window {
 }
 
 #battery.charging:not(.full) {
-    color: @base;
-    background-color: @teal;
+    /* color: @base; */
+    color: @teal;
     animation-name: charging;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -226,7 +220,7 @@ window#waybar.empty #window {
 }
 
 #bluetooth.on {
-    background-color: #bf616a;
+    background-color: @red;
 }
 
 #bluetooth.connected {
@@ -243,11 +237,11 @@ window#waybar.empty #window {
 }
 
 #network.disconnected {
-    background-color: #bf616a;
+    background-color: @red;
 }
 
 #tray {
-    /* background-color: #000000; */
+    background-color: #000000;
     border-radius: 4px;
     padding: 0 4px;
     margin: 0 4px;
@@ -274,7 +268,7 @@ window#waybar.empty #window {
 #custom-power,
 #idle_inhibitor {
     border: 1px solid @crust;
-    color: @base;
+    color: @crust;
     font-size: 10px;
 
 }
@@ -283,14 +277,14 @@ window#waybar.empty #window {
     background-color: @yellow;
     border-right: none;
     border-radius: 0 0 0 4px;
-    padding: 0 6px 0 8px;
+    padding: 0 6px;
 }
 
 #custom-power {
     background-color: @red;
     border-left: none;
     border-radius: 0 0 4px 0;
-    padding: 0 8px 0 6px;
+    padding: 0 6px;
 }
 
 #custom-launcher {
@@ -304,11 +298,43 @@ window#waybar.empty #window {
 #status,
 #buttons {
     /* margin: 0px 6px; */
-    /* padding: 0 1px; */
+    /* padding: 3px 3px; */
     background: @crust;
    /* border-left: 1px solid @crust; */
     /* border-right: 1px solid @crust; */
     border-radius: 0 0 4px 4px;
+}
+
+#custom-dwl-01,
+#custom-dwl-02,
+#custom-dwl-03,
+#custom-dwl-04,
+#custom-dwl-05,
+#custom-dwl-06,
+#custom-dwl-07,
+#custom-dwl-08,
+#custom-dwl-09 {
+    background-color: @lavender;
+    border-radius: 0 0 4px 4px;
+    color: @crust;
+    margin: 0 2px;
+    padding: 2px 8px;
+}
+
+#custom-dwl-01:hover,
+#custom-dwl-02:hover,
+#custom-dwl-03:hover,
+#custom-dwl-04:hover,
+#custom-dwl-05:hover,
+#custom-dwl-06:hover,
+#custom-dwl-07:hover,
+#custom-dwl-08:hover,
+#custom-dwl-09:hover {
+    background-color: @crust;
+    color: @lavender;
+    border-radius: 0 0 4px 4px;
+    margin: 0 2px;
+    padding: 2px 8px;
 }
 
 #buttons {
@@ -325,7 +351,7 @@ window#waybar.empty #window {
 }
 
 #window-tab {
-    background: @crust;
+    background: #000;
     margin-right: 50px;
 }
 

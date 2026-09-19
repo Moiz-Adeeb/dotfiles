@@ -24,18 +24,18 @@
     "ask.about.ctrl.y.shortcut.v2": "true",
     "cef_cleanup_temporary_cache_folder": "/home/moiz/.cache/JetBrains/WebStorm2026.2/jcef_cache_temp",
     "cef_version_last_used": "144",
+    "evlsprt.262": "1a00bf1ef80",
     "evlsprt3.262": "6",
     "experimental.ui.on.first.startup": "true",
     "fileTypeChangedCounter": "2",
     "fontSizeToResetConsole": "22.0",
     "fontSizeToResetEditor": "22.0",
-    "git.working.trees.number.of.projects.with.git": "2",
+    "git.working.trees.number.of.projects.with.git": "3",
     "got.it.tooltip.Plugins Auto-Update": "1",
     "got.it.tooltip.js.debugger.terminal.start.debugger.from.url": "1",
     "got.it.tooltip.settings.sync.in.settings": "1",
     "ide.islands.ab3": "true",
     "ide.islands.new.darcula": "true",
-    "ide.updates.old.dirs.scan.scheduled": "1787575647450",
     "javascript.spte.engine.popup.was.shown": "true",
     "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
     "migrated.non.roamable.values.from.general.settings": "true",
@@ -59,13 +59,13 @@
     ]
   }
 }]]></component>
-  <component name="ReworkedTerminalUsage"><![CDATA[{
-  "enterKeyPressedTimes": 1,
-  "firstIdeSessionMoment": {
-    "type": "org.jetbrains.plugins.terminal.TerminalFirstIdeSessionMoment.BeforeTrackingStarted"
+  <component name="ReworkedTerminalUsage">{
+  &quot;enterKeyPressedTimes&quot;: 1,
+  &quot;firstIdeSessionMoment&quot;: {
+    &quot;type&quot;: &quot;org.jetbrains.plugins.terminal.TerminalFirstIdeSessionMoment.BeforeTrackingStarted&quot;
   }
-}]]></component>
-  <component name="TerminalAgentsState"><![CDATA[{
-  "remainingJunieNewBadgePresentations": 2
-}]]></component>
+}</component>
+  <component name="TerminalAgentsState">{
+  &quot;remainingJunieNewBadgePresentations&quot;: 2
+}</component>
 </application>

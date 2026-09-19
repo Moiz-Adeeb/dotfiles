@@ -6,7 +6,6 @@ return {
 		"nvim-tree/nvim-web-devicons",
 	},
 	config = function()
-		-- Recommended: disable netrw (built-in explorer)
 		vim.g.loaded_netrw = 1
 		vim.g.loaded_netrwPlugin = 1
 
@@ -21,7 +20,6 @@ return {
 			},
 			renderer = {
 				highlight_git = true,
-				-- highlight_opened_files = "open",
 				icons = {
 					show = {
 						git = true,

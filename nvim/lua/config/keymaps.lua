@@ -1,19 +1,18 @@
-
-vim.keymap.set('i', '---', '—', { desc = 'Insert em dash' })
+vim.keymap.set("i", "---", "—", { desc = "Insert em dash" })
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
-vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
+vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
 -- Diagnostic keymaps
-vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
+vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Open diagnostic [Q]uickfix list" })
 
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
@@ -21,23 +20,40 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 --
 -- NOTE: This won't work in all terminal emulators/tmux/etc. Try your own mapping
 -- or just use <C-\><C-n> to exit terminal mode
-vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
+vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 
 -- Keybinds to make split navigation easier.
 --  Use CTRL+<hjkl> to switch between windows
 --
+-- Quick Window Splits
+-- 'ss' creates a vertical split (perfect for your two 94-column windows)
+vim.keymap.set("n", "<leader>y", ":vsplit<CR>", { desc = "Split window vertically" })
+-- 'sh' creates a horizontal split
+vim.keymap.set("n", "<leader>u", ":split<CR>", { desc = "Split window horizontally" })
+-- Quick Close Split
+-- Press 'sx' to quickly close the current active window
+vim.keymap.set("n", "sx", ":close<CR>", { desc = "Close current split" })
 
+vim.keymap.set("n", "<C-l>", "<C-w><C-l>", { desc = "Move focus to the right window" })
+vim.keymap.set("n", "<C-j>", "<C-w><C-j>", { desc = "Move focus to the lower window" })
+vim.keymap.set("n", "<C-h>", "<C-w><C-h>", { desc = "" })
+vim.keymap.set("n", "<C-k>", "<C-w><C-k>", { desc = "Move focus to the upper window" })
 
-vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right window' })
-vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
-vim.keymap.set('n', '<C-h>', '<C-w><C-h>', { desc = '' })
-vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
+-- Press <Leader>tr (usually Space + t + r) to hot-reload the theme
+vim.keymap.set("n", "<leader>r", function()
+	-- Clear out cached module layers
+	package.loaded["plugins.theme"] = nil
 
+	-- Re-execute your custom configuration
+	vim.cmd("source ~/.config/nvim/lua/plugins/theme.lua")
+	require("nordic").load()
+	print("Theme reloaded successfully!")
+end, { desc = "Hot-reload custom theme contrast metrics" })
 
 -- Disable arrow keys in all modes
 -- local modes = { 'n', 'i', 'v', 'c', 't', 'o', 's', 'x' } -- All possible modes
-local modes = { 'n', 'i', 'v', 'o', 't', 's', 'x' } -- All possible modes
-local arrows = { '<Up>', '<Down>', '<Left>', '<Right>' }
+local modes = { "n", "i", "v", "o", "t", "s", "x" } -- All possible modes
+local arrows = { "<Up>", "<Down>", "<Left>", "<Right>" }
 
 --for _, mode in ipairs(modes) do
 --  for _, key in ipairs(arrows) do
@@ -45,11 +61,11 @@ local arrows = { '<Up>', '<Down>', '<Left>', '<Right>' }
 --  end
 --end
 
-local enabledModes = { 'i', 'c', 'o', 't', 's', 'x' }
+local enabledModes = { "i", "c", "o", "t", "s", "x" }
 -- Map Alt + hjkl in Insert mode
 for _, mode in ipairs(enabledModes) do
-  vim.keymap.set(mode, '<A-h>', '<Left>', { noremap = true, silent = true })
-  vim.keymap.set(mode, '<A-j>', '<Down>', { noremap = true, silent = true })
-  vim.keymap.set(mode, '<A-k>', '<Up>', { noremap = true, silent = true })
-  vim.keymap.set(mode, '<A-l>', '<Right>', { noremap = true, silent = true })
+	vim.keymap.set(mode, "<A-h>", "<Left>", { noremap = true, silent = true })
+	vim.keymap.set(mode, "<A-j>", "<Down>", { noremap = true, silent = true })
+	vim.keymap.set(mode, "<A-k>", "<Up>", { noremap = true, silent = true })
+	vim.keymap.set(mode, "<A-l>", "<Right>", { noremap = true, silent = true })
 end

@@ -1,4 +1,43 @@
 {
+  "custom/dwl": {
+    "format": ""
+  },
+  "custom/dwl-01": {
+    "format": "01",
+    "on-click": "wtype -M logo 1"
+  },
+  "custom/dwl-02": {
+    "format": "02",
+    "on-click": "wtype -M logo 2"
+  },
+  "custom/dwl-03": {
+    "format": "03",
+    "on-click": "wtype -M logo 3"
+  },
+  "custom/dwl-04": {
+    "format": "04",
+    "on-click": "wtype -M logo 4"
+  },
+  "custom/dwl-05": {
+    "format": "05",
+    "on-click": "wtype -M logo 5"
+  },
+  "custom/dwl-06": {
+    "format": "06",
+    "on-click": "wtype -M logo 6"
+  },
+  "custom/dwl-07": {
+    "format": "07",
+    "on-click": "wtype -M logo 7"
+  },
+  "custom/dwl-08": {
+    "format": "08",
+    "on-click": "wtype -M logo 8"
+  },
+  "custom/dwl-09": {
+    "format": "09",
+    "on-click": "wtype -M logo 9"
+  },
   "hyprland/workspaces": {
     "all-outputs": true,
     "format": "",
@@ -24,7 +63,7 @@
     "tooltip-format": "{artist} - {album} - {title} - Total Time : {totalTime:%M:%S}",
     "format": " {elapsedTime:%M:%S}",
     "format-disconnected": "⚠  Disconnected",
-    "format-stopped": " Not Playing",
+    "format-stopped": "",
     "on-click": "mpc toggle",
     "on-click-right": "footclient -a float_big -e ncmpcpp",
     "state-icons": {
@@ -116,9 +155,9 @@
       "on-scroll-up": "shift_up",
       "on-scroll-down": "shift_down"
     },
-    // "format": "{:%H : %M}",
-    "format": "{:%A | %d - %B - %Y | %H : %M}",
-    "format-alt": "  {:%Y-%m-%d  %H : %M}",
+    "format": " {:%H:%M}",
+    // "format": "{:%A | %d - %B - %Y | %H : %M}",
+    "format-alt": "  {:%Y-%m-%d  %H:%M}",
     "interval": 60
   },
   "backlight": {
@@ -147,54 +186,126 @@
       "warning": 30,
       "critical": 15
     },
-    "format": "{icon}{capacity}%",
-    "format-critical": " {capacity}%",
-    "format-charging": " {capacity}%",
-    "format-plugged": " {capacity}%",
-    "format-alt": "{icon}{capacity}%\tRemaining: {time}",
-    "format-plugged-alt": "{icon}{capacity}%\tRemaining: {time}",
-    "format-charging-alt": "{icon}{capacity}%\tRemaining: {time}",
-    //"format-good": "", // An empty format will hide the module
-    "format-full": "{icon}FULL",
-    // "format-full": "",
+    "format": "{icon}",
+    "format-critical": "",
+    "format-charging": "",
+    "format-plugged": "",
+    "format-full": "{icon}",
     "format-icons": [
-      "  {capacity}%",
-      " ",
-      " ",
-      " ",
-      " "
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
     "tooltip-format": "Battery: {capacity}%\nTime Remaining: {time}",
     "tooltip-format-full": "BATTERY FULLY CHARGED"
   },
+  "battery#status": {
+    "interval": 60,
+    "states": {
+      "good": 90,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{capacity}%",
+    "format-critical": "{capacity}%",
+    "format-charging": "{capacity}%",
+    "format-plugged": "{capacity}%",
+    "format-full": "FULL",
+    "format-alt": "{capacity}% ({time})",
+    "format-plugged-alt": "{capacity}% ({time})",
+    "format-charging-alt": "{capacity}% ({time})",
+    "tooltip-format": "Battery: {capacity}%\nTime Remaining: {time}",
+    "tooltip-format-full": "BATTERY FULLY CHARGED"
+    // "tooltip": false
+  },
+  "group/battery-drawer": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 500,
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "battery",
+      "battery#status"
+    ]
+  },
   "network": {
     "interface": "wlan0",
     "interval": 5,
-    "format": "⚠ ON",
-    "format-disabled": "⚠ OFF",
-    "format-wifi": " {essid}",
-    "format-off": " OFF",
-    "format-ethernet": " {essid}",
-    "format-disconnected": "⚠ DISCONNECTED",
+    "format": "⚠",
+    "format-disabled": "⚠",
+    "format-wifi": "",
+    "format-off": "",
+    "format-ethernet": "",
+    "format-disconnected": "⚠",
     "tooltip-format": " {ifname} via {gwaddr}",
     "tooltip-format-wifi": " {essid} ({signalStrength}%)\nIP: {ipaddr}\nDown: {bandwidthDownBits}\nUp: {bandwidthUpBits}",
     "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
     "tooltip-format-disconnected": "⚠ Disconnected",
     "on-click": "footclient -a float_small -e impala",
-    //"on-click-right": "nmcli radio wifi | grep -q 'enabled' && nmcli radio wifi off || nmcli radio wifi on"
-    //"on-click-right": "rfkill list wifi | grep -q 'soft: yes' && rfkill unblock wifi || rfkill block wifi"
     "on-click-right": "rfkill toggle wifi"
+  },
+  "network#status": {
+    "interface": "wlan0",
+    "interval": 5,
+    "format": "ON",
+    "format-disabled": "OFF",
+    "format-wifi": "{essid}",
+    "format-off": "OFF",
+    "format-ethernet": "{essid}",
+    "format-disconnected": "DISCONNECTED",
+    "tooltip-format": " {ifname} via {gwaddr}",
+    "tooltip-format-wifi": " {essid} ({signalStrength}%)\nIP: {ipaddr}\nDown: {bandwidthDownBits}\nUp: {bandwidthUpBits}",
+    "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
+    "tooltip-format-disconnected": "⚠ Disconnected",
+    "on-click": "footclient -a float_small -e impala",
+    "on-click-right": "rfkill toggle wifi"
+  },
+  "group/network-drawer": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 500,
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "network",
+      "network#status"
+    ]
   },
   "bluetooth": {
     "format": "",
-    "format-off": " OFF",
-    "format-on": " ON",
-    "format-connected": " {device_alias} {device_battery_percentage}%",
+    "format-off": "",
+    "format-on": "",
+    "format-connected": "",
     "tooltip-format": "{controller_alias}\t{controller_address}\t{device_battery_percentage}%",
     "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}:{device_battery_percentage}% \t{device_address}",
     "on-click": "footclient -a float_small -e bluetui",
     "on-click-right": "bluetoothctl show | grep -q 'Powered: yes' && bluetoothctl power off || bluetoothctl power on"
+  },
+  "bluetooth#status": {
+    "format": "",
+    "format-off": "OFF",
+    "format-on": "ON",
+    "format-connected": "{device_alias} {device_battery_percentage}%",
+    "tooltip-format": "{controller_alias}\t{controller_address}\t{device_battery_percentage}%",
+    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}:{device_battery_percentage}% \t{device_address}",
+    "on-click": "footclient -a float_small -e bluetui",
+    "on-click-right": "bluetoothctl show | grep -q 'Powered: yes' && bluetoothctl power off || bluetoothctl power on"
+  },
+  "group/bluetooth-drawer": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 500,
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "bluetooth",
+      "bluetooth#status"
+    ]
   },
   "pulseaudio": {
     "scroll-step": 5,
@@ -203,11 +314,11 @@
       "normal": 99,
       "full": 1000
     },
-    "format": "{icon}{volume: >3}",
-    "format-full": "{icon} {volume: >3}",
-    "format-bluetooth": "{icon}{volume: >3}",
-    "format-bluetooth-full": "{icon} {volume: >3}",
-    "format-muted": " MUTED",
+    "format": "{icon}",
+    "format-full": "{icon}",
+    "format-bluetooth": "{icon}",
+    "format-bluetooth-full": "{icon}",
+    "format-muted": "",
     "format-icons": {
       "headphones": "",
       "handsfree": "",
@@ -226,6 +337,26 @@
     "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
     "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%"
   },
+  "pulseaudio#percent": {
+    "format": "{volume}%",
+    "format-muted": "MUTED",
+    "tooltip": false,
+    "on-click": "footclient -a float_small -e wiremix",
+    "on-click-right": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+    "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%"
+  },
+  "group/volume-drawer": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 500,
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "pulseaudio",
+      "pulseaudio#percent"
+    ]
+  },
   "tray": {
     "icon-size": 16,
     "spacing": 10,
@@ -234,12 +365,32 @@
   },
   "custom/pacman": {
     "interval": "once",
+    "format": "",
+    "return-type": "json",
+    "exec": "cat /tmp/pacman_updates.json 2>/dev/null || echo '{\"text\":\"Checking for Updates ...\",\"alt\":\"no-updates\"}'",
+    "on-click": "footclient -a float_large -e sh -c 'sudo pacman -Syyu && systemctl --user start pacman-check.service && yay -Syyu'",
+    "signal": 8,
+    "tooltip": false
+  },
+  "custom/pacman#status": {
+    "interval": "once",
     "format": "{}",
     "return-type": "json",
     "exec": "cat /tmp/pacman_updates.json 2>/dev/null || echo '{\"text\":\"Checking for Updates ...\",\"alt\":\"no-updates\"}'",
     "on-click": "footclient -a float_large -e sh -c 'sudo pacman -Syyu && systemctl --user start pacman-check.service && yay -Syyu'",
     "signal": 8,
     "tooltip": false
+  },
+  "group/pacman-drawer": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 500,
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "custom/pacman",
+      "custom/pacman#status"
+    ]
   },
   "custom/power": {
     "format": "⏻",
