@@ -2,6 +2,9 @@
     "group/status": {
         "orientation": "horizontal",
         "modules": [
+            // "mpd#2",
+            // "mpd#3",
+            // "mpd#4",
             "group/pacman-drawer",
             //"backlight",
             "group/volume-drawer",
@@ -22,37 +25,33 @@
         "modules": [
             "custom/launcher",
             "hyprland/workspaces",
-            "mpd",
-            "mpd#2",
-            "mpd#3",
-            "mpd#4",
-            "custom/mpd",
-            "group/dwl",
+            "group/music",
             "hyprland/submap"
         ]
     },
-    "group/dwl": {
+    "group/mango": {
         "orientation": "horizontal",
-        "drawer": {
-            "transition-duration": 500,
-            "transition-left-to-right": true
-        },
+        // "drawer": {
+        //     "transition-duration": 500,
+        //     "transition-left-to-right": true
+        // },
         "modules": [
-            "custom/dwl",
-            "custom/dwl-01",
-            "custom/dwl-02",
-            "custom/dwl-03",
-            "custom/dwl-04",
-            "custom/dwl-05",
-            "custom/dwl-06",
-            "custom/dwl-07",
-            "custom/dwl-08",
-            "custom/dwl-09"
+            // "custom/mango",
+            "custom/mango-01",
+            "custom/mango-02",
+            "custom/mango-03",
+            "custom/mango-04",
+            "custom/mango-05",
+            "custom/mango-06",
+            "custom/mango-07",
+            "custom/mango-08",
+            "custom/mango-09"
         ]
     },
     "group/window-tab": {
         "orientation": "horizontal",
         "modules": [
+            "group/mango",
             "hyprland/window",
             "tray"
         ]

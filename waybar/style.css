@@ -9,9 +9,10 @@
     margin: 0;
     padding: 0 0;
     font-size: 12px;
+    border-radius: 0 0 6px 6px;
     font-weight: 900;
     letter-spacing: 0.125em;
-    /* transition: all 0.05s ease-in-out; */
+    transition: all 0.2s ease-in-out;
     /* font-family: "Font Awesome 7 Brands", "JetBrainsMono NerdFont Propo"; */
     /* font-family: "JetBrainsMono NerdFont Propo"; */
     font-family: "Hack", "Font Awesome 7 Brands";
@@ -20,7 +21,8 @@
 
 window#waybar {
     /* background-color: transparent; */
-    background-color: @crust;
+    background-color: @crust;  
+    /* background-color: rgba(0, 0, 0, 0.75); */
 }
 
 window#waybar > box {
@@ -30,9 +32,10 @@ window#waybar > box {
     /* border-bottom: 2px solid #ffffff; */
     /* background-color: transparent; */
     /* background-color: @crust; */
-    /* background-color: rgba(0, 0, 0, 1); */
-    /* padding: 1px; */
-    margin: 0 2px;
+    border-radius: 0 0 6px 6px;
+    /* background-color: rgba(17, 17, 26, 0.75); */
+    padding: 1px;
+    margin: 0 4px;
 }
 
 window#waybar #workspaces button:hover label {
@@ -100,9 +103,9 @@ window#waybar #workspaces button:hover label {
 }
 
 #mpd,
-#mpd#2,
-#mpd#3,
-#mpd#4,
+/* #mpd#2, */
+/* #mpd#3, */
+/* #mpd#4, */
 #custom-mpd,
 #clock,
 #battery,
@@ -112,26 +115,24 @@ window#waybar #workspaces button:hover label {
 #network,
 #window,
 #custom-pacman,
-#custom-dwl,
+#custom-mango,
+#custom-window,
 #custom-launcher {
     font-weight: 900;
     background: @lavender;
+    min-width: 12px;
     border: 1px solid shade(@crust, 1);
     border-top: none;
-    border-radius: 0 0 4px 4px;
+    border-radius: 0 0 6px 6px;
     padding: 0px 6px;
-    min-width: 12px;
     opacity: 1;
     margin: 0 0px;
     color: @crust;
 }
 
-#custom-mpd {
-    /* width: 10px; */
-}
-
 #window {
     border: none;
+    background: @crust;
     color: white;
     font-weight: 900;
     padding: 0 8px;
@@ -241,8 +242,8 @@ window#waybar.empty #window {
 }
 
 #tray {
-    background-color: #000000;
-    border-radius: 4px;
+    background-color: @crust;
+    border-radius: 6px;
     padding: 0 4px;
     margin: 0 4px;
 }
@@ -276,14 +277,14 @@ window#waybar.empty #window {
 #idle_inhibitor {
     background-color: @yellow;
     border-right: none;
-    border-radius: 0 0 0 4px;
+    border-radius: 0 0 0 6px;
     padding: 0 6px;
 }
 
 #custom-power {
     background-color: @red;
     border-left: none;
-    border-radius: 0 0 4px 0;
+    border-radius: 0 0 6px 0;
     padding: 0 6px;
 }
 
@@ -299,60 +300,61 @@ window#waybar.empty #window {
 #buttons {
     /* margin: 0px 6px; */
     /* padding: 3px 3px; */
-    background: @crust;
+    /* background: @crust; */
    /* border-left: 1px solid @crust; */
     /* border-right: 1px solid @crust; */
-    border-radius: 0 0 4px 4px;
+    border-radius: 0 0 6px 6px;
 }
 
-#custom-dwl-01,
-#custom-dwl-02,
-#custom-dwl-03,
-#custom-dwl-04,
-#custom-dwl-05,
-#custom-dwl-06,
-#custom-dwl-07,
-#custom-dwl-08,
-#custom-dwl-09 {
+#custom-mango-01,
+#custom-mango-02,
+#custom-mango-03,
+#custom-mango-04,
+#custom-mango-05,
+#custom-mango-06,
+#custom-mango-07,
+#custom-mango-08,
+#custom-mango-09 {
     background-color: @lavender;
-    border-radius: 0 0 4px 4px;
+    border: 1px solid @crust;
+    border-top: none;
+    border-radius: 0 0 6px 6px;
     color: @crust;
-    margin: 0 2px;
-    padding: 2px 8px;
+    padding: 0px 5px;
 }
 
-#custom-dwl-01:hover,
-#custom-dwl-02:hover,
-#custom-dwl-03:hover,
-#custom-dwl-04:hover,
-#custom-dwl-05:hover,
-#custom-dwl-06:hover,
-#custom-dwl-07:hover,
-#custom-dwl-08:hover,
-#custom-dwl-09:hover {
-    background-color: @crust;
-    color: @lavender;
-    border-radius: 0 0 4px 4px;
-    margin: 0 2px;
-    padding: 2px 8px;
-}
-
-#buttons {
-    /* margin-right: 110px; */
-    padding: 0 1px;
-}
-
-#dock {
-    /* margin-left: 110px; */
+#custom-mango-01:hover,
+#custom-mango-02:hover,
+#custom-mango-03:hover,
+#custom-mango-04:hover,
+#custom-mango-05:hover,
+#custom-mango-06:hover,
+#custom-mango-07:hover,
+#custom-mango-08:hover,
+#custom-mango-09:hover {
+    background-color: shade(@crust, 10);
+    border-radius: 0 0 6px 6px;
+    padding: 0px 5px;
 }
 
 #center {
-    margin: 0 50px
+    background-color: @crust;
+    /* margin: 0 50px; */
+    padding: 0 10px;
+}
+
+#center:hover {
+    padding: 0 25px;
 }
 
 #window-tab {
-    background: #000;
-    margin-right: 50px;
+    border-radius: 0 0 6px 6px;
+}
+
+.modules-left, 
+.modules-right {
+    background: @crust;
+    border-radius: 0 0 6px 6px;
 }
 
 window#waybar.empty #window-tab,

@@ -56,15 +56,6 @@ hl.config({
 		direct_scanout = true,
 	},
 
-	-- env = {
-	-- 	"XCURSOR_THEME,Bibata-Modern-Ice",
-	-- 	"HYPRCURSOR_THEME,Bibata-Modern-Ice",
-	-- 	"XCURSOR_SIZE,24",
-	-- 	"HYPRCURSOR_SIZE,24",
-	-- 	"QT_QPA_PLATFORMTHEME,qt6ct",
-	-- 	-- "WLR_RENDERER_ALLOW_SOFTWARE,1",
-	-- },
-
 	misc = {
 		force_default_wallpaper = false,
 		disable_hyprland_logo = true,
@@ -81,7 +72,7 @@ hl.config({
 		kb_options = "",
 		kb_rules = "",
 
-		follow_mouse = 3,
+		follow_mouse = 2,
 		mouse_refocus = false,
 		sensitivity = 0,
 
@@ -90,7 +81,8 @@ hl.config({
 		},
 	},
 	cursor = {
-		no_hardware_cursors = false,
+		no_hardware_cursors = true,
+		use_cpu_buffer = true,
 		inactive_timeout = 3,
 	},
 })

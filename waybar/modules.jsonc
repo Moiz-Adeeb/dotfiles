@@ -1,42 +1,42 @@
 {
-  "custom/dwl": {
+  "custom/mango": {
     "format": ""
   },
-  "custom/dwl-01": {
+  "custom/mango-01": {
     "format": "01",
-    "on-click": "wtype -M logo 1"
+    "on-click": "mmsg dispatch view,1"
   },
-  "custom/dwl-02": {
+  "custom/mango-02": {
     "format": "02",
-    "on-click": "wtype -M logo 2"
+    "on-click": "mmsg dispatch view,2"
   },
-  "custom/dwl-03": {
+  "custom/mango-03": {
     "format": "03",
-    "on-click": "wtype -M logo 3"
+    "on-click": "mmsg dispatch view,3"
   },
-  "custom/dwl-04": {
+  "custom/mango-04": {
     "format": "04",
-    "on-click": "wtype -M logo 4"
+    "on-click": "mmsg dispatch view,4"
   },
-  "custom/dwl-05": {
+  "custom/mango-05": {
     "format": "05",
-    "on-click": "wtype -M logo 5"
+    "on-click": "mmsg dispatch view,5"
   },
-  "custom/dwl-06": {
+  "custom/mango-06": {
     "format": "06",
-    "on-click": "wtype -M logo 6"
+    "on-click": "mmsg dispatch view,6"
   },
-  "custom/dwl-07": {
+  "custom/mango-07": {
     "format": "07",
-    "on-click": "wtype -M logo 7"
+    "on-click": "mmsg dispatch view,7"
   },
-  "custom/dwl-08": {
+  "custom/mango-08": {
     "format": "08",
-    "on-click": "wtype -M logo 8"
+    "on-click": "mmsg dispatch view,8"
   },
-  "custom/dwl-09": {
+  "custom/mango-09": {
     "format": "09",
-    "on-click": "wtype -M logo 9"
+    "on-click": "mmsg dispatch view,9"
   },
   "hyprland/workspaces": {
     "all-outputs": true,
@@ -102,6 +102,21 @@
     "interval": 5,
     "exec": "mpc current --format='\"title\":\"%title%\",\"artist\":\"%artist%\"'"
     // "exec": "mpc current"
+  },
+  "group/music": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 500,
+      "transition-left-to-right": true
+    },
+    "modules": [
+      "mpd",
+      "mpd#1",
+      "mpd#2",
+      "mpd#3",
+      "mpd#4",
+      "custom/mpd"
+    ]
   },
   "hyprland/submap": {
     "format": "<span color=\"#B7BDF8\" style=\"italic\">{}</span>",
@@ -358,7 +373,7 @@
     ]
   },
   "tray": {
-    "icon-size": 16,
+    "icon-size": 14,
     "spacing": 10,
     "show-passive-items": true,
     "reverse-direction": false

@@ -2748,18 +2748,18 @@ void tile(Monitor *m) {
 //
 // 	if (n > m->nmaster)
 // 		mw = m->nmaster ? (int)roundf((m->w.width + gappx*e) * m->mfact)
-// : 0; 	else 		mw = m->w.width; 	i = 0; 	my = ty = gappx*e; 	wl_list_for_each(c,
-// &clients, link) { 		if (!VISIBLEON(c, m) || c->isfloating || c->isfullscreen)
-// 			continue;
-// 		if (i < m->nmaster) {
-// 			r = MIN(n, m->nmaster) - i;
-// 			h = (m->w.height - my - gappx*e - gappx*e * (r - 1)) /
-// r; 			resize(c, (struct wlr_box){.x = m->w.x + gappx*e, .y = m->w.y + my, 				.width
-// = mw - 2*gappx*e, .height = h}, 0); 			my += c->geom.height + gappx*e; 		} else {
-// 			r = n - i;
-// 			h = (m->w.height - ty - gappx*e - gappx*e * (r - 1)) /
-// r; 			resize(c, (struct wlr_box){.x = m->w.x + mw, .y = m->w.y + ty, 				.width =
-// m->w.width - mw - gappx*e, .height = h}, 0); 			ty += c->geom.height + gappx*e;
+// : 0; 	else 		mw = m->w.width; 	i = 0; 	my = ty =
+// gappx*e; 	wl_list_for_each(c, &clients, link) { 		if
+// (!VISIBLEON(c, m) || c->isfloating || c->isfullscreen) 			continue; 		if (i <
+// m->nmaster) { 			r = MIN(n, m->nmaster) - i; 			h = (m->w.height - my - gappx*e -
+// gappx*e * (r - 1)) / r; 			resize(c, (struct wlr_box){.x =
+// m->w.x + gappx*e, .y = m->w.y + my, 				.width = mw -
+// 2*gappx*e, .height = h}, 0); 			my += c->geom.height +
+// gappx*e; 		} else { 			r = n - i; 			h = (m->w.height - ty - gappx*e -
+// gappx*e * (r - 1)) / r; 			resize(c, (struct wlr_box){.x =
+// m->w.x + mw, .y = m->w.y + ty, 				.width =
+// m->w.width - mw - gappx*e, .height = h}, 0); 			ty +=
+// c->geom.height + gappx*e;
 // 		}
 // 		i++;
 // 	}
@@ -2883,7 +2883,8 @@ void movestack(const Arg *arg) {
 // 			struct wl_list *next_link = c->link.next;
 // 			while (next_link != &clients) {
 // 				Client *next_c = wl_container_of(next_link,
-// next_c, link); 				if (!next_c->isfloating && VISIBLEON(next_c, c->mon)) { 					n =
+// next_c, link); 				if (!next_c->isfloating &&
+// VISIBLEON(next_c, c->mon)) { 					n =
 // next_c; 					break;
 // 				}
 // 				next_link = next_link->next;
