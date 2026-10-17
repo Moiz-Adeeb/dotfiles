@@ -1,15 +1,6 @@
 ---
 name: brightdata-sdk-js
-description: |
-  Web data extraction and discovery using the Bright Data JavaScript/TypeScript
-  SDK (`@brightdata/sdk`). Use when the user is working in Node.js/TypeScript and
-  asks to "scrape", "get data from", "extract", "search for", or "find"
-  information from websites. Also use when the user mentions specific platforms
-  like Amazon, LinkedIn, Instagram, Facebook, TikTok, YouTube, Reddit, Pinterest,
-  ChatGPT, Perplexity, or DigiKey, or asks for "bulk data", "historical data", or
-  "dataset" from JS. Covers scraping, SERP search, AI discovery, datasets,
-  browser automation, and Scraper Studio. For Python, use brightdata-sdk; for the
-  terminal CLI, use brightdata-cli.
+description: "Web data extraction and discovery using the Bright Data JavaScript/TypeScript\nSDK (`@brightdata/sdk`). Use when the user is working in Node.js/TypeScript and\nasks to \"scrape\", \"get data from\", \"extract\", \"search for\", or \"find\"\ninformation from websites. Also use when the user mentions specific platforms\nlike Amazon, LinkedIn, Instagram, Facebook, TikTok, YouTube, Reddit, Pinterest,\nChatGPT, Perplexity, or DigiKey, or asks for \"bulk data\", \"historical data\", or\n\"dataset\" from JS. Covers scraping, SERP search, AI discovery, datasets,\nbrowser automation, and Scraper Studio. For Python, use brightdata-sdk; for the\nterminal CLI, use brightdata-cli.\n"
 metadata:
   author: brightdata
   version: "1.0"

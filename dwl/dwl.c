@@ -371,6 +371,7 @@ static void updatemons(struct wl_listener *listener, void *data);
 static void updatetitle(struct wl_listener *listener, void *data);
 static void urgent(struct wl_listener *listener, void *data);
 static void view(const Arg *arg);
+static void focusprevclient(const Arg *arg);
 static void virtualkeyboard(struct wl_listener *listener, void *data);
 static void virtualpointer(struct wl_listener *listener, void *data);
 static Monitor *xytomon(double x, double y);
@@ -2750,16 +2751,17 @@ void tile(Monitor *m) {
 // 		mw = m->nmaster ? (int)roundf((m->w.width + gappx*e) * m->mfact)
 // : 0; 	else 		mw = m->w.width; 	i = 0; 	my = ty =
 // gappx*e; 	wl_list_for_each(c, &clients, link) { 		if
-// (!VISIBLEON(c, m) || c->isfloating || c->isfullscreen) 			continue; 		if (i <
-// m->nmaster) { 			r = MIN(n, m->nmaster) - i; 			h = (m->w.height - my - gappx*e -
+// (!VISIBLEON(c, m) || c->isfloating || c->isfullscreen)
+// continue; 		if (i < m->nmaster) { 			r = MIN(n,
+// m->nmaster) - i; 			h = (m->w.height - my - gappx*e -
 // gappx*e * (r - 1)) / r; 			resize(c, (struct wlr_box){.x =
 // m->w.x + gappx*e, .y = m->w.y + my, 				.width = mw -
 // 2*gappx*e, .height = h}, 0); 			my += c->geom.height +
-// gappx*e; 		} else { 			r = n - i; 			h = (m->w.height - ty - gappx*e -
-// gappx*e * (r - 1)) / r; 			resize(c, (struct wlr_box){.x =
-// m->w.x + mw, .y = m->w.y + ty, 				.width =
-// m->w.width - mw - gappx*e, .height = h}, 0); 			ty +=
-// c->geom.height + gappx*e;
+// gappx*e; 		} else { 			r = n - i;
+// h = (m->w.height - ty - gappx*e - gappx*e * (r - 1)) / r;
+// resize(c, (struct wlr_box){.x = m->w.x + mw, .y = m->w.y + ty,
+// .width = m->w.width - mw - gappx*e, .height = h}, 0); ty += c->geom.height +
+// gappx*e;
 // 		}
 // 		i++;
 // 	}
@@ -3181,6 +3183,44 @@ void view(const Arg *arg) {
   focusclient(focustop(selmon), 1);
   arrange(selmon);
   printstatus();
+}
+
+void focusprevclient(const Arg *arg) {
+  Client *c = NULL, *sel = NULL;
+  int type;
+
+  /* 1. Ensure a monitor and pointer focus exists */
+  if (!selmon || !seat->pointer_state.focused_surface)
+    return;
+
+  /* 2. Retrieve the currently focused client */
+  type = toplevel_from_wlr_surface(seat->pointer_state.focused_surface, &sel,
+                                   NULL);
+  if (type < 0 || !sel)
+    return;
+
+  /* 3. Find the next client in the global focus stack (fstack) */
+  /* wl_list_for_each loops through all clients in order of historical focus */
+  wl_list_for_each(c, &fstack, flink) {
+    /* Skip the currently active window itself */
+    if (c == sel)
+      continue;
+
+    /* Ignore special utility windows (like floating popups/layers) */
+    if (client_is_unmanaged(c))
+      continue;
+
+    /* 4. We found the last used client! Switch tag sets if it's hidden */
+    if (c->tags != selmon->tagset[selmon->seltags]) {
+      selmon->tagset[selmon->seltags] = c->tags;
+      arrange(selmon);
+    }
+
+    /* 5. Draw structural focus to it and shift it to the top of the stack */
+    focusclient(c, 1);
+    printstatus();
+    return;
+  }
 }
 
 void virtualkeyboard(struct wl_listener *listener, void *data) {

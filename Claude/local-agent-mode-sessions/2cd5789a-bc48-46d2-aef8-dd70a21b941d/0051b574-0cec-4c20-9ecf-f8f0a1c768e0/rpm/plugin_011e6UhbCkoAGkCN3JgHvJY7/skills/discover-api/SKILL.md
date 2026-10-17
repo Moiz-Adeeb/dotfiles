@@ -1,16 +1,6 @@
 ---
 name: discover-api
-description: |
-  Use Bright Data's Discover API — intent-ranked, AI-relevance-scored web search
-  at scale (not keyword SERP). Trigger a discovery job and retrieve ranked results
-  (link, title, description, relevance_score) with optional parsed page content.
-  Use when the user wants semantic/intent-based web search, "find pages about
-  <topic> that match <goal>", web-grounded retrieval for an LLM, or results
-  filtered by relevance rather than raw keyword rank. Covers the REST API
-  (POST/GET /discover), the CLI (`bdata discover`), and the Python/JS SDKs
-  (`client.discover`), including the standard/zeroRanking/deep/fast modes. This is
-  the foundation skill for `live-research` and `rag-pipeline`. For keyword SERP use
-  `search`; for structured platform data use `data-feeds`.
+description: "Use Bright Data's Discover API — intent-ranked, AI-relevance-scored web search\nat scale (not keyword SERP). Trigger a discovery job and retrieve ranked results\n(link, title, description, relevance_score) with optional parsed page content.\nUse when the user wants semantic/intent-based web search, \"find pages about\n<topic> that match <goal>\", web-grounded retrieval for an LLM, or results\nfiltered by relevance rather than raw keyword rank. Covers the REST API\n(POST/GET /discover), the CLI (`bdata discover`), and the Python/JS SDKs\n(`client.discover`), including the standard/zeroRanking/deep/fast modes. This is\nthe foundation skill for `live-research` and `rag-pipeline`. For keyword SERP use\n`search`; for structured platform data use `data-feeds`.\n"
 metadata:
   author: Bright Data
   version: "1.0"

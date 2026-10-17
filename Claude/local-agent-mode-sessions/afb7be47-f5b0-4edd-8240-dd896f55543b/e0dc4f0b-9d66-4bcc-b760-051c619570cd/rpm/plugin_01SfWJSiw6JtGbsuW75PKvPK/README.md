@@ -5,7 +5,8 @@ A sales plugin primarily designed for [Cowork](https://claude.com/product/cowork
 ## Installation
 
 ```bash
-claude plugins add knowledge-work-plugins/sales
+claude plugin marketplace add anthropics/knowledge-work-plugins
+claude plugin install sales@knowledge-work-plugins
 ```
 
 ## What's new in 2.0

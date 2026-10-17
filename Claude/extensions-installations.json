@@ -2,14 +2,14 @@
   "extensions": {
     "ant.dir.gh.anthropic.pdf-server-mcp": {
       "id": "ant.dir.gh.anthropic.pdf-server-mcp",
-      "version": "1.7.5",
-      "hash": "e1cec78be35d2f6aba0f3c23e4248ef0c937a6cb75f932373a82bcd3f49bf343",
-      "installedAt": "2026-08-04T13:38:42.393Z",
+      "version": "2.0.0",
+      "hash": "0d3d6a60912edc3507d78512417ec3ca90cd57b6b2292401001cc3f659da14fb",
+      "installedAt": "2026-09-29T11:35:27.412Z",
       "manifest": {
         "manifest_version": "0.3",
         "name": "pdf-viewer",
         "display_name": "pdf-viewer",
-        "version": "1.7.5",
+        "version": "2.0.0",
         "description": "Read, annotate, and interact with PDF files — interactive viewer with search, navigation, annotations, form filling, and text extraction",
         "author": {
           "name": "Anthropic",
@@ -90,7 +90,7 @@
             "linux"
           ],
           "runtimes": {
-            "node": ">=18.0.0"
+            "node": ">=20.11.0"
           }
         },
         "user_config": {

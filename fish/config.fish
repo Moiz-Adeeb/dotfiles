@@ -3,9 +3,8 @@ set -gx EDITOR nvim
 set -gx VISUAL nvim
 set -gx SUDO_EDITOR nvim
 set -gx FCEDIT nvim
-set -gx TERMINAL foot
+set -gx TERMINAL st
 set -gx BROWSER zen-browser
-
 set -g fish_prompt_pwd_dir_length 2
 set -g fish_prompt_pwd_full_dirs 2
 
@@ -26,7 +25,7 @@ set -gx FZF_DEFAULT_OPTS "$FZF_DEFAULT_OPTS \
 
 
 # --- Path Management --- #
-fish_add_path ~/bin ~/sbin ~/.local/bin ~/.bin ~/.cargo/bin ~/.config/tmux/plugins/tmuxifier/bin ~/.dotnet/tools ~/.npm-global/bin
+fish_add_path ~/bin ~/sbin ~/.local/bin ~/.bin ~/.cargo/bin ~/.config/tmux/plugins/tmuxifier/bin ~/.dotnet/tools ~/.npm-global/bin ~/Android/Sdk/cmdline-tools/latest/bin/ ~/Android/Sdk/platform-tools/
 
 
 # --- Abbreviations --- #
@@ -42,6 +41,12 @@ abbr -a rm 'rm -iv'
 abbr -a lg lazygit
 abbr -a ld lazydocker
 abbr -a gc '~/.config/'
+abbr -a gcf 'nvim ~/.config/foot/foot.ini'
+abbr -a gcff 'nvim ~/.config/fish/config.fish'
+abbr -a gcw 'nvim ~/.config/waybar/style.css'
+abbr -a gcn 'nvim ~/.config/nvim/lua/plugins/'
+abbr -a gcd '~/.config/dwm/'
+abbr -a gcs '~/.config/slstatus/'
 
 if type -q lsd
     abbr -a ls 'lsd -F --group-dirs first'
@@ -65,6 +70,8 @@ set fish_cursor_visual      block
 
 # --- Startup --- #
 if status is-interactive
+    set -gx fish_term24bit 1
+    alias dvtm="env DVTM_TERM=screen-256color dvtm"
     # Commands to run in interactive sessions can go here
 
     # fastfetch --structure Title:Separator:OS:Host:Kernel:Uptime:Packages:Shell:Terminal:Memory:Swap --logo ~/.config/fastfetch/logos/moiz.txt

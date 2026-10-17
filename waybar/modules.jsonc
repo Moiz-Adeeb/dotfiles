@@ -4,39 +4,39 @@
   },
   "custom/mango-01": {
     "format": "01",
-    "on-click": "mmsg dispatch view,1"
+    "on-click": "wtype -M logo 1"
   },
   "custom/mango-02": {
     "format": "02",
-    "on-click": "mmsg dispatch view,2"
+    "on-click": "wtype -M logo 2"
   },
   "custom/mango-03": {
     "format": "03",
-    "on-click": "mmsg dispatch view,3"
+    "on-click": "wtype -M logo 3"
   },
   "custom/mango-04": {
     "format": "04",
-    "on-click": "mmsg dispatch view,4"
+    "on-click": "wtype -M logo 4"
   },
   "custom/mango-05": {
     "format": "05",
-    "on-click": "mmsg dispatch view,5"
+    "on-click": "wtype -M logo 5"
   },
   "custom/mango-06": {
     "format": "06",
-    "on-click": "mmsg dispatch view,6"
+    "on-click": "wtype -M logo 6"
   },
   "custom/mango-07": {
     "format": "07",
-    "on-click": "mmsg dispatch view,7"
+    "on-click": "wtype -M logo 7"
   },
   "custom/mango-08": {
     "format": "08",
-    "on-click": "mmsg dispatch view,8"
+    "on-click": "wtype -M logo 8"
   },
   "custom/mango-09": {
     "format": "09",
-    "on-click": "mmsg dispatch view,9"
+    "on-click": "wtype -M logo 9"
   },
   "hyprland/workspaces": {
     "all-outputs": true,
@@ -170,9 +170,9 @@
       "on-scroll-up": "shift_up",
       "on-scroll-down": "shift_down"
     },
-    "format": " {:%H:%M}",
+    "format": "{:%H:%M}",
     // "format": "{:%A | %d - %B - %Y | %H : %M}",
-    "format-alt": "  {:%Y-%m-%d  %H:%M}",
+    "format-alt": "{:%Y-%m-%d | %H:%M}",
     "interval": 60
   },
   "backlight": {

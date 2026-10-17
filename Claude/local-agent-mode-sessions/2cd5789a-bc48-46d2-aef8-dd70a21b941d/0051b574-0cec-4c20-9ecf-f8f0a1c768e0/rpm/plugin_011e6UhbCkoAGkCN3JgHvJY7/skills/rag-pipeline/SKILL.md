@@ -1,16 +1,6 @@
 ---
 name: rag-pipeline
-description: |
-  Build a RAG (retrieval-augmented generation) pipeline or a custom search engine
-  on top of Bright Data's Discover API — using intent-ranked web results + parsed
-  page content as the retrieval/ingestion layer for an LLM or vector store. Use
-  when the user wants to "build a RAG pipeline", "add web search to my LLM/agent",
-  "ground my model in live web data", "build a search engine over the web",
-  "ingest web content into a vector DB / knowledge base", or "give my chatbot
-  retrieval". Covers both live retrieval (Discover at query time as a web-grounded
-  retriever) and ingestion (Discover → chunk → embed → vector store → retrieve).
-  Built on the `discover-api` skill. For a one-off written report use
-  `live-research`; for raw markdown of specific known URLs use `scrape`.
+description: "Build a RAG (retrieval-augmented generation) pipeline or a custom search engine\non top of Bright Data's Discover API — using intent-ranked web results + parsed\npage content as the retrieval/ingestion layer for an LLM or vector store. Use\nwhen the user wants to \"build a RAG pipeline\", \"add web search to my LLM/agent\",\n\"ground my model in live web data\", \"build a search engine over the web\",\n\"ingest web content into a vector DB / knowledge base\", or \"give my chatbot\nretrieval\". Covers both live retrieval (Discover at query time as a web-grounded\nretriever) and ingestion (Discover → chunk → embed → vector store → retrieve).\nBuilt on the `discover-api` skill. For a one-off written report use\n`live-research`; for raw markdown of specific known URLs use `scrape`.\n"
 metadata:
   author: Bright Data
   version: "1.0"

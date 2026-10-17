@@ -1,6 +1,3 @@
-2026/09/16-21:44:13.420 32142 Reusing MANIFEST /home/moiz/.config/Claude/Local Storage/leveldb/MANIFEST-000001
-2026/09/16-21:44:13.425 32142 Recovering log #3418
-2026/09/16-21:44:13.428 32142 Reusing old log /home/moiz/.config/Claude/Local Storage/leveldb/003418.log 
-2026/09/16-21:46:19.394 32143 Level-0 table #3422: started
-2026/09/16-21:46:19.410 32143 Level-0 table #3422: 22206 bytes OK
-2026/09/16-21:46:19.434 32143 Delete type=0 #3418
+2026/10/16-15:31:09.794 13e72 Reusing MANIFEST /home/moiz/.config/Claude/Local Storage/leveldb/MANIFEST-000001
+2026/10/16-15:31:09.830 13e72 Recovering log #3614
+2026/10/16-15:31:09.831 13e72 Reusing old log /home/moiz/.config/Claude/Local Storage/leveldb/003614.log 

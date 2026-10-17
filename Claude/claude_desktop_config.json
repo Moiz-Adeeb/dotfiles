@@ -1,4 +1,16 @@
 {
+  "mcpServers": {
+    "mutawir-elementor": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mutawir.io/wp-json/elementor/mcp/",
+        "--header",
+        "Authorization: Basic YWRtaW46SWY0WVZHTk0zeUFRMUl3Um01WjlaWlVo"
+      ]
+    }
+  },
   "coworkUserFilesPath": "/home/moiz/Claude",
   "preferences": {
     "menuBarEnabled": true,
@@ -6,12 +18,12 @@
     "coworkPreferredBrowser": "built_in",
     "launchPreviewPersistedWorkspaces": [],
     "launchPreviewSessionScopedSessions": [],
+    "coworkLegacyRootGrantsPruned": true,
     "coworkScheduledTasksEnabled": false,
     "coworkHipaaRestricted": false,
     "orgWorkAcrossAppsDisabled": true,
     "ccdScheduledTasksEnabled": false,
-    "hybridDetectLatched": true,
-    "earlyWindowShowLatched": true,
+    "storeReadCacheLatched": true,
     "sidebarMode": "chat",
     "bypassPermissionsGateByAccount": {
       "2cd5789a-bc48-46d2-aef8-dd70a21b941d": false,
@@ -50,44 +62,111 @@
         "pinnedOrder": [],
         "homeProjectsPinnedOrder": []
       },
-      "epitaxy-tasks-store": {
-        "state": {
-          "rowFields": [
+      "starred-local-routines": [],
+      "dframe-code-sections": {
+        "96954fa6-71e0-459b-9ef8-43c155cd7913/765beca6-9b36-44ff-8273-7bc3f1922c8e": {
+          "sections": [
             {
-              "id": "title",
-              "visible": true
+              "id": "pinned",
+              "kind": "pinned",
+              "v": 2,
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": false,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
             },
             {
-              "id": "summary",
-              "visible": true
+              "id": "routines",
+              "kind": "routines",
+              "v": 2,
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": false,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
             },
             {
-              "id": "repo",
-              "visible": false
-            },
-            {
-              "id": "diff",
-              "visible": true
-            },
-            {
-              "id": "time",
-              "visible": true
+              "id": "sessions",
+              "kind": "sessions",
+              "v": 2,
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": false,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
             }
           ],
-          "collapsedGroups": {},
-          "groupBy": "status",
-          "groupFilters": {},
-          "layout": "list",
-          "staleThresholdDays": 7,
-          "splitRatio": 60,
-          "autoAdvanceAfterAction": false,
-          "defaultSessionViewMode": "transcript",
-          "sidebarCollapsed": true,
-          "sidebarWidth": 240
+          "migratedFrom": 1,
+          "prefsSeeded": true
         },
-        "version": 17
+        "2cd5789a-bc48-46d2-aef8-dd70a21b941d/0051b574-0cec-4c20-9ecf-f8f0a1c768e0": {
+          "sections": [
+            {
+              "id": "pinned",
+              "kind": "pinned",
+              "v": 2,
+              "name": "",
+              "order": 0,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": false,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            },
+            {
+              "id": "routines",
+              "kind": "routines",
+              "v": 2,
+              "name": "",
+              "order": 1,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": false,
+                "emptyGroups": false
+              },
+              "collapsed": true,
+              "shown": false
+            },
+            {
+              "id": "sessions",
+              "kind": "sessions",
+              "v": 2,
+              "name": "",
+              "order": 2,
+              "sortBy": "recency",
+              "ascending": false,
+              "show": {
+                "metadata": false,
+                "emptyGroups": false
+              },
+              "collapsed": false,
+              "shown": true
+            }
+          ],
+          "migratedFrom": 1,
+          "prefsSeeded": true
+        }
       }
-    },
-    "coworkLegacyRootGrantsPruned": true
+    }
   }
 }

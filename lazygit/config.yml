@@ -1,8 +1,5 @@
 gui:
   nerdFontsVersion: "3"
-  branchColors:
-    'main': red
-    'master': red
   theme:
     activeBorderColor:
       - "#ff9e64"
@@ -28,3 +25,6 @@ gui:
       - "#db4b4b"
     defaultFgColor:
       - "#c0caf5"
+    branchColorPatterns:
+      '^main(/|$)': red
+      '^master(/|$)': red

@@ -1,13 +1,13 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        //"source": "~/.config/fastfetch/logos/arch.txt",
+        "source": "~/.config/fastfetch/logos/moiz.txt",
         "color": {
             "1": "#22ff99",
             "2": "#00dd77"
         },
         "padding": {
-            "top": 2,
+            "top": 1,
             "right": 2,
             "left": 1
         }
@@ -16,7 +16,6 @@
         "separator": ": " //" ── "
     },
     "modules": [
-        //"break",
         "break",
         {
             "type": "title",
@@ -80,8 +79,8 @@
         {
             "type": "cpu",
             "key": "    CPU 󰍛 ",
-            "keyColor": "#c4a7e7"
-            // "format": "{}"
+            "keyColor": "#c4a7e7",
+            "format": "{}"
         },
         {
             "type": "gpu",
@@ -125,8 +124,5 @@
             "keyColor": "#c4a7e7",
             "format": "Used({3}) Total({2})"
         }
-        //"break",
-        //"break",
-        //"break"
     ]
 }

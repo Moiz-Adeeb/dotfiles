@@ -1,13 +1,6 @@
 ---
 name: brightdata-sdk
-description: |
-  Web data extraction and discovery using the Bright Data Python SDK.
-  Use when user asks to "scrape", "get data from", "extract", "search for",
-  or "find" information from websites. Also use when user mentions specific
-  platforms like Amazon, LinkedIn, Instagram, Facebook, TikTok, YouTube,
-  Reddit, Pinterest, Zillow, Crunchbase, or DigiKey, or asks for "bulk data",
-  "historical data", or "dataset". Covers scraping, searching, datasets,
-  and browser automation.
+description: "Web data extraction and discovery using the Bright Data Python SDK.\nUse when user asks to \"scrape\", \"get data from\", \"extract\", \"search for\",\nor \"find\" information from websites. Also use when user mentions specific\nplatforms like Amazon, LinkedIn, Instagram, Facebook, TikTok, YouTube,\nReddit, Pinterest, Zillow, Crunchbase, or DigiKey, or asks for \"bulk data\",\n\"historical data\", or \"dataset\". Covers scraping, searching, datasets,\nand browser automation.\n"
 metadata:
   author: brightdata
   version: "1.0"

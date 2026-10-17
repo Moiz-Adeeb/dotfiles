@@ -1,20 +1,20 @@
 {
-	"updaterLastSeenVersion": "1.52386.6",
+	"updaterLastSeenVersion": "2.31226.1",
 	"first_launch_at": 1784875795214,
 	"locale": "en-US",
 	"userThemeMode": "system",
 	"dxt:allowlistEnabled:0051b574-0cec-4c20-9ecf-f8f0a1c768e0": false,
-	"dxt:allowlistLastUpdated:0051b574-0cec-4c20-9ecf-f8f0a1c768e0": "2026-08-03T06:30:46.928Z",
-	"lastKnownAccountUuid": "afb7be47-f5b0-4edd-8240-dd896f55543b",
+	"dxt:allowlistLastUpdated:0051b574-0cec-4c20-9ecf-f8f0a1c768e0": "2026-10-08T09:54:59.458Z",
+	"lastKnownAccountUuid": "96954fa6-71e0-459b-9ef8-43c155cd7913",
 	"lastSeenRequireCoworkFullVmSandbox": null,
 	"hasTrackedInitialActivation": true,
 	"insecureStorageNoticeShown": true,
 	"remote_uploads_migration_done_v1_4600f5d83276": true,
 	"remote_marketplace_migration_done_v1": true,
 	"dxt:allowlistEnabled:e0dc4f0b-9d66-4bcc-b760-051c619570cd": false,
-	"dxt:allowlistLastUpdated:e0dc4f0b-9d66-4bcc-b760-051c619570cd": "2026-09-16T22:44:24.437Z",
+	"dxt:allowlistLastUpdated:e0dc4f0b-9d66-4bcc-b760-051c619570cd": "2026-09-27T11:57:44.577Z",
 	"dxt:allowlistEnabled:765beca6-9b36-44ff-8273-7bc3f1922c8e": false,
-	"dxt:allowlistLastUpdated:765beca6-9b36-44ff-8273-7bc3f1922c8e": "2026-08-02T10:36:18.074Z",
+	"dxt:allowlistLastUpdated:765beca6-9b36-44ff-8273-7bc3f1922c8e": "2026-10-16T10:31:25.685Z",
 	"remote_uploads_migration_done_v1_cf4eb64544b2": true,
 	"remote_uploads_migration_done_v1_db1273c58436": true,
 	"quickWindowPosition": {
@@ -73,11 +73,261 @@
 	"windowSizeWasSignedIn": true,
 	"bootFrameLayout": {
 		"sidebarWidth": 288,
-		"collapsed": true,
+		"collapsed": false,
 		"narrowViewportMaxWidth": 700
 	},
 	"version_first_launch": {
-		"version": "1.52386.6",
-		"at": 1789577052008
+		"version": "2.31226.1",
+		"at": 1792146668525
+	},
+	"bootSidebarPlaceholder": [
+		{
+			"top": 48,
+			"left": 13,
+			"width": 18,
+			"height": 18,
+			"radius": 9
+		},
+		{
+			"top": 50.5,
+			"left": 38,
+			"width": 28,
+			"height": 13,
+			"radius": 4
+		},
+		{
+			"top": 75.5,
+			"left": 14,
+			"width": 16,
+			"height": 16,
+			"radius": 4
+		},
+		{
+			"top": 77,
+			"left": 38,
+			"width": 50.5,
+			"height": 13,
+			"radius": 4
+		},
+		{
+			"top": 102,
+			"left": 14,
+			"width": 16,
+			"height": 16,
+			"radius": 4
+		},
+		{
+			"top": 103.5,
+			"left": 38,
+			"width": 54,
+			"height": 13,
+			"radius": 4
+		},
+		{
+			"top": 128.5,
+			"left": 14,
+			"width": 16,
+			"height": 16,
+			"radius": 4
+		},
+		{
+			"top": 130,
+			"left": 38,
+			"width": 65,
+			"height": 13,
+			"radius": 4
+		},
+		{
+			"top": 175,
+			"left": 228,
+			"width": 16,
+			"height": 16,
+			"radius": 4
+		},
+		{
+			"top": 175,
+			"left": 256,
+			"width": 16,
+			"height": 16,
+			"radius": 4
+		},
+		{
+			"top": 177,
+			"left": 14,
+			"width": 90,
+			"height": 12,
+			"radius": 4
+		},
+		{
+			"top": 203,
+			"left": 15,
+			"width": 14,
+			"height": 14,
+			"radius": 4
+		},
+		{
+			"top": 203.5,
+			"left": 38,
+			"width": 237,
+			"height": 13,
+			"radius": 4
+		},
+		{
+			"top": 230.5,
+			"left": 15,
+			"width": 14,
+			"height": 14,
+			"radius": 4
+		},
+		{
+			"top": 231,
+			"left": 38,
+			"width": 234,
+			"height": 13,
+			"radius": 4
+		},
+		{
+			"top": 258,
+			"left": 15,
+			"width": 14,
+			"height": 14,
+			"radius": 4
+		},
+		{
+			"top": 258.5,
+			"left": 38,
+			"width": 237,
+			"height": 13,
+			"radius": 4
+		},
+		{
+			"top": 285.5,
+			"left": 15,
+			"width": 14,
+			"height": 14,
+			"radius": 4
+		},
+		{
+			"top": 286,
+			"left": 38,
+			"width": 190,
+			"height": 13,
+			"radius": 4
+		},
+		{
+			"top": 313,
+			"left": 15,
+			"width": 14,
+			"height": 14,
+			"radius": 4
+		},
+		{
+			"top": 313.5,
+			"left": 38,
+			"width": 237,
+			"height": 13,
+			"radius": 4
+		},
+		{
+			"top": 340.5,
+			"left": 15,
+			"width": 14,
+			"height": 14,
+			"radius": 4
+		},
+		{
+			"top": 341,
+			"left": 38,
+			"width": 237,
+			"height": 13,
+			"radius": 4
+		},
+		{
+			"top": 368,
+			"left": 15,
+			"width": 14,
+			"height": 14,
+			"radius": 4
+		},
+		{
+			"top": 368.5,
+			"left": 38,
+			"width": 237,
+			"height": 13,
+			"radius": 4
+		},
+		{
+			"top": 395.5,
+			"left": 15,
+			"width": 14,
+			"height": 14,
+			"radius": 4
+		},
+		{
+			"top": 396,
+			"left": 38,
+			"width": 113.5,
+			"height": 13,
+			"radius": 4
+		},
+		{
+			"top": 423,
+			"left": 15,
+			"width": 14,
+			"height": 14,
+			"radius": 4
+		},
+		{
+			"top": 423.5,
+			"left": 38,
+			"width": 76.5,
+			"height": 13,
+			"radius": 4
+		},
+		{
+			"top": 450.5,
+			"left": 15,
+			"width": 14,
+			"height": 14,
+			"radius": 4
+		},
+		{
+			"top": 451,
+			"left": 38,
+			"width": 195,
+			"height": 13,
+			"radius": 4
+		},
+		{
+			"top": 478,
+			"left": 15,
+			"width": 14,
+			"height": 14,
+			"radius": 4
+		},
+		{
+			"top": 478.5,
+			"left": 38,
+			"width": 195.5,
+			"height": 13,
+			"radius": 4
+		}
+	],
+	"hostGitConfinedInstall": {
+		"foldersReadAt": "2026-10-16T10:31:23.922Z",
+		"reasons": []
+	},
+	"lastQuitCleanup": {
+		"completed": true,
+		"cleanup_ms": 2062,
+		"handler_count": 37,
+		"slowest_handler": "mcp-shutdown",
+		"slowest_ms": 2058,
+		"timed_out": false,
+		"pending_handlers": [],
+		"watchdog_fired": false,
+		"for_update": false,
+		"quit_app_version": "2.31226.1",
+		"quit_epoch_ms": 1792146687141
 	}
 }

@@ -114,12 +114,12 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 15
 
-vim.opt.laststatus = 3
+vim.opt.laststatus = 0
 vim.opt.cmdheight = 0
 
 -- Draw a vertical line at 100 characters
 vim.opt.textwidth = 120
-vim.opt.colorcolumn = "120"
+-- vim.opt.colorcolumn = "120"
 
 -- if performing an operation that would fail due to unsaved changes in the buffer (like `:q`),
 -- instead raise a dialog asking if you wish to save the current file(s)

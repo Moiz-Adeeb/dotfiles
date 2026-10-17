@@ -9,10 +9,9 @@
     margin: 0;
     padding: 0 0;
     font-size: 12px;
-    border-radius: 0 0 6px 6px;
     font-weight: 900;
     letter-spacing: 0.125em;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.125s ease-in-out;
     /* font-family: "Font Awesome 7 Brands", "JetBrainsMono NerdFont Propo"; */
     /* font-family: "JetBrainsMono NerdFont Propo"; */
     font-family: "Hack", "Font Awesome 7 Brands";
@@ -21,8 +20,8 @@
 
 window#waybar {
     /* background-color: transparent; */
-    background-color: @crust;  
-    /* background-color: rgba(0, 0, 0, 0.75); */
+    /* background-color: @crust; */
+    background-color: rgba(5, 5, 11, 0.8);
 }
 
 window#waybar > box {
@@ -30,12 +29,12 @@ window#waybar > box {
     /* border-left: 2px solid #ffffff; */
     /* border-right: 2px solid #ffffff; */
     /* border-bottom: 2px solid #ffffff; */
-    /* background-color: transparent; */
+    background-color: transparent;
     /* background-color: @crust; */
-    border-radius: 0 0 6px 6px;
+    /* border-radius: 0 0 4px 4px; */
     /* background-color: rgba(17, 17, 26, 0.75); */
-    padding: 1px;
-    margin: 0 4px;
+    padding: 0px;
+    margin: 0 8px;
 }
 
 window#waybar #workspaces button:hover label {
@@ -120,11 +119,11 @@ window#waybar #workspaces button:hover label {
 #custom-launcher {
     font-weight: 900;
     background: @lavender;
-    min-width: 12px;
+    min-width: 16px;
     border: 1px solid shade(@crust, 1);
     border-top: none;
-    border-radius: 0 0 6px 6px;
-    padding: 0px 6px;
+    border-radius: 0 0 4px 4px;
+    padding: 1px 6px;
     opacity: 1;
     margin: 0 0px;
     color: @crust;
@@ -150,9 +149,9 @@ window#waybar.empty #window {
 #clock {
     font-size: 14px;
     background: transparent;
-    letter-spacing: 0.25em;
     font-weight: 900;
     color: @text;
+    border: none;
     padding: 0px 10px;
 }
 
@@ -243,7 +242,7 @@ window#waybar.empty #window {
 
 #tray {
     background-color: @crust;
-    border-radius: 6px;
+    border-radius: 4px;
     padding: 0 4px;
     margin: 0 4px;
 }
@@ -268,7 +267,9 @@ window#waybar.empty #window {
 
 #custom-power,
 #idle_inhibitor {
+    min-width: 24px;
     border: 1px solid @crust;
+    border-top: none;
     color: @crust;
     font-size: 10px;
 
@@ -277,19 +278,16 @@ window#waybar.empty #window {
 #idle_inhibitor {
     background-color: @yellow;
     border-right: none;
-    border-radius: 0 0 0 6px;
-    padding: 0 6px;
+    border-radius: 0 0 0 4px;
 }
 
 #custom-power {
     background-color: @red;
     border-left: none;
-    border-radius: 0 0 6px 0;
-    padding: 0 6px;
+    border-radius: 0 0 4px 0;
 }
 
 #custom-launcher {
-    font-size: 11px;
     background-color: @mauve;
 }
 
@@ -303,7 +301,7 @@ window#waybar.empty #window {
     /* background: @crust; */
    /* border-left: 1px solid @crust; */
     /* border-right: 1px solid @crust; */
-    border-radius: 0 0 6px 6px;
+    border-radius: 0 0 4px 4px;
 }
 
 #custom-mango-01,
@@ -318,7 +316,7 @@ window#waybar.empty #window {
     background-color: @lavender;
     border: 1px solid @crust;
     border-top: none;
-    border-radius: 0 0 6px 6px;
+    border-radius: 0 0 4px 4px;
     color: @crust;
     padding: 0px 5px;
 }
@@ -332,13 +330,12 @@ window#waybar.empty #window {
 #custom-mango-07:hover,
 #custom-mango-08:hover,
 #custom-mango-09:hover {
-    background-color: shade(@crust, 10);
-    border-radius: 0 0 6px 6px;
-    padding: 0px 5px;
+    background-color: shade(@crust, 25);
+    /* padding: 0px 12px; */
 }
 
 #center {
-    background-color: @crust;
+    /* background-color: @crust; */
     /* margin: 0 50px; */
     padding: 0 10px;
 }
@@ -348,13 +345,13 @@ window#waybar.empty #window {
 }
 
 #window-tab {
-    border-radius: 0 0 6px 6px;
+    border-radius: 0 0 4px 4px;
 }
 
 .modules-left, 
 .modules-right {
-    background: @crust;
-    border-radius: 0 0 6px 6px;
+    /* background: @crust; */
+    border-radius: 0 0 4px 4px;
 }
 
 window#waybar.empty #window-tab,

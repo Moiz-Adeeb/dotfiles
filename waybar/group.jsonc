@@ -25,7 +25,6 @@
         "modules": [
             "custom/launcher",
             "hyprland/workspaces",
-            "group/music",
             "hyprland/submap"
         ]
     },
@@ -52,6 +51,7 @@
         "orientation": "horizontal",
         "modules": [
             "group/mango",
+            "group/music",
             "hyprland/window",
             "tray"
         ]

@@ -1,17 +1,6 @@
 ---
 name: live-research
-description: |
-  Produce a deep, multi-source, cited research brief on a topic from live web
-  data using Bright Data's Discover API (intent-ranked web search + parsed page
-  content). Use when the user wants "live research", to "research <topic> deeply",
-  "research the latest on", "write a report on", "give me a briefing / literature
-  review / market scan", "find and synthesize everything about", or otherwise
-  wants a synthesized, source-grounded answer rather than a list of links. Decomposes the question into multiple intent-ranked Discover
-  queries, pulls page content, deduplicates and ranks by relevance, then
-  synthesizes a structured brief with inline citations. Built on the
-  `discover-api` skill. For competitor-specific intel use `competitive-intel`;
-  for social/brand sentiment use `brand-listening`; for a retrieval *system* (not
-  a one-off report) use `rag-pipeline`.
+description: "Produce a deep, multi-source, cited research brief on a topic from live web\ndata using Bright Data's Discover API (intent-ranked web search + parsed page\ncontent). Use when the user wants \"live research\", to \"research <topic> deeply\",\n\"research the latest on\", \"write a report on\", \"give me a briefing / literature\nreview / market scan\", \"find and synthesize everything about\", or otherwise\nwants a synthesized, source-grounded answer rather than a list of links. Decomposes the question into multiple intent-ranked Discover\nqueries, pulls page content, deduplicates and ranks by relevance, then\nsynthesizes a structured brief with inline citations. Built on the\n`discover-api` skill. For competitor-specific intel use `competitive-intel`;\nfor social/brand sentiment use `brand-listening`; for a retrieval *system* (not\na one-off report) use `rag-pipeline`.\n"
 metadata:
   author: Bright Data
   version: "1.0"

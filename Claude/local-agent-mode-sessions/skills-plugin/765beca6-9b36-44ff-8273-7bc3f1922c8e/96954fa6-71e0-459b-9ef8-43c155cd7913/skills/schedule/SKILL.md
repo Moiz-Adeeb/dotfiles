@@ -11,6 +11,8 @@ If the user wants to reschedule, edit the prompt, or pause/resume a task that al
 
 ## Creating a new task
 
+Before you start, check the `create_scheduled_task` tool's description, loading the tool first if you have only its name. If it says the tool is not available in this session, tell the user why and what it suggests instead, and skip the steps below. Otherwise carry on without mentioning this check.
+
 You are distilling the current session into a reusable shortcut. Follow these steps:
 
 ### 1. Analyze the session

@@ -1,13 +1,6 @@
 ---
 name: agent-onboarding
-description: |
-  Onboard an agent to Bright Data. Use when a coding agent first
-  encounters Bright Data — for live web work (search, scrape,
-  structured data), for wiring Bright Data into product code, for
-  installing the agent skill bundle, or for getting an API key. One
-  install command sets up the CLI, agent skills, and authentication.
-  Routes the reader to the right path: live tools, app integration,
-  MCP, auth-only, or direct REST without any install.
+description: "Onboard an agent to Bright Data. Use when a coding agent first\nencounters Bright Data — for live web work (search, scrape,\nstructured data), for wiring Bright Data into product code, for\ninstalling the agent skill bundle, or for getting an API key. One\ninstall command sets up the CLI, agent skills, and authentication.\nRoutes the reader to the right path: live tools, app integration,\nMCP, auth-only, or direct REST without any install.\n"
 license: MIT
 metadata:
   author: brightdata

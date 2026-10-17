@@ -1,18 +1,3 @@
--- return {
--- 	"stevearc/oil.nvim",
--- 	opts = {},
--- 	dependencies = { { "nvim-mini/mini.icons", opts = {} } },
--- 	keys = {
--- 		{
--- 			"-",
--- 			function()
--- 				require("oil").open_float()
--- 			end,
--- 			desc = "Open parent directory",
--- 		},
--- 	},
--- }
---
 return {
 	"stevearc/oil.nvim",
 	dependencies = { "nvim-tree/nvim-web-devicons" },
@@ -63,7 +48,7 @@ return {
 				padding = 8,
 				max_width = 120,
 				max_height = 30,
-				border = "rounded", -- Options: "single", "double", "shadow", "rounded"
+				border = "single",
 				win_options = {
 					winblend = 0,
 				},

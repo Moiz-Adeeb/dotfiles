@@ -130,34 +130,34 @@
 -- 	end,
 -- }
 
--- return {
---   "catppuccin/nvim",
---   name = "catppuccin",
---   lazy = false,
---   priority=1000,
---   opts = {
---     flavour = "mocha",
---     transparent_background = true,
---     integrations = {
---       neotree = true,
---       nvimtree = true,
---     },
---     custom_highlights = function(colors)
---       return {
---         NvimTreeNormal = { bg = colors.mantle }, -- Manually set a solid color for the sidebar
---         NvimTreeNormalNC = { bg = colors.mantle, style = {} },
---         NvimTreeWinSeparator = { fg = colors.base, bg = colors.mantle },
---         NeoTreeNormalNC = { bg = colors.mantle },
---         NeoTreeNormal = { bg = colors.mantle, style = {} },
---         NeoTreeWinSeparator = { fg = colors.base, bg = colors.mantle },
---       }
---     end,
---   },
---   config = function(_, opts)
---     require("catppuccin").setup(opts)
---       vim.cmd([[colorscheme catppuccin]])
---   end
--- }
+return {
+	"catppuccin/nvim",
+	name = "catppuccin",
+	lazy = false,
+	priority = 1000,
+	opts = {
+		flavour = "mocha",
+		transparent_background = true,
+		integrations = {
+			neotree = true,
+			nvimtree = true,
+		},
+		custom_highlights = function(colors)
+			return {
+				NvimTreeNormal = { bg = colors.mantle }, -- Manually set a solid color for the sidebar
+				NvimTreeNormalNC = { bg = colors.mantle, style = {} },
+				NvimTreeWinSeparator = { fg = colors.base, bg = colors.mantle },
+				NeoTreeNormalNC = { bg = colors.mantle },
+				NeoTreeNormal = { bg = colors.mantle, style = {} },
+				NeoTreeWinSeparator = { fg = colors.base, bg = colors.mantle },
+			}
+		end,
+	},
+	config = function(_, opts)
+		require("catppuccin").setup(opts)
+		vim.cmd([[colorscheme catppuccin]])
+	end,
+}
 
 -- return {
 -- 	"bluz71/vim-nightfly-colors",
@@ -347,73 +347,73 @@
 -- 	end,
 -- }
 
-return {
-	"AlexvZyl/nordic.nvim",
-	lazy = false,
-	priority = 1000,
-	config = function()
-		require("nordic").setup({
-			transparent = {
-				bg = true, -- Inherits your terminal's jet-black canvas background
-			},
-
-			line_numbers = {
-				bg = "NONE",
-			},
-
-			on_highlight = function(highlights, _)
-				-- ==========================================================================
-				-- 1. Precise Code Base Text Colors (From your screenshots)
-				-- ==========================================================================
-				local amber_orange = "#D19A66" -- The warm orange-yellow tag/keyword color
-				local matrix_green = "#A3BE8C" -- The distinct glowing green string color
-				local text_mint = "#E5E9F0" -- The crisp off-white for regular logic text
-				local deep_forest = "#5E81AC" -- Muted tone for properties/attributes
-
-				-- ==========================================================================
-				-- 2. Core Code Token Controls
-				-- ==========================================================================
-				highlights["@keyword"] = { fg = amber_orange, bold = true } -- import, from, return, type
-				highlights["@function"] = { fg = text_mint, bold = true } -- Methods & structural functions
-				highlights["@variable"] = { fg = text_mint } -- Main code words & variables
-				highlights["@string"] = { fg = matrix_green } -- Exact matrix-green string literals
-
-				-- C# / TypeScript Core System Types (Stark White Highlights)
-				local stark_type = { fg = "#FFFFFF", bold = true }
-				highlights["@type"] = stark_type
-				highlights["@type.builtin"] = stark_type
-				highlights["@lsp.type.class"] = stark_type
-				highlights["@lsp.type.interface"] = { fg = "#FFFFFF", bold = true, italic = true }
-				highlights["@lsp.type.type"] = stark_type
-
-				-- ==========================================================================
-				-- 3. Angular & HTML Template Rules (Matches Image 1 Exactly)
-				-- ==========================================================================
-				highlights["@tag"] = { fg = amber_orange } -- <div, <app-dropdown, <form
-				highlights["@tag.delimiter"] = { fg = text_mint } -- The brackets '<' and '>'
-				highlights["@tag.attribute"] = { fg = text_mint } -- type, width, fontSize, style properties
-				highlights["@property"] = { fg = text_mint } -- Nested template property names
-
-				-- ==========================================================================
-				-- 4. Global Comment Override (Hot Pink Exception Ruleset)
-				-- ==========================================================================
-				local pink_comment = { fg = "#FE81AC", italic = true }
-				highlights["Comment"] = pink_comment
-				highlights["@comment"] = pink_comment
-				highlights["@comment.documentation"] = pink_comment
-				highlights["@lsp.type.comment"] = pink_comment
-				highlights["@comment.line"] = pink_comment
-
-				-- ==========================================================================
-				-- 5. Editor UI Alignment
-				-- ==========================================================================
-				highlights.NormalFloat = { bg = "NONE" }
-				highlights.FloatBorder = { fg = matrix_green, bg = "NONE" }
-				highlights.LineNr = { fg = "#4C566A", bold = true }
-				highlights.CursorLineNr = { fg = amber_orange, bold = true }
-			end,
-		})
-
-		require("nordic").load()
-	end,
-}
+-- return {
+-- 	"AlexvZyl/nordic.nvim",
+-- 	lazy = false,
+-- 	priority = 1000,
+-- 	config = function()
+-- 		require("nordic").setup({
+-- 			transparent = {
+-- 				bg = true, -- Inherits your terminal's jet-black canvas background
+-- 			},
+--
+-- 			line_numbers = {
+-- 				bg = "NONE",
+-- 			},
+--
+-- 			on_highlight = function(highlights, _)
+-- 				-- ==========================================================================
+-- 				-- 1. Precise Code Base Text Colors (From your screenshots)
+-- 				-- ==========================================================================
+-- 				local amber_orange = "#D19A66" -- The warm orange-yellow tag/keyword color
+-- 				local matrix_green = "#A3BE8C" -- The distinct glowing green string color
+-- 				local text_mint = "#E5E9F0" -- The crisp off-white for regular logic text
+-- 				local deep_forest = "#5E81AC" -- Muted tone for properties/attributes
+--
+-- 				-- ==========================================================================
+-- 				-- 2. Core Code Token Controls
+-- 				-- ==========================================================================
+-- 				highlights["@keyword"] = { fg = amber_orange, bold = true } -- import, from, return, type
+-- 				highlights["@function"] = { fg = text_mint, bold = true } -- Methods & structural functions
+-- 				highlights["@variable"] = { fg = text_mint } -- Main code words & variables
+-- 				highlights["@string"] = { fg = matrix_green } -- Exact matrix-green string literals
+--
+-- 				-- C# / TypeScript Core System Types (Stark White Highlights)
+-- 				local stark_type = { fg = "#FFFFFF", bold = true }
+-- 				highlights["@type"] = stark_type
+-- 				highlights["@type.builtin"] = stark_type
+-- 				highlights["@lsp.type.class"] = stark_type
+-- 				highlights["@lsp.type.interface"] = { fg = "#FFFFFF", bold = true, italic = true }
+-- 				highlights["@lsp.type.type"] = stark_type
+--
+-- 				-- ==========================================================================
+-- 				-- 3. Angular & HTML Template Rules (Matches Image 1 Exactly)
+-- 				-- ==========================================================================
+-- 				highlights["@tag"] = { fg = amber_orange } -- <div, <app-dropdown, <form
+-- 				highlights["@tag.delimiter"] = { fg = text_mint } -- The brackets '<' and '>'
+-- 				highlights["@tag.attribute"] = { fg = text_mint } -- type, width, fontSize, style properties
+-- 				highlights["@property"] = { fg = text_mint } -- Nested template property names
+--
+-- 				-- ==========================================================================
+-- 				-- 4. Global Comment Override (Hot Pink Exception Ruleset)
+-- 				-- ==========================================================================
+-- 				local pink_comment = { fg = "#FE81AC", italic = true }
+-- 				highlights["Comment"] = pink_comment
+-- 				highlights["@comment"] = pink_comment
+-- 				highlights["@comment.documentation"] = pink_comment
+-- 				highlights["@lsp.type.comment"] = pink_comment
+-- 				highlights["@comment.line"] = pink_comment
+--
+-- 				-- ==========================================================================
+-- 				-- 5. Editor UI Alignment
+-- 				-- ==========================================================================
+-- 				highlights.NormalFloat = { bg = "NONE" }
+-- 				highlights.FloatBorder = { fg = matrix_green, bg = "NONE" }
+-- 				highlights.LineNr = { fg = "#4C566A", bold = true }
+-- 				highlights.CursorLineNr = { fg = amber_orange, bold = true }
+-- 			end,
+-- 		})
+--
+-- 		require("nordic").load()
+-- 	end,
+-- }

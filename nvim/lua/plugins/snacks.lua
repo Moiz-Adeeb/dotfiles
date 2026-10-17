@@ -139,9 +139,23 @@ return {
 		{
 			"<leader><space>",
 			function()
-				Snacks.picker.buffers()
+				Snacks.picker.buffers({ focus = "list" })
 			end,
 			desc = "[ ] Find existing buffers",
+		},
+		{
+			"<leader>ff",
+			function()
+				Snacks.picker.files()
+			end,
+			desc = "[S]earch by [G]rep",
+		},
+		{
+			"<leader>fg",
+			function()
+				Snacks.picker.git_files()
+			end,
+			desc = "Find [G]it Files",
 		},
 		{
 			"<leader>sg",

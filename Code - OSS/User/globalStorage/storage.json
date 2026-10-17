@@ -7,6 +7,9 @@
         "folders": [
             {
                 "folderUri": "file:///home/moiz/development/billing_benefit/attendace_system"
+            },
+            {
+                "folderUri": "file:///home/moiz/ghq/github.com/Moiz-Adeeb/pdfzyro"
             }
         ],
         "emptyWindows": []
@@ -16,20 +19,21 @@
         "workspaces": {
             "file:///home/moiz/Code/Booking/backend/test-express": "__default__profile__",
             "file:///home/moiz/development/OIBSIP/WebDev-L3-Pizza-Delivery-Full-Stack-Application/backend": "__default__profile__",
-            "file:///home/moiz/development/billing_benefit/attendace_system": "__default__profile__"
+            "file:///home/moiz/development/billing_benefit/attendace_system": "__default__profile__",
+            "file:///home/moiz/ghq/github.com/Moiz-Adeeb/pdfzyro": "__default__profile__"
         },
         "emptyWindows": {}
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/moiz/development/billing_benefit/attendace_system",
-            "backupPath": "/home/moiz/.config/Code - OSS/Backups/93f7e6af8bdad5f8b2f4d142652c0382",
+            "folder": "file:///home/moiz/ghq/github.com/Moiz-Adeeb/pdfzyro",
+            "backupPath": "/home/moiz/.config/Code - OSS/Backups/9214daf96e4d6567d56c617615111597",
             "uiState": {
                 "mode": 1,
                 "x": 10,
                 "y": 10,
-                "width": 1918,
-                "height": 1053,
+                "width": 1904,
+                "height": 1046,
                 "zoomLevel": 1
             }
         },
@@ -45,19 +49,23 @@
             "background": "#0d1117",
             "editorBackground": "#0d1117",
             "titleBarBackground": "#0d1117",
+            "titleBarInactiveBackground": "#010409",
             "titleBarBorder": "#30363d",
             "activityBarBackground": "#0d1117",
             "activityBarBorder": "#30363d",
             "modernActivityBarBackground": "#0d1117",
             "modernActivityBarInactiveBackground": "#0d1117",
-            "modernActivityBarBorder": "#171b20",
+            "modernActivityBarBorder": "#23262c",
+            "modernPanelBorder": "#23262c",
+            "modernUIShellBackground": "#0d1117",
+            "modernUIInactiveShellBackground": "#010409",
             "sideBarBackground": "#010409",
             "sideBarBorder": "#30363d",
             "panelBackground": "#010409",
             "editorGroupBorder": "#30363d",
-            "editorBorder": "#171b20",
+            "editorBorder": "#23262c",
             "surfaceBackground": "#010409",
-            "surfaceBorder": "#171b20",
+            "surfaceBorder": "#23262c",
             "agentsPanelBackground": "#010409",
             "agentsPanelBorder": "rgba(230, 237, 243, 0.15)",
             "statusBarBackground": "#0d1117",
@@ -69,8 +77,8 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 0,
-            "sideBarWidth": 0,
-            "auxiliaryBarWidth": 0,
+            "sideBarWidth": 259,
+            "auxiliaryBarWidth": 239,
             "statusBarHeight": 0,
             "windowBorder": false,
             "modernUI": false,
@@ -91,8 +99,12 @@
                     "auxiliaryBarVisible": false
                 },
                 "a65c4e2228d7e0a807e1bccd26a074d8": {
-                    "sideBarVisible": false,
+                    "sideBarVisible": true,
                     "auxiliaryBarVisible": false
+                },
+                "4663e16bdf7270f08424e370b52425f8": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
                 }
             }
         }

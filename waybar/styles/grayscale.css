@@ -1,6 +1,6 @@
-@define-color base #000000;
-@define-color mantle #000000;
-@define-color crust #000000;
+@define-color base #11111b;
+@define-color mantle #11111b;
+@define-color crust #11111b;
 
 @define-color text #ffffff;
 @define-color subtext0 #ffffff;
@@ -24,7 +24,7 @@
 @define-color peach #ffffff;
 @define-color maroon #ffffff;
 @define-color red #ffffff;
-@define-color mauve #ffffff;
+@define-color mauve #cdd6f4;
 @define-color pink #ffffff;
 @define-color flamingo #ffffff;
 @define-color rosewater #ffffff;
